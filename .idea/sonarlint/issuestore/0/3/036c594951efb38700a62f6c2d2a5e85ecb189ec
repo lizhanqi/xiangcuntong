@@ -1,0 +1,15 @@
+
+]
+java:S1192F"GDefine a constant instead of duplicating this literal "userId" 3 times.(ßêçİ
+T
+java:S11557">Use isEmpty() to check whether the collection is empty or not.(§÷Ï
+4
+java:S1700""Rename field "contactDao"(çáÙıøÿÿÿÿ
+q
+java:S1104""VMake contactDao a static final constant or non-public and provide accessors if needed.(çáÙıøÿÿÿÿ
+O
+java:S2168"9Remove this dangerous instance of double-checked locking.(øå¬Ì
+H
+java:S1113."-Do not override the Object.finalize() method.(ÖÒ˜Ùùÿÿÿÿ
+A
+java:S1168h"+Return an empty collection instead of null.(¥¹ï

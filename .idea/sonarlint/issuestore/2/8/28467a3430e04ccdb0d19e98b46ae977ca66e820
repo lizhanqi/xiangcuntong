@@ -1,0 +1,43 @@
+
+L
+java:S1444"1Make this "public static mCurrtState" field final(ÈôÙ…üÿÿÿÿ
+C
+java:S1604#"(Make this anonymous inner class a lambda(öªĞ´úÿÿÿÿ
+C
+java:S16046"(Make this anonymous inner class a lambda(Ô£ûÿÿÿÿ
+r
+java:S1104"WMake mCurrtState a static final constant or non-public and provide accessors if needed.(ÈôÙ…üÿÿÿÿ
+l
+java:S1104"VMake mCurrtPath a static final constant or non-public and provide accessors if needed.(¥…Ö¨
+m
+java:S3077"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(šÈåÇ
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(šÈåÇ
+>
+java:S3010&"(Remove this assignment of "mCurrtState".(…šóó
+>
+java:S30100"(Remove this assignment of "mCurrtState".(«Ï•©
+>
+java:S30109"(Remove this assignment of "mCurrtState".(«Ï•©
+L
+java:S2696&"6Make the enclosing method "static" or remove this set.(…šóó
+L
+java:S26969"6Make the enclosing method "static" or remove this set.(«Ï•©
+9
+java:S2153U"Remove the boxing to "Double".(Ûü÷ôüÿÿÿÿ
+K
+java:S2696}"6Make the enclosing method "static" or remove this set.(‰õ¢Q
+M
+java:S2696"6Make the enclosing method "static" or remove this set.(ëƒò¸
+L
+java:S2696Š"6Make the enclosing method "static" or remove this set.(‰õ¢Q
+M
+java:S2696"6Make the enclosing method "static" or remove this set.(«Ï•©
+M
+java:S2696™"6Make the enclosing method "static" or remove this set.(³õÌ«
+M
+java:S2696"6Make the enclosing method "static" or remove this set.(…šóó
+B
+java:S1905·"&Remove this unnecessary cast to "int".(Éôôüÿÿÿÿ
+B
+java:S2185·"&Remove this silly call to "Math.round"(Éôôüÿÿÿÿ

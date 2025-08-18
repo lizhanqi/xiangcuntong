@@ -1,0 +1,22 @@
+
+f	java:S117\"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëê˜Å
+€
+java:S1450+"eRemove the "mReceiptQrCodeAvatarIv" field and declare it as a local variable in the relevant methods.(’Øúİıÿÿÿÿ
+>
+java:S1659,")Declare "description" on a separate line.(ô‚¿l
+:
+java:S1659-"%Declare "mDescTv" on a separate line.(ü‚¹b
+M
+java:S1874\"7Remove this use of "CircleImageView"; it is deprecated.(ëê˜Å
+G
+java:S1602x",Remove useless curly braces around statement(Ğ¨Åşÿÿÿÿ
+Z
+java:S1874¦">Remove this use of "setDrawingCacheEnabled"; it is deprecated.(‰¬áÎşÿÿÿÿ
+P
+java:S1874§"9Remove this use of "buildDrawingCache"; it is deprecated.(İ›š¹
+N
+java:S1874¨"7Remove this use of "getDrawingCache"; it is deprecated.(Û÷…Ğ
+R
+java:S1874©";Remove this use of "destroyDrawingCache"; it is deprecated.(¸¢ì«
+Z
+java:S1874ª">Remove this use of "setDrawingCacheEnabled"; it is deprecated.(Ø“¦ûùÿÿÿÿ

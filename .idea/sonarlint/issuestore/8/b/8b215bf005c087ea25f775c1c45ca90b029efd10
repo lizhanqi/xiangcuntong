@@ -1,0 +1,9 @@
+
+f	java:S114U"QRename this interface name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(½§ğ
+C
+java:S1604="(Make this anonymous inner class a lambda(ã±ÑÄÿÿÿÿÿ
+K
+java:S18742"0Remove this use of "getColor"; it is deprecated.(´©Œçüÿÿÿÿ
+K
+java:S18746"0Remove this use of "getColor"; it is deprecated.(ßûÄøúÿÿÿÿ
+p	java:S116^"[Rename this field "thumbSelected_bg" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³ùò”

@@ -1,0 +1,92 @@
+
+g
+java:S1301¶"KReplace this "switch" statement by "if" statements to increase readability.(ãÁğ™øÿÿÿÿ
+F
+java:S1066Ã"/Merge this if statement with the enclosing one.(€Š¸
+F
+java:S1066"/Merge this if statement with the enclosing one.(ïùÆ÷
+F
+java:S1066”"/Merge this if statement with the enclosing one.(ïùÆ÷
+F
+java:S1066¾"/Merge this if statement with the enclosing one.(›ëüÚ
+l	java:S114³"QRename this interface name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(™ÆÈ¥şÿÿÿÿ
+l
+java:S1104 "VMake backButton a static final constant or non-public and provide accessors if needed.(Ú¡Üµ
+s
+java:S1104!"]Make bottomProgressBar a static final constant or non-public and provide accessors if needed.(„¶Ä¬
+t
+java:S1104!"^Make loadingProgressBar a static final constant or non-public and provide accessors if needed.(„¶Ä¬
+t
+java:S1104""YMake titleTextView a static final constant or non-public and provide accessors if needed.(‡Àô™şÿÿÿÿ
+p
+java:S1104#"ZMake thumbImageView a static final constant or non-public and provide accessors if needed.(ùÖÂÜ
+x
+java:S1104$"]Make tinyBackImageView a static final constant or non-public and provide accessors if needed.(ÆÕ°½ıÿÿÿÿ
+l
+java:S1104%"WMake goToanother a static final constant or non-public and provide accessors if needed.(Àö¹X
+S
+java:S2589…"7Remove this expression which always evaluates to "true"(ë•àûÿÿÿÿ
+N
+java:S2589”"7Remove this expression which always evaluates to "true"(ïùÆ÷
+N
+java:S2589"7Remove this expression which always evaluates to "true"(ïùÆ÷
+€
+java:S3008"eRename this field "DISMISS_CONTROL_VIEW_TIMER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ëâ³Ûûÿÿÿÿ
+F
+java:S1659!"0Declare "loadingProgressBar" on a separate line.(„¶Ä¬
+²
+java:S1845%"œRename field "goToanother" to prevent any misunderstanding/clash with field "gotoanother" defined in superclass "fm.jiecao.jcvideoplayer_lib.JCVideoPlayer".(Àö¹X
+<	java:S131v""Add a default case to this switch.(¯ĞÁÍúÿÿÿÿ
+n
+java:S3776•"RRefactor this method to reduce its Cognitive Complexity from 60 to the 15 allowed.(Óı°ûÿÿÿÿ
+=	java:S131˜""Add a default case to this switch.(ãÁğ™øÿÿÿÿ
+=	java:S131¶""Add a default case to this switch.(ãÁğ™øÿÿÿÿ
+=	java:S131¿""Add a default case to this switch.(ãÁğ™øÿÿÿÿ
+2
+java:S3626ò"Remove this redundant jump.(ûÁİ…
+i
+java:S3776æ"RRefactor this method to reduce its Cognitive Complexity from 51 to the 15 allowed.(¡é††
+R
+java:S2696§"6Make the enclosing method "static" or remove this set.(×ƒ‡±øÿÿÿÿ
+i
+java:S3776Ä"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(ÔÔ£ë
+n
+java:S3776æ"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(›ƒö»ıÿÿÿÿ
+?	java:S108ê")Either remove or fill this block of code.(å¥‡
+?	java:S108ï")Either remove or fill this block of code.(å¥‡
+?	java:S108ô")Either remove or fill this block of code.(å¥‡
+?	java:S108ù")Either remove or fill this block of code.(å¥‡
+?	java:S108ş")Either remove or fill this block of code.(å¥‡
+e
+java:S1871¤"IThis case's code block is the same as the block for the case on line 414.(…’èüıÿÿÿÿ
+=	java:S131""Add a default case to this switch.(áº‚Õüÿÿÿÿ
+=	java:S131¯""Add a default case to this switch.(áº‚Õüÿÿÿÿ
+=	java:S131À""Add a default case to this switch.(áº‚Õüÿÿÿÿ
+e
+java:S1871á"IThis case's code block is the same as the block for the case on line 475.(…’èüıÿÿÿÿ
+=	java:S131Ú""Add a default case to this switch.(áº‚Õüÿÿÿÿ
+=	java:S131í""Add a default case to this switch.(áº‚Õüÿÿÿÿ
+e
+java:S1871…"IThis case's code block is the same as the block for the case on line 511.(…’èüıÿÿÿÿ
+=	java:S131ş""Add a default case to this switch.(áº‚Õüÿÿÿÿ
+=	java:S131‘""Add a default case to this switch.(áº‚Õüÿÿÿÿ
+=	java:S131¢""Add a default case to this switch.(áº‚Õüÿÿÿÿ
+e
+java:S1871º"IThis case's code block is the same as the block for the case on line 564.(…’èüıÿÿÿÿ
+=	java:S131³""Add a default case to this switch.(áº‚Õüÿÿÿÿ
+e
+java:S1871Í"IThis case's code block is the same as the block for the case on line 583.(…’èüıÿÿÿÿ
+=	java:S131Æ""Add a default case to this switch.(áº‚Õüÿÿÿÿ
+e
+java:S1871à"IThis case's code block is the same as the block for the case on line 602.(…’èüıÿÿÿÿ
+=	java:S131Ù""Add a default case to this switch.(áº‚Õüÿÿÿÿ
+e
+java:S1871ó"IThis case's code block is the same as the block for the case on line 621.(…’èüıÿÿÿÿ
+=	java:S131ì""Add a default case to this switch.(áº‚Õüÿÿÿÿ
+<
+java:S1172ş"&Remove these unused method parameters.(ñïª%
+W	java:S125"<This block of commented-out lines of code should be removed.(¥Ç¤¾ùÿÿÿÿ
+R
+java:S2696‘"6Make the enclosing method "static" or remove this set.(ƒ°ÿ¦üÿÿÿÿ
+`
+java:S4201¾"IRemove this unnecessary null check; "instanceof" returns false for nulls.(›ëüÚ

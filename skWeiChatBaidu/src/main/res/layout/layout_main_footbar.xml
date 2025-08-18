@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/line_view"
+        style="@style/View_Line" />
+<!--分上下两个部分，下面的是角标，对应好就不会错位了，-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioGroup
+            android:id="@+id/main_rg"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:background="#f1f1f1"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_tab_1"
+                style="@style/SkMainTabStyle"
+                android:drawableTop="@drawable/tab_chat_normal_bg"
+                android:text="@string/message" />
+
+            <RadioButton
+                android:id="@+id/rb_tab_2"
+                style="@style/SkMainTabStyle"
+                android:drawableTop="@drawable/tab_group_normal_bg"
+                android:text="@string/contacts" />
+
+            <RadioButton
+                android:id="@+id/rb_tab_3"
+                style="@style/SkMainTabStyle"
+                android:drawableTop="@drawable/tab_find_normal_bg"
+                android:text="@string/find" />
+<!--游戏入口迁移到发现-->
+<!--            <RadioButton-->
+<!--                android:id="@+id/rb_tab_5"-->
+<!--                style="@style/SkMainTabStyle"-->
+<!--                android:drawableTop="@drawable/tab_my_web_bg"-->
+<!--                android:text="@string/game" />-->
+
+            <RadioButton
+                android:id="@+id/rb_tab_6"
+                style="@style/SkMainTabStyle"
+                android:drawableTop="@drawable/tab_video_normal_bg"
+                android:text="@string/tab_trilltab_trill" />
+
+            <RadioButton
+                android:id="@+id/rb_tab_4"
+                style="@style/SkMainTabStyle"
+                android:drawableTop="@drawable/tab_my_normal_bg"
+                android:text="@string/me" />
+
+        </RadioGroup>
+<!--上面是图标，下面是角标，-->
+        <LinearLayout
+            android:id="@+id/num_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/main_rg"
+            android:layout_marginTop="2dp"
+            android:clipChildren="false"
+            android:orientation="horizontal">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/main_tab_one_tv"
+                    style="@style/dotNumberRed"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="5dp"
+                    android:visibility="invisible"
+                    app:layout_constraintStart_toStartOf="@+id/guideline2"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintGuide_percent="0.5"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/main_tab_two_tv"
+                    style="@style/dotNumberRed"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="5dp"
+                    android:visibility="invisible"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/guideline3"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintGuide_percent="0.5"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/main_tab_three_tv"
+                    style="@style/dotNumberRed"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="5dp"
+                    android:visibility="invisible"
+                    app:layout_constraintStart_toStartOf="@+id/guideline4"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintGuide_percent="0.5"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/flHomePage"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/main_tab_web_tv"
+                    style="@style/dotNumberRed"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="5dp"
+                    android:visibility="invisible"
+                    app:layout_constraintStart_toStartOf="@+id/guideline1"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintGuide_percent="0.5"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/rlTrill"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/main_tab_trill_tv"
+                    style="@style/dotNumberRed"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="5dp"
+                    android:visibility="invisible"
+                    app:layout_constraintStart_toStartOf="@+id/guideline5"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintGuide_percent="0.5"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/main_tab_four_tv"
+                    style="@style/dotNumberRed"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="5dp"
+                    android:visibility="invisible"
+                    app:layout_constraintStart_toStartOf="@+id/guideline6"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintGuide_percent="0.5"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+
+]
+java:S1192x"GDefine a constant instead of duplicating this literal "userId" 6 times.(Æú–¡
+S
+java:S1155y">Use isEmpty() to check whether the collection is empty or not.(Çõy
+]
+java:S2259ô"AA "NullPointerException" could be thrown; "dao" is nullable here.(€„öõıÿÿÿÿ
+t
+java:S2293'"YReplace the type specification in this constructor call with the diamond operator ("<>").(“¢·ùÿÿÿÿ
+O
+java:S2168,"9Remove this dangerous instance of double-checked locking.(ïå¶õ
+H
+java:S11136"-Do not override the Object.finalize() method.(ÖÒ˜Ùùÿÿÿÿ
+W	java:S125”"<This block of commented-out lines of code should be removed.(¡ˆÉ¬úÿÿÿÿ

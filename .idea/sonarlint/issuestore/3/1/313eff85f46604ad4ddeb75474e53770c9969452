@@ -1,0 +1,16 @@
+
+X
+java:S2184F"BCast one of the operands of this division operation to a "double".(¿öò–
+V
+java:S2184F"@Cast one of the operands of this integer division to a "double".(¿öò–
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚Ò–
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚Ò–
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚Ò–
+M
+java:S1854]"7Remove this useless assignment to local variable "fis".(ú¥ˆœ
+g
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(Ğ êl
+M
+java:S1874-"7Remove this use of "getInputBuffers"; it is deprecated.(÷üÉ©
+N
+java:S1874."8Remove this use of "getOutputBuffers"; it is deprecated.(§ÈØ

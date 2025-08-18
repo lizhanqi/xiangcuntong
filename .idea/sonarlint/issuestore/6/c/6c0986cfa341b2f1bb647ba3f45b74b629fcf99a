@@ -1,0 +1,19 @@
+
+P
+java:S1444"5Make this "public static keepLiveService" field final(ê ²¬ÿÿÿÿÿ
+C
+java:S1444"-Make this "public static runMode" field final(ÓÇÎÊ
+Q
+java:S1444"6Make this "public static useSilenceMusice" field final(æ°Š¤ûÿÿÿÿ
+v
+java:S1104"[Make keepLiveService a static final constant or non-public and provide accessors if needed.(ê ²¬ÿÿÿÿÿ
+i
+java:S1104"SMake runMode a static final constant or non-public and provide accessors if needed.(ÓÇÎÊ
+w
+java:S1104"\Make useSilenceMusice a static final constant or non-public and provide accessors if needed.(æ°Š¤ûÿÿÿÿ
+
+java:S1845D"xRename method "useSilenceMusice" to prevent any misunderstanding/clash with field "useSilenceMusice" defined on line 31.(«¼
+P
+java:S1118":Add a private constructor to hide the implicit public one.(Ÿ‰š¾
+m
+java:S2786_"RRemove this redundant "static" qualifier; nested enum types are implicitly static.(Îñ»›ûÿÿÿÿ

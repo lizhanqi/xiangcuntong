@@ -1,0 +1,30 @@
+
+g
+java:S1301Ÿ"KReplace this "switch" statement by "if" statements to increase readability.(ë´åİşÿÿÿÿ
+=
+java:S1444"'Make this "public static b" field final(’ıÓş
+F
+java:S1066¬"/Merge this if statement with the enclosing one.(àéß
+\
+java:S2184"@Cast one of the operands of this integer division to a "double".(³¢€–şÿÿÿÿ
+]
+java:S2184‘"ACast one of the operands of this addition operation to a "float".(…ß‰Àÿÿÿÿÿ
+c
+java:S1104"MMake b a static final constant or non-public and provide accessors if needed.(’ıÓş
+3
+java:S2386"Make this member "protected".(’ıÓş
+o
+java:S2293Z"YReplace the type specification in this constructor call with the diamond operator ("<>").(ƒÓÅÿ
+Y
+java:S1854k">Remove this useless assignment to local variable "heightMode".(“âŠêûÿÿÿÿ
+S
+java:S1854g"=Remove this useless assignment to local variable "widthMode".(Ã‡‰Ë
+U
+java:S1161":Add the "@Override" annotation above this method signature(ÕÆ¾ùıÿÿÿÿ
+n
+java:S3776™"RRefactor this method to reduce its Cognitive Complexity from 29 to the 15 allowed.(§á±ùÿÿÿÿ
+W	java:S125¡"<This block of commented-out lines of code should be removed.(êñÚœşÿÿÿÿ
+D
+java:S1481g".Remove this unused "widthMode" local variable.(Ã‡‰Ë
+J
+java:S1481k"/Remove this unused "heightMode" local variable.(“âŠêûÿÿÿÿ

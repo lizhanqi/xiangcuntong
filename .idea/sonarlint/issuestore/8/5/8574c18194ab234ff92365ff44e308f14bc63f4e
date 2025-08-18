@@ -1,0 +1,13 @@
+
+W	java:S110"=This class has 10 parents which is greater than 5 authorized.(áÊšşÿÿÿÿ
+j	java:S116"VRename this field "rl_transfer" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥Ä·`
+M
+java:S1611-"2Remove the parentheses around the "view" parameter(¼¶Çôÿÿÿÿÿ
+h
+java:S37767"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(ñÒß
+K
+java:S18749"5Remove this use of "getSelfStatus"; it is deprecated.(´†²õ
+I
+java:S18749"3Remove this use of "accessToken"; it is deprecated.(´†²õ
+T
+java:S2130a"9Use "Integer.parseInt" for this string-to-int conversion.(õìäıÿÿÿÿ

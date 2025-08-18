@@ -1,0 +1,93 @@
+
+s
+java:S1192"WDefine a constant instead of duplicating this literal "QuicklyInitiateMeeting" 3 times.(è˜›èÿÿÿÿÿ
+F
+java:S1066ó"/Merge this if statement with the enclosing one.(‚ûÕõ
+K
+java:S1066³"/Merge this if statement with the enclosing one.(´Ä¥ïüÿÿÿÿ
+W	java:S107‘"<Method has 8 parameters, which is greater than 7 authorized.(ßïÄœûÿÿÿÿ
+8
+java:S1643ÿ"Use a StringBuilder instead.(¢í©¼ûÿÿÿÿ
+3
+java:S1643"Use a StringBuilder instead.(Ø¸ø­
+Z
+java:S1155ò">Use isEmpty() to check whether the collection is empty or not.(Üæ©¯şÿÿÿÿ
+Z
+java:S1155¹">Use isEmpty() to check whether the collection is empty or not.(Üæ©¯şÿÿÿÿ
+Z
+java:S1155é">Use isEmpty() to check whether the collection is empty or not.(‘·ØÏıÿÿÿÿ
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üâØúÿÿÿÿ
+D
+java:S1604Ş"(Make this anonymous inner class a lambda(–®àìùÿÿÿÿ
+D
+java:S1604÷"(Make this anonymous inner class a lambda(ØºËäÿÿÿÿÿ
+ˆ
+java:S4144­"lUpdate this method so that its implementation is not identical to "startQuicklyInitiateMeeting" on line 142.(ó¨ìûÿÿÿÿ
+y
+java:S1450b"^Remove the "mBaseComparator" field and declare it as a local variable in the relevant methods.(õ§Éªûÿÿÿÿ
+w
+java:S1450c"bRemove the "mHorizontalListView" field and declare it as a local variable in the relevant methods.(»Ÿ±	
+p
+java:S1450\"ZRemove the "mTextDialog" field and declare it as a local variable in the relevant methods.(—ÍÆà
+w
+java:S1450p"aRemove the "towInputDialogView" field and declare it as a local variable in the relevant methods.(²“òŠ
+<
+java:S1659r"&Declare "roomDesc" on a separate line.(¤ğ’é
+:
+java:S1659s"$Declare "isLook" on a separate line.(‹³Ù
+@
+java:S1659s"*Declare "isNeedVerify" on a separate line.(‹³Ù
+@
+java:S1659s"*Declare "isShowMember" on a separate line.(‹³Ù
+C
+java:S1659s"-Declare "isAllowSendCard" on a separate line.(‹³Ù
+A
+java:S1659s"+Declare "isSecretGroup" on a separate line.(‹³Ù
+u
+java:S4144Ÿ"YUpdate this method so that its implementation is not identical to "numClick" on line 153.(˜ø€Çüÿÿÿÿ
+C
+java:S1602Ñ",Remove useless curly braces around statement(Óøœ—
+i
+java:S3776ì"RRefactor this method to reduce its Cognitive Complexity from 76 to the 15 allowed.(šœ•²
+˜
+java:S1186‰"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(á¬‡İ
+˜
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Œğ£Â
+@
+java:S5413¼")Verify that "remove()" is used correctly.(Ì¦Á—
+n
+java:S3776Ã"RRefactor this method to reduce its Cognitive Complexity from 31 to the 15 allowed.(÷Ë€’øÿÿÿÿ
+R
+java:S1117È";Rename "isRead" which hides the field declared at line 115.(ÌÔ†
+R
+java:S1117È";Rename "isLook" which hides the field declared at line 115.(ÌÔ†
+X
+java:S1117È"ARename "isNeedVerify" which hides the field declared at line 115.(ÌÔ†
+X
+java:S1117È"ARename "isShowMember" which hides the field declared at line 115.(ÌÔ†
+[
+java:S1117È"DRename "isAllowSendCard" which hides the field declared at line 115.(ÌÔ†
+Y
+java:S1117È"BRename "isSecretGroup" which hides the field declared at line 115.(ÌÔ†
+Y
+java:S1117É"=Rename "roomName" which hides the field declared at line 114.(½­Úÿÿÿÿÿ
+T
+java:S1117Ï"=Rename "roomDesc" which hides the field declared at line 114.(îĞœ˜
+M
+java:S2696"6Make the enclosing method "static" or remove this set.(ıŸ©“
+_
+java:S5361Î"HReplace this call to "replaceAll()" by a call to the "replace()" method.(®–ÄŸ
+R
+java:S2696ç"6Make the enclosing method "static" or remove this set.(âˆÕƒúÿÿÿÿ
+R
+java:S2696î"6Make the enclosing method "static" or remove this set.(âˆÕƒúÿÿÿÿ
+2
+java:S3626ë"Remove this redundant jump.(ûÁİ…
+=
+java:S1168Á"&Return an empty array instead of null.(¥¹ï
+N
+java:S1874é"7Remove this use of "CircleImageView"; it is deprecated.(ËÀ¤Ô
+N
+java:S1068b"3Remove this unused "mBaseComparator" private field.(õ§Éªûÿÿÿÿ
+G
+java:S1068j",Remove this unused "meetType" private field.(İ™Â°úÿÿÿÿ

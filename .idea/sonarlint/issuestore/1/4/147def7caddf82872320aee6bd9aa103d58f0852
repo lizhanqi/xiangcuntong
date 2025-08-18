@@ -1,0 +1,15 @@
+
+n
+java:S1104"RMake friend a static final constant or non-public and provide accessors if needed.(¹ß¿Äøÿÿÿÿ
+p
+java:S1104"TMake selected a static final constant or non-public and provide accessors if needed.(¦Îó»úÿÿÿÿ
+N
+java:S1874p"3Remove this use of "getDrawable"; it is deprecated.(ìÀ›úÿÿÿÿ
+N
+java:S1874v"3Remove this use of "getDrawable"; it is deprecated.(ã¼”Ïıÿÿÿÿ
+N
+java:S1874"3Remove this use of "getDrawable"; it is deprecated.(ìÀ›úÿÿÿÿ
+O
+java:S1874…"3Remove this use of "getDrawable"; it is deprecated.(ã¼”Ïıÿÿÿÿ
+<
+java:S1068"'Remove this unused "TAG" private field.(å€

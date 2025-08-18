@@ -1,0 +1,85 @@
+
+@
+java:S1444K"*Make this "public static time" field final(ø¤àÊ
+_
+java:S1192Ë"HDefine a constant instead of duplicating this literal "meetUrl" 3 times.(¶·ç¼
+b
+java:S1192È"KDefine a constant instead of duplicating this literal "fromuserid" 3 times.(ªü™
+e
+java:S1192É"IDefine a constant instead of duplicating this literal "touserid" 3 times.(ŸØïåşÿÿÿÿ
+E
+java:S1066¦"/Merge this if statement with the enclosing one.(­ÜŠ7
+E
+java:S1066¯"/Merge this if statement with the enclosing one.(­ÜŠ7
+F
+java:S1066À"/Merge this if statement with the enclosing one.(¤òª£
+W	java:S110F"=This class has 10 parents which is greater than 5 authorized.(Á­½•úÿÿÿÿ
+g	java:S101F"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Á­½•úÿÿÿÿ
+D
+java:S1604¡"(Make this anonymous inner class a lambda(˜ã¯şÿÿÿÿ
+D
+java:S1604¼"(Make this anonymous inner class a lambda(ÓÕ¹ìøÿÿÿÿ
+?
+java:S1604Ú"(Make this anonymous inner class a lambda(„¬½ 
+?
+java:S1604Á"(Make this anonymous inner class a lambda(â¿úÎ
+f
+java:S1104K"PMake time a static final constant or non-public and provide accessors if needed.(ø¤àÊ
+v
+java:S1450V"[Remove the "mFrameLayout" field and declare it as a local variable in the relevant methods.(äâ“ƒúÿÿÿÿ
+s
+java:S1450]"XRemove the "mRecordIv" field and declare it as a local variable in the relevant methods.(Îêùÿÿÿÿ
+n
+java:S1450^"XRemove the "mRecordTv" field and declare it as a local variable in the relevant methods.(”ÔŸÃ
+K
+java:S2387G"5"TAG" is the name of a field in "ActionBackActivity".(Œ¡›ª
+Q	java:S125a"<This block of commented-out lines of code should be removed.(¿•Ôà
+œ
+java:S1186n"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÈÄˆÒûÿÿÿÿ
+Q
+java:S2696u"6Make the enclosing method "static" or remove this set.(£ƒêıÿÿÿÿ
+˜
+java:S1186„"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(îñë‡
+H
+java:S1612",Replace this lambda with a method reference.(‚ÀÒ¾üÿÿÿÿ
+H
+java:S1602",Remove useless curly braces around statement(‚ÀÒ¾üÿÿÿÿ
+W	java:S125ª"<This block of commented-out lines of code should be removed.(ù» Ğûÿÿÿÿ
+Y
+java:S1874à"=Remove this use of "FLAG_DISMISS_KEYGUARD"; it is deprecated.(¤ƒÌæùÿÿÿÿ
+Y
+java:S1874á"=Remove this use of "FLAG_SHOW_WHEN_LOCKED"; it is deprecated.(š¹ê¸üÿÿÿÿ
+R
+java:S1874â";Remove this use of "FLAG_TURN_SCREEN_ON"; it is deprecated.(ƒìıè
+Y
+java:S2696ù"6Make the enclosing method "static" or remove this set.(ëÉùüúÿÿÿÿ8İİŸ/
+S
+java:S2696û"6Make the enclosing method "static" or remove this set.(æÇÈt8İİŸ/
+T
+java:S2696ş"6Make the enclosing method "static" or remove this set.(áˆÒ8ŞİŸ/
+W	java:S125"<This block of commented-out lines of code should be removed.(Å­Ùìÿÿÿÿÿ
+I
+java:S1135·"2Complete the task associated to this TODO comment.(Ş¬«ÿ
+R	java:S125½"<This block of commented-out lines of code should be removed.(Ï“şì
+I
+java:S1135½"2Complete the task associated to this TODO comment.(Ï“şì
+_
+java:S5361â"HReplace this call to "replaceAll()" by a call to the "replace()" method.(åËı
+N
+java:S5659„"0Sign this token using a strong cipher algorithm.(ª¿í8îİŸ/
+H
+java:S1602‘",Remove useless curly braces around statement(—æú‹üÿÿÿÿ
+Q	java:S125Ş"<This block of commented-out lines of code should be removed.(è‹—y
+Q	java:S125ø"<This block of commented-out lines of code should be removed.(è‹—y
+_
+java:S5361•"HReplace this call to "replaceAll()" by a call to the "replace()" method.(åËı
+>
+java:S1185­"(Remove this method to simply inherit it.(¹§ 
+N
+java:S1068L"3Remove this unused "mLocalHostJitsi" private field.(’é¦€ÿÿÿÿÿ
+H
+java:S1068]"-Remove this unused "mRecordIv" private field.(Îêùÿÿÿÿ
+C
+java:S1068^"-Remove this unused "mRecordTv" private field.(”ÔŸÃ
+V
+java:S3398å"?Move this method into the anonymous class declared at line 114.(üŞ‚

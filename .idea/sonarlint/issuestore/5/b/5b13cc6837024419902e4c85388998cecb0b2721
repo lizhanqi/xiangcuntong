@@ -1,0 +1,15 @@
+
+^
+java:S1192@"HDefine a constant instead of duplicating this literal "ownerId" 3 times.(¼Ž›ž
+]
+java:S1192A"GDefine a constant instead of duplicating this literal "userId" 3 times.(°«›
+T
+java:S1155D">Use isEmpty() to check whether the collection is empty or not.(Õ–˜§
+1
+java:S1700"Rename field "publicKeyDao"(Òìš†
+n
+java:S1104"XMake publicKeyDao a static final constant or non-public and provide accessors if needed.(Òìš†
+O
+java:S2168$"9Remove this dangerous instance of double-checked locking.(˜œâ±
+H
+java:S1113."-Do not override the Object.finalize() method.(ÖÒ˜Ùùÿÿÿÿ

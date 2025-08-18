@@ -1,0 +1,21 @@
+
+^
+java:S1192`"HDefine a constant instead of duplicating this literal "country" 4 times.(ÙËè‰
+b
+java:S1192["LDefine a constant instead of duplicating this literal "SMS_country" 4 times.(¹´ÌÑ
+a
+java:S1192t"FDefine a constant instead of duplicating this literal "emoji" 3 times.(ÂŽÊªüÿÿÿÿ
+b
+java:S1192b"GDefine a constant instead of duplicating this literal "prefix" 4 times.(Øüõµýÿÿÿÿ
+\
+java:S1192z"FDefine a constant instead of duplicating this literal "count" 3 times.(Ä·äú
+]
+java:S1192a"GDefine a constant instead of duplicating this literal "enName" 4 times.(”î¶Ô
+f	java:S117¦"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹Ê÷;
+W
+java:S2259 "@A "NullPointerException" could be thrown; "db" is nullable here.(÷ÿÄ„
+p	java:S116#"VRename this field "BUFFER_SIZE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿À¤Úýÿÿÿÿ
+<
+java:S1170#"!Make this final field static too.(¿À¤Úýÿÿÿÿ
+d
+java:S1871Î"MThis branch's code block is the same as the block for the branch on line 188.(å¥ž‡

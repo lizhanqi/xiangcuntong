@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.yangjie10930:EpMedia:v0.9.5@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/398b3ca0a25564366361f3c876391abf/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ea2fe505eb3250fba9b15322109b62af/jetified-EpMedia-v0.9.5/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/45dc8fed9be2b7c81c7e43e932dec821/jetified-EpMedia-v0.9.5/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/43e29ef15c1ebf7ffebabab3a1855fa8/jetified-EpMedia-v0.9.5/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/398b3ca0a25564366361f3c876391abf/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/398b3ca0a25564366361f3c876391abf/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ea2fe505eb3250fba9b15322109b62af/jetified-EpMedia-v0.9.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ea2fe505eb3250fba9b15322109b62af/jetified-EpMedia-v0.9.5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ea2fe505eb3250fba9b15322109b62af/jetified-EpMedia-v0.9.5/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/45dc8fed9be2b7c81c7e43e932dec821/jetified-EpMedia-v0.9.5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/45dc8fed9be2b7c81c7e43e932dec821/jetified-EpMedia-v0.9.5/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/45dc8fed9be2b7c81c7e43e932dec821/jetified-EpMedia-v0.9.5/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/43e29ef15c1ebf7ffebabab3a1855fa8/jetified-EpMedia-v0.9.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/43e29ef15c1ebf7ffebabab3a1855fa8/jetified-EpMedia-v0.9.5/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/43e29ef15c1ebf7ffebabab3a1855fa8/jetified-EpMedia-v0.9.5/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.yangjie10930/EpMedia/v0.9.5/9452750e2f72e724e2c01e79293558c53fa4f7b8/EpMedia-v0.9.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

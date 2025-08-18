@@ -1,0 +1,62 @@
+
+`
+java:S1192Ñ"IDefine a constant instead of duplicating this literal "deviceId" 3 times.(‡†Ù¬
+h
+java:S1192L"MDefine a constant instead of duplicating this literal "access_token" 3 times.(ÏåÒøÿÿÿÿ
+a
+java:S1192¹"JDefine a constant instead of duplicating this literal "loginInfo" 3 times.(„¤ş
+b
+java:S1192H"GDefine a constant instead of duplicating this literal "secret" 3 times.(òúŞıùÿÿÿÿ
+c
+java:S1192¶"GDefine a constant instead of duplicating this literal "userId" 3 times.(òûŞšşÿÿÿÿ
+R	java:S107â"<Method has 8 parameters, which is greater than 7 authorized.(¦ÒòÒ
+S	java:S107ò"=Method has 11 parameters, which is greater than 7 authorized.(¦ÒòÒ
+W	java:S107È"<Method has 8 parameters, which is greater than 7 authorized.(É… ıùÿÿÿÿ
+@
+java:S5411P"*Use the primitive boolean expression here.(¦¦â¤
+J
+java:S1121Ó".Extract the assignment out of this expression.(ÌÃÁÏúÿÿÿÿ
+@
+java:S1172r"*Remove this unused method parameter "ctx".(Şì®°
+i
+java:S3776‡"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(±ãÓÍ
+H
+java:S1602”",Remove useless curly braces around statement(‡Û±¶ùÿÿÿÿ
+C
+java:S1602­",Remove useless curly braces around statement(Ò”¦ 
+H
+java:S1602®",Remove useless curly braces around statement(‰ñûÿÿÿÿ
+H
+java:S1602É",Remove useless curly braces around statement(‰ñûÿÿÿÿ
+H
+java:S1602”",Remove useless curly braces around statement(‡Û±¶ùÿÿÿÿ
+H
+java:S1602¥",Remove useless curly braces around statement(‰ñûÿÿÿÿ
+H
+java:S1602¨",Remove useless curly braces around statement(©Ñ„³ÿÿÿÿÿ
+H
+java:S1602©",Remove useless curly braces around statement(‰ñûÿÿÿÿ
+H
+java:S1602¿",Remove useless curly braces around statement(‡Û±¶ùÿÿÿÿ
+H
+java:S1602Ï",Remove useless curly braces around statement(‰ñûÿÿÿÿ
+H
+java:S1602Ò",Remove useless curly braces around statement(©Ñ„³ÿÿÿÿÿ
+H
+java:S1602Ó",Remove useless curly braces around statement(‰ñûÿÿÿÿ
+H
+java:S1602‘",Remove useless curly braces around statement(‡Û±¶ùÿÿÿÿ
+H
+java:S1602˜",Remove useless curly braces around statement(‰ñûÿÿÿÿ
+H
+java:S1602›",Remove useless curly braces around statement(¿›ãüÿÿÿÿ
+H
+java:S1602Ÿ",Remove useless curly braces around statement(‰ñûÿÿÿÿ
+H
+java:S1602º",Remove useless curly braces around statement(‰ñûÿÿÿÿ
+H
+java:S1602½",Remove useless curly braces around statement(©Ñ„³ÿÿÿÿÿ
+H
+java:S1602¾",Remove useless curly braces around statement(‰ñûÿÿÿÿ
+C
+java:S1602¨",Remove useless curly braces around statement(§“½Ì

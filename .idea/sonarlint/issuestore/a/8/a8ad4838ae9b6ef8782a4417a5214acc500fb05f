@@ -1,0 +1,21 @@
+
+R	java:S1105"=This class has 10 parents which is greater than 5 authorized.(Ú¬Ð™
+r
+java:S14506"]Remove the "mAvatarImgView" field and declare it as a local variable in the relevant methods.(¼åÓy
+p
+java:S14507"ZRemove the "mNickNameTv" field and declare it as a local variable in the relevant methods.(ÝãÅý
+B
+java:S1874[",Remove this use of "exit"; it is deprecated.(Ùž¸ô
+?
+java:S1659q")Declare "registerBtn" on a separate line.(‹íÛ¸
+E
+java:S1659q"/Declare "forgetPasswordBtn" on a separate line.(‹íÛ¸
+=	java:S131Œ""Add a default case to this switch.(×“¾ñùÿÿÿÿ
+]
+java:S3252Û"FUse static access with "com.sk.weichat.bean.LoginAuto" for "Settings".(Ý¸„ë
+F
+java:S1068ð"/Remove this unused "phoneNumber" private field.(ÇÆÁ´
+D
+java:S1068ñ"-Remove this unused "digestPwd" private field.(’ÔÑ¹
+M
+java:S1068ó"1Remove this unused "waitAuthTimes" private field.(á¤“ªÿÿÿÿÿ

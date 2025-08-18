@@ -1,0 +1,74 @@
+
+F
+java:S1066¿"/Merge this if statement with the enclosing one.(ç¦šý
+F
+java:S1066Œ"/Merge this if statement with the enclosing one.(›ëüÚ
+p
+java:S1104%"ZMake thumbImageView a static final constant or non-public and provide accessors if needed.(ùÖÂÜ
+x
+java:S1104&"]Make tinyBackImageView a static final constant or non-public and provide accessors if needed.(ÆÕ°½ýÿÿÿÿ
+l
+java:S1104'"VMake backButton a static final constant or non-public and provide accessors if needed.(Ú¡Üµ
+t
+java:S1104("YMake titleTextView a static final constant or non-public and provide accessors if needed.(‡Àô™þÿÿÿÿ
+s
+java:S1104)"]Make bottomProgressBar a static final constant or non-public and provide accessors if needed.(„¶Ä¬
+t
+java:S1104)"^Make loadingProgressBar a static final constant or non-public and provide accessors if needed.(„¶Ä¬
+€
+java:S3008$"eRename this field "DISMISS_CONTROL_VIEW_TIMER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ëâ³Ûûÿÿÿÿ
+F
+java:S1659)"0Declare "loadingProgressBar" on a separate line.(„¶Ä¬
+M
+java:S1135!"2Complete the task associated to this TODO comment.(æÌ ‹øÿÿÿÿ
+<
+java:S1075|"&Remove this hard-coded path-delimiter.(ï¦ç¢
+i
+java:S3776»"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(¡é††
+R
+java:S2696Û"6Make the enclosing method "static" or remove this set.(×ƒ‡±øÿÿÿÿ
+=	java:S131ú""Add a default case to this switch.(¯ÐÁÍúÿÿÿÿ
+i
+java:S3776©"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(ÔÔ£ë
+n
+java:S3776Ë"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(›ƒö»ýÿÿÿÿ
+?	java:S108Ï")Either remove or fill this block of code.(å¥ž‡
+?	java:S108Ô")Either remove or fill this block of code.(å¥ž‡
+?	java:S108Ù")Either remove or fill this block of code.(å¥ž‡
+?	java:S108Þ")Either remove or fill this block of code.(å¥ž‡
+?	java:S108ã")Either remove or fill this block of code.(å¥ž‡
+e
+java:S1871‰"IThis case's code block is the same as the block for the case on line 387.(…’èüýÿÿÿÿ
+=	java:S131‚""Add a default case to this switch.(áº‚Õüÿÿÿÿ
+=	java:S131”""Add a default case to this switch.(áº‚Õüÿÿÿÿ
+=	java:S131¥""Add a default case to this switch.(áº‚Õüÿÿÿÿ
+e
+java:S1871Æ"IThis case's code block is the same as the block for the case on line 448.(…’èüýÿÿÿÿ
+=	java:S131¿""Add a default case to this switch.(áº‚Õüÿÿÿÿ
+=	java:S131Ò""Add a default case to this switch.(áº‚Õüÿÿÿÿ
+e
+java:S1871ê"IThis case's code block is the same as the block for the case on line 484.(…’èüýÿÿÿÿ
+=	java:S131ã""Add a default case to this switch.(áº‚Õüÿÿÿÿ
+=	java:S131ö""Add a default case to this switch.(áº‚Õüÿÿÿÿ
+=	java:S131‡""Add a default case to this switch.(áº‚Õüÿÿÿÿ
+e
+java:S1871Ÿ"IThis case's code block is the same as the block for the case on line 537.(…’èüýÿÿÿÿ
+=	java:S131˜""Add a default case to this switch.(áº‚Õüÿÿÿÿ
+e
+java:S1871²"IThis case's code block is the same as the block for the case on line 556.(…’èüýÿÿÿÿ
+=	java:S131«""Add a default case to this switch.(áº‚Õüÿÿÿÿ
+e
+java:S1871Å"IThis case's code block is the same as the block for the case on line 575.(…’èüýÿÿÿÿ
+=	java:S131¾""Add a default case to this switch.(áº‚Õüÿÿÿÿ
+e
+java:S1871Ø"IThis case's code block is the same as the block for the case on line 594.(…’èüýÿÿÿÿ
+=	java:S131Ñ""Add a default case to this switch.(áº‚Õüÿÿÿÿ
+<
+java:S1172ã"&Remove these unused method parameters.(ñïª%
+W	java:S125æ"<This block of commented-out lines of code should be removed.(¥Ç¤¾ùÿÿÿÿ
+R
+java:S2696ö"6Make the enclosing method "static" or remove this set.(ƒ°ÿ¦üÿÿÿÿ
+`
+java:S4201Œ"IRemove this unnecessary null check; "instanceof" returns false for nulls.(›ëüÚ
+Y
+java:S3398g">Move this method into the anonymous class declared at line 57.(þÊ‘±ûÿÿÿÿ

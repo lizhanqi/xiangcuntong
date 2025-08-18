@@ -1,0 +1,11 @@
+
+k	java:S117?"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“Ø³¤üÿÿÿÿ
+x
+java:S1488 "\Immediately return this expression instead of assigning it to the temporary variable "area".(İÿ¾Øÿÿÿÿÿ
+n	java:S116("TRename this field "parent_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢Äòûÿÿÿÿ
+:
+java:S2386"$Make member "HOT_CITYS" "protected".(Â ÇË
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Â ÇË
+h	java:S100;"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôŠÅ ûÿÿÿÿ
+h	java:S100?"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“Ø³¤üÿÿÿÿ

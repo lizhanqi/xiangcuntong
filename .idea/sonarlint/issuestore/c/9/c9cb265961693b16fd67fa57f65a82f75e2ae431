@@ -1,0 +1,36 @@
+
+E
+java:S1066„"/Merge this if statement with the enclosing one.(îÇ©f
+K
+java:S1066…"/Merge this if statement with the enclosing one.(ËÓÄøÿÿÿÿ
+K
+java:S1066†"/Merge this if statement with the enclosing one.(¨ûƒúúÿÿÿÿ
+F
+java:S1066‡"/Merge this if statement with the enclosing one.(­³ùş
+Z
+java:S1155¸">Use isEmpty() to check whether the collection is empty or not.(Á£Îªùÿÿÿÿ
+Z
+java:S1155Á">Use isEmpty() to check whether the collection is empty or not.(ÁŠü¯ıÿÿÿÿ
+Z
+java:S1155Ê">Use isEmpty() to check whether the collection is empty or not.(ü«»üÿÿÿÿ
+U
+java:S1155Ó">Use isEmpty() to check whether the collection is empty or not.(âßÏ
+Z
+java:S1155Ü">Use isEmpty() to check whether the collection is empty or not.(ó‹§Ôøÿÿÿÿ
+Y
+java:S2259n"DA "NullPointerException" could be thrown; "result" is nullable here.(«æ¾
+D
+java:S1121„".Extract the assignment out of this expression.(îÇ©f
+J
+java:S1121…".Extract the assignment out of this expression.(ËÓÄøÿÿÿÿ
+J
+java:S1121†".Extract the assignment out of this expression.(¨ûƒúúÿÿÿÿ
+E
+java:S1121‡".Extract the assignment out of this expression.(­³ùş
+h
+java:S3776-"RRefactor this method to reduce its Cognitive Complexity from 72 to the 15 allowed.(£³ú
+I
+java:S1874_".Remove this use of "Header"; it is deprecated.(Œæ«×øÿÿÿÿ
+C	java:S108w")Either remove or fill this block of code.(Úœß§üÿÿÿÿ
+E
+java:S1874Ÿ".Remove this use of "Header"; it is deprecated.(Ä¬ÓØ

@@ -1,0 +1,29 @@
+
+?
+java:S1604‚"(Make this anonymous inner class a lambda(Ã ¯¶
+D
+java:S1604¸"(Make this anonymous inner class a lambda(…Œíõùÿÿÿÿ
+D
+java:S1604Ğ"(Make this anonymous inner class a lambda(…Œíõùÿÿÿÿ
+?
+java:S1604°"(Make this anonymous inner class a lambda(Áå‚²
+n
+java:S3008+"SRename this field "INSTANCE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ Õñÿÿÿÿÿ
+T
+java:S21689"9Remove this dangerous instance of double-checked locking.(ÚĞîşÿÿÿÿ
+
+java:S1186™"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ø¬Šşıÿÿÿÿ
+
+java:S1186Ø"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ê¨äíşÿÿÿÿ
+R	java:S125š"<This block of commented-out lines of code should be removed.(¶óµï
+Y
+java:S1874¼"BRemove this use of "setMyLocationConfigeration"; it is deprecated.(ŒÛ¸Î
+W	java:S125ß"<This block of commented-out lines of code should be removed.(‚ßìÎúÿÿÿÿ
+N
+java:S1135İ"2Complete the task associated to this TODO comment.(è’¼¯ûÿÿÿÿ
+W	java:S125–"<This block of commented-out lines of code should be removed.(»åï®ÿÿÿÿÿ
+I
+java:S1135—"2Complete the task associated to this TODO comment.(¤Õ²—
+W	java:S125Æ"<This block of commented-out lines of code should be removed.(òş–õşÿÿÿÿ
+@
+java:S1068,"+Remove this unused "context" private field.(êİç

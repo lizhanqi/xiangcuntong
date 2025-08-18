@@ -1,0 +1,8 @@
+
+l
+java:S1206þ"PThis class overrides "equals()" and should therefore also override "hashCode()".(Ý¢êÍýÿÿÿÿ
+Q	java:S1256"<This block of commented-out lines of code should be removed.(ˆ„­Å
+j
+java:S2975ù"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(¯áÑë
+e
+java:S4201ÿ"IRemove this unnecessary null check; "instanceof" returns false for nulls.(Àòµñÿÿÿÿÿ

@@ -1,0 +1,16 @@
+
+P
+java:S1118":Add a private constructor to hide the implicit public one.(ğ‡­†
+m
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 65 to the 15 allowed.(“Û‘ºøÿÿÿÿ
+>	java:S108]")Either remove or fill this block of code.(œŸ³…
+=
+java:S1172€"&Remove these unused method parameters.(‰œˆë
+H
+java:S1135~"2Complete the task associated to this TODO comment.(µôÑø
+W	java:S125ƒ"<This block of commented-out lines of code should be removed.(ºÈı‹üÿÿÿÿ
+N
+java:S1135"2Complete the task associated to this TODO comment.(óä©˜şÿÿÿÿ
+W	java:S125™"<This block of commented-out lines of code should be removed.(ºÈı‹üÿÿÿÿ
+I
+java:S1135¤"2Complete the task associated to this TODO comment.(éÇ

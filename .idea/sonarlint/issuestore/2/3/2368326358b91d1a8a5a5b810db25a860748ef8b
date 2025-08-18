@@ -1,0 +1,21 @@
+
+r
+java:S1488~"\Immediately return this expression instead of assigning it to the temporary variable "file".(Ñ¬¡È
+s
+java:S1488„"\Immediately return this expression instead of assigning it to the temporary variable "file".(Ñ¬¡È
+œ
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ƒ†þÝÿÿÿÿÿ
+—
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ô€éÇ
+—
+java:S1186#"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ƒœÿü
+—
+java:S1186'"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(÷èñ®
+N
+java:S21683"9Remove this dangerous instance of double-checked locking.(©•µt
+G
+java:S1172“"+Remove this unused method parameter "view".(õÑÐšýÿÿÿÿ
+B
+java:S1172—"+Remove this unused method parameter "view".(»ŠðÀ
+G
+java:S1172›"+Remove this unused method parameter "view".(‹Ÿ‚òÿÿÿÿÿ

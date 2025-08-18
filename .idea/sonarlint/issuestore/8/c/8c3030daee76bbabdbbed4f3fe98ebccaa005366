@@ -1,0 +1,38 @@
+
+a
+java:S1301D"KReplace this "switch" statement by "if" statements to increase readability.(ÜŸ•
+J
+java:S10663"/Merge this if statement with the enclosing one.(áµŒüÿÿÿÿ
+J
+java:S1066S"/Merge this if statement with the enclosing one.(áµŒüÿÿÿÿ
+F
+java:S1066"/Merge this if statement with the enclosing one.(Ìä¯ô
+a
+java:S2259p"FA "NullPointerException" could be thrown; "filePath" is nullable here.(Çó²ôüÿÿÿÿ
+T
+java:S4973`"9Use the "equals" method if value comparison was intended.(Ã¾í­øÿÿÿÿ
+T
+java:S4973j"9Use the "equals" method if value comparison was intended.(Ã¾í­øÿÿÿÿ
+T
+java:S4973x"9Use the "equals" method if value comparison was intended.(Ã¾í­øÿÿÿÿ
+U
+java:S1118":Add a private constructor to hide the implicit public one.(‡ÛŸÚıÿÿÿÿ
+7	java:S131 ""Add a default case to this switch.(ÜŸ•
+^
+java:S53617"HReplace this call to "replaceAll()" by a call to the "replace()" method.(œÓı£
+7	java:S131D""Add a default case to this switch.(ÜŸ•
+^
+java:S5361W"HReplace this call to "replaceAll()" by a call to the "replace()" method.(œÓı£
+j
+java:S4042"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(²Œ­ûÿÿÿÿ
+V	java:S899";Do something with the "boolean" value returned by "delete".(²Œ­ûÿÿÿÿ
+T	java:S106¨"9Replace this use of System.out or System.err by a logger.(ÉÄÄÑúÿÿÿÿ
+e
+java:S4042¯"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(’«ÌÌ
+Q	java:S899¯";Do something with the "boolean" value returned by "delete".(’«ÌÌ
+b
+java:S1858Ä"K"filePath" is already a string, there's no need to call "toString()" on it.(¶
+j
+java:S4042Æ"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(ÕÄÕ‡şÿÿÿÿ
+V	java:S899Æ";Do something with the "boolean" value returned by "delete".(ÕÄÕ‡şÿÿÿÿ
+T	java:S106È"9Replace this use of System.out or System.err by a logger.(°¹˜íùÿÿÿÿ

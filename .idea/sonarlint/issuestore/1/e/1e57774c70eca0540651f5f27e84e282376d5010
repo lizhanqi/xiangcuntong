@@ -1,0 +1,12 @@
+
+f	java:S1173"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬É×
+f	java:S1174"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÅæşÊ
+k	java:S1175"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®§Š²úÿÿÿÿ
+k	java:S117="QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Û˜‹ñøÿÿÿÿ
+f	java:S117>"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×¿ì
+f	java:S117I"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Í›Ñò
+k	java:S117J"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±ÂšŒûÿÿÿÿ
+R
+java:S2589?"7Remove this expression which always evaluates to "true"(©ş°ÿÿÿÿÿ
+]
+java:S5361O"HReplace this call to "replaceAll()" by a call to the "replace()" method.(ÖÏø

@@ -1,0 +1,20 @@
+
+K
+java:S1066Š"/Merge this if statement with the enclosing one.(ÂÌ²ùÿÿÿÿ
+\	java:S112ƒ"FDefine and throw a dedicated exception instead of using a generic one.(ÃÔ÷ı
+C
+java:S16042"(Make this anonymous inner class a lambda(”áÀ´şÿÿÿÿ
+j
+java:S1104"TMake mAdapter a static final constant or non-public and provide accessors if needed.(‡âˆï
+k
+java:S1104"UMake mInflater a static final constant or non-public and provide accessors if needed.(Ÿ•¶½
+^	java:S119"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(Œ©÷È
+Q	java:S125"<This block of commented-out lines of code should be removed.(ûü¿â
+D
+java:S1659w".Declare "visibleItemCount" on a separate line.(íâû
+B
+java:S1659w",Declare "totalItemCount" on a separate line.(íâû
+E
+java:S1659w"/Declare "layoutManagerType" on a separate line.(íâû
+U
+java:S1161z":Add the "@Override" annotation above this method signature(®ú·øÿÿÿÿ

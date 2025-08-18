@@ -1,0 +1,35 @@
+
+d
+java:S1192‹"HDefine a constant instead of duplicating this literal "Payment" 5 times.(üºâ‹ûÿÿÿÿ
+k	java:S117f"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•æÎ şÿÿÿÿ
+q
+java:S1450;"[Remove the "mLoginUserId" field and declare it as a local variable in the relevant methods.(Ÿß¿„
+—
+java:S1186A"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(îñë‡
+R
+java:S1874f"7Remove this use of "CircleImageView"; it is deprecated.(•æÎ şÿÿÿÿ
+U
+java:S1854z"?Remove this useless assignment to local variable "accessToken".(êËîÇ
+T
+java:S2130y"9Use "Integer.parseInt" for this string-to-int conversion.(ÂÌâ¤ÿÿÿÿÿ
+K
+java:S1874z"5Remove this use of "getSelfStatus"; it is deprecated.(êËîÇ
+I
+java:S1874z"3Remove this use of "accessToken"; it is deprecated.(êËîÇ
+Q	java:S125}"<This block of commented-out lines of code should be removed.(­İÜ¼
+3
+java:S2119"Save and re-use this "Random".(¼İÅf
+C
+java:S1602¤",Remove useless curly braces around statement(»•ÉÚ
+C
+java:S1602¦",Remove useless curly braces around statement(™£ñ›
+u
+java:S2293Ş"YReplace the type specification in this constructor call with the diamond operator ("<>").(ô›Óíüÿÿÿÿ
+C
+java:S1602ç",Remove useless curly braces around statement(¯’€¹
+D
+java:S1481v")Remove this unused "type" local variable.(êøƒ–ûÿÿÿÿ
+F
+java:S1481z"0Remove this unused "accessToken" local variable.(êËîÇ
+S
+java:S1144p"8Remove this unused private "generateReceiptCode" method.(¥»âúÿÿÿÿ

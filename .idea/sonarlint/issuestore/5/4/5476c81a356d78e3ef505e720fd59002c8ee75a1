@@ -1,0 +1,20 @@
+
+F
+java:S3740ƒ"/Provide the parametrized type for this generic.(®ÓâŞ
+w
+java:S1192_"aDefine a constant instead of duplicating this literal "onException() called with: e = [" 6 times.(ÄıÛâ
+d
+java:S1192_"NDefine a constant instead of duplicating this literal "], model = [" 12 times.(ÄıÛâ
+‚
+java:S1192e"lDefine a constant instead of duplicating this literal "onResourceReady() called with: resource = [" 6 times.(İåš×
+o
+java:S1192e"YDefine a constant instead of duplicating this literal "], isFromMemoryCache = [" 6 times.(İåš×
+e
+java:S1192_"ODefine a constant instead of duplicating this literal "], target = [" 12 times.(ÄıÛâ
+n
+java:S1192_"XDefine a constant instead of duplicating this literal "], isFirstResource = [" 12 times.(ÄıÛâ
+R	java:S107M"=Method has 10 parameters, which is greater than 7 authorized.(í÷Åƒ
+W	java:S107Ÿ"<Method has 8 parameters, which is greater than 7 authorized.(ñŞåûùÿÿÿÿ
+S	java:S107€"=Method has 12 parameters, which is greater than 7 authorized.(ªÀõİ
+D
+java:S1172°"(Remove this unused method parameter "t".(ú´¢ëÿÿÿÿÿ

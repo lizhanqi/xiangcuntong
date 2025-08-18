@@ -1,0 +1,40 @@
+
+`
+java:S1301k"KReplace this "switch" statement by "if" statements to increase readability.(•¨¹Y
+F
+java:S3740«"/Provide the parametrized type for this generic.(ø–™®
+F
+java:S3740«"/Provide the parametrized type for this generic.(ø–™®
+V
+java:S2184„"@Cast one of the operands of this integer division to a "double".(¼¾ö(
+^
+java:S2184…"GCast one of the operands of this multiplication operation to a "float".(¤¸Î
+X
+java:S2184‡"ACast one of the operands of this addition operation to a "float".(¥°í
+Y
+java:S1155[">Use isEmpty() to check whether the collection is empty or not.(ßÔã«üÿÿÿÿ
+w
+java:S14508"aRemove the "translateAnimation" field and declare it as a local variable in the relevant methods.(É«‰ë
+M
+java:S1135,"2Complete the task associated to this TODO comment.(§Ÿ¬¦øÿÿÿÿ
+m	java:S131k"YComplete cases by adding the missing enum constants or add a default case to this switch.(•¨¹Y
+Q	java:S125w"<This block of commented-out lines of code should be removed.(ûÕîø
+˜
+java:S1186²"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ƒœÿü
+
+java:S1186·"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ƒ†þÝÿÿÿÿÿ
+˜
+java:S1186É"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ô€éÇ
+F
+java:S1172ç"/Remove this unused method parameter "isMySend".(¼ê§æ
+
+java:S1186†"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(úƒÚÓûÿÿÿÿ
+W	java:S125ò"<This block of commented-out lines of code should be removed.(ß‘‚ƒýÿÿÿÿ
+R	java:S125ù"<This block of commented-out lines of code should be removed.(ÿí¼ý
+L
+java:S1874“"0Remove this use of "getColor"; it is deprecated.(Ë„¾Äþÿÿÿÿ
+W	java:S125ž"<This block of commented-out lines of code should be removed.(ºþôøÿÿÿÿ
+D
+java:S1068/")Remove this unused "SCALE" private field.(…Ðåƒÿÿÿÿÿ
+?
+java:S1068?")Remove this unused "right" private field.(Âï½®

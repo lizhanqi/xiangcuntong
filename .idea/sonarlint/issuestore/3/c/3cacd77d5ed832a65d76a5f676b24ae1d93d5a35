@@ -1,0 +1,28 @@
+
+J
+java:S3740"/Provide the parametrized type for this generic.(Ãİ‰ùÿÿÿÿ
+n
+java:S1104k"SMake tv_date a static final constant or non-public and provide accessors if needed.(à½ˆÛøÿÿÿÿ
+q
+java:S1104l"VMake tv_balance a static final constant or non-public and provide accessors if needed.(´¼­øúÿÿÿÿ
+x
+java:S1104m"]Make tv_title_transfer a static final constant or non-public and provide accessors if needed.(à¾Éûÿÿÿÿ
+q
+java:S1104n"VMake tv_receipt a static final constant or non-public and provide accessors if needed.(ÔÒÊıÿÿÿÿ
+k
+java:S1104o"PMake view a static final constant or non-public and provide accessors if needed.(ÌÑÑëùÿÿÿÿ
+B
+java:S1659P"'Declare "tv_to_sum" on a separate line.(ûÕ¡şÿÿÿÿ
+A
+java:S1659P"&Declare "tv_month" on a separate line.(ûÕ¡şÿÿÿÿ
+n	java:S116P"TRename this field "tv_in_sum" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûÕ¡şÿÿÿÿ
+n	java:S116P"TRename this field "tv_to_sum" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûÕ¡şÿÿÿÿ
+m	java:S116P"SRename this field "tv_month" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûÕ¡şÿÿÿÿ
+l	java:S116k"RRename this field "tv_date" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à½ˆÛøÿÿÿÿ
+o	java:S116l"URename this field "tv_balance" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´¼­øúÿÿÿÿ
+v	java:S116m"\Rename this field "tv_title_transfer" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à¾Éûÿÿÿÿ
+o	java:S116n"URename this field "tv_receipt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÔÒÊıÿÿÿÿ
+G
+java:S1874‰"0Remove this use of "getColor"; it is deprecated.(ÚªŠ„
+G
+java:S1874"0Remove this use of "getColor"; it is deprecated.(Â·ƒ‘

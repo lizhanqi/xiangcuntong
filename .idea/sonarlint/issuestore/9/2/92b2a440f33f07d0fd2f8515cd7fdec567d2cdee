@@ -1,0 +1,13 @@
+
+F
+java:S1948"0Make "packetListener" transient or serializable.(¨™“ˆ
+A
+java:S1948"&Make "meta" transient or serializable.(‰ˆÜüÿÿÿÿ
+L
+java:S1948."6Make "preEncodedByteBuffer" transient or serializable.(÷¤ÏÍ
+n
+java:S29756"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(¹¹Ó÷ûÿÿÿÿ
+/
+java:S2225>"Return a non null object.(¥¹ï
+U
+java:S3400¥"9Remove this method and declare a constant for this value.(Ö§”Óşÿÿÿÿ

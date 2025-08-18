@@ -1,0 +1,8 @@
+
+Q	java:S110"<This class has 8 parents which is greater than 5 authorized.(èİ“˜
+r
+java:S1104"WMake coreManager a static final constant or non-public and provide accessors if needed.(÷Òœ¸ûÿÿÿÿ
+J
+java:S1874+"5Remove this use of "getSelfStatus"; it is deprecated.(Ò…'
+H
+java:S1874+"3Remove this use of "accessToken"; it is deprecated.(Ò…'

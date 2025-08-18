@@ -1,0 +1,56 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    ext {
+        compile_version = 28
+        min_version = 21
+        target_version = 26
+        java_version = '1.8' // 添加Java版本定义
+    }
+    repositories {
+        // 添加阿里云和腾讯云镜像仓（放在前面优先级更高）
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        maven { url 'http://mirrors.cloud.tencent.com/nexus/repository/maven-public/' }
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.1.1'
+        classpath 'com.google.gms:google-services:4.2.0'
+    }
+
+}
+
+allprojects {
+    repositories {
+        maven {
+            url rootProject.file('repository')
+        }
+        // 添加阿里云镜像仓（放在前面优先级更高）
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        // 先添加 JitPack 仓库，确保能获取到 EpMedia 依赖
+        maven { url 'https://jitpack.io' }
+        // 再添加腾讯云镜像仓
+        maven { url 'http://mirrors.cloud.tencent.com/nexus/repository/maven-public/' }
+        google()
+        jcenter()
+
+        maven {
+            url 'https://oss.sonatype.org/content/repositories/snapshots'
+        }
+
+        maven { url 'http://developer.huawei.com/repo/' }
+
+        // 图片编辑库cc.aoeiuv020:imaging所在仓库, 同步到jcenter审核通过前需要这个仓库，
+        maven { url 'https://dl.bintray.com/aoeiuv020/maven' }
+    }
+
+}
+
+// 恢复并修改subprojects配置
+subprojects {
+    tasks.withType(JavaCompile) {
+        sourceCompatibility = rootProject.ext.java_version
+        targetCompatibility = rootProject.ext.java_version
+        // 移除--release参数以避免与较旧Gradle版本冲突
+    }
+}

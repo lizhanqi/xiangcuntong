@@ -1,0 +1,72 @@
+
+s
+java:S1192‹"\Define a constant instead of duplicating this literal "IS_FROM_SEE_CIRCLE_ACTIVITY" 3 times.(¸â®
+l
+java:S1192A"QDefine a constant instead of duplicating this literal "THIS_CIRCLE_TYPE" 3 times.(¤ßÑ¬ÿÿÿÿÿ
+R	java:S110$"=This class has 10 parents which is greater than 5 authorized.(ıˆÀ·
+3
+java:S1643ò"Use a StringBuilder instead.(ë¦î…
+8
+java:S1643ô"Use a StringBuilder instead.(ŠŸ‰¬şÿÿÿÿ
+8
+java:S1643¶"Use a StringBuilder instead.(ÀÄŸ´ùÿÿÿÿ
+3
+java:S1643¸"Use a StringBuilder instead.(ï”ÊË
+3
+java:S1643…"Use a StringBuilder instead.(¢­˜æ
+8
+java:S1643‡"Use a StringBuilder instead.(ØÅ§ùÿÿÿÿ
+3
+java:S1643¢"Use a StringBuilder instead.(à·èğ
+8
+java:S1643¤"Use a StringBuilder instead.(¥Ñè¥øÿÿÿÿ
+Z
+java:S1155·">Use isEmpty() to check whether the collection is empty or not.(—÷«Êÿÿÿÿÿ
+Z
+java:S1155·">Use isEmpty() to check whether the collection is empty or not.(—÷«Êÿÿÿÿÿ
+Z
+java:S1155‚">Use isEmpty() to check whether the collection is empty or not.(•Œ»°úÿÿÿÿ
+U
+java:S1155">Use isEmpty() to check whether the collection is empty or not.(Çáç†
+f	java:S117Q"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬Ş”Ï
+?
+java:S1604…"(Make this anonymous inner class a lambda(–ÒÍ
+D
+java:S1604˜"(Make this anonymous inner class a lambda(˜Í¨¢şÿÿÿÿ
+D
+java:S1604­"(Make this anonymous inner class a lambda(¡¬ëıÿÿÿÿ
+q
+java:S1450'"VRemove the "iv_sel1" field and declare it as a local variable in the relevant methods.(šË‡–üÿÿÿÿ
+q
+java:S1450'"VRemove the "iv_sel2" field and declare it as a local variable in the relevant methods.(šË‡–üÿÿÿÿ
+q
+java:S1450'"VRemove the "iv_sel3" field and declare it as a local variable in the relevant methods.(šË‡–üÿÿÿÿ
+q
+java:S1450'"VRemove the "iv_sel4" field and declare it as a local variable in the relevant methods.(šË‡–üÿÿÿÿ
+@
+java:S1659'"%Declare "iv_sel2" on a separate line.(šË‡–üÿÿÿÿ
+@
+java:S1659'"%Declare "iv_sel3" on a separate line.(šË‡–üÿÿÿÿ
+@
+java:S1659'"%Declare "iv_sel4" on a separate line.(šË‡–üÿÿÿÿ
+6
+java:S1659)"!Declare "lv2" on a separate line.(’Ó„8
+9
+java:S16596"#Declare "flag2" on a separate line.(—‘÷ğ
+l	java:S116'"RRename this field "iv_sel1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šË‡–üÿÿÿÿ
+l	java:S116'"RRename this field "iv_sel2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šË‡–üÿÿÿÿ
+l	java:S116'"RRename this field "iv_sel3" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šË‡–üÿÿÿÿ
+l	java:S116'"RRename this field "iv_sel4" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šË‡–üÿÿÿÿ
+=	java:S131®""Add a default case to this switch.(×“¾ñùÿÿÿÿ
+I
+java:S1135»"2Complete the task associated to this TODO comment.(€Ìßœ
+i
+java:S3776ñ"RRefactor this method to reduce its Cognitive Complexity from 59 to the 15 allowed.(•÷–á
+L
+java:S1874ı"0Remove this use of "getColor"; it is deprecated.(Âüõàşÿÿÿÿ
+G
+java:S1874ş"0Remove this use of "getColor"; it is deprecated.(©›å‘
+G
+java:S1874‘"0Remove this use of "getColor"; it is deprecated.(ºæ
+G
+java:S1874’"0Remove this use of "getColor"; it is deprecated.(öè´º

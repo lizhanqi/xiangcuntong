@@ -1,0 +1,67 @@
+
+Z
+java:S1444>"DMake this "public static isCourseDetailClassSendHandler" field final(‡ñ
+Q	java:S110="=This class has 10 parents which is greater than 5 authorized.(ÚÅÈ?
+Z
+java:S1155ì">Use isEmpty() to check whether the collection is empty or not.(íîÜøÿÿÿÿ
+C
+java:S1604E"(Make this anonymous inner class a lambda(‹–Ÿ‰üÿÿÿÿ
+D
+java:S1604Ÿ"(Make this anonymous inner class a lambda(–®àìùÿÿÿÿ
+€
+java:S1104>"jMake isCourseDetailClassSendHandler a static final constant or non-public and provide accessors if needed.(‡ñ
+H
+java:S1135a"2Complete the task associated to this TODO comment.(ñÌ´
+Q
+java:S2696c"6Make the enclosing method "static" or remove this set.(à¿ˆıÿÿÿÿ
+Q
+java:S2696e"6Make the enclosing method "static" or remove this set.(ÇÙ½ùÿÿÿÿ
+V	java:S125d"<This block of commented-out lines of code should be removed.(¿Õ˜Òıÿÿÿÿ
+Q
+java:S2696p"6Make the enclosing method "static" or remove this set.(à¿ˆıÿÿÿÿ
+L
+java:S2696q"6Make the enclosing method "static" or remove this set.(ÑÈÿ¥
+Q
+java:S2696v"6Make the enclosing method "static" or remove this set.(ÙØÕ©ùÿÿÿÿ
+_
+java:S5361€"HReplace this call to "replaceAll()" by a call to the "replace()" method.(åËı
+
+java:S1186¯"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ô‘ùÿÿÿÿ
+
+java:S1186´"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(€îÖİúÿÿÿÿ
+
+java:S1186¹"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ŠâÇÏùÿÿÿÿ
+˜
+java:S1186¾"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‹û‹Ò
+˜
+java:S1186É"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ó¾ƒĞ
+˜
+java:S1186Î"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ø˜Ñú
+˜
+java:S1186Ó"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(öïéÄ
+
+java:S1186Ø"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ùõö£ÿÿÿÿÿ
+˜
+java:S1186İ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¢ÀâÔ
+˜
+java:S1186â"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(©Ùá’
+R
+java:S2696ñ"6Make the enclosing method "static" or remove this set.(ø Å‚øÿÿÿÿ
+L
+java:S1874ƒ"5Remove this use of "getSelfStatus"; it is deprecated.(´†²õ
+J
+java:S1874ƒ"3Remove this use of "accessToken"; it is deprecated.(´†²õ
+L
+java:S1874À"5Remove this use of "getSelfStatus"; it is deprecated.(´†²õ
+J
+java:S1874À"3Remove this use of "accessToken"; it is deprecated.(´†²õ
+@
+java:S5413Ş")Verify that "remove()" is used correctly.(œ¼ŸÅ
+U
+java:S1874ë"9Remove this use of "setTextAppearance"; it is deprecated.(”ë…óşÿÿÿÿ
+M
+java:S2696‚"6Make the enclosing method "static" or remove this set.(ÑÈÿ¥
+˜
+java:S1186‡"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(šı’ğ
+T
+java:S3398ô">Move this method into the anonymous class declared at line 93.(¹¸

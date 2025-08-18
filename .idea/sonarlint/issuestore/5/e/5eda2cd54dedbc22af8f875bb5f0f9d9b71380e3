@@ -1,0 +1,52 @@
+
+g
+java:S1301ì"KReplace this "switch" statement by "if" statements to increase readability.(ıŞ³‹ùÿÿÿÿ
+D
+java:S1444")Make this "public static TAG" field final(”Æ´şÿÿÿÿ
+L
+java:S1444"1Make this "public static textureView" field final(†´‰¯ûÿÿÿÿ
+T
+java:S1444"9Make this "public static savedSurfaceTexture" field final(şßÅøÿÿÿÿ
+T
+java:S1444"9Make this "public static CURRENT_PLAYING_URL" field final(®úÃœşÿÿÿÿ
+S
+java:S1444"8Make this "public static CURRENT_PLING_LOOP" field final(Úº†Æúÿÿÿÿ
+P
+java:S1444 "5Make this "public static MAP_HEADER_DATA" field final(›Ò÷ïüÿÿÿÿ
+j
+java:S1104"OMake TAG a static final constant or non-public and provide accessors if needed.(”Æ´şÿÿÿÿ
+r
+java:S1104"WMake textureView a static final constant or non-public and provide accessors if needed.(†´‰¯ûÿÿÿÿ
+z
+java:S1104"_Make savedSurfaceTexture a static final constant or non-public and provide accessors if needed.(şßÅøÿÿÿÿ
+z
+java:S1104"_Make CURRENT_PLAYING_URL a static final constant or non-public and provide accessors if needed.(®úÃœşÿÿÿÿ
+y
+java:S1104"^Make CURRENT_PLING_LOOP a static final constant or non-public and provide accessors if needed.(Úº†Æúÿÿÿÿ
+v
+java:S1104 "[Make MAP_HEADER_DATA a static final constant or non-public and provide accessors if needed.(›Ò÷ïüÿÿÿÿ
+r
+java:S1104#"WMake mediaPlayer a static final constant or non-public and provide accessors if needed.(Ãß‹“ÿÿÿÿÿ
+s
+java:S1104$"]Make currentVideoWidth a static final constant or non-public and provide accessors if needed.(›øã–
+y
+java:S1104%"^Make currentVideoHeight a static final constant or non-public and provide accessors if needed.( ÌÜÇøÿÿÿÿ
+œ
+java:S1186w"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ªğâ¡ıÿÿÿÿ
+i
+java:S3008"NRename this field "TAG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”Æ´şÿÿÿÿ
+y
+java:S3008"^Rename this field "CURRENT_PLAYING_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®úÃœşÿÿÿÿ
+x
+java:S3008"]Rename this field "CURRENT_PLING_LOOP" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Úº†Æúÿÿÿÿ
+u
+java:S3008 "ZRename this field "MAP_HEADER_DATA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›Ò÷ïüÿÿÿÿ
+t
+java:S3008!"YRename this field "JCMediaManager" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñÈù½ıÿÿÿÿ
+M
+java:S1135Y"2Complete the task associated to this TODO comment.(¯ãÊúÿÿÿÿ
+Q
+java:S2696d"6Make the enclosing method "static" or remove this set.(Úƒ–¸üÿÿÿÿ
+=	java:S131ì""Add a default case to this switch.(ıŞ³‹ùÿÿÿÿ
+Q
+java:S1874ó":Remove this use of "setAudioStreamType"; it is deprecated.(ªåÂ›

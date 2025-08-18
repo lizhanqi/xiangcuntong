@@ -1,0 +1,13 @@
+
+^
+java:S2184^"HCast one of the operands of this multiplication operation to a "double".(”º©ó
+^
+java:S2184c"HCast one of the operands of this multiplication operation to a "double".(”º©ó
+^
+java:S2184i"HCast one of the operands of this multiplication operation to a "double".(”º©ó
+r
+java:S3077"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(Áùú‰üÿÿÿÿ
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Áùú‰üÿÿÿÿ
+V	java:S125>"<This block of commented-out lines of code should be removed.(¬¢åÿÿÿÿÿ
+Q	java:S125n"<This block of commented-out lines of code should be removed.(ýµÌ

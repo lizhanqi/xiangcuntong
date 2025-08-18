@@ -1,0 +1,15 @@
+
+f	java:S117K"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®ÜÉğ
+f	java:S117L"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£Œâ¹
+f	java:S117M"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬É×
+k	java:S117N"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷ÄÜŒıÿÿÿÿ
+f	java:S117O"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÅæşÊ
+h
+java:S3776F"RRefactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.(•÷–á
+R	java:S125€"<This block of commented-out lines of code should be removed.( ·™ 
+O
+java:S1874¢"3Remove this use of "getDrawable"; it is deprecated.(íÉ³ùüÿÿÿÿ
+O
+java:S1874©"3Remove this use of "getDrawable"; it is deprecated.(È—ƒÕüÿÿÿÿ
+=
+java:S1168°"&Return an empty array instead of null.(¥¹ï

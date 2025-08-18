@@ -1,0 +1,20 @@
+
+W	java:S110"=This class has 10 parents which is greater than 5 authorized.(ä­à÷üÿÿÿÿ
+€
+java:S1450$"eRemove the "mReceiptQrCodeAvatarIv" field and declare it as a local variable in the relevant methods.(’Øúİıÿÿÿÿ
+>
+java:S1659&")Declare "description" on a separate line.(ô‚¿l
+:
+java:S1659'"%Declare "mDescTv" on a separate line.(ü‚¹b
+B
+java:S1602m",Remove useless curly braces around statement(ĞïöŞ
+Z
+java:S1874›">Remove this use of "setDrawingCacheEnabled"; it is deprecated.(‰¬áÎşÿÿÿÿ
+P
+java:S1874œ"9Remove this use of "buildDrawingCache"; it is deprecated.(İ›š¹
+N
+java:S1874"7Remove this use of "getDrawingCache"; it is deprecated.(Û÷…Ğ
+R
+java:S1874";Remove this use of "destroyDrawingCache"; it is deprecated.(¸¢ì«
+Z
+java:S1874Ÿ">Remove this use of "setDrawingCacheEnabled"; it is deprecated.(Ø“¦ûùÿÿÿÿ

@@ -1,0 +1,23 @@
+
+D
+java:S1604Ğ"(Make this anonymous inner class a lambda(Ë©ğÙúÿÿÿÿ
+q
+java:S14503"VRemove the "content" field and declare it as a local variable in the relevant methods.(ÃÇÿôøÿÿÿÿ
+P	java:S125)"<This block of commented-out lines of code should be removed.(™‡¤B
+F
+java:S1874["0Remove this use of "getColor"; it is deprecated.(éÒ’½
+˜
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ƒœÿü
+
+java:S1186’"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ƒ†şİÿÿÿÿÿ
+˜
+java:S1186£"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ô€éÇ
+U
+java:S1874â"9Remove this use of "requestAudioFocus"; it is deprecated.(Åªù®øÿÿÿÿ
+D	java:S108ä")Either remove or fill this block of code.(Îèªüÿÿÿÿ
+U
+java:S1874ï"9Remove this use of "abandonAudioFocus"; it is deprecated.(ÑÇ©Ùşÿÿÿÿ
+R	java:S125«"<This block of commented-out lines of code should be removed.(ôó§è
+R	java:S125¶"<This block of commented-out lines of code should be removed.(Ù´¥±
+B
+java:S1068("'Remove this unused "TAG" private field.(ÅÄœØşÿÿÿÿ

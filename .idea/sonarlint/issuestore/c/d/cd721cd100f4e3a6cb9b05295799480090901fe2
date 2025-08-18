@@ -1,0 +1,10 @@
+
+—
+java:S1186a"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(é…Š³
+v	java:S116"\Rename this field "UP_MOVE_CHECK_NUM" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èú¸ÿÿÿÿÿ
+<
+java:S1170"!Make this final field static too.(èú¸ÿÿÿÿÿ
+W
+java:S1126,"AReplace this if-then-else statement by a single return statement.(ùØê‰
+m
+java:S37763"RRefactor this method to reduce its Cognitive Complexity from 29 to the 15 allowed.(Óı°ûÿÿÿÿ

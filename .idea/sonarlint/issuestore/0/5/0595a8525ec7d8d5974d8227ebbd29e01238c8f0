@@ -1,0 +1,31 @@
+
+a
+java:S13014"KReplace this "switch" statement by "if" statements to increase readability.(Ò§Œ³
+C
+java:S1604`"(Make this anonymous inner class a lambda(ãÉ“üÿÿÿÿ
+_
+java:S2259<"DA "NullPointerException" could be thrown; "result" is nullable here.(Ÿşµşÿÿÿÿ
+i
+java:S1104Ş"RMake target a static final constant or non-public and provide accessors if needed.(¤Ë
+[
+java:S1124U"EReorder the modifiers to comply with the Java Language Specification.(ŠÉ®Ê
+H
+java:S1135N"2Complete the task associated to this TODO comment.(ˆÑû
+H
+java:S1135O"2Complete the task associated to this TODO comment.(îåæ—
+`
+java:S1124o"EReorder the modifiers to comply with the Java Language Specification.(æÈâÚøÿÿÿÿ
+`
+java:S1124z"EReorder the modifiers to comply with the Java Language Specification.(ÄªŞÇøÿÿÿÿ
+H
+java:S1135t"2Complete the task associated to this TODO comment.(äÉøê
+`
+java:S1124~"EReorder the modifiers to comply with the Java Language Specification.(ôìößıÿÿÿÿ
+\
+java:S1124€"EReorder the modifiers to comply with the Java Language Specification.(”€çÏ
+N
+java:S1135‰"2Complete the task associated to this TODO comment.(ºé¼æıÿÿÿÿ
+\
+java:S1124í"EReorder the modifiers to comply with the Java Language Specification.(ÂÊÜğ
+H
+java:S1135ë"2Complete the task associated to this TODO comment.(ªïe

@@ -1,0 +1,6 @@
+
+Q	java:S110"<This class has 7 parents which is greater than 5 authorized.(åóö
+T
+java:S5993"9Change the visibility of this constructor to "protected".(¡’Â†üÿÿÿÿ
+c	java:S116"NRename this field "TAG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜›ÀÅ
+Q	java:S1255"<This block of commented-out lines of code should be removed.(µßì

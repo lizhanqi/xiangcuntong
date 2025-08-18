@@ -1,0 +1,13 @@
+
+Y
+java:S1155t">Use isEmpty() to check whether the collection is empty or not.(÷ËŠ’øÿÿÿÿ
+r
+java:S3077""WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(²úÕˆúÿÿÿÿ
+`
+java:S1124""EReorder the modifiers to comply with the Java Language Specification.(²úÕˆúÿÿÿÿ
+R
+java:S1854B"7Remove this useless assignment to local variable "rid".(Ý¯™Üúÿÿÿÿ
+M
+java:S1854E"7Remove this useless assignment to local variable "rid".(ÉÀÇç
+C
+java:S1481@"(Remove this unused "rid" local variable.(ªŸ¢®ýÿÿÿÿ

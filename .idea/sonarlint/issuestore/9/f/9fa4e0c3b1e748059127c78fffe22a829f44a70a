@@ -1,0 +1,19 @@
+
+e
+java:S1192š"IUse already-defined constant 'TAG' instead of duplicating its value here.(€ÔÀßúÿÿÿÿ
+n
+java:S3008 "SRename this field "INSTANCE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄŞƒÂÿÿÿÿÿ
+u
+java:S1149~"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(í…Ò‰
+o
+java:S2293""YReplace the type specification in this constructor call with the diamond operator ("<>").(‰¼
+t
+java:S2142B"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
+I
+java:S1874g"3Remove this use of "versionCode"; it is deprecated.(Ê÷ÚÑ
+[
+java:S2147w"ECombine this catch with the one at line 117, which has the same body.(Å¡ß
+B
+java:S3011r",This accessibility update should be removed.(˜ÂÓ˜
+\
+java:S2147¦"ECombine this catch with the one at line 164, which has the same body.(ï­£Ä

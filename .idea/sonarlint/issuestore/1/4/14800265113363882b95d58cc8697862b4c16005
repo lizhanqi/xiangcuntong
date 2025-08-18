@@ -1,0 +1,20 @@
+
+s	java:S135y"YReduce the total number of break and continue statements in this loop to use at most one.(ƒÑÓëýÿÿÿÿ
+q
+java:S4144¥"ZUpdate this method so that its implementation is not identical to "onUpgrade" on line 106.(à®€‹
+Q	java:S125,"<This block of commented-out lines of code should be removed.(”òÁÌ
+\	java:S899L"BDo something with the "boolean" value returned by "createNewFile".(Å¤¥¡ûÿÿÿÿ
+M
+java:S1197O"8Move the array designator from the variable to the type.(ƒµ·X
+`
+java:S2674P"JCheck the return value of the "read" call to see how many bytes were read.(€¬¨ë
+E
+java:S2093K"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+K
+java:S1905”"5Remove this unnecessary cast to "DatabaseConnection".(…úþ~
+Q
+java:S1905Ÿ"5Remove this unnecessary cast to "DatabaseConnection".(±¼Ä„ûÿÿÿÿ
+=
+java:S1172¥"&Remove these unused method parameters.(à®€‹
+M
+java:S1144¿"1Remove this unused private "version2Drop" method.(ñ‚çÃûÿÿÿÿ

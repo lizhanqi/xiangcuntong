@@ -1,0 +1,9 @@
+
+d
+java:S3014i"IRemove this use of "ThreadGroup". Prefer the use of "ThreadPoolExecutor".(‹©Öıÿÿÿÿ
+i
+java:S3824N"NReplace this "Map.get()" and condition with a call to "Map.computeIfAbsent()".(ş‰ñïıÿÿÿÿ
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(‹„ô¹üÿÿÿÿ
+o
+java:S2293'"YReplace the type specification in this constructor call with the diamond operator ("<>").(‹øí

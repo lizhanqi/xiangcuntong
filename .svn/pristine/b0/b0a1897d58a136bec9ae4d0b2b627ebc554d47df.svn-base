@@ -1,0 +1,5 @@
+# suppress inspection "UnusedProperty" for whole file
+storeFile=kuxin.keystore
+storePassword=shiku888
+keyAlias=androiddebugkey
+keyPassword=shiku888

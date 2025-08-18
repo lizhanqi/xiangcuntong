@@ -1,0 +1,13 @@
+
+}
+java:S1192^"gDefine a constant instead of duplicating this literal "onComplete() called with: response = [" 3 times.(à¿Ëí
+
+java:S1192„"cDefine a constant instead of duplicating this literal "onError() called with: uiError = [" 3 times.(¥Ü¼¶þÿÿÿÿ
+i
+java:S1192Š"RDefine a constant instead of duplicating this literal "onCancel() called" 3 times.(‰¡†Á
+h
+java:S3776S"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(ü‹üá
+L
+java:S1874î"5Remove this use of "getSelfStatus"; it is deprecated.(´†²õ
+J
+java:S1874î"3Remove this use of "accessToken"; it is deprecated.(´†²õ

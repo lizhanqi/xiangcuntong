@@ -1,0 +1,27 @@
+
+d
+java:S11922"IDefine a constant instead of duplicating this literal "voicejid" 3 times.(”ƒ¡úÿÿÿÿ
+W	java:S110""=This class has 10 parents which is greater than 5 authorized.(áˆûÿÿÿÿ
+g	java:S117Ø"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(° áë
+g	java:S117Ù"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸ Íİ
+l	java:S117Ú"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡ÍâÅıÿÿÿÿ
+C
+java:S1604P"(Make this anonymous inner class a lambda(–®àìùÿÿÿÿ
+C
+java:S1604Z"(Make this anonymous inner class a lambda(†ÛŞüÿÿÿÿ
+s
+java:S1450("XRemove the "mEditText" field and declare it as a local variable in the relevant methods.(ÇÏ±Íÿÿÿÿÿ
+h
+java:S3776j"RRefactor this method to reduce its Cognitive Complexity from 34 to the 15 allowed.(šœ•²
+—
+java:S1186o"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(«û³±
+œ
+java:S1186t"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ê¥¾àûÿÿÿÿ
+D
+java:S1125"(Remove the unnecessary boolean literals.(˜¶Ëëûÿÿÿÿ
+?
+java:S1125“"(Remove the unnecessary boolean literals.(•°šğ
+D
+java:S1125˜"(Remove the unnecessary boolean literals.(˜¶Ëëûÿÿÿÿ
+D
+java:S1125™"(Remove the unnecessary boolean literals.(ÀÚìùÿÿÿÿ

@@ -1,0 +1,64 @@
+
+V
+java:S1444Q";Make this "public static isRegisteredSyncCount" field final(Ÿ¦ŒÂúÿÿÿÿ
+K
+java:S1066ˆ"/Merge this if statement with the enclosing one.(¬‹î°ûÿÿÿÿ
+E
+java:S1066®"/Merge this if statement with the enclosing one.(œŸ…&
+Q	java:S107n"<Method has 9 parameters, which is greater than 7 authorized.(Ÿùý÷
+R	java:S110M"=This class has 10 parents which is greater than 5 authorized.(š™Æ¤
+g	java:S117Ž"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·áÙ
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§üÁØøÿÿÿÿ
+D
+java:S1604Ø"(Make this anonymous inner class a lambda(–®àìùÿÿÿÿ
+?
+java:S1604¨"(Make this anonymous inner class a lambda(Î¬¯”
+D
+java:S1604Â"(Make this anonymous inner class a lambda(ó¸Ï¤ùÿÿÿÿ
+D
+java:S1604Ô"(Make this anonymous inner class a lambda(ÄÕµ½øÿÿÿÿ
+?
+java:S1604°"(Make this anonymous inner class a lambda(Ä´‡¡
+D
+java:S1604ã"(Make this anonymous inner class a lambda(âÛ¶³ùÿÿÿÿ
+?
+java:S1604­"(Make this anonymous inner class a lambda(Ùâ…Š
+D
+java:S1604ë"(Make this anonymous inner class a lambda(âÛ¶³ùÿÿÿÿ
+?
+java:S1604€"(Make this anonymous inner class a lambda(™¬ö¯
+|
+java:S1104Q"aMake isRegisteredSyncCount a static final constant or non-public and provide accessors if needed.(Ÿ¦ŒÂúÿÿÿÿ
+p
+java:S1450W"[Remove the "mNextStepBtn" field and declare it as a local variable in the relevant methods.(üÜ7
+E
+java:S1659h"*Declare "rsaPublicKey" on a separate line.(ó»¥ûÿÿÿÿ
+F
+java:S1659h"+Declare "rsaPrivateKey" on a separate line.(ó»¥ûÿÿÿÿ
+n
+java:S3776…"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(ž¨Œþÿÿÿÿ
+R	java:S125’"<This block of commented-out lines of code should be removed.(ôÕŽ¢
+H
+java:S1602¶",Remove useless curly braces around statement(§ñò¤ùÿÿÿÿ
+H
+java:S1602Ï",Remove useless curly braces around statement(™ÛŽÔÿÿÿÿÿ
+W	java:S125ì"<This block of commented-out lines of code should be removed.(Šˆ™ýÿÿÿÿ
+=	java:S131Œ""Add a default case to this switch.(×“¾ñùÿÿÿÿ
+i
+java:S3776ä"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(ŸŒ¹Ñ
+W	java:S125"<This block of commented-out lines of code should be removed.(Ïºçòúÿÿÿÿ
+n
+java:S3776¤"RRefactor this method to reduce its Cognitive Complexity from 31 to the 15 allowed.(Í¨Ô§ýÿÿÿÿ
+N
+java:S1135Õ"2Complete the task associated to this TODO comment.(€­Š§øÿÿÿÿ
+R
+java:S2696†"6Make the enclosing method "static" or remove this set.(Ï‚Æãüÿÿÿÿ
+R	java:S125™"<This block of commented-out lines of code should be removed.(äùúÔ
+i
+java:S3776¬"RRefactor this method to reduce its Cognitive Complexity from 27 to the 15 allowed.(¯ù„Ñ
+J
+java:S1874œ".Remove this use of "Header"; it is deprecated.(Žºÿóÿÿÿÿÿ
+R	java:S125±"<This block of commented-out lines of code should be removed.(äùúÔ
+E
+java:S1874·".Remove this use of "Header"; it is deprecated.(Ä¬ÓØ
+R	java:S125º"<This block of commented-out lines of code should be removed.(äùúÔ

@@ -1,0 +1,598 @@
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+-keep class androidx.core.content.FileProvider { <init>(); }
+-keep class com.alipay.sdk.app.H5AuthActivity { <init>(); }
+-keep class com.alipay.sdk.app.H5PayActivity { <init>(); }
+-keep class com.alipay.sdk.app.PayResultActivity { <init>(); }
+-keep class com.baidu.location.f { <init>(); }
+-keep class com.example.qrcode.ScannerActivity { <init>(); }
+-keep class com.example.qrcode.ShowResultActivity { <init>(); }
+-keep class com.facebook.react.devsupport.DevSettingsActivity { <init>(); }
+-keep class com.fanjun.keeplive.activity.OnePixelActivity { <init>(); }
+-keep class com.fanjun.keeplive.receiver.NotificationClickReceiver { <init>(); }
+-keep class com.fanjun.keeplive.service.HideForegroundService { <init>(); }
+-keep class com.fanjun.keeplive.service.JobHandlerService { <init>(); }
+-keep class com.fanjun.keeplive.service.LocalService { <init>(); }
+-keep class com.fanjun.keeplive.service.RemoteService { <init>(); }
+-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementJobService { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementService { <init>(); }
+-keep class com.google.firebase.components.ComponentDiscoveryService { <init>(); }
+-keep class com.google.firebase.iid.FirebaseInstanceIdReceiver { <init>(); }
+-keep class com.google.firebase.messaging.FirebaseMessagingService { <init>(); }
+-keep class com.google.firebase.provider.FirebaseInitProvider { <init>(); }
+-keep class com.huawei.hms.activity.BridgeActivity { <init>(); }
+-keep class com.huawei.hms.support.api.push.PushEventReceiver { <init>(); }
+-keep class com.huawei.hms.update.provider.UpdateProvider { <init>(); }
+-keep class com.kuxin.im.wxapi.WXEntryActivity { <init>(); }
+-keep class com.kuxin.im.wxapi.WXPayEntryActivity { <init>(); }
+-keep class com.meizu.cloud.pushsdk.NotificationService { <init>(); }
+-keep class com.meizu.cloud.pushsdk.SystemReceiver { <init>(); }
+-keep class com.reactnativecommunity.webview.RNCWebViewFileProvider { <init>(); }
+-keep class com.sk.im.audio.VoiceRecordActivity { <init>(); }
+-keep class com.sk.im.audio.VoiceRecordActivity2 { <init>(); }
+-keep class com.sk.weichat.MyApplication { <init>(); }
+-keep class com.sk.weichat.RestartService { <init>(); }
+-keep class com.sk.weichat.broadcast.MyBroadcastReceiver { <init>(); }
+-keep class com.sk.weichat.broadcast.ShakeReceiver { <init>(); }
+-keep class com.sk.weichat.call.JitsiAudioMeetActivity { <init>(); }
+-keep class com.sk.weichat.call.JitsiFloatService { <init>(); }
+-keep class com.sk.weichat.call.JitsiIncomingcall { <init>(); }
+-keep class com.sk.weichat.call.JitsiInviteActivity { <init>(); }
+-keep class com.sk.weichat.call.JitsiTalk { <init>(); }
+-keep class com.sk.weichat.call.Jitsi_connecting_second { <init>(); }
+-keep class com.sk.weichat.call.Jitsi_pre { <init>(); }
+-keep class com.sk.weichat.call.RecordService { <init>(); }
+-keep class com.sk.weichat.call.game.GameActivity { <init>(); }
+-keep class com.sk.weichat.course.CourseDateilsActivity { <init>(); }
+-keep class com.sk.weichat.course.LocalCourseActivity { <init>(); }
+-keep class com.sk.weichat.course.SelectFriendsActivity { <init>(); }
+-keep class com.sk.weichat.course.SelectNewContactsActivity { <init>(); }
+-keep class com.sk.weichat.course.SelectNewGroupActivity { <init>(); }
+-keep class com.sk.weichat.luo.activity.CameraWithFilterActivity { <init>(); }
+-keep class com.sk.weichat.pay.PaymentActivity { <init>(); }
+-keep class com.sk.weichat.pay.PaymentReceiptMoneyActivity { <init>(); }
+-keep class com.sk.weichat.pay.ReceiptActivity { <init>(); }
+-keep class com.sk.weichat.pay.ReceiptPayMoneyActivity { <init>(); }
+-keep class com.sk.weichat.pay.ReceiptSetMoneyActivity { <init>(); }
+-keep class com.sk.weichat.pay.TransferMoneyActivity { <init>(); }
+-keep class com.sk.weichat.pay.TransferMoneyDetailActivity { <init>(); }
+-keep class com.sk.weichat.pay.TransferRecordActivity { <init>(); }
+-keep class com.sk.weichat.pay.new_ui.PaymentOrReceiptActivity { <init>(); }
+-keep class com.sk.weichat.pay.sk.SKPayActivity { <init>(); }
+-keep class com.sk.weichat.ui.MainActivity { <init>(); }
+-keep class com.sk.weichat.ui.SplashActivity { <init>(); }
+-keep class com.sk.weichat.ui.UserCheckedActivity { <init>(); }
+-keep class com.sk.weichat.ui.account.AuthCodeActivity { <init>(); }
+-keep class com.sk.weichat.ui.account.ChangePasswordActivity { <init>(); }
+-keep class com.sk.weichat.ui.account.DataDownloadActivity { <init>(); }
+-keep class com.sk.weichat.ui.account.FindPwdActivity { <init>(); }
+-keep class com.sk.weichat.ui.account.LoginActivity { <init>(); }
+-keep class com.sk.weichat.ui.account.LoginHistoryActivity { <init>(); }
+-keep class com.sk.weichat.ui.account.QuickLoginAuthority { <init>(); }
+-keep class com.sk.weichat.ui.account.QuickPay { <init>(); }
+-keep class com.sk.weichat.ui.account.RegisterActivity { <init>(); }
+-keep class com.sk.weichat.ui.account.RegisterUserBasicInfoActivity { <init>(); }
+-keep class com.sk.weichat.ui.account.SelectPrefixActivity { <init>(); }
+-keep class com.sk.weichat.ui.backup.BackupHistoryActivity { <init>(); }
+-keep class com.sk.weichat.ui.backup.ReceiveChatHistoryActivity { <init>(); }
+-keep class com.sk.weichat.ui.backup.SelectChatActivity { <init>(); }
+-keep class com.sk.weichat.ui.backup.SendChatHistoryActivity { <init>(); }
+-keep class com.sk.weichat.ui.circle.BusinessCircleActivity { <init>(); }
+-keep class com.sk.weichat.ui.circle.LongTextShowActivity { <init>(); }
+-keep class com.sk.weichat.ui.circle.range.AtSeeCircleActivity { <init>(); }
+-keep class com.sk.weichat.ui.circle.range.NewZanActivity { <init>(); }
+-keep class com.sk.weichat.ui.circle.range.PraiseListActivity { <init>(); }
+-keep class com.sk.weichat.ui.circle.range.SeeCircleActivity { <init>(); }
+-keep class com.sk.weichat.ui.circle.range.SelectCoverActivity { <init>(); }
+-keep class com.sk.weichat.ui.circle.range.SendAudioActivity { <init>(); }
+-keep class com.sk.weichat.ui.circle.range.SendFileActivity { <init>(); }
+-keep class com.sk.weichat.ui.circle.range.SendShuoshuoActivity { <init>(); }
+-keep class com.sk.weichat.ui.circle.range.SendVideoActivity { <init>(); }
+-keep class com.sk.weichat.ui.company.AddEmployee { <init>(); }
+-keep class com.sk.weichat.ui.company.ChangeEmployeeDepartment { <init>(); }
+-keep class com.sk.weichat.ui.company.CreateCompany { <init>(); }
+-keep class com.sk.weichat.ui.company.CreateDepartment { <init>(); }
+-keep class com.sk.weichat.ui.company.CreateGroup { <init>(); }
+-keep class com.sk.weichat.ui.company.ManagerCompany { <init>(); }
+-keep class com.sk.weichat.ui.company.ModifyCompanyName { <init>(); }
+-keep class com.sk.weichat.ui.company.ModifyDepartmentName { <init>(); }
+-keep class com.sk.weichat.ui.contacts.BlackActivity { <init>(); }
+-keep class com.sk.weichat.ui.contacts.ContactInviteActivity { <init>(); }
+-keep class com.sk.weichat.ui.contacts.ContactsActivity { <init>(); }
+-keep class com.sk.weichat.ui.contacts.ContactsMsgInviteActivity { <init>(); }
+-keep class com.sk.weichat.ui.contacts.DeviceActivity { <init>(); }
+-keep class com.sk.weichat.ui.contacts.NewFriendActivity { <init>(); }
+-keep class com.sk.weichat.ui.contacts.PublishNumberActivity { <init>(); }
+-keep class com.sk.weichat.ui.contacts.RoomActivity { <init>(); }
+-keep class com.sk.weichat.ui.contacts.SearchFriendActivity { <init>(); }
+-keep class com.sk.weichat.ui.contacts.SendContactsActivity { <init>(); }
+-keep class com.sk.weichat.ui.contacts.TalkHistoryActivity { <init>(); }
+-keep class com.sk.weichat.ui.contacts.label.CreateLabelActivity { <init>(); }
+-keep class com.sk.weichat.ui.contacts.label.LabelActivity { <init>(); }
+-keep class com.sk.weichat.ui.contacts.label.LabelActivityNewUI { <init>(); }
+-keep class com.sk.weichat.ui.contacts.label.SelectLabelFriendActivity { <init>(); }
+-keep class com.sk.weichat.ui.groupchat.FaceToFaceGroup { <init>(); }
+-keep class com.sk.weichat.ui.groupchat.RoomSearchActivity { <init>(); }
+-keep class com.sk.weichat.ui.groupchat.RoomSearchResultActivity { <init>(); }
+-keep class com.sk.weichat.ui.groupchat.SelectContactsActivity { <init>(); }
+-keep class com.sk.weichat.ui.life.LifeCircleActivity { <init>(); }
+-keep class com.sk.weichat.ui.live.CreateLiveActivity { <init>(); }
+-keep class com.sk.weichat.ui.live.LiveActivity { <init>(); }
+-keep class com.sk.weichat.ui.live.LivePlayingActivity { <init>(); }
+-keep class com.sk.weichat.ui.live.PushFlowActivity { <init>(); }
+-keep class com.sk.weichat.ui.lock.ChangeDeviceLockPasswordActivity { <init>(); }
+-keep class com.sk.weichat.ui.lock.DeviceLockActivity { <init>(); }
+-keep class com.sk.weichat.ui.login.AuthLoginActivity { <init>(); }
+-keep class com.sk.weichat.ui.login.H5LoginActivity { <init>(); }
+-keep class com.sk.weichat.ui.login.H5LoginProxyActivity { <init>(); }
+-keep class com.sk.weichat.ui.login.WebLoginActivity { <init>(); }
+-keep class com.sk.weichat.ui.map.MapActivity { <init>(); }
+-keep class com.sk.weichat.ui.map.MapPickerActivity { <init>(); }
+-keep class com.sk.weichat.ui.me.AboutActivity { <init>(); }
+-keep class com.sk.weichat.ui.me.BandAccountActivity { <init>(); }
+-keep class com.sk.weichat.ui.me.BandTelephoneActivity { <init>(); }
+-keep class com.sk.weichat.ui.me.BasicInfoEditActivity { <init>(); }
+-keep class com.sk.weichat.ui.me.DescriptionActivity { <init>(); }
+-keep class com.sk.weichat.ui.me.FontSizeActivity { <init>(); }
+-keep class com.sk.weichat.ui.me.LocalVideoActivity { <init>(); }
+-keep class com.sk.weichat.ui.me.MyCollection { <init>(); }
+-keep class com.sk.weichat.ui.me.NearPersonActivity { <init>(); }
+-keep class com.sk.weichat.ui.me.OfficialActivity { <init>(); }
+-keep class com.sk.weichat.ui.me.PrivacySettingActivity { <init>(); }
+-keep class com.sk.weichat.ui.me.PrivacyWhitelistActivity { <init>(); }
+-keep class com.sk.weichat.ui.me.SecureSettingActivity { <init>(); }
+-keep class com.sk.weichat.ui.me.SelectFriendsActivity { <init>(); }
+-keep class com.sk.weichat.ui.me.SetAccountActivity { <init>(); }
+-keep class com.sk.weichat.ui.me.SetConfigActivity { <init>(); }
+-keep class com.sk.weichat.ui.me.SettingActivity { <init>(); }
+-keep class com.sk.weichat.ui.me.SkinStore { <init>(); }
+-keep class com.sk.weichat.ui.me.SwitchLanguage { <init>(); }
+-keep class com.sk.weichat.ui.me.redpacket.ChangePayPasswordActivity { <init>(); }
+-keep class com.sk.weichat.ui.me.redpacket.MucSendRedPacketActivity { <init>(); }
+-keep class com.sk.weichat.ui.me.redpacket.MyConsumeRecordNew { <init>(); }
+-keep class com.sk.weichat.ui.me.redpacket.MyWalletActivity { <init>(); }
+-keep class com.sk.weichat.ui.me.redpacket.PaymentCenterActivity { <init>(); }
+-keep class com.sk.weichat.ui.me.redpacket.QuXianActivity { <init>(); }
+-keep class com.sk.weichat.ui.me.redpacket.RedDetailsActivity { <init>(); }
+-keep class com.sk.weichat.ui.me.redpacket.RedListActivity { <init>(); }
+-keep class com.sk.weichat.ui.me.redpacket.ResetPayPasswordActivity { <init>(); }
+-keep class com.sk.weichat.ui.me.redpacket.SendRedPacketActivity { <init>(); }
+-keep class com.sk.weichat.ui.me.redpacket.WxPayAdd { <init>(); }
+-keep class com.sk.weichat.ui.me.redpacket.WxPayBlance { <init>(); }
+-keep class com.sk.weichat.ui.me.redpacket.scan.ScanRechargeActivity { <init>(); }
+-keep class com.sk.weichat.ui.me.redpacket.scan.ScanWithdrawActivity { <init>(); }
+-keep class com.sk.weichat.ui.me.redpacket.scan.ScanWithdrawAddActivity { <init>(); }
+-keep class com.sk.weichat.ui.me.redpacket.scan.ScanWithdrawListActivity { <init>(); }
+-keep class com.sk.weichat.ui.me.redpacket.scan.ScanWithdrawUpdateActivity { <init>(); }
+-keep class com.sk.weichat.ui.me.select.SelectColleagueActivity { <init>(); }
+-keep class com.sk.weichat.ui.me.select.SelectLabelActivity { <init>(); }
+-keep class com.sk.weichat.ui.me.select.SelectRoomActivity { <init>(); }
+-keep class com.sk.weichat.ui.me.sendgroupmessage.ChatActivityForSendGroup { <init>(); }
+-keep class com.sk.weichat.ui.message.ChatActivity { <init>(); }
+-keep class com.sk.weichat.ui.message.ChatHistoryActivity { <init>(); }
+-keep class com.sk.weichat.ui.message.ChatOverviewActivity { <init>(); }
+-keep class com.sk.weichat.ui.message.InstantMessageActivity { <init>(); }
+-keep class com.sk.weichat.ui.message.ManagerEmojiActivity { <init>(); }
+-keep class com.sk.weichat.ui.message.MessageRemindActivity { <init>(); }
+-keep class com.sk.weichat.ui.message.MucChatActivity { <init>(); }
+-keep class com.sk.weichat.ui.message.QuickSendPreviewActivity { <init>(); }
+-keep class com.sk.weichat.ui.message.SelectNewContactsActivity { <init>(); }
+-keep class com.sk.weichat.ui.message.SelectNewGroupInstantActivity { <init>(); }
+-keep class com.sk.weichat.ui.message.assistant.GroupAssistantAddKeywordActivity { <init>(); }
+-keep class com.sk.weichat.ui.message.assistant.GroupAssistantDetailActivity { <init>(); }
+-keep class com.sk.weichat.ui.message.assistant.SelectGroupAssistantActivity { <init>(); }
+-keep class com.sk.weichat.ui.message.multi.AddContactsActivity { <init>(); }
+-keep class com.sk.weichat.ui.message.multi.GroupManager { <init>(); }
+-keep class com.sk.weichat.ui.message.multi.GroupMoreFeaturesActivity { <init>(); }
+-keep class com.sk.weichat.ui.message.multi.GroupTransferActivity { <init>(); }
+-keep class com.sk.weichat.ui.message.multi.InviteVerifyActivity { <init>(); }
+-keep class com.sk.weichat.ui.message.multi.NoticeListActivity { <init>(); }
+-keep class com.sk.weichat.ui.message.multi.ProclamationActivity { <init>(); }
+-keep class com.sk.weichat.ui.message.multi.RoomCopyActivity { <init>(); }
+-keep class com.sk.weichat.ui.message.multi.RoomInfoActivity { <init>(); }
+-keep class com.sk.weichat.ui.message.multi.RoomReadListActivity { <init>(); }
+-keep class com.sk.weichat.ui.message.multi.SetManagerActivity { <init>(); }
+-keep class com.sk.weichat.ui.message.search.SearchChatHistoryActivity { <init>(); }
+-keep class com.sk.weichat.ui.message.search.SearchDesignationContent { <init>(); }
+-keep class com.sk.weichat.ui.message.search.SearchImageVideoContent { <init>(); }
+-keep class com.sk.weichat.ui.message.single.PersonSettingActivity { <init>(); }
+-keep class com.sk.weichat.ui.message.single.SelectSetTypeActivity { <init>(); }
+-keep class com.sk.weichat.ui.message.single.SetChatBackActivity { <init>(); }
+-keep class com.sk.weichat.ui.message.single.SetLabelActivity { <init>(); }
+-keep class com.sk.weichat.ui.message.single.SetRemarkActivity { <init>(); }
+-keep class com.sk.weichat.ui.mucfile.AddMucFileActivity { <init>(); }
+-keep class com.sk.weichat.ui.mucfile.MucFileDetails { <init>(); }
+-keep class com.sk.weichat.ui.mucfile.MucFileListActivity { <init>(); }
+-keep class com.sk.weichat.ui.mucfile.MucFilePreviewActivity { <init>(); }
+-keep class com.sk.weichat.ui.nearby.PublicNumberListActivity { <init>(); }
+-keep class com.sk.weichat.ui.nearby.PublicNumberSearchActivity { <init>(); }
+-keep class com.sk.weichat.ui.nearby.UserListActivity { <init>(); }
+-keep class com.sk.weichat.ui.nearby.UserListGatherActivity { <init>(); }
+-keep class com.sk.weichat.ui.nearby.UserSearchActivity { <init>(); }
+-keep class com.sk.weichat.ui.notification.NotificationProxyActivity { <init>(); }
+-keep class com.sk.weichat.ui.other.BasicInfoActivity { <init>(); }
+-keep class com.sk.weichat.ui.other.LifeCircleSettingsActivity { <init>(); }
+-keep class com.sk.weichat.ui.other.PrivacyAgreeActivity { <init>(); }
+-keep class com.sk.weichat.ui.other.QRcodeActivity { <init>(); }
+-keep class com.sk.weichat.ui.search.SearchAllActivity { <init>(); }
+-keep class com.sk.weichat.ui.search.SearchSingleTypeActivity { <init>(); }
+-keep class com.sk.weichat.ui.share.AuthorizationActivity { <init>(); }
+-keep class com.sk.weichat.ui.share.ShareLifeCircleActivity { <init>(); }
+-keep class com.sk.weichat.ui.share.ShareLoginActivity { <init>(); }
+-keep class com.sk.weichat.ui.share.ShareNearChatFriend { <init>(); }
+-keep class com.sk.weichat.ui.share.ShareNewFriend { <init>(); }
+-keep class com.sk.weichat.ui.share.ShareNewGroup { <init>(); }
+-keep class com.sk.weichat.ui.systemshare.ShareFileActivity { <init>(); }
+-keep class com.sk.weichat.ui.systemshare.ShareLifeCircleProxyActivity { <init>(); }
+-keep class com.sk.weichat.ui.systemshare.ShareNearChatFriend { <init>(); }
+-keep class com.sk.weichat.ui.systemshare.ShareNewFriend { <init>(); }
+-keep class com.sk.weichat.ui.systemshare.ShareNewGroup { <init>(); }
+-keep class com.sk.weichat.ui.systemshare.ShareShuoshuoActivity { <init>(); }
+-keep class com.sk.weichat.ui.systemshare.ShareVideoActivity { <init>(); }
+-keep class com.sk.weichat.ui.tool.MultiImagePreviewActivity { <init>(); }
+-keep class com.sk.weichat.ui.tool.SelectAreaActivity { <init>(); }
+-keep class com.sk.weichat.ui.tool.SelectConstantActivity { <init>(); }
+-keep class com.sk.weichat.ui.tool.SelectConstantSectionActivity { <init>(); }
+-keep class com.sk.weichat.ui.tool.SingleImagePreviewActivity { <init>(); }
+-keep class com.sk.weichat.ui.tool.WebGameActivity { <init>(); }
+-keep class com.sk.weichat.ui.tool.WebViewActivity { <init>(); }
+-keep class com.sk.weichat.ui.tool.WebViewRoomActivity { <init>(); }
+-keep class com.sk.weichat.ui.trill.ReleasexActivity { <init>(); }
+-keep class com.sk.weichat.ui.trill.TagPickerActivity { <init>(); }
+-keep class com.sk.weichat.ui.trill.TriListActivity { <init>(); }
+-keep class com.sk.weichat.ui.trill.TrillActivity { <init>(); }
+-keep class com.sk.weichat.ui.xrce.PreviewxActivity { <init>(); }
+-keep class com.sk.weichat.ui.xrce.RecordxActivity { <init>(); }
+-keep class com.sk.weichat.ui.yeepay.YeepayOpenActivity { <init>(); }
+-keep class com.sk.weichat.ui.yeepay.YeepayPaymentCenterActivity { <init>(); }
+-keep class com.sk.weichat.ui.yeepay.YeepayRecharge { <init>(); }
+-keep class com.sk.weichat.ui.yeepay.YeepayRecordActivity { <init>(); }
+-keep class com.sk.weichat.ui.yeepay.YeepayWallet { <init>(); }
+-keep class com.sk.weichat.ui.yeepay.YeepayWebViewActivity { <init>(); }
+-keep class com.sk.weichat.ui.yeepay.YeepayWithdraw { <init>(); }
+-keep class com.sk.weichat.video.ChatVideoPreviewActivity { <init>(); }
+-keep class com.sk.weichat.video.EasyCameraActivity { <init>(); }
+-keep class com.sk.weichat.video.VideoRecorderActivity { <init>(); }
+-keep class com.sk.weichat.view.imageedit.IMGEditActivity { <init>(); }
+-keep class com.sk.weichat.view.photopicker.PhotoPickerActivity { <init>(); }
+-keep class com.sk.weichat.view.photopicker.PhotoPreviewActivity { <init>(); }
+-keep class com.sk.weichat.view.window.WindowShowService { <init>(); }
+-keep class com.sk.weichat.xmpp.CoreService { <init>(); }
+-keep class com.sk.weichat.xmpp.helloDemon.FirebaseMessageService { <init>(); }
+-keep class com.sk.weichat.xmpp.helloDemon.HuaweiPushRevicer { <init>(); }
+-keep class com.sk.weichat.xmpp.helloDemon.MeizuForegroundService { <init>(); }
+-keep class com.sk.weichat.xmpp.helloDemon.MeizuPushMsgReceiver { <init>(); }
+-keep class com.sk.weichat.xmpp.helloDemon.MiMessageReceiver { <init>(); }
+-keep class com.sk.weichat.xmpp.helloDemon.OppoPushMessageService { <init>(); }
+-keep class com.sk.weichat.xmpp.helloDemon.VivoPushMessageReceiver { <init>(); }
+-keep class com.tencent.connect.common.AssistActivity { <init>(); }
+-keep class com.tencent.tauth.AuthActivity { <init>(); }
+-keep class com.vivo.push.sdk.LinkProxyClientActivity { <init>(); }
+-keep class com.vivo.push.sdk.service.CommandClientService { <init>(); }
+-keep class com.xiaomi.mipush.sdk.MessageHandleService { <init>(); }
+-keep class com.xiaomi.mipush.sdk.PushMessageHandler { <init>(); }
+-keep class com.xiaomi.push.service.XMJobService { <init>(); }
+-keep class com.xiaomi.push.service.XMPushService { <init>(); }
+-keep class com.xiaomi.push.service.receivers.NetworkStatusReceiver { <init>(); }
+-keep class com.xiaomi.push.service.receivers.PingReceiver { <init>(); }
+-keep class me.kareluo.imaging.IMGEditActivity { <init>(); }
+-keep class me.kareluo.imaging.IMGGalleryActivity { <init>(); }
+-keep class org.jitsi.meet.sdk.ConnectionService { <init>(); }
+-keep class org.jitsi.meet.sdk.JitsiMeetActivity { <init>(); }
+-keep class org.jitsi.meet.sdk.JitsiMeetOngoingConferenceService { <init>(); }
+-keep class android.widget.Space { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.app.AlertController$RecycleListView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ActionMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ExpandedMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ListMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarContainer { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarContextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarOverlayLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActivityChooserView$InnerLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.AlertDialogLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.AppCompatImageView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.AppCompatTextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ButtonBarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ContentFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.DialogTitle { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.FitWindowsFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.FitWindowsLinearLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.SearchView$SearchAutoComplete { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.Toolbar { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ViewStubCompat { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.cardview.widget.CardView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.constraintlayout.widget.ConstraintLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.constraintlayout.widget.Guideline { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.coordinatorlayout.widget.CoordinatorLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.core.widget.NestedScrollView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.gridlayout.widget.GridLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.recyclerview.widget.RecyclerView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.swiperefreshlayout.widget.SwipeRefreshLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.viewpager.widget.ViewPager { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class co.ceryle.fitgridview.FitGridView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.baidu.mapapi.map.MapView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.cgfay.cameralibrary.widget.CainSurfaceView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.daimajia.numberprogressbar.NumberProgressBar { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.example.qrcode.view.ScannerView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.facebook.drawee.view.SimpleDraweeView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.BaselineLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.CheckableImageButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.NavigationMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.NavigationMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.snackbar.Snackbar$SnackbarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.snackbar.SnackbarContentLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.tabs.TabLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.textfield.TextInputLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.handmark.pulltorefresh.library.PullToRefreshListView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.joe.camera2recorddemo.View.CameraRecordView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.makeramen.roundedimageview.RoundedImageView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.roamer.slidelistview.SlideListView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.scwang.smartrefresh.layout.SmartRefreshLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.audio_x.VoiceAnimView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.audio_x.XSeekBar { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.audio_zx.AudioView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.fragment.DiscoverFragment { <init>(); }
+
+-keep class com.sk.weichat.fragment.TrillFragment { <init>(); }
+
+-keep class com.sk.weichat.luo.camfilter.widget.LuoGLCameraView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.sortlist.SideBar { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.ui.groupchat.AllRoomFragment { <init>(); }
+
+-keep class com.sk.weichat.ui.live.view.GiftItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.ui.live.view.HorizontialListView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.ui.live.view.MyViewPager { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.ui.me.sendgroupmessage.ChatBottomForSendGroup { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.ui.me.sendgroupmessage.ChatToolsForSendGroup { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.ui.smarttab.SmartTabLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.ui.trill.JcvTrillVideo { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.ui.trill.MarqueTextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.ui.xrce.RecordButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.ui.xrce.Xcoverbar { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.ui.xrce.Xpreprogressbar { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.ui.xrce.Xrecprogressbar { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.ui.xrce.Xspeedbar { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.ui.xrce.Xvolumebar { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.util.ExpandView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.util.link.HttpTextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.video.CustomTabLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.video.XSeekBar { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.ChatBottomView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.ChatContentView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.ChatFaceView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.ChatImageView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.ChatImageView2 { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.ChatToolsView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.CheckableImageView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.CircleImageView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.ClearEditText { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.ControlFontSize { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.CustomScrollViewPager { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.DataLoadView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.DragFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.EditTextWithSuffix { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.FileProgressPar { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.FoldTextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.HeadView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.HorizontalListView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.KeyboardxView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.LightImageView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.MarqueeTextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.MergerStatus { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.MessageAvatar { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.MyGridView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.MyLinearLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.MyListView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.MyVideoView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.PMsgBottomView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.PasswordInputView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.PinnedSectionListView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.PullRefreshFooter { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.PullRefreshHeader { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.PullToRefreshSlideListView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.ResizeLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.RoundView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.SkinColorView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.SkinImageView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.SkinTextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.SquareCenterFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.SquareCenterImageView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.SwitchButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.XuanProgressPar { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.ZoomImageView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.circularImageView.CircularImageVIew { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.cjt2325.cameralibrary.CaptureLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.cjt2325.cameralibrary.CaptureLayoutPictrue { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.cjt2325.cameralibrary.FoucsView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.cjt2325.cameralibrary.JCameraView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.imageedit.IMGView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.likeView.CircleView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.likeView.DotsView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.likeView.LikeAnimationView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.likeView.LikeRelativeLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.photopicker.widget.ViewPagerFixed { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.sk.weichat.view.window.CustomCancelView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.xiaojigou.luo.camfilter.widget.LuoGLCameraView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.yanzhenjie.recyclerview.SwipeMenuLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.yanzhenjie.recyclerview.SwipeMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.yanzhenjie.recyclerview.SwipeRecyclerView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.zhy.view.flowlayout.TagFlowLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class fm.jiecao.jcvideoplayer_lib.JCVideoViewbyXuan { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class fm.jiecao.jcvideoplayer_lib.JVCideoPlayerStandardSecond { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class fm.jiecao.jcvideoplayer_lib.JVCideoPlayerStandardforchat { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class in.srain.cube.views.GridViewWithHeaderAndFooter { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class master.flame.danmaku.ui.widget.DanmakuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class me.imid.swipebacklayout.lib.SwipeBackLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class me.kareluo.imaging.view.IMGColorGroup { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class me.kareluo.imaging.view.IMGColorRadio { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class me.kareluo.imaging.view.IMGView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class net.ossrs.yasea.SrsCameraView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class org.jitsi.meet.sdk.JitsiMeetFragment { <init>(); }
+
+-keep class org.wysaid.view.CameraRecordGLSurfaceView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class org.wysaid.view.ImageGLSurfaceView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class pl.droidsonroids.gif.GifImageView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class tyrantgit.widget.HeartLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keepclassmembers class * { *** Privacy(android.view.View); }
+
+-keepclassmembers class * { *** PrivacyAgree(android.view.View); }
+
+-keepclassmembers class * { *** SelectSkin(android.view.View); }
+
+-keepclassmembers class * { *** cancelKeyBoard(android.view.View); }
+
+-keepclassmembers class * { *** onClick(android.view.View); }
+
+-keepclassmembers class * { *** saveImageToGallery(android.view.View); }
+
+-keepclassmembers class * { *** shareSingleImage(android.view.View); }
+

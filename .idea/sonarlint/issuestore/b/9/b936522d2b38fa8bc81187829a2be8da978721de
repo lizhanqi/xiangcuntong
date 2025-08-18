@@ -1,0 +1,18 @@
+
+L
+java:S1444
+"6Make this "public static FIRST_FLOOR_JCVD" field final(µ®УХ
+R
+java:S1444"7Make this "public static SECOND_FLOOR_JCVD" field final(ЉУ”єъяяяя
+r
+java:S1104
+"\Make FIRST_FLOOR_JCVD a static final constant or non-public and provide accessors if needed.(µ®УХ
+x
+java:S1104"]Make SECOND_FLOOR_JCVD a static final constant or non-public and provide accessors if needed.(ЉУ”єъяяяя
+q
+java:S3008
+"[Rename this field "FIRST_FLOOR_JCVD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µ®УХ
+w
+java:S3008"\Rename this field "SECOND_FLOOR_JCVD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ЉУ”єъяяяя
+U
+java:S1118":Add a private constructor to hide the implicit public one.(ЏЧыКэяяяя

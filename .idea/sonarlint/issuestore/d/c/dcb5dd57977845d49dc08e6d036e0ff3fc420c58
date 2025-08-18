@@ -1,0 +1,36 @@
+
+o	java:S135ï"YReduce the total number of break and continue statements in this loop to use at most one.(©Ñ¬š
+g	java:S117¤"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’Å‡ö
+g	java:S117¤"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’Å‡ö
+D
+java:S1604ÿ"(Make this anonymous inner class a lambda(’éúıÿÿÿÿ
+D
+java:S1604ˆ"(Make this anonymous inner class a lambda(’éúıÿÿÿÿ
+T
+java:S2168J"9Remove this dangerous instance of double-checked locking.(àØ÷Şüÿÿÿÿ
+m
+java:S3776f"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(ñ‰ÿÜıÿÿÿÿ
+<	java:S131g""Add a default case to this switch.(ıŞ³‹ùÿÿÿÿ
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 67 to the 15 allowed.(ú¡­,
+R	java:S125‰"<This block of commented-out lines of code should be removed.(øõ²ı
+=
+java:S1905Š"&Remove this unnecessary cast to "int".(æ°Æî
+8
+java:S1116¢"Remove this empty statement.(Åñ­õşÿÿÿÿ
+\
+java:S1124Ÿ"EReorder the modifiers to comply with the Java Language Specification.(÷œï
+\
+java:S1124¤"EReorder the modifiers to comply with the Java Language Specification.(’Å‡ö
+\
+java:S1124©"EReorder the modifiers to comply with the Java Language Specification.(œëÉû
+a
+java:S1124®"EReorder the modifiers to comply with the Java Language Specification.(Óşúÿÿÿÿ
+B
+java:S3398W",Move this method into "RecordStatusHandler".(§¨ ­
+H
+java:S3398Ù",Move this method into "RecordStatusHandler".(Ú‡Ùêüÿÿÿÿ
+F
+java:S1144å"*Remove this unused private "pause" method.(¦ñ“üÿÿÿÿ
+C
+java:S1144ê",Remove this unused private "restore" method.(ĞÓÊÍ

@@ -1,0 +1,44 @@
+
+b
+java:S1301"KReplace this "switch" statement by "if" statements to increase readability.(ìß¤è
+g
+java:S1301‹"KReplace this "switch" statement by "if" statements to increase readability.(×ö³–úÿÿÿÿ
+J
+java:S3740V"/Provide the parametrized type for this generic.(Òû¥Úÿÿÿÿÿ
+J
+java:S3740V"/Provide the parametrized type for this generic.(Òû¥Úÿÿÿÿÿ
+F
+java:S1066¢"/Merge this if statement with the enclosing one.(©§¹
+K
+java:S1066µ"/Merge this if statement with the enclosing one.(ÙÜ–†ıÿÿÿÿ
+l	java:S117¢"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇÖÒÕûÿÿÿÿ
+g	java:S117´"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼»·Ï
+|
+java:S1450D"fRemove the "isEnableScanFromPicture" field and declare it as a local variable in the relevant methods.(“¸˜Ÿ
+—
+java:S1186æ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¦æ—&
+“	java:S1166"yRename this field "PERMISSION_REQUEST_CODE_WRITE_EXTERNAL_STORAGE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸ºåœşÿÿÿÿ
+w	java:S1167"cRename this field "REQUEST_CODE_GET_PIC_URI" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Òâ½%
+	java:S1168"eRename this field "MESSAGE_DECODE_FROM_BITMAP" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ®‹şşÿÿÿÿ
+<
+java:S11706"!Make this final field static too.(¸ºåœşÿÿÿÿ
+6
+java:S11707"!Make this final field static too.(Òâ½%
+<
+java:S11708"!Make this final field static too.(ƒ®‹şşÿÿÿÿ
+S
+java:S2387F"8"mHandler" is the name of a field in "FragmentActivity".(×ÒÀÂûÿÿÿÿ
+8	java:S131""Add a default case to this switch.(ìß¤è
+O
+java:S1874»"3Remove this use of "getDrawable"; it is deprecated.(¡´Ÿ“ıÿÿÿÿ
+=	java:S131‹""Add a default case to this switch.(×ö³–úÿÿÿÿ
+V
+java:S1117“":Rename "bitmap" which hides the field declared at line 57.(Ÿ¤Îøÿÿÿÿ
+2
+java:S3626¤"Remove this redundant jump.(ûÁİ…
+p
+java:S2293­"YReplace the type specification in this constructor call with the diamond operator ("<>").(»®û¬
+S
+java:S1117³"=Rename "activity" which hides the field declared at line 298.(†Ó˜n
+Q
+java:S1068D";Remove this unused "isEnableScanFromPicture" private field.(“¸˜Ÿ

@@ -1,0 +1,35 @@
+
+`
+java:S2184µ"DCast one of the operands of this subtraction operation to a "float".(ñ–³ÿÿÿÿÿ
+`
+java:S2184¼"DCast one of the operands of this subtraction operation to a "float".(ö¨àÔùÿÿÿÿ
+[
+java:S2184È"DCast one of the operands of this subtraction operation to a "float".(İáÎı
+f
+java:S3252E"KUse static access with "android.widget.AdapterView" for "INVALID_POSITION".(Ã×•øÿÿÿÿ
+m
+java:S3776r"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(ìİ¨‰ûÿÿÿÿ
+L
+java:S1874s"7Remove this use of "getActionMasked"; it is deprecated.(Ğ«Ğ1
+f
+java:S3252|"KUse static access with "android.widget.AdapterView" for "INVALID_POSITION".(îì‡éùÿÿÿÿ
+g
+java:S3252"KUse static access with "android.widget.AdapterView" for "INVALID_POSITION".(£şù†øÿÿÿÿ
+b
+java:S3252›"KUse static access with "android.widget.AdapterView" for "INVALID_POSITION".(İûô¼
+n
+java:S3776Ê"RRefactor this method to reduce its Cognitive Complexity from 75 to the 15 allowed.(Óı°ûÿÿÿÿ
+M
+java:S1874Î"7Remove this use of "getActionMasked"; it is deprecated.(Ğ«Ğ1
+b
+java:S3252Ú"KUse static access with "android.widget.AdapterView" for "INVALID_POSITION".(İûô¼
+b
+java:S3252"KUse static access with "android.widget.AdapterView" for "INVALID_POSITION".(İûô¼
+n
+java:S3776Ô"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(•çˆ¿şÿÿÿÿ
+n
+java:S3776‚"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(ØÇ¦’şÿÿÿÿ
+i
+java:S3776´"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(â³Œ
+|	java:S116ø"aRename this field "gingerbread_mr1_Offset" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹ùÿÕûÿÿÿÿ
+W	java:S125˜"<This block of commented-out lines of code should be removed.(ìÏÃ¦ıÿÿÿÿ

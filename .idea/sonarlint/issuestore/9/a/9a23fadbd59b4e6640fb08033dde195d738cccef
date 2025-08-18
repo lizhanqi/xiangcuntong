@@ -1,0 +1,12 @@
+
+<
+java:S1172@"&Remove these unused method parameters.(ôÄãÕ
+D
+java:S1874A".Remove this use of "Camera"; it is deprecated.(‰‹Ï²
+B
+java:S1874A",Remove this use of "Size"; it is deprecated.(‰‹Ï²
+V
+java:S1117G"@Rename "mRotatedData" which hides the field declared at line 33.(ª¶Áû
+P	java:S125`"<This block of commented-out lines of code should be removed.(³Âê*
+F
+java:S1068!"0Remove this unused "mRotatedData" private field.(ŒŒ¤Û

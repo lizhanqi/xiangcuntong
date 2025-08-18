@@ -1,0 +1,16 @@
+
+R	java:S110""=This class has 10 parents which is greater than 5 authorized.(ÿ„¿®
+>
+java:S1604`"(Make this anonymous inner class a lambda(²ßÉ
+>
+java:S1604~"(Make this anonymous inner class a lambda(› Î
+Q
+java:S26962"6Make the enclosing method "static" or remove this set.(…Ï‹øÿÿÿÿ
+Q
+java:S2696;"6Make the enclosing method "static" or remove this set.(–İ®åùÿÿÿÿ
+t
+java:S2293n"YReplace the type specification in this constructor call with the diamond operator ("<>").(ô›Óíüÿÿÿÿ
+K
+java:S1874o"5Remove this use of "getSelfStatus"; it is deprecated.(´†²õ
+I
+java:S1874o"3Remove this use of "accessToken"; it is deprecated.(´†²õ

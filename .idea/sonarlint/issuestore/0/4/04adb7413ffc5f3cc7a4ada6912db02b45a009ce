@@ -1,0 +1,32 @@
+
+a
+java:S1192á"JDefine a constant instead of duplicating this literal "telephone" 4 times.(¨‹ì¼
+`
+java:S1192à"IDefine a constant instead of duplicating this literal "areaCode" 3 times.(˜ğÅ‚
+W	java:S1105"=This class has 10 parents which is greater than 5 authorized.(Æ·ÆÊøÿÿÿÿ
+D
+java:S1604–"(Make this anonymous inner class a lambda(êüÈïüÿÿÿÿ
+o
+java:S14506"YRemove the "btn_change" field and declare it as a local variable in the relevant methods.(Äêï«
+n
+java:S1450>"YRemove the "mRefreshIv" field and declare it as a local variable in the relevant methods.( Ë¬C
+>
+java:S16596"(Declare "btn_change" on a separate line.(Äêï«
+F
+java:S16598"1Declare "mConfigPasswordEdit" on a separate line.(ú”ƒZ
+@
+java:S16598"+Declare "mAuthCodeEdit" on a separate line.(ú”ƒZ
+k	java:S1166"VRename this field "btn_getCode" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Äêï«
+j	java:S1166"URename this field "btn_change" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Äêï«
+n	java:S1169"TRename this field "tv_prefix" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼ªÌıÿÿÿÿ
+U
+java:S1161A":Add the "@Override" annotation above this method signature(ñ‰ÿÜıÿÿÿÿ
+8	java:S131¶""Add a default case to this switch.(ºÖ
+—
+java:S1186ù"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(×ºµO
+C
+java:S1602í",Remove useless curly braces around statement(åÌ²¤
+C
+java:S1602Ê",Remove useless curly braces around statement(¦¼¬ğ
+H
+java:S1602Ì",Remove useless curly braces around statement(™ÛÔÿÿÿÿÿ

@@ -1,0 +1,2199 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ouxin.chat"
+4    android:versionCode="34"
+5    android:versionName="1.4.7" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:6:5-67
+11-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:7:5-79
+12-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:8:5-76
+13-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:8:22-73
+14    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+14-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:9:5-75
+14-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:9:22-72
+15    <uses-permission android:name="android.permission.GET_TASKS" />
+15-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:10:5-68
+15-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:10:22-65
+16    <uses-permission android:name="android.permission.VIBRATE" />
+16-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:11:5-66
+16-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:11:22-63
+17
+18    <uses-feature android:name="android.hardware.camera" />
+18-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:13:5-60
+18-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:13:19-57
+19    <uses-feature android:name="android.hardware.camera.autofocus" />
+19-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:14:5-70
+19-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:14:19-67
+20    <uses-feature android:name="android.hardware.microphone" />
+20-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:15:5-64
+20-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:15:19-61
+21
+22    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+22-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:17:5-77
+22-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:17:22-74
+23    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+23-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:18:5-85
+23-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:18:22-82
+24    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+24-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:19:5-84
+24-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:19:22-81
+25    <uses-permission android:name="android.permission.WAKE_LOCK" />
+25-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:20:5-68
+25-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:20:22-65
+26    <uses-permission android:name="android.permission.REORDER_TASKS" />
+26-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:21:5-72
+26-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:21:22-69
+27    <uses-permission android:name="android.permission.RECORD_VIDEO" />
+27-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:22:5-71
+27-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:22:22-68
+28    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+28-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:23:5-71
+28-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:23:22-68
+29    <uses-permission android:name="android.permission.CAMERA" />
+29-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:24:5-65
+29-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:24:22-62
+30    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+30-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:25:5-76
+30-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:25:22-73
+31    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+31-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:26:5-81
+31-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:26:22-78
+32    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+32-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:27:5-81
+32-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:27:22-78
+33    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+33-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:28:5-79
+33-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:28:22-76
+34    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+34-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:29:5-71
+34-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:29:22-68
+35    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+35-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:30:5-74
+35-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:30:22-71
+36    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+36-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:31:5-74
+36-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:31:22-71
+37    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+37-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:32:5-80
+37-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:32:22-77
+38    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+38-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:33:5-75
+38-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:33:22-72
+39    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+39-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:34:5-80
+39-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:34:22-77
+40    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+40-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:35:5-81
+40-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:35:22-78
+41    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
+41-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:36:5-82
+41-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:36:22-79
+42    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+42-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:37:5-88
+42-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:37:22-85
+43    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+43-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:38:5-79
+43-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:38:22-76
+44    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+44-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:39:5-80
+44-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:39:22-77
+45    <uses-permission android:name="android.permission.READ_CONTACTS" />
+45-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:40:5-72
+45-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:40:22-69
+46    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+46-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:41:5-73
+46-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:41:22-70
+47    <uses-permission android:name="android.permission.CALL_PHONE" />
+47-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:42:5-69
+47-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:42:22-66
+48    <uses-permission android:name="android.permission.RAISED_THREAD_PRIORITY" />
+48-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:43:5-81
+48-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:43:22-78
+49    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+49-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:44:5-78
+49-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:44:22-75
+50    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+50-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:45:5-76
+50-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:45:22-73
+51    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+51-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:46:5-83
+51-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:46:22-80
+52    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+52-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:47:5-49:47
+52-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:48:9-68
+53    <uses-permission android:name="android.permission.READ_LOGS" />
+53-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:50:5-52:47
+53-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:51:9-52
+54    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+54-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:53:5-55:47
+54-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:54:9-57
+55    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" /> <!-- 这个权限必须是applicationId开头， -->
+55-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:56:5-75
+55-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:56:22-72
+56    <permission
+57        android:name="com.ouxin.chat.permission.MIPUSH_RECEIVE"
+57-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:58:9-59
+58        android:protectionLevel="signature" />
+58-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:59:9-44
+59
+60    <uses-permission android:name="com.ouxin.chat.permission.MIPUSH_RECEIVE" /> <!-- 魅族推送， -->
+60-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:61:22-72
+61    <uses-permission android:name="com.meizu.flyme.push.permission.RECEIVE" />
+61-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:62:5-79
+61-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:62:22-76
+62
+63    <permission
+64        android:name="com.ouxin.chat.push.permission.MESSAGE"
+64-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:65:9-57
+65        android:protectionLevel="signature" />
+65-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:66:9-44
+66
+67    <uses-permission android:name="com.ouxin.chat.push.permission.MESSAGE" />
+67-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:68:22-70
+68    <uses-permission android:name="com.meizu.c2dm.permission.RECEIVE" />
+68-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:69:5-73
+68-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:69:22-70
+69
+70    <permission
+71        android:name="com.ouxin.chat.permission.C2D_MESSAGE"
+71-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:72:9-56
+72        android:protectionLevel="signature" />
+72-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:73:9-44
+73
+74    <uses-permission android:name="com.ouxin.chat.permission.C2D_MESSAGE" /> <!-- OPPO 推送 -->
+74-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:75:22-69
+75    <uses-permission android:name="com.coloros.mcs.permission.RECIEVE_MCS_MESSAGE" />
+75-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:76:5-86
+75-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:76:22-83
+76
+77    <supports-screens
+77-->[alipaySdk-15.5.9-20181123210601.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fa4f0db6708dba93d62b3c42720f120c\jetified-alipaySdk-15.5.9-20181123210601\AndroidManifest.xml:11:5-16:39
+78        android:anyDensity="true"
+78-->[alipaySdk-15.5.9-20181123210601.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fa4f0db6708dba93d62b3c42720f120c\jetified-alipaySdk-15.5.9-20181123210601\AndroidManifest.xml:12:9-34
+79        android:largeScreens="true"
+79-->[alipaySdk-15.5.9-20181123210601.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fa4f0db6708dba93d62b3c42720f120c\jetified-alipaySdk-15.5.9-20181123210601\AndroidManifest.xml:13:9-36
+80        android:normalScreens="true"
+80-->[alipaySdk-15.5.9-20181123210601.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fa4f0db6708dba93d62b3c42720f120c\jetified-alipaySdk-15.5.9-20181123210601\AndroidManifest.xml:14:9-37
+81        android:resizeable="true"
+81-->[alipaySdk-15.5.9-20181123210601.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fa4f0db6708dba93d62b3c42720f120c\jetified-alipaySdk-15.5.9-20181123210601\AndroidManifest.xml:15:9-34
+82        android:smallScreens="true" />
+82-->[alipaySdk-15.5.9-20181123210601.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fa4f0db6708dba93d62b3c42720f120c\jetified-alipaySdk-15.5.9-20181123210601\AndroidManifest.xml:16:9-36
+83
+84    <uses-feature
+84-->[xjgarsdklibrary-release-9.2.1-2019-08-31.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\e54906d9b5caede6d602ee40d9c2ec7f\jetified-xjgarsdklibrary-release-9.2.1-2019-08-31\AndroidManifest.xml:21:5-23:36
+85        android:name="android.hardware.camera.front"
+85-->[xjgarsdklibrary-release-9.2.1-2019-08-31.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\e54906d9b5caede6d602ee40d9c2ec7f\jetified-xjgarsdklibrary-release-9.2.1-2019-08-31\AndroidManifest.xml:22:9-53
+86        android:required="false" />
+86-->[xjgarsdklibrary-release-9.2.1-2019-08-31.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\e54906d9b5caede6d602ee40d9c2ec7f\jetified-xjgarsdklibrary-release-9.2.1-2019-08-31\AndroidManifest.xml:23:9-33
+87    <uses-feature
+87-->[xjgarsdklibrary-release-9.2.1-2019-08-31.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\e54906d9b5caede6d602ee40d9c2ec7f\jetified-xjgarsdklibrary-release-9.2.1-2019-08-31\AndroidManifest.xml:24:5-26:36
+88        android:name="android.hardware.camera.front.autofocus"
+88-->[xjgarsdklibrary-release-9.2.1-2019-08-31.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\e54906d9b5caede6d602ee40d9c2ec7f\jetified-xjgarsdklibrary-release-9.2.1-2019-08-31\AndroidManifest.xml:25:9-63
+89        android:required="false" />
+89-->[xjgarsdklibrary-release-9.2.1-2019-08-31.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\e54906d9b5caede6d602ee40d9c2ec7f\jetified-xjgarsdklibrary-release-9.2.1-2019-08-31\AndroidManifest.xml:26:9-33
+90    <uses-feature
+90-->[:OpenGLlibrary] D:\AWB\android-call-demo41\OpenGLlibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:21:5-23:35
+91        android:glEsVersion="0x00020000"
+91-->[:OpenGLlibrary] D:\AWB\android-call-demo41\OpenGLlibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:22:9-41
+92        android:required="true" />
+92-->[:OpenGLlibrary] D:\AWB\android-call-demo41\OpenGLlibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:23:9-32
+93
+94    <uses-permission android:name="android.permission.BLUETOOTH" />
+94-->[jitsi-meet-sdk-2.4.0-4.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\c6ae39e133b55d94dd27efc376ad8589\jetified-jitsi-meet-sdk-2.4.0-4\AndroidManifest.xml:10:5-68
+94-->[jitsi-meet-sdk-2.4.0-4.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\c6ae39e133b55d94dd27efc376ad8589\jetified-jitsi-meet-sdk-2.4.0-4\AndroidManifest.xml:10:22-65
+95    <uses-permission android:name="android.permission.MANAGE_OWN_CALLS" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+95-->[jitsi-meet-sdk-2.4.0-4.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\c6ae39e133b55d94dd27efc376ad8589\jetified-jitsi-meet-sdk-2.4.0-4\AndroidManifest.xml:13:5-75
+95-->[jitsi-meet-sdk-2.4.0-4.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\c6ae39e133b55d94dd27efc376ad8589\jetified-jitsi-meet-sdk-2.4.0-4\AndroidManifest.xml:13:22-72
+96    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+96-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\5d7ac87b870acc1aca20c3bc910ddeef\jetified-firebase-iid-18.0.0\AndroidManifest.xml:26:5-82
+96-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\5d7ac87b870acc1aca20c3bc910ddeef\jetified-firebase-iid-18.0.0\AndroidManifest.xml:26:22-79
+97    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- for android -->
+97-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\cd9a381cf6d7367550fa368374009b0f\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:26:5-110
+97-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\cd9a381cf6d7367550fa368374009b0f\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:26:22-107
+98    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+99    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+100    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+101    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+102    <!-- for Samsung -->
+103    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+103-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\7b5973b5a52277106174889cd3b98763\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:19:5-86
+103-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\7b5973b5a52277106174889cd3b98763\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:19:22-83
+104    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+104-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\7b5973b5a52277106174889cd3b98763\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:20:5-87
+104-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\7b5973b5a52277106174889cd3b98763\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:20:22-84
+105    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+105-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\7b5973b5a52277106174889cd3b98763\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:23:5-81
+105-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\7b5973b5a52277106174889cd3b98763\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:23:22-78
+106    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+106-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\7b5973b5a52277106174889cd3b98763\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:24:5-83
+106-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\7b5973b5a52277106174889cd3b98763\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:24:22-80
+107    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+107-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\7b5973b5a52277106174889cd3b98763\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:27:5-88
+107-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\7b5973b5a52277106174889cd3b98763\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:27:22-85
+108    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+108-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\7b5973b5a52277106174889cd3b98763\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:28:5-92
+108-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\7b5973b5a52277106174889cd3b98763\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:28:22-89
+109    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+109-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\7b5973b5a52277106174889cd3b98763\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:31:5-84
+109-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\7b5973b5a52277106174889cd3b98763\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:31:22-81
+110    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+110-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\7b5973b5a52277106174889cd3b98763\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:34:5-83
+110-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\7b5973b5a52277106174889cd3b98763\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:34:22-80
+111    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+111-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\7b5973b5a52277106174889cd3b98763\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:37:5-91
+111-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\7b5973b5a52277106174889cd3b98763\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:37:22-88
+112    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+112-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\7b5973b5a52277106174889cd3b98763\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:38:5-92
+112-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\7b5973b5a52277106174889cd3b98763\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:38:22-89
+113    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+113-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\7b5973b5a52277106174889cd3b98763\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:39:5-93
+113-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\7b5973b5a52277106174889cd3b98763\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:39:22-90
+114    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+114-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\7b5973b5a52277106174889cd3b98763\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:42:5-73
+114-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\7b5973b5a52277106174889cd3b98763\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:42:22-70
+115    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+115-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\7b5973b5a52277106174889cd3b98763\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:45:5-82
+115-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\7b5973b5a52277106174889cd3b98763\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:45:22-79
+116    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+116-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\7b5973b5a52277106174889cd3b98763\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:46:5-83
+116-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\7b5973b5a52277106174889cd3b98763\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:46:22-80
+117    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+117-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\7b5973b5a52277106174889cd3b98763\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:49:5-88
+117-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\7b5973b5a52277106174889cd3b98763\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:49:22-85
+118    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+118-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\7b5973b5a52277106174889cd3b98763\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:50:5-89
+118-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\7b5973b5a52277106174889cd3b98763\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:50:22-86
+119    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+119-->[com.facebook.react:react-native-calendar-events:1.7.3-jitsi-2535222] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\4e11f3cee73044616cbba0ef5758a86a\jetified-react-native-calendar-events-1.7.3-jitsi-2535222\AndroidManifest.xml:11:5-73
+119-->[com.facebook.react:react-native-calendar-events:1.7.3-jitsi-2535222] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\4e11f3cee73044616cbba0ef5758a86a\jetified-react-native-calendar-events-1.7.3-jitsi-2535222\AndroidManifest.xml:11:22-70
+120    <uses-permission android:name="android.permission.READ_CALENDAR" />
+120-->[com.facebook.react:react-native-calendar-events:1.7.3-jitsi-2535222] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\4e11f3cee73044616cbba0ef5758a86a\jetified-react-native-calendar-events-1.7.3-jitsi-2535222\AndroidManifest.xml:12:5-72
+120-->[com.facebook.react:react-native-calendar-events:1.7.3-jitsi-2535222] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\4e11f3cee73044616cbba0ef5758a86a\jetified-react-native-calendar-events-1.7.3-jitsi-2535222\AndroidManifest.xml:12:22-69
+121
+122    <application
+122-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:78:5-861:19
+123        android:name="com.sk.weichat.MyApplication"
+123-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:79:9-38
+124        android:allowBackup="true"
+124-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:80:9-35
+125        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+125-->[androidx.core:core:1.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\d73181af5c03e45347bc0c43e24b6758\core-1.1.0\AndroidManifest.xml:24:18-86
+126        android:fitsSystemWindows="true"
+126-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:81:9-41
+127        android:icon="@mipmap/icon"
+127-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:82:9-36
+128        android:label="@string/app_name"
+128-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:83:9-41
+129        android:roundIcon="@null"
+129-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:84:9-34
+130        android:supportsRtl="true"
+130-->[xjgarsdklibrary-release-9.2.1-2019-08-31.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\e54906d9b5caede6d602ee40d9c2ec7f\jetified-xjgarsdklibrary-release-9.2.1-2019-08-31\AndroidManifest.xml:35:9-35
+131        android:theme="@style/AppTheme"
+131-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:85:9-40
+132        android:usesCleartextTraffic="true" >
+132-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:86:9-44
+133        <activity android:name="com.sk.weichat.ui.tool.WebGameActivity" />
+133-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:89:9-60
+133-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:89:19-58
+134        <activity android:name="com.sk.weichat.call.game.GameActivity" />
+134-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:90:9-60
+134-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:90:19-57
+135        <activity android:name="com.sk.weichat.ui.me.OfficialActivity" />
+135-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:91:9-60
+135-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:91:19-57
+136        <activity
+136-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:92:9-95:59
+137            android:name="com.sk.weichat.pay.new_ui.PaymentOrReceiptActivity"
+137-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:93:13-64
+138            android:label="@string/title_activity_payment_new_ui"
+138-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:94:13-66
+139            android:theme="@style/AppTheme.NoActionBar" />
+139-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:95:13-56
+140        <activity android:name="com.sk.weichat.ui.contacts.label.LabelActivityNewUI" />
+140-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:96:9-74
+140-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:96:19-71
+141        <activity android:name="com.sk.weichat.ui.me.DescriptionActivity" />
+141-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:97:9-63
+141-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:97:19-60
+142        <activity android:name="com.sk.weichat.ui.backup.ReceiveChatHistoryActivity" />
+142-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:98:9-74
+142-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:98:19-71
+143        <activity android:name="com.sk.weichat.ui.circle.range.SelectCoverActivity" />
+143-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:99:9-73
+143-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:99:19-70
+144        <activity android:name="com.sk.weichat.ui.search.SearchSingleTypeActivity" />
+144-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:100:9-72
+144-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:100:19-69
+145        <activity
+145-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:101:9-103:71
+146            android:name="com.sk.weichat.ui.search.SearchAllActivity"
+146-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:102:13-56
+147            android:windowSoftInputMode="stateVisible|adjustResize" />
+147-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:103:13-68
+148        <activity android:name="com.sk.weichat.ui.other.LifeCircleSettingsActivity" />
+148-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:104:9-73
+148-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:104:19-70
+149        <activity
+149-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:105:9-107:51
+150            android:name="com.sk.weichat.ui.backup.SendChatHistoryActivity"
+150-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:106:13-62
+151            android:launchMode="singleInstance" />
+151-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:107:13-48
+152        <activity android:name="com.sk.weichat.ui.backup.SelectChatActivity" />
+152-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:108:9-66
+152-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:108:19-63
+153        <activity android:name="com.sk.weichat.ui.backup.BackupHistoryActivity" />
+153-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:109:9-69
+153-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:109:19-66
+154        <activity
+154-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:110:9-112:46
+155            android:name="com.sk.weichat.ui.other.PrivacyAgreeActivity"
+155-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:111:13-58
+156            android:launchMode="singleTop" />
+156-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:112:13-43
+157        <activity android:name="com.sk.weichat.ui.login.AuthLoginActivity" />
+157-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:113:9-64
+157-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:113:19-61
+158        <activity android:name="com.sk.weichat.ui.login.H5LoginActivity" />
+158-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:114:9-62
+158-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:114:19-59
+159        <activity
+159-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:115:9-129:20
+160            android:name="com.sk.weichat.ui.login.H5LoginProxyActivity"
+160-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:116:13-58
+161            android:theme="@style/SplashTheme" >
+161-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:117:13-47
+162            <intent-filter>
+162-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:118:13-128:29
+163                <action android:name="android.intent.action.VIEW" />
+163-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:119:17-69
+163-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:119:25-66
+164
+165                <category android:name="android.intent.category.DEFAULT" />
+165-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:121:17-76
+165-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:121:27-73
+166                <category android:name="android.intent.category.BROWSABLE" />
+166-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:122:17-78
+166-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:122:27-75
+167
+168                <data
+169                    android:host="com.ouxin.chat"
+169-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:125:21-45
+170                    android:path="/H5login"
+170-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:126:21-44
+171                    android:scheme="sk" />
+171-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:127:21-40
+172            </intent-filter>
+173        </activity>
+174        <activity
+174-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:130:9-144:20
+175            android:name="com.sk.weichat.ui.notification.NotificationProxyActivity"
+175-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:131:13-70
+176            android:theme="@style/SplashTheme" >
+176-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:132:13-47
+177            <intent-filter>
+177-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:133:13-143:29
+178                <action android:name="android.intent.action.VIEW" />
+178-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:119:17-69
+178-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:119:25-66
+179
+180                <category android:name="android.intent.category.DEFAULT" />
+180-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:121:17-76
+180-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:121:27-73
+181                <category android:name="android.intent.category.BROWSABLE" />
+181-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:122:17-78
+181-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:122:27-75
+182
+183                <data
+184                    android:host="com.ouxin.chat"
+184-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:125:21-45
+185                    android:path="/notification"
+185-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:126:21-44
+186                    android:scheme="sk" />
+186-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:127:21-40
+187            </intent-filter>
+188        </activity>
+189        <activity android:name="com.sk.weichat.ui.account.ChangePasswordActivity" />
+189-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:145:9-71
+189-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:145:19-68
+190        <activity android:name="com.sk.weichat.ui.me.PrivacyWhitelistActivity" />
+190-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:146:9-68
+190-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:146:19-65
+191        <activity android:name="com.sk.weichat.ui.groupchat.FaceToFaceGroup" />
+191-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:147:9-66
+191-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:147:19-63
+192        <activity android:name="com.sk.weichat.ui.groupchat.RoomSearchResultActivity" />
+192-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:148:9-75
+192-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:148:19-72
+193        <activity android:name="com.sk.weichat.ui.groupchat.RoomSearchActivity" /> <!-- 启动页面 -->
+193-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:149:9-69
+193-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:149:19-66
+194        <activity
+194-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:150:9-160:20
+195            android:name="com.sk.weichat.ui.SplashActivity"
+195-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:151:13-46
+196            android:hardwareAccelerated="true"
+196-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:152:13-47
+197            android:launchMode="singleTask"
+197-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:153:13-44
+198            android:theme="@style/SplashTheme" >
+198-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:154:13-47
+199            <intent-filter>
+199-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:155:13-159:29
+200                <action android:name="android.intent.action.MAIN" />
+200-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:156:17-69
+200-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:156:25-66
+201
+202                <category android:name="android.intent.category.LAUNCHER" />
+202-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:158:17-77
+202-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:158:27-74
+203            </intent-filter>
+204        </activity>
+205        <activity android:name="com.sk.im.audio.VoiceRecordActivity" />
+205-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:161:9-72
+205-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:161:19-69
+206        <activity android:name="com.sk.im.audio.VoiceRecordActivity2" />
+206-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:162:9-73
+206-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:162:19-70
+207        <activity android:name="com.sk.weichat.course.CourseDateilsActivity" />
+207-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:163:9-66
+207-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:163:19-63
+208        <activity android:name="com.sk.weichat.course.LocalCourseActivity" />
+208-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:164:9-64
+208-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:164:19-61
+209        <activity android:name="com.sk.weichat.course.SelectFriendsActivity" />
+209-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:165:9-66
+209-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:165:19-63
+210        <activity android:name="com.sk.weichat.course.SelectNewContactsActivity" />
+210-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:166:9-70
+210-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:166:19-67
+211        <activity android:name="com.sk.weichat.course.SelectNewGroupActivity" />
+211-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:167:9-67
+211-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:167:19-64
+212        <activity
+212-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:168:9-170:55
+213            android:name="com.sk.weichat.ui.account.RegisterActivity"
+213-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:169:13-56
+214            android:windowSoftInputMode="adjustPan" />
+214-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:170:13-52
+215        <activity
+215-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:171:9-173:55
+216            android:name="com.sk.weichat.ui.account.RegisterUserBasicInfoActivity"
+216-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:172:13-69
+217            android:windowSoftInputMode="adjustPan" />
+217-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:173:13-52
+218        <activity
+218-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:174:9-176:55
+219            android:name="com.sk.weichat.ui.account.LoginActivity"
+219-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:175:13-53
+220            android:windowSoftInputMode="adjustPan" />
+220-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:176:13-52
+221        <activity
+221-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:177:9-179:55
+222            android:name="com.sk.weichat.ui.account.LoginHistoryActivity"
+222-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:178:13-60
+223            android:windowSoftInputMode="adjustPan" />
+223-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:179:13-52
+224        <activity android:name="com.sk.weichat.ui.account.DataDownloadActivity" />
+224-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:180:9-69
+224-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:180:19-66
+225        <activity
+225-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:181:9-183:57
+226            android:name="com.sk.weichat.ui.account.SelectPrefixActivity"
+226-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:182:13-60
+227            android:windowSoftInputMode="stateHidden" />
+227-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:183:13-54
+228        <activity android:name="com.sk.weichat.ui.account.AuthCodeActivity" />
+228-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:184:9-65
+228-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:184:19-62
+229        <activity
+229-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:185:9-187:55
+230            android:name="com.sk.weichat.ui.account.FindPwdActivity"
+230-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:186:13-55
+231            android:windowSoftInputMode="adjustPan" />
+231-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:187:13-52
+232        <activity android:name="com.sk.weichat.ui.circle.range.AtSeeCircleActivity" />
+232-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:188:9-73
+232-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:188:19-70
+233        <activity android:name="com.sk.weichat.ui.circle.range.NewZanActivity" />
+233-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:189:9-68
+233-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:189:19-65
+234        <activity android:name="com.sk.weichat.ui.circle.range.SeeCircleActivity" />
+234-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:190:9-71
+234-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:190:19-68
+235        <activity
+235-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:191:9-193:75
+236            android:name="com.sk.weichat.ui.circle.range.SendShuoshuoActivity"
+236-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:192:13-65
+237            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+237-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:193:13-72
+238        <activity
+238-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:194:9-196:75
+239            android:name="com.sk.weichat.ui.circle.range.SendAudioActivity"
+239-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:195:13-62
+240            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+240-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:196:13-72
+241        <activity
+241-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:197:9-199:75
+242            android:name="com.sk.weichat.ui.circle.range.SendVideoActivity"
+242-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:198:13-62
+243            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+243-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:199:13-72
+244        <activity
+244-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:200:9-202:75
+245            android:name="com.sk.weichat.ui.circle.range.SendFileActivity"
+245-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:201:13-61
+246            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+246-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:202:13-72
+247        <activity android:name="com.sk.weichat.ui.circle.BusinessCircleActivity" />
+247-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:203:9-70
+247-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:203:19-67
+248        <activity android:name="com.sk.weichat.ui.circle.LongTextShowActivity" />
+248-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:204:9-68
+248-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:204:19-65
+249        <activity android:name="com.sk.weichat.ui.company.AddEmployee" />
+249-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:205:9-60
+249-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:205:19-57
+250        <activity android:name="com.sk.weichat.ui.company.ChangeEmployeeDepartment" />
+250-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:206:9-73
+250-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:206:19-70
+251        <activity android:name="com.sk.weichat.ui.company.CreateCompany" />
+251-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:207:9-62
+251-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:207:19-59
+252        <activity android:name="com.sk.weichat.ui.company.CreateDepartment" />
+252-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:208:9-65
+252-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:208:19-62
+253        <activity android:name="com.sk.weichat.ui.company.CreateGroup" />
+253-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:209:9-60
+253-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:209:19-57
+254        <activity android:name="com.sk.weichat.ui.company.ManagerCompany" />
+254-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:210:9-63
+254-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:210:19-60
+255        <activity android:name="com.sk.weichat.ui.company.ModifyCompanyName" />
+255-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:211:9-66
+255-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:211:19-63
+256        <activity android:name="com.sk.weichat.ui.company.ModifyDepartmentName" />
+256-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:212:9-69
+256-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:212:19-66
+257        <activity
+257-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:213:9-215:57
+258            android:name="com.sk.weichat.ui.contacts.label.CreateLabelActivity"
+258-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:214:13-66
+259            android:windowSoftInputMode="stateHidden" />
+259-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:215:13-54
+260        <activity
+260-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:216:9-218:57
+261            android:name="com.sk.weichat.ui.contacts.label.LabelActivity"
+261-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:217:13-60
+262            android:windowSoftInputMode="stateHidden" />
+262-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:218:13-54
+263        <activity android:name="com.sk.weichat.ui.contacts.label.SelectLabelFriendActivity" />
+263-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:219:9-81
+263-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:219:19-78
+264        <activity android:name="com.sk.weichat.ui.contacts.BlackActivity" />
+264-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:220:9-63
+264-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:220:19-60
+265        <activity
+265-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:221:9-223:57
+266            android:name="com.sk.weichat.ui.contacts.ContactInviteActivity"
+266-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:222:13-62
+267            android:windowSoftInputMode="stateHidden" />
+267-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:223:13-54
+268        <activity android:name="com.sk.weichat.ui.contacts.ContactsActivity" />
+268-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:224:9-66
+268-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:224:19-63
+269        <activity android:name="com.sk.weichat.ui.contacts.ContactsMsgInviteActivity" />
+269-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:225:9-75
+269-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:225:19-72
+270        <activity android:name="com.sk.weichat.ui.contacts.DeviceActivity" />
+270-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:226:9-64
+270-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:226:19-61
+271        <activity android:name="com.sk.weichat.ui.contacts.NewFriendActivity" />
+271-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:227:9-67
+271-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:227:19-64
+272        <activity android:name="com.sk.weichat.ui.contacts.PublishNumberActivity" />
+272-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:228:9-71
+272-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:228:19-68
+273        <activity android:name="com.sk.weichat.ui.contacts.RoomActivity" />
+273-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:229:9-62
+273-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:229:19-59
+274        <activity
+274-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:230:9-232:58
+275            android:name="com.sk.weichat.ui.contacts.SearchFriendActivity"
+275-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:231:13-61
+276            android:windowSoftInputMode="stateVisible" />
+276-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:232:13-55
+277        <activity android:name="com.sk.weichat.ui.contacts.TalkHistoryActivity" />
+277-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:233:9-69
+277-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:233:19-66
+278        <activity android:name="com.sk.weichat.ui.groupchat.SelectContactsActivity" /> <!-- 直播 -->
+278-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:234:9-73
+278-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:234:19-70
+279        <activity android:name="com.sk.weichat.ui.live.CreateLiveActivity" />
+279-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:235:9-64
+279-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:235:19-61
+280        <activity android:name="com.sk.weichat.ui.live.LiveActivity" />
+280-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:236:9-58
+280-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:236:19-55
+281        <activity
+281-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:237:9-242:55
+282            android:name="com.sk.weichat.ui.live.LivePlayingActivity"
+282-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:238:13-56
+283            android:configChanges="orientation|keyboardHidden|screenSize"
+283-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:239:13-74
+284            android:screenOrientation="portrait"
+284-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:240:13-49
+285            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+285-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:241:13-69
+286            android:windowSoftInputMode="adjustPan" />
+286-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:242:13-52
+287        <activity
+287-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:243:9-247:55
+288            android:name="com.sk.weichat.ui.live.PushFlowActivity"
+288-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:244:13-53
+289            android:screenOrientation="portrait"
+289-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:245:13-49
+290            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+290-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:246:13-69
+291            android:windowSoftInputMode="adjustPan" />
+291-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:247:13-52
+292        <activity android:name="com.sk.weichat.ui.map.MapActivity" />
+292-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:248:9-56
+292-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:248:19-53
+293        <activity
+293-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:249:9-251:76
+294            android:name="com.sk.weichat.ui.map.MapPickerActivity"
+294-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:250:13-53
+295            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" /> <!-- 红包 -->
+295-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:251:13-73
+296        <activity android:name="com.sk.weichat.ui.me.redpacket.MucSendRedPacketActivity" />
+296-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:252:9-78
+296-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:252:19-75
+297        <activity android:name="com.sk.weichat.ui.me.redpacket.MyConsumeRecordNew" />
+297-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:253:9-72
+297-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:253:19-69
+298        <activity android:name="com.sk.weichat.ui.me.redpacket.QuXianActivity" />
+298-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:254:9-68
+298-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:254:19-65
+299        <activity android:name="com.sk.weichat.ui.me.redpacket.RedDetailsActivity" />
+299-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:255:9-72
+299-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:255:19-69
+300        <activity android:name="com.sk.weichat.ui.me.redpacket.RedListActivity" />
+300-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:256:9-69
+300-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:256:19-66
+301        <activity android:name="com.sk.weichat.ui.me.redpacket.SendRedPacketActivity" />
+301-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:257:9-75
+301-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:257:19-72
+302        <activity android:name="com.sk.weichat.ui.me.redpacket.WxPayAdd" />
+302-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:258:9-62
+302-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:258:19-59
+303        <activity android:name="com.sk.weichat.ui.me.redpacket.WxPayBlance" />
+303-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:259:9-65
+303-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:259:19-62
+304        <activity android:name="com.sk.weichat.ui.me.redpacket.scan.ScanRechargeActivity" />
+304-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:260:9-79
+304-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:260:19-76
+305        <activity android:name="com.sk.weichat.ui.me.redpacket.scan.ScanWithdrawActivity" />
+305-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:261:9-79
+305-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:261:19-76
+306        <activity android:name="com.sk.weichat.ui.me.redpacket.scan.ScanWithdrawListActivity" />
+306-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:262:9-83
+306-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:262:19-80
+307        <activity android:name="com.sk.weichat.ui.me.redpacket.scan.ScanWithdrawAddActivity" />
+307-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:263:9-82
+307-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:263:19-79
+308        <activity android:name="com.sk.weichat.ui.me.redpacket.scan.ScanWithdrawUpdateActivity" />
+308-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:264:9-85
+308-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:264:19-82
+309        <activity android:name="com.sk.weichat.ui.me.sendgroupmessage.ChatActivityForSendGroup" /> <!-- 收付款、转账 -->
+309-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:265:9-85
+309-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:265:19-82
+310        <activity
+310-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:266:9-268:47
+311            android:name="com.sk.weichat.pay.sk.SKPayActivity"
+311-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:267:13-49
+312            android:launchMode="singleTask" />
+312-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:268:13-44
+313        <activity android:name="com.sk.weichat.pay.TransferMoneyActivity" />
+313-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:269:9-63
+313-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:269:19-60
+314        <activity android:name="com.sk.weichat.pay.TransferMoneyDetailActivity" />
+314-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:270:9-69
+314-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:270:19-66
+315        <activity android:name="com.sk.weichat.pay.TransferRecordActivity" />
+315-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:271:9-64
+315-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:271:19-61
+316        <activity android:name="com.sk.weichat.pay.PaymentActivity" />
+316-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:272:9-57
+316-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:272:19-54
+317        <activity android:name="com.sk.weichat.pay.PaymentReceiptMoneyActivity" />
+317-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:273:9-69
+317-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:273:19-66
+318        <activity android:name="com.sk.weichat.pay.ReceiptActivity" />
+318-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:274:9-57
+318-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:274:19-54
+319        <activity android:name="com.sk.weichat.pay.ReceiptPayMoneyActivity" />
+319-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:275:9-65
+319-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:275:19-62
+320        <activity android:name="com.sk.weichat.pay.ReceiptSetMoneyActivity" /> <!-- Me模块 -->
+320-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:276:9-65
+320-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:276:19-62
+321        <activity android:name="com.sk.weichat.ui.me.AboutActivity" />
+321-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:277:9-57
+321-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:277:19-54
+322        <activity
+322-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:278:9-280:75
+323            android:name="com.sk.weichat.ui.me.BasicInfoEditActivity"
+323-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:279:13-56
+324            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+324-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:280:13-72
+325        <activity android:name="com.sk.weichat.ui.me.FontSizeActivity" />
+325-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:281:9-60
+325-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:281:19-57
+326        <activity android:name="com.sk.weichat.ui.me.LocalVideoActivity" />
+326-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:282:9-62
+326-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:282:19-59
+327        <activity android:name="com.sk.weichat.ui.me.MyCollection" />
+327-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:283:9-56
+327-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:283:19-53
+328        <activity android:name="com.sk.weichat.ui.me.NearPersonActivity" />
+328-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:284:9-62
+328-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:284:19-59
+329        <activity android:name="com.sk.weichat.ui.me.PrivacySettingActivity" />
+329-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:285:9-66
+329-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:285:19-63
+330        <activity android:name="com.sk.weichat.ui.me.BandAccountActivity" />
+330-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:286:9-63
+330-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:286:19-60
+331        <activity android:name="com.sk.weichat.ui.me.BandTelephoneActivity" />
+331-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:287:9-65
+331-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:287:19-62
+332        <activity
+332-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:288:9-290:72
+333            android:name="com.sk.weichat.ui.me.SelectFriendsActivity"
+333-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:289:13-56
+334            android:windowSoftInputMode="stateHidden|stateUnchanged" />
+334-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:290:13-69
+335        <activity android:name="com.sk.weichat.ui.me.select.SelectLabelActivity" />
+335-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:291:9-70
+335-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:291:19-67
+336        <activity android:name="com.sk.weichat.ui.me.SetAccountActivity" />
+336-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:292:9-62
+336-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:292:19-59
+337        <activity android:name="com.sk.weichat.ui.me.SetConfigActivity" />
+337-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:293:9-61
+337-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:293:19-58
+338        <activity android:name="com.sk.weichat.ui.me.SettingActivity" />
+338-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:294:9-59
+338-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:294:19-56
+339        <activity android:name="com.sk.weichat.ui.me.SkinStore" />
+339-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:295:9-53
+339-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:295:19-50
+340        <activity android:name="com.sk.weichat.ui.me.SwitchLanguage" /> <!-- 消息模块 -->
+340-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:296:9-58
+340-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:296:19-55
+341        <activity
+341-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:297:9-299:57
+342            android:name="com.sk.weichat.ui.message.assistant.GroupAssistantAddKeywordActivity"
+342-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:298:13-82
+343            android:windowSoftInputMode="stateHidden" />
+343-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:299:13-54
+344        <activity android:name="com.sk.weichat.ui.message.assistant.GroupAssistantDetailActivity" />
+344-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:300:9-87
+344-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:300:19-84
+345        <activity android:name="com.sk.weichat.ui.message.assistant.SelectGroupAssistantActivity" />
+345-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:301:9-87
+345-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:301:19-84
+346        <activity
+346-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:302:9-306:52
+347            android:name="com.sk.weichat.ui.message.ChatActivity"
+347-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:303:13-52
+348            android:configChanges="orientation|keyboardHidden|screenSize"
+348-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:304:13-74
+349            android:launchMode="singleTop"
+349-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:305:13-43
+350            android:screenOrientation="portrait" />
+350-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:306:13-49
+351        <activity android:name="com.sk.weichat.ui.message.ChatHistoryActivity" />
+351-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:307:9-68
+351-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:307:19-65
+352        <activity
+352-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:308:9-311:55
+353            android:name="com.sk.weichat.ui.message.ChatOverviewActivity"
+353-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:309:13-60
+354            android:screenOrientation="portrait"
+354-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:310:13-49
+355            android:theme="@style/AppTheme_Sliding" />
+355-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:311:13-52
+356        <activity android:name="com.sk.weichat.ui.message.single.PersonSettingActivity" />
+356-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:312:9-77
+356-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:312:19-74
+357        <activity android:name="com.sk.weichat.ui.message.single.SelectSetTypeActivity" />
+357-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:313:9-77
+357-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:313:19-74
+358        <activity android:name="com.sk.weichat.ui.message.single.SetChatBackActivity" />
+358-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:314:9-75
+358-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:314:19-72
+359        <activity android:name="com.sk.weichat.ui.message.single.SetLabelActivity" />
+359-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:315:9-72
+359-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:315:19-69
+360        <activity android:name="com.sk.weichat.ui.message.single.SetRemarkActivity" />
+360-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:316:9-73
+360-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:316:19-70
+361        <activity
+361-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:317:9-321:52
+362            android:name="com.sk.weichat.ui.message.MucChatActivity"
+362-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:318:13-55
+363            android:configChanges="orientation|keyboardHidden|screenSize"
+363-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:319:13-74
+364            android:launchMode="singleTop"
+364-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:320:13-43
+365            android:screenOrientation="portrait" />
+365-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:321:13-49
+366        <activity android:name="com.sk.weichat.ui.message.multi.AddContactsActivity" />
+366-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:322:9-74
+366-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:322:19-71
+367        <activity android:name="com.sk.weichat.ui.tool.WebViewRoomActivity" />
+367-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:323:9-65
+367-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:323:19-62
+368        <activity android:name="com.sk.weichat.ui.message.multi.GroupManager" />
+368-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:324:9-67
+368-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:324:19-64
+369        <activity
+369-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:325:9-328:75
+370            android:name="com.sk.weichat.ui.message.multi.GroupMoreFeaturesActivity"
+370-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:326:13-71
+371            android:configChanges="orientation|keyboardHidden"
+371-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:327:13-63
+372            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+372-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:328:13-72
+373        <activity android:name="com.sk.weichat.ui.message.multi.GroupTransferActivity" />
+373-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:329:9-76
+373-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:329:19-73
+374        <activity android:name="com.sk.weichat.ui.message.multi.InviteVerifyActivity" />
+374-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:330:9-75
+374-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:330:19-72
+375        <activity android:name="com.sk.weichat.ui.message.multi.NoticeListActivity" />
+375-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:331:9-73
+375-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:331:19-70
+376        <activity android:name="com.sk.weichat.ui.message.multi.ProclamationActivity" />
+376-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:332:9-75
+376-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:332:19-72
+377        <activity
+377-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:333:9-335:46
+378            android:name="com.sk.weichat.ui.message.multi.RoomInfoActivity"
+378-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:334:13-62
+379            android:launchMode="singleTop" />
+379-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:335:13-43
+380        <activity android:name="com.sk.weichat.ui.message.multi.RoomReadListActivity" />
+380-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:336:9-75
+380-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:336:19-72
+381        <activity android:name="com.sk.weichat.ui.message.multi.SetManagerActivity" />
+381-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:337:9-73
+381-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:337:19-70
+382        <activity android:name="com.sk.weichat.ui.message.ManagerEmojiActivity" />
+382-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:338:9-69
+382-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:338:19-66
+383        <activity
+383-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:339:9-341:48
+384            android:name="com.sk.weichat.ui.message.MessageRemindActivity"
+384-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:340:13-61
+385            android:theme="@style/Anim_fade" />
+385-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:341:13-45
+386        <activity android:name="com.sk.weichat.ui.message.search.SearchChatHistoryActivity" />
+386-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:342:9-81
+386-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:342:19-78
+387        <activity android:name="com.sk.weichat.ui.message.search.SearchDesignationContent" />
+387-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:343:9-80
+387-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:343:19-77
+388        <activity android:name="com.sk.weichat.ui.message.search.SearchImageVideoContent" />
+388-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:344:9-79
+388-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:344:19-76
+389        <activity
+389-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:345:9-348:52
+390            android:name="com.sk.weichat.ui.message.InstantMessageActivity"
+390-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:346:13-62
+391            android:launchMode="singleTask"
+391-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:347:13-44
+392            android:screenOrientation="portrait" />
+392-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:348:13-49
+393        <activity android:name="com.sk.weichat.ui.message.QuickSendPreviewActivity" />
+393-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:349:9-73
+393-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:349:19-70
+394        <activity
+394-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:350:9-353:52
+395            android:name="com.sk.weichat.ui.message.SelectNewContactsActivity"
+395-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:351:13-65
+396            android:launchMode="singleTask"
+396-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:352:13-44
+397            android:screenOrientation="portrait" />
+397-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:353:13-49
+398        <activity
+398-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:354:9-357:52
+399            android:name="com.sk.weichat.ui.message.SelectNewGroupInstantActivity"
+399-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:355:13-69
+400            android:launchMode="singleTask"
+400-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:356:13-44
+401            android:screenOrientation="portrait" /> <!-- 群文件 -->
+401-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:357:13-49
+402        <activity android:name="com.sk.weichat.ui.mucfile.AddMucFileActivity" />
+402-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:358:9-67
+402-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:358:19-64
+403        <activity android:name="com.sk.weichat.ui.mucfile.MucFileDetails" />
+403-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:359:9-63
+403-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:359:19-60
+404        <activity android:name="com.sk.weichat.ui.mucfile.MucFileListActivity" />
+404-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:360:9-68
+404-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:360:19-65
+405        <activity android:name="com.sk.weichat.ui.mucfile.MucFilePreviewActivity" /> <!-- 附近模块 -->
+405-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:361:9-71
+405-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:361:19-68
+406        <activity android:name="com.sk.weichat.ui.nearby.UserSearchActivity" />
+406-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:362:9-66
+406-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:362:19-63
+407        <activity android:name="com.sk.weichat.ui.nearby.UserListActivity" />
+407-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:363:9-64
+407-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:363:19-61
+408        <activity android:name="com.sk.weichat.ui.nearby.UserListGatherActivity" />
+408-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:364:9-70
+408-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:364:19-67
+409        <activity android:name="com.sk.weichat.ui.other.BasicInfoActivity" />
+409-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:365:9-64
+409-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:365:19-61
+410        <activity android:name="com.sk.weichat.ui.other.QRcodeActivity" /> <!-- 分享模块 -->
+410-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:366:9-61
+410-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:366:19-58
+411        <activity
+411-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:367:9-370:46
+412            android:name="com.sk.weichat.ui.share.ShareLoginActivity"
+412-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:368:13-56
+413            android:exported="true"
+413-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:369:13-36
+414            android:launchMode="singleTop" />
+414-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:370:13-43
+415        <activity
+415-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:371:9-374:46
+416            android:name="com.sk.weichat.ui.share.AuthorizationActivity"
+416-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:372:13-59
+417            android:exported="true"
+417-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:373:13-36
+418            android:launchMode="singleTop" />
+418-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:374:13-43
+419        <activity
+419-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:375:9-390:20
+420            android:name="com.sk.weichat.ui.share.ShareNearChatFriend"
+420-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:376:13-57
+421            android:exported="true"
+421-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:377:13-36
+422            android:launchMode="singleTask" >
+422-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:378:13-44
+423            <intent-filter>
+423-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:379:13-389:29
+424                <action android:name="android.intent.action.VIEW" />
+424-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:119:17-69
+424-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:119:25-66
+425
+426                <category android:name="android.intent.category.DEFAULT" />
+426-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:121:17-76
+426-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:121:27-73
+427                <category android:name="android.intent.category.BROWSABLE" />
+427-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:122:17-78
+427-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:122:27-75
+428
+429                <data
+430                    android:host="com.ouxin.chat"
+430-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:125:21-45
+431                    android:path="/share"
+431-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:126:21-44
+432                    android:scheme="sk" />
+432-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:127:21-40
+433            </intent-filter>
+434        </activity>
+435        <activity
+435-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:391:9-394:46
+436            android:name="com.sk.weichat.ui.share.ShareLifeCircleActivity"
+436-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:392:13-61
+437            android:exported="true"
+437-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:393:13-36
+438            android:launchMode="singleTop" />
+438-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:394:13-43
+439        <activity
+439-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:395:9-397:46
+440            android:name="com.sk.weichat.ui.share.ShareNewFriend"
+440-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:396:13-52
+441            android:launchMode="singleTop" />
+441-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:397:13-43
+442        <activity
+442-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:398:9-400:46
+443            android:name="com.sk.weichat.ui.share.ShareNewGroup"
+443-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:399:13-51
+444            android:launchMode="singleTop" /> <!-- Tool Activity -->
+444-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:400:13-43
+445        <activity
+445-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:401:9-404:55
+446            android:name="com.sk.weichat.ui.tool.MultiImagePreviewActivity"
+446-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:402:13-62
+447            android:screenOrientation="portrait"
+447-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:403:13-49
+448            android:theme="@style/AppTheme_Sliding" />
+448-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:404:13-52
+449        <activity
+449-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:405:9-407:52
+450            android:name="com.sk.weichat.ui.tool.SelectAreaActivity"
+450-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:406:13-55
+451            android:screenOrientation="portrait" />
+451-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:407:13-49
+452        <activity
+452-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:408:9-410:52
+453            android:name="com.sk.weichat.ui.tool.SelectConstantActivity"
+453-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:409:13-59
+454            android:screenOrientation="portrait" />
+454-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:410:13-49
+455        <activity
+455-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:411:9-413:52
+456            android:name="com.sk.weichat.ui.tool.SelectConstantSectionActivity"
+456-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:412:13-66
+457            android:screenOrientation="portrait" />
+457-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:413:13-49
+458        <activity
+458-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:414:9-417:55
+459            android:name="com.sk.weichat.ui.tool.SingleImagePreviewActivity"
+459-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:415:13-63
+460            android:screenOrientation="portrait"
+460-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:416:13-49
+461            android:theme="@style/AppTheme_Sliding" />
+461-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:417:13-52
+462        <activity
+462-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:418:9-420:52
+463            android:name="com.sk.weichat.video.ChatVideoPreviewActivity"
+463-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:419:13-59
+464            android:screenOrientation="portrait" />
+464-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:420:13-49
+465        <activity
+465-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:421:9-423:52
+466            android:name="com.sk.weichat.ui.tool.WebViewActivity"
+466-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:422:13-52
+467            android:screenOrientation="portrait" />
+467-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:423:13-49
+468        <activity
+468-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:424:9-429:63
+469            android:name="com.sk.weichat.ui.MainActivity"
+469-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:425:13-44
+470            android:fitsSystemWindows="true"
+470-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:426:13-45
+471            android:label="@string/app_name"
+471-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:427:13-45
+472            android:launchMode="singleTask"
+472-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:428:13-44
+473            android:windowSoftInputMode="stateAlwaysHidden" /> <!-- Android 8.0 报错 Only fullscreen opaque activities can request orientation -->
+473-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:429:13-60
+474        <!--
+475            <activity
+476            android:name="com.sk.weichat.ui.UserCheckedActivity"
+477            android:screenOrientation="portrait"
+478            android:theme="@style/IMTheme.DialogStyle"/>
+479        -->
+480        <activity
+480-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:436:9-438:58
+481            android:name="com.sk.weichat.ui.UserCheckedActivity"
+481-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:437:13-51
+482            android:theme="@style/IMTheme.DialogStyle" />
+482-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:438:13-55
+483        <activity
+483-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:439:9-441:52
+484            android:name="com.sk.weichat.video.EasyCameraActivity"
+484-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:440:13-53
+485            android:screenOrientation="portrait" /> <!-- android:screenOrientation="portrait" 强制竖屏 -->
+485-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:441:13-49
+486        <!-- CameraWithFilterActivity -->
+487        <activity
+487-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:443:9-446:47
+488            android:name="com.sk.weichat.luo.activity.CameraWithFilterActivity"
+488-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:444:13-66
+489            android:exported="true"
+489-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:445:13-36
+490            android:launchMode="singleTask" />
+490-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:446:13-44
+491        <activity
+491-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:447:9-450:48
+492            android:name="com.sk.weichat.video.VideoRecorderActivity"
+492-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:448:13-56
+493            android:configChanges="orientation|keyboardHidden"
+493-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:449:13-63
+494            android:theme="@style/RecxTheme" />
+494-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:450:13-45
+495        <activity
+495-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:451:9-454:47
+496            android:name="com.kuxin.im.wxapi.WXEntryActivity"
+496-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:452:13-62
+497            android:exported="true"
+497-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:453:13-36
+498            android:launchMode="singleTask" />
+498-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:454:13-44
+499        <activity
+499-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:455:9-458:46
+500            android:name="com.kuxin.im.wxapi.WXPayEntryActivity"
+500-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:456:13-65
+501            android:exported="true"
+501-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:457:13-36
+502            android:launchMode="singleTop" /> <!-- QQ登录相关 -->
+502-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:458:13-43
+503        <activity
+503-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:459:9-463:75
+504            android:name="com.tencent.connect.common.AssistActivity"
+504-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:460:13-69
+505            android:configChanges="orientation|keyboardHidden|screenSize"
+505-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:461:13-74
+506            android:screenOrientation="behind"
+506-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:462:13-47
+507            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+507-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:463:13-72
+508        <activity
+508-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:464:9-476:20
+509            android:name="com.tencent.tauth.AuthActivity"
+509-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:465:13-58
+510            android:launchMode="singleTask"
+510-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:466:13-44
+511            android:noHistory="true" >
+511-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:467:13-37
+512            <intent-filter>
+512-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:468:13-475:29
+513                <action android:name="android.intent.action.VIEW" />
+513-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:119:17-69
+513-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:119:25-66
+514
+515                <category android:name="android.intent.category.DEFAULT" />
+515-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:121:17-76
+515-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:121:27-73
+516                <category android:name="android.intent.category.BROWSABLE" />
+516-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:122:17-78
+516-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:122:27-75
+517
+518                <data android:scheme="tencent" />
+518-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:127:21-40
+519            </intent-filter>
+520        </activity>
+521        <activity
+521-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:477:9-479:64
+522            android:name="com.sk.weichat.ui.me.redpacket.ChangePayPasswordActivity"
+522-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:478:13-70
+523            android:windowSoftInputMode="stateAlwaysVisible" /> <!-- 图片多选框架 -->
+523-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:479:13-61
+524        <!--
+525                <activity
+526                    android:name="com.foamtrace.photopicker.PhotoPickerActivity"
+527                    android:configChanges="orientation|screenSize"
+528                    android:theme="@style/PhotoPickerTheme"/>
+529                <activity
+530                    android:name="com.foamtrace.photopicker.PhotoPreviewActivity"
+531                    android:theme="@style/PhotoPickerTheme"/>
+532        -->
+533        <activity
+533-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:489:9-492:55
+534            android:name="com.sk.weichat.view.photopicker.PhotoPickerActivity"
+534-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:490:13-65
+535            android:configChanges="orientation|screenSize"
+535-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:491:13-59
+536            android:theme="@style/PhotoPickerTheme" />
+536-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:492:13-52
+537        <activity
+537-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:493:9-495:55
+538            android:name="com.sk.weichat.view.photopicker.PhotoPreviewActivity"
+538-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:494:13-66
+539            android:theme="@style/PhotoPickerTheme" />
+539-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:495:13-52
+540
+541        <service
+541-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:497:9-500:39
+542            android:name="com.sk.weichat.xmpp.CoreService"
+542-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:498:13-45
+543            android:enabled="true"
+543-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:499:13-35
+544            android:exported="true" />
+544-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:500:13-36
+545        <service android:name="com.sk.weichat.call.RecordService" />
+545-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:501:9-55
+545-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:501:18-52
+546        <service android:name="com.sk.weichat.view.window.WindowShowService" />
+546-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:502:9-66
+546-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:502:18-63
+547        <service android:name="com.sk.weichat.RestartService" />
+547-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:503:9-51
+547-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:503:18-48
+548
+549        <provider
+550            android:name="androidx.core.content.FileProvider"
+550-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:506:13-62
+551            android:authorities="com.ouxin.chat.fileProvider"
+551-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:507:13-57
+552            android:exported="false"
+552-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:508:13-37
+553            android:grantUriPermissions="true" >
+553-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:509:13-47
+554            <meta-data
+554-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:510:13-512:54
+555                android:name="android.support.FILE_PROVIDER_PATHS"
+555-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:511:17-67
+556                android:resource="@xml/file_paths" />
+556-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:512:17-51
+557        </provider>
+558
+559        <receiver
+559-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:515:9-521:20
+560            android:name="com.sk.weichat.broadcast.MyBroadcastReceiver"
+560-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:516:13-58
+561            android:process=":restart" >
+561-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:517:13-39
+562            <intent-filter>
+562-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:518:13-520:29
+563                <action android:name="com.ouxin.chat.action.broadcasttest.startActivity" />
+563-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:519:25-84
+564            </intent-filter>
+565        </receiver>
+566        <receiver android:name="com.sk.weichat.broadcast.ShakeReceiver" >
+566-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:522:9-526:20
+566-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:522:19-58
+567            <intent-filter>
+567-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:523:13-525:29
+568                <action android:name="com.ouxin.chat.action.shake_msg_notify" />
+568-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:524:25-73
+569            </intent-filter>
+570        </receiver>
+571
+572        <service
+572-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:528:9-531:41
+573            android:name="com.baidu.location.f"
+573-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:529:13-48
+574            android:enabled="true"
+574-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:530:13-35
+575            android:process=":remote" />
+575-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:531:13-38
+576
+577        <meta-data
+578            android:name="com.baidu.lbsapi.API_KEY"
+578-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:534:13-52
+579            android:value="V5rTNsiE3v50FsGUZFxvG8tFMrTrwHzr" />
+579-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:535:13-45
+580        <meta-data
+581            android:name="com.google.android.geo.API_KEY"
+581-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:537:13-58
+582            android:value="" />
+582-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:538:13-46
+583        <meta-data
+583-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:539:9-541:69
+584            android:name="com.google.android.gms.version"
+584-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:540:13-58
+585            android:value="@integer/google_play_services_version" /> <!-- 推送服务绑定进程 -->
+585-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:541:13-66
+586        <service
+586-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:542:9-551:19
+587            android:name="com.xiaomi.push.service.XMPushService"
+587-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:543:13-65
+588            android:enabled="true"
+588-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:544:13-35
+589            android:exported="false"
+589-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:545:13-37
+590            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE"
+590-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:546:13-87
+591            android:process=":pushservice" >
+591-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:547:13-43
+592            <intent-filter>
+592-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:548:13-550:29
+593                <action android:name="android.service.notification.NotificationListenerService" />
+593-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:549:17-99
+593-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:549:25-96
+594            </intent-filter>
+595        </service> <!-- 注：此service必须在3.0.1版本以后（包括3.0.1版本）加入 -->
+596        <service
+596-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:552:9-557:46
+597            android:name="com.xiaomi.push.service.XMJobService"
+597-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:553:13-64
+598            android:enabled="true"
+598-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:554:13-35
+599            android:exported="false"
+599-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:555:13-37
+600            android:permission="android.permission.BIND_JOB_SERVICE"
+600-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:556:13-69
+601            android:process=":pushservice" />
+601-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:557:13-43
+602        <service
+602-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:558:9-561:39
+603            android:name="com.xiaomi.mipush.sdk.PushMessageHandler"
+603-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:559:13-68
+604            android:enabled="true"
+604-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:560:13-35
+605            android:exported="true" /> <!-- 抖音 -->
+605-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:561:13-36
+606        <activity
+606-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:562:9-564:55
+607            android:name="com.sk.weichat.ui.trill.TrillActivity"
+607-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:563:13-51
+608            android:theme="@style/AppTheme_Sliding" />
+608-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:564:13-52
+609        <activity
+609-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:565:9-567:55
+610            android:name="com.sk.weichat.ui.trill.TriListActivity"
+610-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:566:13-53
+611            android:theme="@style/AppTheme_Sliding" />
+611-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:567:13-52
+612        <activity
+612-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:568:9-570:48
+613            android:name="com.sk.weichat.ui.xrce.RecordxActivity"
+613-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:569:13-52
+614            android:theme="@style/RecxTheme" />
+614-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:570:13-45
+615        <activity
+615-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:571:9-573:48
+616            android:name="com.sk.weichat.ui.xrce.PreviewxActivity"
+616-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:572:13-53
+617            android:theme="@style/RecxTheme" /> <!-- 发布短视频 -->
+617-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:573:13-45
+618        <activity
+618-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:574:9-576:75
+619            android:name="com.sk.weichat.ui.trill.ReleasexActivity"
+619-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:575:13-54
+620            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" /> <!-- 短视频选择标签 -->
+620-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:576:13-72
+621        <activity
+621-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:577:9-579:75
+622            android:name="com.sk.weichat.ui.trill.TagPickerActivity"
+622-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:578:13-55
+623            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+623-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:579:13-72
+624
+625        <receiver
+625-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:581:9-589:20
+626            android:name="com.xiaomi.push.service.receivers.NetworkStatusReceiver"
+626-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:582:13-83
+627            android:exported="true" >
+627-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:583:13-36
+628            <intent-filter>
+628-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:584:13-588:29
+629                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+629-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:585:17-79
+629-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:585:25-76
+630
+631                <category android:name="android.intent.category.DEFAULT" />
+631-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:121:17-76
+631-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:121:27-73
+632            </intent-filter>
+633        </receiver>
+634        <receiver
+634-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:590:9-597:20
+635            android:name="com.xiaomi.push.service.receivers.PingReceiver"
+635-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:591:13-74
+636            android:exported="false"
+636-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:592:13-37
+637            android:process=":pushservice" >
+637-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:593:13-43
+638            <intent-filter>
+638-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:594:13-596:29
+639                <action android:name="com.xiaomi.push.PING_TIMER" />
+639-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:595:17-69
+639-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:595:25-66
+640            </intent-filter>
+641        </receiver>
+642        <receiver
+642-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:598:9-612:20
+643            android:name="com.sk.weichat.xmpp.helloDemon.MiMessageReceiver"
+643-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:599:13-62
+644            android:exported="true" >
+644-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:600:13-36
+645
+646            <!-- 这里com.xiaomi.mipushdemo.DemoMessageRreceiver改成app中定义的完整类名 -->
+647            <intent-filter>
+647-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:603:13-605:29
+648                <action android:name="com.xiaomi.mipush.RECEIVE_MESSAGE" />
+648-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:604:17-76
+648-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:604:25-73
+649            </intent-filter>
+650            <intent-filter>
+650-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:606:13-608:29
+651                <action android:name="com.xiaomi.mipush.MESSAGE_ARRIVED" />
+651-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:607:17-76
+651-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:607:25-73
+652            </intent-filter>
+653            <intent-filter>
+653-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:609:13-611:29
+654                <action android:name="com.xiaomi.mipush.ERROR" />
+654-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:610:17-66
+654-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:610:25-63
+655            </intent-filter>
+656        </receiver> <!-- 注：此service必须在2.2.5版本以后（包括2.2.5版本）加入 -->
+657        <service
+657-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:613:9-615:38
+658            android:name="com.xiaomi.mipush.sdk.MessageHandleService"
+658-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:614:13-70
+659            android:enabled="true" />
+659-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:615:13-35
+660        <service android:name="com.sk.weichat.xmpp.helloDemon.FirebaseMessageService" >
+660-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:616:9-623:19
+660-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:616:18-72
+661            <intent-filter>
+661-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:617:13-619:29
+662                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+662-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:618:17-80
+662-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:618:25-77
+663            </intent-filter>
+664            <intent-filter>
+664-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:620:13-622:29
+665                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+665-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:621:17-78
+665-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:621:25-75
+666            </intent-filter>
+667        </service> <!-- VIVO 推送 -->
+668        <service
+668-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:624:9-626:39
+669            android:name="com.vivo.push.sdk.service.CommandClientService"
+669-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:625:13-74
+670            android:exported="true" />
+670-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:626:13-36
+671
+672        <activity
+672-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:628:9-632:75
+673            android:name="com.vivo.push.sdk.LinkProxyClientActivity"
+673-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:629:13-69
+674            android:exported="false"
+674-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:630:13-37
+675            android:screenOrientation="portrait"
+675-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:631:13-49
+676            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- push应用定义消息receiver声明 -->
+676-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:632:13-72
+677        <receiver android:name="com.sk.weichat.xmpp.helloDemon.VivoPushMessageReceiver" >
+677-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:633:9-639:20
+677-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:633:19-74
+678            <intent-filter>
+678-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:634:13-638:29
+679
+680                <!-- 接收push消息 -->
+681                <action android:name="com.vivo.pushclient.action.RECEIVE" />
+681-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:637:17-77
+681-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:637:25-74
+682            </intent-filter>
+683        </receiver>
+684
+685        <meta-data
+686            android:name="com.vivo.push.api_key"
+686-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:642:13-49
+687            android:value="" />
+687-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:643:13-44
+688        <meta-data
+689            android:name="com.vivo.push.app_id"
+689-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:645:13-48
+690            android:value="" /> <!-- OPPO 推送 -->
+690-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:646:13-43
+691        <service
+691-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:647:9-653:19
+692            android:name="com.sk.weichat.xmpp.helloDemon.OppoPushMessageService"
+692-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:648:13-67
+693            android:permission="com.coloros.mcs.permission.SEND_MCS_MESSAGE" >
+693-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:649:13-77
+694            <intent-filter>
+694-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:650:13-652:29
+695                <action android:name="com.coloros.mcs.action.RECEIVE_MCS_MESSAGE" />
+695-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:651:17-85
+695-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:651:25-82
+696            </intent-filter>
+697        </service> <!-- 华为推送 -->
+698        <meta-data
+699            android:name="com.huawei.hms.client.appid"
+699-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:655:13-55
+700            android:value="" /> <!-- 2.BridgeActivity定义了HMS-SDK中一些跳转所需要的透明页面 -->
+700-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:656:13-45
+701        <activity
+701-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:657:9-667:20
+702            android:name="com.huawei.hms.activity.BridgeActivity"
+702-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:658:13-66
+703            android:configChanges="orientation|locale|screenSize|layoutDirection|fontScale"
+703-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:659:13-92
+704            android:excludeFromRecents="true"
+704-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:660:13-46
+705            android:exported="false"
+705-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:661:13-37
+706            android:hardwareAccelerated="true"
+706-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:662:13-47
+707            android:theme="@android:style/Theme.Translucent" >
+707-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:663:13-61
+708            <meta-data
+708-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:664:13-666:77
+709                android:name="hwc-theme"
+709-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:665:17-41
+710                android:value="androidhwext:style/Theme.Emui.Translucent" />
+710-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:666:17-74
+711        </activity> <!-- 3.UpdateProvider用于HMS-SDK引导升级HMS，提供给系统安装器读取升级文件。 -->
+712        <!-- 不同应用的authorities必须不同，所以用applicationId开头， -->
+713        <provider
+714            android:name="com.huawei.hms.update.provider.UpdateProvider"
+714-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:670:13-73
+715            android:authorities="com.ouxin.chat.hms.update.provider"
+715-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:671:13-64
+716            android:exported="false"
+716-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:672:13-37
+717            android:grantUriPermissions="true" /> <!-- 4.用来接收PUSH消息的receiver： -->
+717-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:673:13-47
+718        <receiver android:name="com.sk.weichat.xmpp.helloDemon.HuaweiPushRevicer" >
+718-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:674:9-686:20
+718-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:674:19-68
+719            <intent-filter>
+719-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:675:13-685:29
+720
+721                <!-- 必须,用于接收TOKEN -->
+722                <action android:name="com.huawei.android.push.intent.REGISTRATION" />
+722-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:678:17-86
+722-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:678:25-83
+723                <!-- 必须，用于接收消息 -->
+724                <action android:name="com.huawei.android.push.intent.RECEIVE" />
+724-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:680:17-81
+724-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:680:25-78
+725                <!-- 可选，用于点击通知栏或通知栏上的按钮后触发onEvent回调 -->
+726                <action android:name="com.huawei.android.push.intent.CLICK" />
+726-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:682:17-79
+726-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:682:25-76
+727                <!-- 可选，查看PUSH通道是否连接，不查看则不需要 -->
+728                <action android:name="com.huawei.intent.action.PUSH_STATE" />
+728-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:684:17-78
+728-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:684:25-75
+729            </intent-filter>
+730        </receiver> <!-- 5. 接收通道发来的通知栏消息： -->
+731        <receiver android:name="com.huawei.hms.support.api.push.PushEventReceiver" >
+731-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:687:9-693:20
+731-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:687:19-83
+732            <intent-filter>
+732-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:688:13-692:29
+733
+734                <!-- 接收通道发来的通知栏消息，兼容老版本PUSH -->
+735                <action android:name="com.huawei.intent.action.PUSH" />
+735-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:691:17-72
+735-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:691:25-69
+736            </intent-filter>
+737        </receiver>
+738
+739        <activity
+739-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:695:9-697:52
+740            android:name="com.sk.weichat.ui.life.LifeCircleActivity"
+740-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:696:13-55
+741            android:screenOrientation="portrait" />
+741-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:697:13-49
+742        <activity android:name="com.sk.weichat.ui.nearby.PublicNumberSearchActivity" />
+742-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:698:9-74
+742-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:698:19-71
+743        <activity android:name="com.sk.weichat.ui.nearby.PublicNumberListActivity" />
+743-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:699:9-72
+743-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:699:19-69
+744        <activity android:name="com.sk.weichat.ui.circle.range.PraiseListActivity" />
+744-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:700:9-72
+744-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:700:19-69
+745
+746        <meta-data
+746-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:702:9-704:62
+747            android:name="com.google.firebase.messaging.default_notification_icon"
+747-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:703:13-83
+748            android:resource="@drawable/icon_notification" /> <!-- 魅族推送， -->
+748-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:704:13-59
+749        <!-- 绑定进程保活 -->
+750        <service
+750-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:706:9-712:19
+751            android:name="com.sk.weichat.xmpp.helloDemon.MeizuForegroundService"
+751-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:707:13-67
+752            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
+752-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:708:13-87
+753            <intent-filter>
+753-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:548:13-550:29
+754                <action android:name="android.service.notification.NotificationListenerService" />
+754-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:549:17-99
+754-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:549:25-96
+755            </intent-filter>
+756        </service>
+757
+758        <receiver android:name="com.sk.weichat.xmpp.helloDemon.MeizuPushMsgReceiver" >
+758-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:714:9-730:20
+758-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:715:13-65
+759            <intent-filter>
+759-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:717:13-729:29
+760
+761                <!-- 接收push消息 -->
+762                <action android:name="com.meizu.flyme.push.intent.MESSAGE" />
+762-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:720:17-78
+762-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:720:25-75
+763                <!-- 接收register消息 -->
+764                <action android:name="com.meizu.flyme.push.intent.REGISTER.FEEDBACK" />
+764-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:722:17-88
+764-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:722:25-85
+765                <!-- 接收unregister消息 -->
+766                <action android:name="com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK" />
+766-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:724:17-90
+766-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:724:25-87
+767                <action android:name="com.meizu.c2dm.intent.REGISTRATION" />
+767-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:725:17-77
+767-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:725:25-74
+768                <action android:name="com.meizu.c2dm.intent.RECEIVE" />
+768-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:726:17-72
+768-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:726:25-69
+769
+770                <category android:name="com.ouxin.chat" />
+770-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:728:27-51
+771            </intent-filter>
+772        </receiver>
+773
+774        <activity
+774-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:732:9-742:20
+775            android:name="com.sk.weichat.ui.systemshare.ShareNearChatFriend"
+775-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:733:13-63
+776            android:label="@string/send_to_friend" >
+776-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:734:13-51
+777            <intent-filter>
+777-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:735:13-741:29
+778                <action android:name="android.intent.action.SEND" />
+778-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:736:17-69
+778-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:736:25-66
+779
+780                <category android:name="android.intent.category.DEFAULT" />
+780-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:121:17-76
+780-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:121:27-73
+781
+782                <data android:mimeType="*/*" />
+782-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:740:23-45
+783            </intent-filter>
+784        </activity>
+785        <activity android:name="com.sk.weichat.ui.systemshare.ShareNewFriend" />
+785-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:743:9-67
+785-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:743:19-64
+786        <activity android:name="com.sk.weichat.ui.systemshare.ShareNewGroup" />
+786-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:744:9-66
+786-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:744:19-63
+787        <activity
+787-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:745:9-755:20
+788            android:name="com.sk.weichat.ui.systemshare.ShareLifeCircleProxyActivity"
+788-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:746:13-72
+789            android:label="@string/send_to_life_circle" >
+789-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:747:13-56
+790            <intent-filter>
+790-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:735:13-741:29
+791                <action android:name="android.intent.action.SEND" />
+791-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:736:17-69
+791-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:736:25-66
+792
+793                <category android:name="android.intent.category.DEFAULT" />
+793-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:121:17-76
+793-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:121:27-73
+794
+795                <data android:mimeType="*/*" />
+795-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:740:23-45
+796            </intent-filter>
+797        </activity>
+798        <activity android:name="com.sk.weichat.ui.systemshare.ShareShuoshuoActivity" />
+798-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:756:9-74
+798-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:756:19-71
+799        <activity android:name="com.sk.weichat.ui.systemshare.ShareVideoActivity" />
+799-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:757:9-71
+799-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:757:19-68
+800        <activity android:name="com.sk.weichat.ui.systemshare.ShareFileActivity" />
+800-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:758:9-70
+800-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:758:19-67
+801        <activity android:name="com.sk.weichat.ui.account.QuickLoginAuthority" >
+801-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:759:9-772:20
+801-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:759:19-65
+802            <intent-filter>
+802-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:760:13-771:29
+803                <action android:name="android.intent.action.VIEW" />
+803-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:119:17-69
+803-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:119:25-66
+804
+805                <category android:name="android.intent.category.DEFAULT" />
+805-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:121:17-76
+805-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:121:27-73
+806                <category android:name="android.intent.category.BROWSABLE" />
+806-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:122:17-78
+806-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:122:27-75
+807                <!-- shikuimapp://www.shikuAndroid.com:80?apiKey= & appSecret = -->
+808
+809                <data
+810                    android:host="www.shikuandroid.com"
+810-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:125:21-45
+811                    android:port="80"
+811-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:769:21-38
+812                    android:scheme="shikuimapp" />
+812-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:127:21-40
+813            </intent-filter>
+814        </activity>
+815        <activity android:name="com.sk.weichat.ui.account.QuickPay" >
+815-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:773:9-786:20
+815-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:773:19-54
+816            <intent-filter>
+816-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:774:13-785:29
+817                <action android:name="android.intent.action.VIEW" />
+817-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:119:17-69
+817-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:119:25-66
+818
+819                <category android:name="android.intent.category.DEFAULT" />
+819-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:121:17-76
+819-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:121:27-73
+820                <category android:name="android.intent.category.BROWSABLE" />
+820-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:122:17-78
+820-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:122:27-75
+821                <!-- shikuimapp://www.shikuandroid.com:80/skPay?appId="+obj.appId+"&prepayId="+obj.prepayId+"&sign="+obj.signt = -->
+822
+823                <data
+824                    android:host="www.shikuandroid.pay.com"
+824-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:125:21-45
+825                    android:port="80"
+825-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:769:21-38
+826                    android:scheme="shikuimapp" />
+826-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:127:21-40
+827            </intent-filter>
+828        </activity>
+829        <activity
+829-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:787:9-790:71
+830            android:name="com.sk.weichat.ui.lock.DeviceLockActivity"
+830-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:788:13-55
+831            android:launchMode="singleTask"
+831-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:789:13-44
+832            android:windowSoftInputMode="stateVisible|adjustResize" />
+832-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:790:13-68
+833        <activity android:name="com.sk.weichat.ui.me.SecureSettingActivity" />
+833-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:791:9-65
+833-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:791:19-62
+834        <activity
+834-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:792:9-794:71
+835            android:name="com.sk.weichat.ui.lock.ChangeDeviceLockPasswordActivity"
+835-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:793:13-69
+836            android:windowSoftInputMode="stateVisible|adjustResize" />
+836-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:794:13-68
+837        <activity android:name="com.sk.weichat.ui.contacts.SendContactsActivity" />
+837-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:795:9-70
+837-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:795:19-67
+838        <activity android:name="com.sk.weichat.ui.login.WebLoginActivity" />
+838-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:796:9-63
+838-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:796:19-60
+839        <activity android:name="com.sk.weichat.ui.message.multi.RoomCopyActivity" />
+839-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:797:9-71
+839-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:797:19-68
+840        <activity android:name="com.sk.weichat.ui.me.redpacket.PaymentCenterActivity" />
+840-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:798:9-75
+840-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:798:19-72
+841        <activity android:name="com.sk.weichat.ui.me.select.SelectRoomActivity" />
+841-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:799:9-69
+841-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:799:19-66
+842        <activity android:name="com.sk.weichat.ui.me.select.SelectColleagueActivity" />
+842-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:800:9-74
+842-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:800:19-71
+843        <activity android:name="com.sk.weichat.ui.me.redpacket.ResetPayPasswordActivity" />
+843-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:801:9-78
+843-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:801:19-75
+844
+845        <receiver android:name="com.fanjun.keeplive.receiver.NotificationClickReceiver" />
+845-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:803:9-91
+845-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:803:19-88
+846
+847        <activity
+847-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:805:9-809:55
+848            android:name="com.fanjun.keeplive.activity.OnePixelActivity"
+848-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:806:13-73
+849            android:excludeFromRecents="true"
+849-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:807:13-46
+850            android:launchMode="singleInstance"
+850-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:808:13-48
+851            android:theme="@style/onePixelActivity" />
+851-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:809:13-52
+852        <activity android:name="com.sk.weichat.view.imageedit.IMGEditActivity" />
+852-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:810:9-68
+852-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:810:19-65
+853
+854        <service android:name="com.fanjun.keeplive.service.LocalService" />
+854-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:812:9-76
+854-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:812:18-73
+855        <service android:name="com.fanjun.keeplive.service.HideForegroundService" />
+855-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:813:9-85
+855-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:813:18-82
+856        <service
+856-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:814:9-816:72
+857            android:name="com.fanjun.keeplive.service.JobHandlerService"
+857-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:815:13-73
+858            android:permission="android.permission.BIND_JOB_SERVICE" />
+858-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:816:13-69
+859        <service
+859-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:817:9-819:41
+860            android:name="com.fanjun.keeplive.service.RemoteService"
+860-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:818:13-69
+861            android:process=":remote" />
+861-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:819:13-38
+862
+863        <activity android:name="com.sk.weichat.ui.yeepay.YeepayWallet" />
+863-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:821:9-60
+863-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:821:19-57
+864        <activity android:name="com.sk.weichat.ui.yeepay.YeepayWebViewActivity" />
+864-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:822:9-69
+864-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:822:19-66
+865        <activity android:name="com.sk.weichat.ui.yeepay.YeepayPaymentCenterActivity" />
+865-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:823:9-75
+865-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:823:19-72
+866        <activity android:name="com.sk.weichat.ui.yeepay.YeepayRecharge" />
+866-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:824:9-62
+866-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:824:19-59
+867        <activity android:name="com.sk.weichat.ui.yeepay.YeepayWithdraw" />
+867-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:825:9-62
+867-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:825:19-59
+868        <activity android:name="com.sk.weichat.ui.yeepay.YeepayOpenActivity" />
+868-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:826:9-66
+868-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:826:19-63
+869        <activity android:name="com.sk.weichat.ui.me.redpacket.MyWalletActivity" />
+869-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:827:9-70
+869-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:827:19-67
+870        <activity android:name="com.sk.weichat.ui.yeepay.YeepayRecordActivity" />
+870-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:828:9-68
+870-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:828:19-65
+871        <activity
+871-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:829:9-835:72
+872            android:name="com.sk.weichat.call.JitsiAudioMeetActivity"
+872-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:830:13-56
+873            android:excludeFromRecents="true"
+873-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:831:13-46
+874            android:launchMode="singleTask"
+874-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:832:13-44
+875            android:screenOrientation="portrait"
+875-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:833:13-49
+876            android:taskAffinity="android.task.meet"
+876-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:834:13-53
+877            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+877-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:835:13-69
+878        <activity
+878-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:836:9-839:66
+879            android:name="com.sk.weichat.call.Jitsi_pre"
+879-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:837:13-43
+880            android:screenOrientation="portrait"
+880-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:838:13-49
+881            android:theme="@style/Theme.AppCompat.NoActionBar" />
+881-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:839:13-63
+882        <activity
+882-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:840:9-844:66
+883            android:name="com.sk.weichat.call.JitsiIncomingcall"
+883-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:841:13-51
+884            android:launchMode="singleTask"
+884-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:842:13-44
+885            android:screenOrientation="portrait"
+885-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:843:13-49
+886            android:theme="@style/Theme.AppCompat.NoActionBar" />
+886-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:844:13-63
+887
+888        <service android:name="com.sk.weichat.call.JitsiFloatService" />
+888-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:845:9-59
+888-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:845:18-56
+889
+890        <activity
+890-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:846:9-851:72
+891            android:name="com.sk.weichat.call.Jitsi_connecting_second"
+891-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:847:13-57
+892            android:excludeFromRecents="true"
+892-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:850:13-47
+893            android:launchMode="singleInstance"
+893-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:848:13-48
+894            android:screenOrientation="portrait"
+894-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:849:13-49
+895            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+895-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:851:13-69
+896        <activity
+896-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:852:9-855:75
+897            android:name="com.sk.weichat.call.JitsiInviteActivity"
+897-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:853:13-53
+898            android:screenOrientation="portrait"
+898-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:854:13-49
+899            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+899-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:855:13-72
+900        <activity
+900-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:856:9-860:72
+901            android:name="com.sk.weichat.call.JitsiTalk"
+901-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:857:13-43
+902            android:launchMode="singleTask"
+902-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:858:13-44
+903            android:screenOrientation="portrait"
+903-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:859:13-49
+904            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+904-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:860:13-69
+905
+906        <uses-library
+906-->[alipaySdk-15.5.9-20181123210601.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fa4f0db6708dba93d62b3c42720f120c\jetified-alipaySdk-15.5.9-20181123210601\AndroidManifest.xml:25:9-27:40
+907            android:name="org.apache.http.legacy"
+907-->[alipaySdk-15.5.9-20181123210601.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fa4f0db6708dba93d62b3c42720f120c\jetified-alipaySdk-15.5.9-20181123210601\AndroidManifest.xml:26:13-50
+908            android:required="false" />
+908-->[alipaySdk-15.5.9-20181123210601.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fa4f0db6708dba93d62b3c42720f120c\jetified-alipaySdk-15.5.9-20181123210601\AndroidManifest.xml:27:13-37
+909
+910        <activity
+910-->[alipaySdk-15.5.9-20181123210601.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fa4f0db6708dba93d62b3c42720f120c\jetified-alipaySdk-15.5.9-20181123210601\AndroidManifest.xml:29:9-34:20
+911            android:name="com.alipay.sdk.app.H5PayActivity"
+911-->[alipaySdk-15.5.9-20181123210601.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fa4f0db6708dba93d62b3c42720f120c\jetified-alipaySdk-15.5.9-20181123210601\AndroidManifest.xml:30:13-60
+912            android:configChanges="orientation|keyboardHidden|navigation"
+912-->[alipaySdk-15.5.9-20181123210601.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fa4f0db6708dba93d62b3c42720f120c\jetified-alipaySdk-15.5.9-20181123210601\AndroidManifest.xml:31:13-74
+913            android:exported="false"
+913-->[alipaySdk-15.5.9-20181123210601.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fa4f0db6708dba93d62b3c42720f120c\jetified-alipaySdk-15.5.9-20181123210601\AndroidManifest.xml:32:13-37
+914            android:screenOrientation="behind" >
+914-->[alipaySdk-15.5.9-20181123210601.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fa4f0db6708dba93d62b3c42720f120c\jetified-alipaySdk-15.5.9-20181123210601\AndroidManifest.xml:33:13-47
+915        </activity>
+916        <activity
+916-->[alipaySdk-15.5.9-20181123210601.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fa4f0db6708dba93d62b3c42720f120c\jetified-alipaySdk-15.5.9-20181123210601\AndroidManifest.xml:35:9-40:20
+917            android:name="com.alipay.sdk.app.H5AuthActivity"
+917-->[alipaySdk-15.5.9-20181123210601.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fa4f0db6708dba93d62b3c42720f120c\jetified-alipaySdk-15.5.9-20181123210601\AndroidManifest.xml:36:13-61
+918            android:configChanges="orientation|keyboardHidden|navigation"
+918-->[alipaySdk-15.5.9-20181123210601.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fa4f0db6708dba93d62b3c42720f120c\jetified-alipaySdk-15.5.9-20181123210601\AndroidManifest.xml:37:13-74
+919            android:exported="false"
+919-->[alipaySdk-15.5.9-20181123210601.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fa4f0db6708dba93d62b3c42720f120c\jetified-alipaySdk-15.5.9-20181123210601\AndroidManifest.xml:38:13-37
+920            android:screenOrientation="behind" >
+920-->[alipaySdk-15.5.9-20181123210601.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fa4f0db6708dba93d62b3c42720f120c\jetified-alipaySdk-15.5.9-20181123210601\AndroidManifest.xml:39:13-47
+921        </activity>
+922        <activity
+922-->[alipaySdk-15.5.9-20181123210601.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fa4f0db6708dba93d62b3c42720f120c\jetified-alipaySdk-15.5.9-20181123210601\AndroidManifest.xml:41:9-51:20
+923            android:name="com.alipay.sdk.app.PayResultActivity"
+923-->[alipaySdk-15.5.9-20181123210601.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fa4f0db6708dba93d62b3c42720f120c\jetified-alipaySdk-15.5.9-20181123210601\AndroidManifest.xml:42:13-64
+924            android:configChanges="orientation|keyboardHidden|navigation"
+924-->[alipaySdk-15.5.9-20181123210601.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fa4f0db6708dba93d62b3c42720f120c\jetified-alipaySdk-15.5.9-20181123210601\AndroidManifest.xml:43:13-74
+925            android:exported="true"
+925-->[alipaySdk-15.5.9-20181123210601.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fa4f0db6708dba93d62b3c42720f120c\jetified-alipaySdk-15.5.9-20181123210601\AndroidManifest.xml:44:13-36
+926            android:launchMode="singleInstance"
+926-->[alipaySdk-15.5.9-20181123210601.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fa4f0db6708dba93d62b3c42720f120c\jetified-alipaySdk-15.5.9-20181123210601\AndroidManifest.xml:45:13-48
+927            android:screenOrientation="portrait"
+927-->[alipaySdk-15.5.9-20181123210601.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fa4f0db6708dba93d62b3c42720f120c\jetified-alipaySdk-15.5.9-20181123210601\AndroidManifest.xml:46:13-49
+928            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+928-->[alipaySdk-15.5.9-20181123210601.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fa4f0db6708dba93d62b3c42720f120c\jetified-alipaySdk-15.5.9-20181123210601\AndroidManifest.xml:47:13-72
+929            <intent-filter>
+929-->[alipaySdk-15.5.9-20181123210601.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fa4f0db6708dba93d62b3c42720f120c\jetified-alipaySdk-15.5.9-20181123210601\AndroidManifest.xml:48:13-50:29
+930                <category android:name="android.intent.category.DEFAULT" />
+930-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:121:17-76
+930-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:121:27-73
+931            </intent-filter>
+932        </activity>
+933        <activity
+933-->[:YZxing-lib] D:\AWB\android-call-demo41\YZxing-lib\build\intermediates\library_manifest\release\AndroidManifest.xml:20:9-23:49
+934            android:name="com.example.qrcode.ScannerActivity"
+934-->[:YZxing-lib] D:\AWB\android-call-demo41\YZxing-lib\build\intermediates\library_manifest\release\AndroidManifest.xml:21:13-62
+935            android:screenOrientation="portrait"
+935-->[:YZxing-lib] D:\AWB\android-call-demo41\YZxing-lib\build\intermediates\library_manifest\release\AndroidManifest.xml:22:13-49
+936            android:theme="@style/MyAppTheme" />
+936-->[:YZxing-lib] D:\AWB\android-call-demo41\YZxing-lib\build\intermediates\library_manifest\release\AndroidManifest.xml:23:13-46
+937        <activity
+937-->[:YZxing-lib] D:\AWB\android-call-demo41\YZxing-lib\build\intermediates\library_manifest\release\AndroidManifest.xml:24:9-26:49
+938            android:name="com.example.qrcode.ShowResultActivity"
+938-->[:YZxing-lib] D:\AWB\android-call-demo41\YZxing-lib\build\intermediates\library_manifest\release\AndroidManifest.xml:25:13-65
+939            android:theme="@style/MyAppTheme" />
+939-->[:YZxing-lib] D:\AWB\android-call-demo41\YZxing-lib\build\intermediates\library_manifest\release\AndroidManifest.xml:26:13-46
+940        <activity
+940-->[cc.aoeiuv020:imaging:1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\a989befab50888ed1ef5d8605228f468\jetified-imaging-1.0\AndroidManifest.xml:14:9-16:56
+941            android:name="me.kareluo.imaging.IMGGalleryActivity"
+941-->[cc.aoeiuv020:imaging:1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\a989befab50888ed1ef5d8605228f468\jetified-imaging-1.0\AndroidManifest.xml:15:13-65
+942            android:theme="@style/ImageGalleryTheme" />
+942-->[cc.aoeiuv020:imaging:1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\a989befab50888ed1ef5d8605228f468\jetified-imaging-1.0\AndroidManifest.xml:16:13-53
+943        <activity
+943-->[cc.aoeiuv020:imaging:1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\a989befab50888ed1ef5d8605228f468\jetified-imaging-1.0\AndroidManifest.xml:17:9-20:63
+944            android:name="me.kareluo.imaging.IMGEditActivity"
+944-->[cc.aoeiuv020:imaging:1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\a989befab50888ed1ef5d8605228f468\jetified-imaging-1.0\AndroidManifest.xml:18:13-62
+945            android:theme="@style/ImageEditTheme"
+945-->[cc.aoeiuv020:imaging:1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\a989befab50888ed1ef5d8605228f468\jetified-imaging-1.0\AndroidManifest.xml:19:13-50
+946            android:windowSoftInputMode="stateAlwaysHidden" />
+946-->[cc.aoeiuv020:imaging:1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\a989befab50888ed1ef5d8605228f468\jetified-imaging-1.0\AndroidManifest.xml:20:13-60
+947        <activity
+947-->[jitsi-meet-sdk-2.4.0-4.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\c6ae39e133b55d94dd27efc376ad8589\jetified-jitsi-meet-sdk-2.4.0-4\AndroidManifest.xml:35:9-42:20
+948            android:name="org.jitsi.meet.sdk.JitsiMeetActivity"
+948-->[jitsi-meet-sdk-2.4.0-4.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\c6ae39e133b55d94dd27efc376ad8589\jetified-jitsi-meet-sdk-2.4.0-4\AndroidManifest.xml:36:13-64
+949            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"
+949-->[jitsi-meet-sdk-2.4.0-4.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\c6ae39e133b55d94dd27efc376ad8589\jetified-jitsi-meet-sdk-2.4.0-4\AndroidManifest.xml:37:13-115
+950            android:launchMode="singleTask"
+950-->[jitsi-meet-sdk-2.4.0-4.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\c6ae39e133b55d94dd27efc376ad8589\jetified-jitsi-meet-sdk-2.4.0-4\AndroidManifest.xml:38:13-44
+951            android:resizeableActivity="true"
+951-->[jitsi-meet-sdk-2.4.0-4.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\c6ae39e133b55d94dd27efc376ad8589\jetified-jitsi-meet-sdk-2.4.0-4\AndroidManifest.xml:39:13-46
+952            android:supportsPictureInPicture="true"
+952-->[jitsi-meet-sdk-2.4.0-4.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\c6ae39e133b55d94dd27efc376ad8589\jetified-jitsi-meet-sdk-2.4.0-4\AndroidManifest.xml:40:13-52
+953            android:windowSoftInputMode="adjustResize" >
+953-->[jitsi-meet-sdk-2.4.0-4.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\c6ae39e133b55d94dd27efc376ad8589\jetified-jitsi-meet-sdk-2.4.0-4\AndroidManifest.xml:41:13-55
+954        </activity>
+955        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+955-->[jitsi-meet-sdk-2.4.0-4.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\c6ae39e133b55d94dd27efc376ad8589\jetified-jitsi-meet-sdk-2.4.0-4\AndroidManifest.xml:43:9-86
+955-->[jitsi-meet-sdk-2.4.0-4.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\c6ae39e133b55d94dd27efc376ad8589\jetified-jitsi-meet-sdk-2.4.0-4\AndroidManifest.xml:43:19-83
+956
+957        <service
+957-->[jitsi-meet-sdk-2.4.0-4.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\c6ae39e133b55d94dd27efc376ad8589\jetified-jitsi-meet-sdk-2.4.0-4\AndroidManifest.xml:45:9-51:19
+958            android:name="org.jitsi.meet.sdk.ConnectionService"
+958-->[jitsi-meet-sdk-2.4.0-4.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\c6ae39e133b55d94dd27efc376ad8589\jetified-jitsi-meet-sdk-2.4.0-4\AndroidManifest.xml:46:13-64
+959            android:permission="android.permission.BIND_TELECOM_CONNECTION_SERVICE" >
+959-->[jitsi-meet-sdk-2.4.0-4.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\c6ae39e133b55d94dd27efc376ad8589\jetified-jitsi-meet-sdk-2.4.0-4\AndroidManifest.xml:47:13-84
+960            <intent-filter>
+960-->[jitsi-meet-sdk-2.4.0-4.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\c6ae39e133b55d94dd27efc376ad8589\jetified-jitsi-meet-sdk-2.4.0-4\AndroidManifest.xml:48:13-50:29
+961                <action android:name="android.telecom.ConnectionService" />
+961-->[jitsi-meet-sdk-2.4.0-4.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\c6ae39e133b55d94dd27efc376ad8589\jetified-jitsi-meet-sdk-2.4.0-4\AndroidManifest.xml:49:17-76
+961-->[jitsi-meet-sdk-2.4.0-4.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\c6ae39e133b55d94dd27efc376ad8589\jetified-jitsi-meet-sdk-2.4.0-4\AndroidManifest.xml:49:25-73
+962            </intent-filter>
+963        </service>
+964        <service android:name="org.jitsi.meet.sdk.JitsiMeetOngoingConferenceService" />
+964-->[jitsi-meet-sdk-2.4.0-4.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\c6ae39e133b55d94dd27efc376ad8589\jetified-jitsi-meet-sdk-2.4.0-4\AndroidManifest.xml:52:9-88
+964-->[jitsi-meet-sdk-2.4.0-4.aar] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\c6ae39e133b55d94dd27efc376ad8589\jetified-jitsi-meet-sdk-2.4.0-4\AndroidManifest.xml:52:18-85
+965        <service
+965-->[com.meizu.flyme.internet:push-internal:3.8.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\76eaec393c3d11baa763a7b7bbc7b4c5\jetified-push-internal-3.8.1\AndroidManifest.xml:19:9-21:39
+966            android:name="com.meizu.cloud.pushsdk.NotificationService"
+966-->[com.meizu.flyme.internet:push-internal:3.8.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\76eaec393c3d11baa763a7b7bbc7b4c5\jetified-push-internal-3.8.1\AndroidManifest.xml:20:13-71
+967            android:exported="true" />
+967-->[com.meizu.flyme.internet:push-internal:3.8.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\76eaec393c3d11baa763a7b7bbc7b4c5\jetified-push-internal-3.8.1\AndroidManifest.xml:21:13-36
+968
+969        <receiver
+969-->[com.meizu.flyme.internet:push-internal:3.8.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\76eaec393c3d11baa763a7b7bbc7b4c5\jetified-push-internal-3.8.1\AndroidManifest.xml:23:9-31:20
+970            android:name="com.meizu.cloud.pushsdk.SystemReceiver"
+970-->[com.meizu.flyme.internet:push-internal:3.8.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\76eaec393c3d11baa763a7b7bbc7b4c5\jetified-push-internal-3.8.1\AndroidManifest.xml:24:13-66
+971            android:exported="false" >
+971-->[com.meizu.flyme.internet:push-internal:3.8.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\76eaec393c3d11baa763a7b7bbc7b4c5\jetified-push-internal-3.8.1\AndroidManifest.xml:25:13-37
+972            <intent-filter>
+972-->[com.meizu.flyme.internet:push-internal:3.8.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\76eaec393c3d11baa763a7b7bbc7b4c5\jetified-push-internal-3.8.1\AndroidManifest.xml:26:13-30:29
+973                <action android:name="com.meizu.cloud.pushservice.action.PUSH_SERVICE_START" />
+973-->[com.meizu.flyme.internet:push-internal:3.8.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\76eaec393c3d11baa763a7b7bbc7b4c5\jetified-push-internal-3.8.1\AndroidManifest.xml:27:17-96
+973-->[com.meizu.flyme.internet:push-internal:3.8.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\76eaec393c3d11baa763a7b7bbc7b4c5\jetified-push-internal-3.8.1\AndroidManifest.xml:27:25-93
+974
+975                <category android:name="android.intent.category.DEFAULT" />
+975-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:121:17-76
+975-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:121:27-73
+976            </intent-filter>
+977        </receiver>
+978        <!--
+979             FirebaseMessagingService performs security checks at runtime,
+980             but set to not exported to explicitly avoid allowing another app to call it.
+981        -->
+982        <service
+982-->[com.google.firebase:firebase-messaging:18.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\7377ce89ef95c9ae7543301108df9675\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:28:9-34:19
+983            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+983-->[com.google.firebase:firebase-messaging:18.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\7377ce89ef95c9ae7543301108df9675\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:29:13-82
+984            android:exported="false" >
+984-->[com.google.firebase:firebase-messaging:18.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\7377ce89ef95c9ae7543301108df9675\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:30:13-37
+985            <intent-filter android:priority="-500" >
+985-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:620:13-622:29
+986                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+986-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:621:17-78
+986-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:621:25-75
+987            </intent-filter>
+988        </service>
+989        <service
+989-->[com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\ec9b652ddf681d3c0efccb84b59a12ab\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:27:9-33:19
+990            android:name="com.google.firebase.components.ComponentDiscoveryService"
+990-->[com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\ec9b652ddf681d3c0efccb84b59a12ab\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:28:13-84
+991            android:exported="false" >
+991-->[com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\ec9b652ddf681d3c0efccb84b59a12ab\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:29:13-37
+992            <meta-data
+992-->[com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\ec9b652ddf681d3c0efccb84b59a12ab\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:30:13-32:85
+993                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+993-->[com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\ec9b652ddf681d3c0efccb84b59a12ab\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:31:17-139
+994                android:value="com.google.firebase.components.ComponentRegistrar" />
+994-->[com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\ec9b652ddf681d3c0efccb84b59a12ab\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:32:17-82
+995            <meta-data
+995-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\5d7ac87b870acc1aca20c3bc910ddeef\jetified-firebase-iid-18.0.0\AndroidManifest.xml:32:13-34:85
+996                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+996-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\5d7ac87b870acc1aca20c3bc910ddeef\jetified-firebase-iid-18.0.0\AndroidManifest.xml:33:17-96
+997                android:value="com.google.firebase.components.ComponentRegistrar" />
+997-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\5d7ac87b870acc1aca20c3bc910ddeef\jetified-firebase-iid-18.0.0\AndroidManifest.xml:34:17-82
+998        </service>
+999
+1000        <receiver
+1000-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\5d7ac87b870acc1aca20c3bc910ddeef\jetified-firebase-iid-18.0.0\AndroidManifest.xml:37:9-44:20
+1001            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+1001-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\5d7ac87b870acc1aca20c3bc910ddeef\jetified-firebase-iid-18.0.0\AndroidManifest.xml:38:13-78
+1002            android:exported="true"
+1002-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\5d7ac87b870acc1aca20c3bc910ddeef\jetified-firebase-iid-18.0.0\AndroidManifest.xml:39:13-36
+1003            android:permission="com.google.android.c2dm.permission.SEND" >
+1003-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\5d7ac87b870acc1aca20c3bc910ddeef\jetified-firebase-iid-18.0.0\AndroidManifest.xml:40:13-73
+1004            <intent-filter>
+1004-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\5d7ac87b870acc1aca20c3bc910ddeef\jetified-firebase-iid-18.0.0\AndroidManifest.xml:41:13-43:29
+1005                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+1005-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\5d7ac87b870acc1aca20c3bc910ddeef\jetified-firebase-iid-18.0.0\AndroidManifest.xml:42:17-81
+1005-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\5d7ac87b870acc1aca20c3bc910ddeef\jetified-firebase-iid-18.0.0\AndroidManifest.xml:42:25-78
+1006            </intent-filter>
+1007        </receiver>
+1008
+1009        <provider
+1009-->[com.google.firebase:firebase-common:17.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\5d33be6b4f5e135f95248871154cb701\jetified-firebase-common-17.0.0\AndroidManifest.xml:12:9-16:39
+1010            android:name="com.google.firebase.provider.FirebaseInitProvider"
+1010-->[com.google.firebase:firebase-common:17.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\5d33be6b4f5e135f95248871154cb701\jetified-firebase-common-17.0.0\AndroidManifest.xml:13:13-77
+1011            android:authorities="com.ouxin.chat.firebaseinitprovider"
+1011-->[com.google.firebase:firebase-common:17.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\5d33be6b4f5e135f95248871154cb701\jetified-firebase-common-17.0.0\AndroidManifest.xml:14:13-72
+1012            android:exported="false"
+1012-->[com.google.firebase:firebase-common:17.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\5d33be6b4f5e135f95248871154cb701\jetified-firebase-common-17.0.0\AndroidManifest.xml:15:13-37
+1013            android:initOrder="100" />
+1013-->[com.google.firebase:firebase-common:17.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\5d33be6b4f5e135f95248871154cb701\jetified-firebase-common-17.0.0\AndroidManifest.xml:16:13-36
+1014
+1015        <activity
+1015-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\81fc92b5f20adafa9e3ae93bc762fd83\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+1016            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+1016-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\81fc92b5f20adafa9e3ae93bc762fd83\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+1017            android:exported="false"
+1017-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\81fc92b5f20adafa9e3ae93bc762fd83\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+1018            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+1018-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\81fc92b5f20adafa9e3ae93bc762fd83\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+1019
+1020        <receiver
+1020-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\cd9a381cf6d7367550fa368374009b0f\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:29:9-33:20
+1021            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+1021-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\cd9a381cf6d7367550fa368374009b0f\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:30:13-85
+1022            android:enabled="true"
+1022-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\cd9a381cf6d7367550fa368374009b0f\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:31:13-35
+1023            android:exported="false" >
+1023-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\cd9a381cf6d7367550fa368374009b0f\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:32:13-37
+1024        </receiver>
+1025        <receiver
+1025-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\cd9a381cf6d7367550fa368374009b0f\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:34:9-42:20
+1026            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+1026-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\cd9a381cf6d7367550fa368374009b0f\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:35:13-100
+1027            android:enabled="true"
+1027-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\cd9a381cf6d7367550fa368374009b0f\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:36:13-35
+1028            android:exported="true"
+1028-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\cd9a381cf6d7367550fa368374009b0f\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:37:13-36
+1029            android:permission="android.permission.INSTALL_PACKAGES" >
+1029-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\cd9a381cf6d7367550fa368374009b0f\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:38:13-69
+1030            <intent-filter>
+1030-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\cd9a381cf6d7367550fa368374009b0f\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:39:13-41:29
+1031                <action android:name="com.android.vending.INSTALL_REFERRER" />
+1031-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\cd9a381cf6d7367550fa368374009b0f\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:40:17-79
+1031-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\cd9a381cf6d7367550fa368374009b0f\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:40:25-76
+1032            </intent-filter>
+1033        </receiver>
+1034
+1035        <service
+1035-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\cd9a381cf6d7367550fa368374009b0f\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:44:9-47:40
+1036            android:name="com.google.android.gms.measurement.AppMeasurementService"
+1036-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\cd9a381cf6d7367550fa368374009b0f\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:45:13-84
+1037            android:enabled="true"
+1037-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\cd9a381cf6d7367550fa368374009b0f\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:46:13-35
+1038            android:exported="false" />
+1038-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\cd9a381cf6d7367550fa368374009b0f\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:47:13-37
+1039        <service
+1039-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\cd9a381cf6d7367550fa368374009b0f\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:48:9-52:72
+1040            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+1040-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\cd9a381cf6d7367550fa368374009b0f\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:49:13-87
+1041            android:enabled="true"
+1041-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\cd9a381cf6d7367550fa368374009b0f\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:50:13-35
+1042            android:exported="false"
+1042-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\cd9a381cf6d7367550fa368374009b0f\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:51:13-37
+1043            android:permission="android.permission.BIND_JOB_SERVICE" />
+1043-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\cd9a381cf6d7367550fa368374009b0f\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:52:13-69
+1044
+1045        <provider
+1045-->[com.facebook.react:react-native-webview:7.4.1-jitsi-2535222] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\021567c955391f45ec8bb30eea7dfb8f\jetified-react-native-webview-7.4.1-jitsi-2535222\AndroidManifest.xml:12:9-20:20
+1046            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+1046-->[com.facebook.react:react-native-webview:7.4.1-jitsi-2535222] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\021567c955391f45ec8bb30eea7dfb8f\jetified-react-native-webview-7.4.1-jitsi-2535222\AndroidManifest.xml:13:13-83
+1047            android:authorities="com.ouxin.chat.fileprovider"
+1047-->[com.facebook.react:react-native-webview:7.4.1-jitsi-2535222] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\021567c955391f45ec8bb30eea7dfb8f\jetified-react-native-webview-7.4.1-jitsi-2535222\AndroidManifest.xml:14:13-64
+1048            android:exported="false"
+1048-->[com.facebook.react:react-native-webview:7.4.1-jitsi-2535222] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\021567c955391f45ec8bb30eea7dfb8f\jetified-react-native-webview-7.4.1-jitsi-2535222\AndroidManifest.xml:15:13-37
+1049            android:grantUriPermissions="true" >
+1049-->[com.facebook.react:react-native-webview:7.4.1-jitsi-2535222] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\021567c955391f45ec8bb30eea7dfb8f\jetified-react-native-webview-7.4.1-jitsi-2535222\AndroidManifest.xml:16:13-47
+1050            <meta-data
+1050-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:510:13-512:54
+1051                android:name="android.support.FILE_PROVIDER_PATHS"
+1051-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:511:17-67
+1052                android:resource="@xml/file_provider_paths" />
+1052-->D:\AWB\android-call-demo41\skWeiChatBaidu\src\main\AndroidManifest.xml:512:17-51
+1053        </provider>
+1054    </application>
+1055
+1056</manifest>

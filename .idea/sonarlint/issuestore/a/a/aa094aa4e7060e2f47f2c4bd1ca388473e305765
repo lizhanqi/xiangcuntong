@@ -1,0 +1,34 @@
+
+c
+java:S1192N"HDefine a constant instead of duplicating this literal "ownerId" 7 times.(ºã‚úýÿÿÿÿ
+e
+java:S1192œ"IDefine a constant instead of duplicating this literal "timeSend" 3 times.(Ö¯Ëíýÿÿÿÿ
+]
+java:S1192"GDefine a constant instead of duplicating this literal "userId" 5 times.(´ÑÓ/
+T
+java:S1155u">Use isEmpty() to check whether the collection is empty or not.(ô“Í
+Z
+java:S1155°">Use isEmpty() to check whether the collection is empty or not.(…Ë³ëúÿÿÿÿ
+6
+java:S1700)"Rename field "newFriendDao"(°—Ã€üÿÿÿÿ
+s
+java:S1104)"XMake newFriendDao a static final constant or non-public and provide accessors if needed.(°—Ã€üÿÿÿÿ
+O
+java:S21686"9Remove this dangerous instance of double-checked locking.(ˆŠªë
+H
+java:S1113@"-Do not override the Object.finalize() method.(ÖÒ˜Ùùÿÿÿÿ
+M
+java:S1135W"2Complete the task associated to this TODO comment.(óõçƒøÿÿÿÿ
+I
+java:S1135ƒ"2Complete the task associated to this TODO comment.(êõÖ€
+R	java:S125Á"<This block of commented-out lines of code should be removed.(ÓÞþŸ
+Q
+java:S1133Ü"5Do not forget to remove this deprecated code someday.(½©÷þÿÿÿÿ
+D
+java:S1123Ü"(Add the missing @deprecated Javadoc tag.(½©÷þÿÿÿÿ
+U
+java:S1874‹"9Remove this use of "requireSelfStatus"; it is deprecated.(£ûÏÐúÿÿÿÿ
+O
+java:S1874‹"3Remove this use of "accessToken"; it is deprecated.(£ûÏÐúÿÿÿÿ
+—
+java:S1186§"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(×ºµO

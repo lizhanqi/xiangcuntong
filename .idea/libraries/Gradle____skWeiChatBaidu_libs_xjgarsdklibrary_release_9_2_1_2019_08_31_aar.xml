@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: ./skWeiChatBaidu/libs/xjgarsdklibrary-release-9.2.1-2019-08-31.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e54906d9b5caede6d602ee40d9c2ec7f/jetified-xjgarsdklibrary-release-9.2.1-2019-08-31/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e54906d9b5caede6d602ee40d9c2ec7f/jetified-xjgarsdklibrary-release-9.2.1-2019-08-31/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e54906d9b5caede6d602ee40d9c2ec7f/jetified-xjgarsdklibrary-release-9.2.1-2019-08-31/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

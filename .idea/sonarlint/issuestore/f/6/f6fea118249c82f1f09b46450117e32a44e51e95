@@ -1,0 +1,22 @@
+
+]
+java:S1192´"GDefine a constant instead of duplicating this literal "result" 4 times.(ÜÈ‹
+R	java:S110)"=This class has 10 parents which is greater than 5 authorized.(Í³–à
+L
+java:S1874Í"5Remove this use of "getSelfStatus"; it is deprecated.(´†²õ
+J
+java:S1874Í"3Remove this use of "accessToken"; it is deprecated.(´†²õ
+L
+java:S1874õ"5Remove this use of "getSelfStatus"; it is deprecated.(´†²õ
+J
+java:S1874õ"3Remove this use of "accessToken"; it is deprecated.(´†²õ
+C
+java:S1602þ",Remove useless curly braces around statement(ýô±þ
+^
+java:S1854ˆ"BRemove this useless assignment to local variable "wxUploadResult".(Íª‰¯þÿÿÿÿ
+C
+java:S1602—",Remove useless curly braces around statement(–ÜŸ÷
+C
+java:S1602ª",Remove useless curly braces around statement(¯’€¹
+O
+java:S1481ˆ"3Remove this unused "wxUploadResult" local variable.(Íª‰¯þÿÿÿÿ

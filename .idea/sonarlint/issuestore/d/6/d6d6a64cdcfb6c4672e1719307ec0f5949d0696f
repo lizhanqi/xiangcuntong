@@ -1,0 +1,18 @@
+
+1
+java:S1700"Rename field "userDao"(Î³‰”øÿÿÿÿ
+n
+java:S1104"SMake userDao a static final constant or non-public and provide accessors if needed.(Î³‰”øÿÿÿÿ
+q
+java:S1104"VMake companyDao a static final constant or non-public and provide accessors if needed.(ÈõÂúÿÿÿÿÿ
+O
+java:S2168#"9Remove this dangerous instance of double-checked locking.(ÁÒñ’
+H
+java:S1113-"-Do not override the Object.finalize() method.(ÖÒ˜Ùùÿÿÿÿ
+Z
+java:S2147J"DCombine this catch with the one at line 71, which has the same body.(ßÈ´
+V	java:S125?"<This block of commented-out lines of code should be removed.(•ç²òøÿÿÿÿ
+Z
+java:S2147V"DCombine this catch with the one at line 84, which has the same body.(ßÈ´
+\
+java:S2147·"ECombine this catch with the one at line 180, which has the same body.(ßÈ´

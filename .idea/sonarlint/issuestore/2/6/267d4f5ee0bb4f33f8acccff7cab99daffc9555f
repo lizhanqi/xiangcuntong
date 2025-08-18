@@ -1,0 +1,19 @@
+
+_
+java:S1192p"IUse already-defined constant 'TAG' instead of duplicating its value here.(£“ßÃ
+>
+java:S1604u"(Make this anonymous inner class a lambda(ÉãÃ®
+Q	java:S125)"<This block of commented-out lines of code should be removed.(í¹İò
+i
+java:S4042,"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(²Œ­ûÿÿÿÿ
+U	java:S899,";Do something with the "boolean" value returned by "delete".(²Œ­ûÿÿÿÿ
+N
+java:S1135¯"2Complete the task associated to this TODO comment.(ªœıÜøÿÿÿÿ
+j
+java:S4042µ"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(²Œ­ûÿÿÿÿ
+V	java:S899µ";Do something with the "boolean" value returned by "delete".(²Œ­ûÿÿÿÿ
+j
+java:S4042¹"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(¡ÍÂÈùÿÿÿÿ
+V	java:S899¹";Do something with the "boolean" value returned by "delete".(¡ÍÂÈùÿÿÿÿ
+n
+java:S3776¼"RRefactor this method to reduce its Cognitive Complexity from 34 to the 15 allowed.(–´Öˆùÿÿÿÿ

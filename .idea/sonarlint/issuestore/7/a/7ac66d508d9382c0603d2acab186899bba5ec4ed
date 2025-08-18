@@ -1,0 +1,20 @@
+
+f
+java:S1301t"KReplace this "switch" statement by "if" statements to increase readability.(ãÁğ™øÿÿÿÿ
+Z
+java:S2184d"DCast one of the operands of this subtraction operation to a "float".(ìî¤é
+V
+java:S2184d"@Cast one of the operands of this integer division to a "double".(ìî¤é
+V
+java:S2184d"@Cast one of the operands of this integer division to a "double".(ìî¤é
+_
+java:S2184k"DCast one of the operands of this subtraction operation to a "float".(³‹ Øüÿÿÿÿ
+[
+java:S2184k"@Cast one of the operands of this integer division to a "double".(³‹ Øüÿÿÿÿ
+[
+java:S2184k"@Cast one of the operands of this integer division to a "double".(³‹ Øüÿÿÿÿ
+K
+java:S18749"0Remove this use of "getColor"; it is deprecated.(ìÿ¥»üÿÿÿÿ
+F
+java:S1874>"0Remove this use of "getColor"; it is deprecated.(§áåğ
+<	java:S131t""Add a default case to this switch.(ãÁğ™øÿÿÿÿ
