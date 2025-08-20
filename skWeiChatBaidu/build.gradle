@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 buildscript {
     ext {
-        appId = 'com.ouxin.chat' // app的包名，
+        appId = 'xct.zkbojian.com' // app的包名，
         channel = '' // bugly上显示的渠道名，
 
         buglyAppId = '' // bugly配置的appId,
@@ -30,8 +30,6 @@ def googleJson = file('google-services.json')
 if (googleJson.exists() && googleJson.readLines().any { it.contains(appId) }) {
     apply plugin: 'com.google.gms.google-services'
     // 谷歌服务4.2版本有已知bug会导致其他无关依赖(smack4.3.4)莫名冲突，禁用相关检查解决，
-    // https://github.com/invertase/react-native-firebase/issues/1676
-    //noinspection UnnecessaryQualifiedReference
     com.google.gms.googleservices.GoogleServicesPlugin.config.disableVersionCheck = true
 }
 android {
@@ -169,37 +167,37 @@ android {
             enableSplit = true
         }
     }
-    // 签名信息从signing.properties中获取，
-    // debug和release使用相同签名，以便用debug包覆盖release包从而调试，
-    // 如果没有，就会使用默认debug签名，
-    def signingFile = rootProject.file('signing.properties')
-    if (signingFile.exists()) {
-        def input = signingFile.newInputStream()
-        def p = new Properties()
-        p.load(input)
-        // 签名文件存在才配置签名，
-        def jks = rootProject.file(p['storeFile'])
-        if (jks.exists()) {
-            signingConfigs {
-                config {
-                    keyAlias p['keyAlias']
-                    keyPassword p['keyPassword']
-                    storeFile jks
-                    storePassword p['storePassword']
-                    v1SigningEnabled true
-                    v2SigningEnabled true
-                }
-            }
-            buildTypes {
-                debug {
-                    signingConfig signingConfigs.config
-                }
-                release {
-                    signingConfig signingConfigs.config
-                }
-            }
-        }
-    }
+//    // 签名信息从signing.properties中获取，
+//    // debug和release使用相同签名，以便用debug包覆盖release包从而调试，
+//    // 如果没有，就会使用默认debug签名，
+//    def signingFile = rootProject.file('signing.properties')
+//    if (signingFile.exists()) {
+//        def input = signingFile.newInputStream()
+//        def p = new Properties()
+//        p.load(input)
+//        // 签名文件存在才配置签名，
+//        def jks = rootProject.file(p['storeFile'])
+//        if (jks.exists()) {
+//            signingConfigs {
+//                config {
+//                    keyAlias p['keyAlias']
+//                    keyPassword p['keyPassword']
+//                    storeFile jks
+//                    storePassword p['storePassword']
+//                    v1SigningEnabled true
+//                    v2SigningEnabled true
+//                }
+//            }
+//            buildTypes {
+//                debug {
+//                    signingConfig signingConfigs.config
+//                }
+//                release {
+//                    signingConfig signingConfigs.config
+//                }
+//            }
+//        }
+//    }
 }
 
 configurations.all {
