@@ -1,3 +1,4 @@
+rootProject.name="乡村通"
 include ':meeting'
 include ':pullToRefershLibraryMy', ':swiperecyclerview'
 include ':jcvideoplayer-lib'
