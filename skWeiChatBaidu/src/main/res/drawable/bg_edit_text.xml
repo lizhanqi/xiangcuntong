@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 背景颜色（可选） -->
+    <item>
+        <color android:color="@android:color/transparent"/>
+    </item>
+
+    <!-- 底部横线 -->
+    <item android:gravity="bottom">
+        <shape android:shape="rectangle">
+            <size android:height="1dp" />
+            <solid android:color="#F4F4F4" /> <!-- 横线颜色 -->
+        </shape>
+    </item>
+</layer-list>

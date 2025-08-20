@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <!-- 顶部logo -->
+    <RelativeLayout
+        android:id="@+id/layout_logo"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_screen" />
+
+    </RelativeLayout>
+
+    <!-- 手机号 -->
+    <TextView
+        android:id="@+id/tv_phone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="+86 137 **** 7678"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <!-- 一键登录按钮 -->
+    <Button
+        android:id="@+id/btn_one_key_login"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/tv_phone_number"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bg_green_btn"
+        android:text="一键登录"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <!-- 微信登录按钮 -->
+    <LinearLayout
+        android:gravity="center"
+        android:layout_below="@id/btn_one_key_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bg_white_btn"
+        android:id="@+id/btn_wechat_login"
+        android:layout_width="300dp"
+        android:layout_height="50dp">
+        <ImageView
+            android:src="@drawable/ic_wx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginStart="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="微信登录"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+    </LinearLayout>
+    <!-- 其他账号登录 -->
+    <TextView
+        android:id="@+id/tv_other_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_wechat_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="其他账号登录 >"
+        android:textColor="@color/blue"
+        android:textSize="14sp" />
+
+    <!-- 隐私政策 -->
+    <RelativeLayout
+        android:id="@+id/rlPrivacy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp">
+
+
+        <CheckBox
+            android:id="@+id/cb_privacy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:button="@drawable/res_select" />
+
+        <TextView
+            android:id="@+id/tv_privacy_prefix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/cb_privacy"
+            android:text="我已阅读并同意"
+            android:textColor="@color/gray"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_privacy_policy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/tv_privacy_prefix"
+            android:text="《隐私政策》"
+            android:textColor="@color/blue"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_terms_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/tv_privacy_policy"
+            android:text="《服务协议》"
+            android:textColor="@color/blue"
+            android:textSize="12sp" />
+
+        <TextView
+
+            android:id="@+id/tv_minor_protect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_privacy_prefix"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/cb_privacy"
+            android:text="《未成年人个人信息保护规则》"
+            android:textColor="@color/blue"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+</RelativeLayout>
