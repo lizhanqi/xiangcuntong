@@ -13,7 +13,7 @@
             android:id="@+id/welcome_iv"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/welcome_bg"
+            android:background="@drawable/launch_bg"
             android:contentDescription="@string/app_name"
             android:scaleType="centerCrop" />
 
