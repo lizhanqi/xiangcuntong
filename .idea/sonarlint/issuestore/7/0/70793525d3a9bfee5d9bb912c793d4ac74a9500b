@@ -1,123 +1,0 @@
-
-e
-java:S1192„"IDefine a constant instead of duplicating this literal "ownerId" 52 times.(«“‚èùÿÿÿÿ
-`
-java:S1192ï"IDefine a constant instead of duplicating this literal "nickName" 4 times.(İÚ·
-f
-java:S1192³"JDefine a constant instead of duplicating this literal "companyId" 4 times.(ÇŸ§Ïøÿÿÿÿ
-e
-java:S1192Ÿ"IDefine a constant instead of duplicating this literal "isDevice" 5 times.(à¿§Åüÿÿÿÿ
-_
-java:S1192ë"HDefine a constant instead of duplicating this literal "status" 15 times.(ùí•Õ
-a
-java:S1192²"JDefine a constant instead of duplicating this literal "roomFlag" 11 times.(üĞßÌ
-g
-java:S1192¸"KDefine a constant instead of duplicating this literal "remarkName" 4 times.(Õøøüÿÿÿÿ
-_
-java:S1192ƒ"HDefine a constant instead of duplicating this literal "topTime" 6 times.(É©ŸÃ
-d
-java:S1192î"HDefine a constant instead of duplicating this literal "content" 8 times.(•¢à–øÿÿÿÿ
-`
-java:S1192„"IDefine a constant instead of duplicating this literal "timeSend" 8 times.(Î‹ìÀ
-c
-java:S1192ˆ"LDefine a constant instead of duplicating this literal "groupStatus" 3 times.(µùÂ¥
-d
-java:S1192„"HDefine a constant instead of duplicating this literal "userId" 41 times.(«“‚èùÿÿÿÿ
-œ
-java:S1862Ë	"„This branch can not be reached because the condition duplicates a previous condition in the same sequence of "if/else if" statements(ûƒĞ¨
-K
-java:S1066‰"/Merge this if statement with the enclosing one.(»™şíøÿÿÿÿ
-K
-java:S1066Ÿ
-"/Merge this if statement with the enclosing one.(ŸÏª€ùÿÿÿÿ
-K
-java:S1066É"/Merge this if statement with the enclosing one.(ÁƒÍÿÿÿÿÿ
-F
-java:S1066ë"/Merge this if statement with the enclosing one.(ì—†¢
-K
-java:S1066Î"/Merge this if statement with the enclosing one.(ÁƒÍÿÿÿÿÿ
-W	java:S107†	"<Method has 9 parameters, which is greater than 7 authorized.(¯øÍ…ıÿÿÿÿ
-t	java:S135º"YReduce the total number of break and continue statements in this loop to use at most one.(Ü­øëÿÿÿÿÿ
-o	java:S135ä"YReduce the total number of break and continue statements in this loop to use at most one.(ß…·š
-t	java:S135À"YReduce the total number of break and continue statements in this loop to use at most one.(Ü­øëÿÿÿÿÿ
-Z
-java:S1155•">Use isEmpty() to check whether the collection is empty or not.(½Ë”¿úÿÿÿÿ
-Z
-java:S1155±">Use isEmpty() to check whether the collection is empty or not.(½Ë”¿úÿÿÿÿ
-U
-java:S1155Š">Use isEmpty() to check whether the collection is empty or not.(à‰Ó¹
-Z
-java:S1155â
-">Use isEmpty() to check whether the collection is empty or not.(Œ²×£ıÿÿÿÿ
-Z
-java:S1155¹">Use isEmpty() to check whether the collection is empty or not.(Ô’ÿ®ıÿÿÿÿ
-\
-java:S1155ã">Use isEmpty() to check whether the collection is empty or not.(±Ç…8­«ù€Ÿ/
-Z
-java:S1155¿">Use isEmpty() to check whether the collection is empty or not.(Ô’ÿ®ıÿÿÿÿ
-3
-java:S1700G"Rename field "friendDao"(•Ä­ôüÿÿÿÿ
-?
-java:S1604Ş"(Make this anonymous inner class a lambda(ÉãÃ®
-p
-java:S1104G"UMake friendDao a static final constant or non-public and provide accessors if needed.(•Ä­ôüÿÿÿÿ
-[
-java:S2583Ë	"DChange this condition so that it does not always evaluate to "false"(ûƒĞ¨
-O
-java:S2589Î	"8Remove this expression which always evaluates to "false"(ÄÓê‚
-
-java:S1488Ê"cImmediately return this expression instead of assigning it to the temporary variable "existFriend".(ãÉÇƒÿÿÿÿÿ
-O
-java:S2168U"9Remove this dangerous instance of double-checked locking.(ì­Ş¸
-H
-java:S1113_"-Do not override the Object.finalize() method.(ÖÒ˜Ùùÿÿÿÿ
-Q	java:S125v"<This block of commented-out lines of code should be removed.(»î é
-d
-java:S5361’"HReplace this call to "replaceAll()" by a call to the "replace()" method.(Şäúïıÿÿÿÿ
-i
-java:S3776°"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(¡ÈÏ˜
-N
-java:S1135±"2Complete the task associated to this TODO comment.(¢ÿÚÓúÿÿÿÿ
-R	java:S125Î"<This block of commented-out lines of code should be removed.(£îËÉ
-N
-java:S1135–"2Complete the task associated to this TODO comment.(Åù¤ñùÿÿÿÿ
-I
-java:S1135›"2Complete the task associated to this TODO comment.(¼åÔˆ
-N
-java:S1135²"2Complete the task associated to this TODO comment.(Åù¤ñùÿÿÿÿ
-I
-java:S1135·"2Complete the task associated to this TODO comment.(¼åÔˆ
-d
-java:S5361É"HReplace this call to "replaceAll()" by a call to the "replace()" method.(Şäúïıÿÿÿÿ
-d
-java:S5361Ù"HReplace this call to "replaceAll()" by a call to the "replace()" method.(Şäúïıÿÿÿÿ
-n
-java:S3776ú"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(¡ÃáÁûÿÿÿÿ
-N
-java:S1135ø"2Complete the task associated to this TODO comment.(çĞû’ùÿÿÿÿ
-T
-java:S3878É"8Remove this array creation and simply pass the elements.(Ñ§úÿÿÿÿ
-p
-java:S3776¹"RRefactor this method to reduce its Cognitive Complexity from 38 to the 15 allowed.(§ä”Ò8ˆßİ€Ÿ/
-n
-java:S3776†	"RRefactor this method to reduce its Cognitive Complexity from 51 to the 15 allowed.(¯øÍ…ıÿÿÿÿ
-n
-java:S3776ï	"RRefactor this method to reduce its Cognitive Complexity from 50 to the 15 allowed.(—úŞ„üÿÿÿÿ
-I
-java:S1135é	"2Complete the task associated to this TODO comment.(ò¶§
-W	java:S125‡
-"<This block of commented-out lines of code should be removed.(Ãä”ıÿÿÿÿ
-i
-java:S3776Ü
-"RRefactor this method to reduce its Cognitive Complexity from 83 to the 15 allowed.(Õå®û
-N
-java:S1135„"2Complete the task associated to this TODO comment.(ºİÛóúÿÿÿÿ
-I
-java:S1135…"2Complete the task associated to this TODO comment.(¼‡Èº
-R	java:S125Š"<This block of commented-out lines of code should be removed.(Ç÷Òö
-O
-java:S3878±"8Remove this array creation and simply pass the elements.(ğùœ¥
-i
-java:S3776İ"RRefactor this method to reduce its Cognitive Complexity from 87 to the 15 allowed.(ÀŸ°¸
-C
-java:S1612Ö",Replace this lambda with a method reference.(Ëæà•

@@ -1,17 +1,0 @@
-
-p
-java:S4144Y"ZUpdate this method so that its implementation is not identical to "onStartJob" on line 81.(ÿºÜ
-l
-java:S1450"VRemove the "builder" field and declare it as a local variable in the relevant methods.(·ÞÐ©
-w
-java:S1450"\Remove the "mJobScheduler" field and declare it as a local variable in the relevant methods.(Õñ›Œûÿÿÿÿ
-~
-java:S1450"cRemove the "mNotificationManager" field and declare it as a local variable in the relevant methods.(ÐÌ·Œúÿÿÿÿ
-Q
-java:S1117'";Rename "builder" which hides the field declared at line 31.(ƒÃÕä
-T
-java:S1854;">Remove this useless assignment to local variable "importance".(žö¾ê
-I
-java:S1874A"3Remove this use of "setDefaults"; it is deprecated.(ãìÐŠ
-E
-java:S1481;"/Remove this unused "importance" local variable.(žö¾ê

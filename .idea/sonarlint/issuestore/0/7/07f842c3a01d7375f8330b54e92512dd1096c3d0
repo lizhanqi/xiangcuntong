@@ -1,13 +1,0 @@
-
-o
-java:S1450"YRemove the "resultText" field and declare it as a local variable in the relevant methods.(ÇžÕœ
-g
-java:S1450"QRemove the "tv" field and declare it as a local variable in the relevant methods.(¯‘Âú
-q
-java:S1450"VRemove the "webView" field and declare it as a local variable in the relevant methods.(„Â ¿þÿÿÿÿ
-e
-java:S1874C"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(µÛÎ°üÿÿÿÿ
-C
-java:S1185I"(Remove this method to simply inherit it.(ý¤Ðüùÿÿÿÿ
-=
-java:S1185N"(Remove this method to simply inherit it.(û®«S

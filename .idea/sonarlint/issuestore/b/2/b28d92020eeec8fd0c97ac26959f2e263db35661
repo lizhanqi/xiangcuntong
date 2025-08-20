@@ -1,11 +1,0 @@
-
-O
-java:S1118":Add a private constructor to hide the implicit public one.(•ùÈK
-Q
-java:S1874"6Remove this use of "getNetworkInfo"; it is deprecated.(†ÔÊÅùÿÿÿÿ
-N
-java:S1874"3Remove this use of "TYPE_MOBILE"; it is deprecated.(†ÔÊÅùÿÿÿÿ
-L
-java:S1874"6Remove this use of "getNetworkInfo"; it is deprecated.(‹°Ì²
-G
-java:S1874"1Remove this use of "TYPE_WIFI"; it is deprecated.(‹°Ì²

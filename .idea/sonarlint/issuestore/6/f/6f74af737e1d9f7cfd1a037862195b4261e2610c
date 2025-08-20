@@ -1,19 +1,0 @@
-
-l	java:S117Ù"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üÅ°¾ÿÿÿÿÿ
-m
-java:S1104"WMake livePageUrl a static final constant or non-public and provide accessors if needed.(ÉÄ¼¿
-r
-java:S1104”"VMake lifeCircle a static final constant or non-public and provide accessors if needed.(Ïú­äüÿÿÿÿ
-l
-java:S1104•"UMake liveVideo a static final constant or non-public and provide accessors if needed.(Éêãª
-o
-java:S1104–"XMake peopleNearby a static final constant or non-public and provide accessors if needed.(ÐŸºá
-f
-java:S1104—"PMake scan a static final constant or non-public and provide accessors if needed.(ï‘†:
-v
-java:S1104˜"XMake videoMeeting a static final constant or non-public and provide accessors if needed.(„ü¼‰8¿·Å— /
-n
-java:S1104™"PMake game a static final constant or non-public and provide accessors if needed.(·º¤Ž8²Àì— /
-h	java:S116"SRename this field "XMPPHost" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÏŒÊý
-o	java:S116"URename this field "XMPPDomain" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(› ùØüÿÿÿÿ
-p	java:S116"VRename this field "XMPPTimeout" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬›¼¢ùÿÿÿÿ

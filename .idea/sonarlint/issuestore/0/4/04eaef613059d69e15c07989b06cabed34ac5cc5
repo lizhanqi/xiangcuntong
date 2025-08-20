@@ -1,195 +1,0 @@
-
-g
-java:S1301–"KReplace this "switch" statement by "if" statements to increase readability.(öÛ«°şÿÿÿÿ
-g
-java:S1301¼"KReplace this "switch" statement by "if" statements to increase readability.(öÛ«°şÿÿÿÿ
-f
-java:S1192÷"JDefine a constant instead of duplicating this literal "messageId" 5 times.(ë¨çÉşÿÿÿÿ
-d
-java:S1192ô"MDefine a constant instead of duplicating this literal "access_token" 7 times.(´†²õ
-U
-java:S1155±">Use isEmpty() to check whether the collection is empty or not.(ã¬ô‹
-U
-java:S1155Ï">Use isEmpty() to check whether the collection is empty or not.(€ğ…ç
-Z
-java:S1155İ">Use isEmpty() to check whether the collection is empty or not.(À‡ÜÃúÿÿÿÿ
-Z
-java:S1155İ">Use isEmpty() to check whether the collection is empty or not.(À‡ÜÃúÿÿÿÿ
-Z
-java:S1155³">Use isEmpty() to check whether the collection is empty or not.(Á—µùÿÿÿÿ
-U
-java:S1155ƒ">Use isEmpty() to check whether the collection is empty or not.(™ÀÑœ
-U
-java:S1155¨">Use isEmpty() to check whether the collection is empty or not.(ñÁ„½
-l	java:S117•"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„¥³£ıÿÿÿÿ
-g	java:S117°"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›ñÚ
-D
-java:S1604š"(Make this anonymous inner class a lambda(«‚ú³ıÿÿÿÿ
-?
-java:S1604ã"(Make this anonymous inner class a lambda(éÜ¢”
-?
-java:S1604ï"(Make this anonymous inner class a lambda(éÜ¢”
-D
-java:S1604ş"(Make this anonymous inner class a lambda(Ğ‰Ëøÿÿÿÿ
-D
-java:S1604œ"(Make this anonymous inner class a lambda(¤´ÀÙÿÿÿÿÿ
-D
-java:S1604¨"(Make this anonymous inner class a lambda(®Ÿêİşÿÿÿÿ
-?
-java:S1604û"(Make this anonymous inner class a lambda(‚œúˆ
-D
-java:S1604“"(Make this anonymous inner class a lambda(ğÓ¾Ôüÿÿÿÿ
-D
-java:S1604¹"(Make this anonymous inner class a lambda(ğÓ¾Ôüÿÿÿÿ
->
-java:S1604	"(Make this anonymous inner class a lambda(û²óQ
-?
-java:S1604ä"(Make this anonymous inner class a lambda(ïŒ½š
-?
-java:S1604÷"(Make this anonymous inner class a lambda(”Ô×
-\
-java:S2259ú"EA "NullPointerException" could be thrown; "message" is nullable here.(àã‘
-U
-java:S4973¡
-"9Use the "equals" method if value comparison was intended.(¬Ñõûÿÿÿÿ
-t
-java:S4144¡"XUpdate this method so that its implementation is not identical to "onError" on line 152.(Å•İışÿÿÿÿ
-˜
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(“æªï
-
-java:S1186”"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(íÎÅüÿÿÿÿ
-˜
-java:S1186ª"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Õ×„÷
-˜
-java:S1186®"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(šÇ‹ÿ
-[
-java:S1854ˆ"?Remove this useless assignment to local variable "finalHolder".(İ“»íüÿÿÿÿ
-i
-java:S3776…"RRefactor this method to reduce its Cognitive Complexity from 95 to the 15 allowed.(ÎÂé‚
-N
-java:S1135®"2Complete the task associated to this TODO comment.(üâ½¥ûÿÿÿÿ
-W	java:S125¾"<This block of commented-out lines of code should be removed.(Û´›ãıÿÿÿÿ
-I
-java:S1135‘"2Complete the task associated to this TODO comment.(ØÌÍŠ
-C
-java:S1602¥",Remove useless curly braces around statement(ªïõÜ
-C
-java:S1602Æ",Remove useless curly braces around statement(‹ç¬Ê
-H
-java:S1602Ô",Remove useless curly braces around statement(Ùñ¡šşÿÿÿÿ
-W	java:S125ä"<This block of commented-out lines of code should be removed.(‡Ãƒ¤ûÿÿÿÿ
-C
-java:S1602¼",Remove useless curly braces around statement(üƒ¯»
-u
-java:S3252Ê"^Use static access with "fm.jiecao.jcvideoplayer_lib.JCVideoPlayer" for "SCREEN_LAYOUT_NORMAL".( „Š
-i
-java:S3776¢"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ù«Œ
-R	java:S125¤"<This block of commented-out lines of code should be removed.(·Êİ
-L
-java:S1874ô"5Remove this use of "getSelfStatus"; it is deprecated.(´†²õ
-J
-java:S1874ô"3Remove this use of "accessToken"; it is deprecated.(´†²õ
-˜
-java:S1186º"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(šı’ğ
-p
-java:S2293Ñ"YReplace the type specification in this constructor call with the diamond operator ("<>").(ì¼§ù
-L
-java:S1874Ò"5Remove this use of "getSelfStatus"; it is deprecated.(´†²õ
-J
-java:S1874Ò"3Remove this use of "accessToken"; it is deprecated.(´†²õ
-p
-java:S2293ö"YReplace the type specification in this constructor call with the diamond operator ("<>").(ì¼§ù
-L
-java:S1874÷"5Remove this use of "getSelfStatus"; it is deprecated.(´†²õ
-J
-java:S1874÷"3Remove this use of "accessToken"; it is deprecated.(´†²õ
-=	java:S131–""Add a default case to this switch.(öÛ«°şÿÿÿÿ
-=	java:S131¼""Add a default case to this switch.(öÛ«°şÿÿÿÿ
-E
-java:S1172Ï".Remove this unused method parameter "adapter".(¥î
-L
-java:S1874Ò"5Remove this use of "getSelfStatus"; it is deprecated.(´†²õ
-J
-java:S1874Ò"3Remove this use of "accessToken"; it is deprecated.(´†²õ
-i
-java:S3776”"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(ˆŞÅ´
-L
-java:S1874å"5Remove this use of "getSelfStatus"; it is deprecated.(´†²õ
-J
-java:S1874å"3Remove this use of "accessToken"; it is deprecated.(´†²õ
-i
-java:S3776ª	"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(Û… È
-L
-java:S1874°	"5Remove this use of "getSelfStatus"; it is deprecated.(´†²õ
-J
-java:S1874°	"3Remove this use of "accessToken"; it is deprecated.(´†²õ
-W	java:S125Í	"<This block of commented-out lines of code should be removed.(ÕŒ’ùÿÿÿÿ
-L
-java:S1874î	"5Remove this use of "getSelfStatus"; it is deprecated.(´†²õ
-J
-java:S1874î	"3Remove this use of "accessToken"; it is deprecated.(´†²õ
-—
-java:S1186ÿ	"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(×ºµO
-p	java:S116é
-"URename this field "avatar_img" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“¢Ìûıÿÿÿÿ
-m	java:S116ê
-"WRename this field "nick_name_tv" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦çÄ
-h	java:S116ë
-"RRename this field "time_tv" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ú©¤°
-m	java:S116ì
-"RRename this field "body_tv" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Éßˆùÿÿÿÿ
-m	java:S116î
-"RRename this field "open_tv" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓÏ¶Ñùÿÿÿÿ
-k	java:S116ï
-"URename this field "content_fl" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆşßë
-o	java:S116ğ
-"TRename this field "delete_tv" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãÃ‹¿üÿÿÿÿ
-u	java:S116ñ
-"ZRename this field "multi_praise_tv" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢¯Àøÿÿÿÿ
-l	java:S116ò
-"QRename this field "line_v" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­Ÿùşùÿÿÿÿ
-v	java:S116ó
-"[Rename this field "command_listView" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—âÔ½ÿÿÿÿÿ
-l	java:S116õ
-"VRename this field "location_tv" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–º±ô
-i	java:S116"SRename this field "iv_prise" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò…å®
-W	java:S125í
-"<This block of commented-out lines of code should be removed.(¦„åùÿÿÿÿ
-R	java:S125‰"<This block of commented-out lines of code should be removed.(¼°“ø
-m	java:S116¥"RRename this field "text_tv" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Éõ«·ıÿÿÿÿ
-p	java:S116®"URename this field "image_view" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ¶ºÙúÿÿÿÿ
-m	java:S116·"RRename this field "text_tv" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Éõ«·ıÿÿÿÿ
-p	java:S116¸"URename this field "image_view" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ¶ºÙúÿÿÿÿ
-o	java:S116Á"TRename this field "grid_view" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŞÉ£øÿÿÿÿ
-m	java:S116Ê"RRename this field "text_tv" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Éõ«·ıÿÿÿÿ
-o	java:S116Ë"TRename this field "grid_view" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŞÉ£øÿÿÿÿ
-n	java:S116Ô"SRename this field "img_view" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›éßìüÿÿÿÿ
-q	java:S116Õ"[Rename this field "voice_action_img" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü¬Ò©
-n	java:S116Ö"XRename this field "voice_desc_tv" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š¼Ë
-n	java:S116×"XRename this field "chat_to_voice" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õ¯Ş¥
-m	java:S116à"RRename this field "text_tv" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Éõ«·ıÿÿÿÿ
-n	java:S116á"SRename this field "img_view" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›éßìüÿÿÿÿ
-q	java:S116â"[Rename this field "voice_action_img" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü¬Ò©
-n	java:S116ã"XRename this field "voice_desc_tv" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š¼Ë
-m	java:S116õ"RRename this field "text_tv" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Éõ«·ıÿÿÿÿ
-u	java:S116ö"ZRename this field "video_thumb_img" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÄ·ëùÿÿÿÿ
-s	java:S116÷"XRename this field "video_desc_tv" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯†˜šûÿÿÿÿ
-k	java:S116‚"URename this field "file_click" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯Šó
-k	java:S116ƒ"URename this field "file_image" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éåÀ
-m	java:S116„"RRename this field "text_tv" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Éõ«·ıÿÿÿÿ
-p	java:S116"URename this field "link_click" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Êö×®ıÿÿÿÿ
-p	java:S116"URename this field "link_image" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ïİ°Ãÿÿÿÿÿ
-h	java:S116"RRename this field "link_tv" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…¢ÃÓ
-j	java:S116—"TRename this field "text_view" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñá¨ó
-R	java:S125©"<This block of commented-out lines of code should be removed.(£Ãê¢
-u
-java:S2293«"YReplace the type specification in this constructor call with the diamond operator ("<>").(™Ìšüÿÿÿÿ
-L
-java:S1481ˆ"0Remove this unused "finalHolder" local variable.(İ“»íüÿÿÿÿ
-M
-java:S1068{"2Remove this unused "mClickOpenMaps" private field.(æ¥•şÿÿÿÿ
-C
-java:S3398 "'Move this method into "CommentAdapter".(ì›£Ñûÿÿÿÿ
-E
-java:S1144’
-")Remove this unused private "play" method.(»İ­èüÿÿÿÿ

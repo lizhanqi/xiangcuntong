@@ -1,22 +1,0 @@
-
->
-java:S1604h"(Make this anonymous inner class a lambda(Ó¦›ƒ
-t
-java:S1450"^Remove the "mFloatWinHeight" field and declare it as a local variable in the relevant methods.(ú¶ †
-s
-java:S1450"]Remove the "mFloatWinWidth" field and declare it as a local variable in the relevant methods.(ú¶ †
-C
-java:S1659"-Declare "mFloatWinHeight" on a separate line.(ú¶ †
-?
-java:S1659"$Declare "mLastX" on a separate line.(ìÕùÇúÿÿÿÿ
-@
-java:S1659"%Declare "mStartY" on a separate line.(ìÕùÇúÿÿÿÿ
-?
-java:S1659"$Declare "mLastY" on a separate line.(ìÕùÇúÿÿÿÿ
-X
-java:S2696&"6Make the enclosing method "static" or remove this set.(æŸæêúÿÿÿÿ8—öù /
-M
-java:S1874D"2Remove this use of "TYPE_PHONE"; it is deprecated.(İŞ÷ìÿÿÿÿÿ
-Y
-java:S2696Œ"6Make the enclosing method "static" or remove this set.(‘¸¯üÿÿÿÿ8 öù /
-?	java:S108")Either remove or fill this block of code.(”ı¾

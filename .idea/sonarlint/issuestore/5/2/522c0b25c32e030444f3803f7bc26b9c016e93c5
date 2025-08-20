@@ -1,5 +1,0 @@
-
-k
-java:S1450"URemove the "action" field and declare it as a local variable in the relevant methods.(Ýƒ•±
-H
-java:S18748"2Remove this use of "isScreenOn"; it is deprecated.(ž¿…Ü

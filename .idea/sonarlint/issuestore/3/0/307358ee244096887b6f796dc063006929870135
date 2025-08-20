@@ -1,9 +1,0 @@
-
-j
-java:S1104"OMake dao a static final constant or non-public and provide accessors if needed.(õƒŠõÿÿÿÿÿ
-O
-java:S2168"9Remove this dangerous instance of double-checked locking.(™ÆŞê
-H
-java:S1113*"-Do not override the Object.finalize() method.(ÖÒ˜Ùùÿÿÿÿ
-A
-java:S11685"+Return an empty collection instead of null.(¥¹ï

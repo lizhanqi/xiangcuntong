@@ -1,21 +1,0 @@
-
-f	java:S114M"QRename this interface name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(îú¿½
-C
-java:S1604'"(Make this anonymous inner class a lambda(ªŸìÿÿÿÿÿ
->
-java:S1185"(Remove this method to simply inherit it.(ËĞƒ
-M
-java:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
-M
-java:S1135#"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
-M
-java:S11352"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
-d
-java:S4042:"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(¯Ï®
-P	java:S899:";Do something with the "boolean" value returned by "delete".(¯Ï®
-Z
-java:S2147F"DCombine this catch with the one at line 67, which has the same body.(ï­£Ä
-M
-java:S1135D"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
-M
-java:S1135G"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ

@@ -1,4 +1,0 @@
-
-
-java:S1319
-"rThe type of the "strings" object should be an interface such as "List" rather than the implementation "ArrayList".(ŸÑ›õøÿÿÿÿ

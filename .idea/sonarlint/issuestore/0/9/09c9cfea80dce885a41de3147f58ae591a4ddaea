@@ -1,9 +1,0 @@
-
-l	java:S117‰"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©öùÙşÿÿÿÿ
-c	java:S116"NRename this field "_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äî››
-c	java:S100…"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éÆC
-i	java:S100‰"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©öùÙşÿÿÿÿ
-j
-java:S2975î"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(İ¦¡ñ
-W	java:S125“"<This block of commented-out lines of code should be removed.(ñ¥ùšøÿÿÿÿ
-W	java:S125¶"<This block of commented-out lines of code should be removed.(ÊèˆÎüÿÿÿÿ

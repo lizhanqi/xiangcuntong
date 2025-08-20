@@ -1,17 +1,0 @@
-
-o
-java:S1450!"ZRemove the "contentView" field and declare it as a local variable in the relevant methods.(íé÷b
-N
-java:S1874"3Remove this use of "FILL_PARENT"; it is deprecated.(ÓÒ Ñüÿÿÿÿ
-F
-java:S1068"+Remove this unused "message" private field.(ù„è¿ûÿÿÿÿ
-L
-java:S1068"6Remove this unused "positiveButtonText" private field.(ê‰ª
-L
-java:S1068 "6Remove this unused "negativeButtonText" private field.(ä®ÛŸ
-D
-java:S1068!"/Remove this unused "contentView" private field.(íé÷b
-U
-java:S1068""?Remove this unused "positiveButtonClickListener" private field.(”ù‹Ø
-Z
-java:S1068#"?Remove this unused "negativeButtonClickListener" private field.(ç´Çãùÿÿÿÿ

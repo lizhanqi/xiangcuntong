@@ -1,16 +1,0 @@
-
-l	java:S1273"XRefactor the code in order to not assign to this loop counter from within the loop body.(¨…ÄK
-Y
-java:S1155%">Use isEmpty() to check whether the collection is empty or not.(˜Å—Ùøÿÿÿÿ
-f
-java:S1149	"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ã¹íÓ
-t
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(£Îøžýÿÿÿÿ
-O
-java:S2168"9Remove this dangerous instance of double-checked locking.(¶ÓÒä
-Q
-java:S18546"<Remove this useless assignment to local variable "activity".(ãðˆ@
-K
-java:S1133/"5Do not forget to remove this deprecated code someday.(ÿ¯†—
->
-java:S1123/"(Add the missing @deprecated Javadoc tag.(ÿ¯†—

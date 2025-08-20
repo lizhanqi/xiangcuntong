@@ -1,6 +1,0 @@
-
-m	java:S116"SRename this field "VContext" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ãí‚ûÿÿÿÿ
-V	java:S1250"<This block of commented-out lines of code should be removed.(¿²Ğóşÿÿÿÿ
-<	java:S131;""Add a default case to this switch.(×“¾ñùÿÿÿÿ
-G
-java:S1068",Remove this unused "VContext" private field.(Ãí‚ûÿÿÿÿ

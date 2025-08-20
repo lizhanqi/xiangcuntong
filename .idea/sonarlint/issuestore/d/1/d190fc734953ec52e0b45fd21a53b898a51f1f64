@@ -1,42 +1,0 @@
-
-Q	java:S110'"=This class has 10 parents which is greater than 5 authorized.(À«¿
-8
-java:S1643ş"Use a StringBuilder instead.(¾”‹Öùÿÿÿÿ
-3
-java:S1643€"Use a StringBuilder instead.(ºíŒ§
-3
-java:S1643•"Use a StringBuilder instead.(äª½¡
-3
-java:S1643—"Use a StringBuilder instead.(²”çÚ
-C
-java:S1604}"(Make this anonymous inner class a lambda(–®àìùÿÿÿÿ
-?
-java:S1604µ"(Make this anonymous inner class a lambda(üÚ”¦
->
-java:S1604Ã"(Make this anonymous inner class a lambda(‹òéx
-D
-java:S1604Ğ"(Make this anonymous inner class a lambda(æ¹¬ûÿÿÿÿ
-w
-java:S1450,"bRemove the "mHorizontalListView" field and declare it as a local variable in the relevant methods.(»Ÿ±	
-m
-java:S1450*"XRemove the "mListView" field and declare it as a local variable in the relevant methods.(‡¾÷\
-m
-java:S3776R"RRefactor this method to reduce its Cognitive Complexity from 38 to the 15 allowed.(ÍÛµíıÿÿÿÿ
-i
-java:S3776‡"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(šœ•²
-˜
-java:S1186–"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(á¬‡İ
-˜
-java:S1186›"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Œğ£Â
-@
-java:S5413¦")Verify that "remove()" is used correctly.(Ì¦Á—
-N
-java:S1874Ï"7Remove this use of "CircleImageView"; it is deprecated.(ÊÚîŸ
-^
-java:S1126Ø"BReplace this if-then-else statement by a single method invocation.(¸öÍ›şÿÿÿÿ
-N
-java:S1874ô"7Remove this use of "CircleImageView"; it is deprecated.(ËÀ¤Ô
-S
-java:S1874ù"7Remove this use of "CircleImageView"; it is deprecated.(²Èÿùÿÿÿÿ
-S
-java:S1874ù"7Remove this use of "CircleImageView"; it is deprecated.(²Èÿùÿÿÿÿ

@@ -1,16 +1,0 @@
-
-^
-java:S1192E"HDefine a constant instead of duplicating this literal "ownerId" 3 times.(®ãÛ
-d
-java:S1192B"NDefine a constant instead of duplicating this literal "], userId = [" 4 times.(û Ú
-e	java:S1177"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉùI
-f	java:S117o"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øóˆ¢
-3
-java:S1700"Rename field "MsgRoamTaskDao"(·ğ›ù
-p
-java:S1104"ZMake MsgRoamTaskDao a static final constant or non-public and provide accessors if needed.(·ğ›ù
-n	java:S116"YRename this field "MsgRoamTaskDao" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·ğ›ù
-N
-java:S2168'"9Remove this dangerous instance of double-checked locking.(Ïã…_
-H
-java:S11131"-Do not override the Object.finalize() method.(ÖÒ˜Ùùÿÿÿÿ

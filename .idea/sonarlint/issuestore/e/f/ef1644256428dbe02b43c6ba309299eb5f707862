@@ -1,8 +1,0 @@
-
-l	java:S117Ž"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù›¨úÿÿÿÿ
-l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆÝ¸¥ùÿÿÿÿ
->
-java:S1604:"(Make this anonymous inner class a lambda(¼–Ú¹
-—
-java:S1186d"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(”¤åË
-=	java:S131À""Add a default case to this switch.(Ò“ÿšùÿÿÿÿ
