@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:endColor="#FFFFFF"
+                android:startColor="#FFFFFF" />
+        </shape>
+    </item>
+
+    <!-- 顶部 -->
+    <item android:top="243dp">
+        <bitmap
+            android:gravity="top|center_horizontal"
+            android:scaleType="center"
+            android:src="@mipmap/ic_screen" />
+    </item>
+
+    <!-- 底部 -->
+    <item android:bottom="84dp">
+        <bitmap
+            android:gravity="bottom|center_horizontal"
+            android:scaleType="center"
+            android:src="@mipmap/screen_txt" />
+    </item>
+
+</layer-list>
