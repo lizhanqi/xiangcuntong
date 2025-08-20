@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Gradle: ./skWeiChatBaidu/libs/fastjson-1.2.40.jar">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/skWeiChatBaidu/libs/fastjson-1.2.40.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
