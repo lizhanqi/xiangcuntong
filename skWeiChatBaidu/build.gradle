@@ -336,6 +336,7 @@ dependencies {
     implementation 'com.makeramen:roundedimageview:2.3.0'
 
     implementation files('libs/xjgarsdklibrary-release-9.2.1-2019-08-31.aar')
+    implementation files('libs/quick_login_android_5.9.13.aar')
 
     // 表格面板视图，https://github.com/ceryle/FitGridView
     implementation 'com.github.ceryle:FitGridView:v1.0.5'
