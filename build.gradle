@@ -5,6 +5,8 @@ buildscript {
         min_version = 21
         target_version = 26
         java_version = '1.8' // 添加Java版本定义
+        // 添加Kotlin版本
+        kotlin_version = '1.5.31'
     }
     repositories {
         // 添加阿里云和腾讯云镜像仓（放在前面优先级更高）
@@ -16,6 +18,8 @@ buildscript {
     dependencies {
         classpath 'com.android.tools.build:gradle:4.1.1'
         classpath 'com.google.gms:google-services:4.2.0'
+        // 添加Kotlin Gradle插件
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 
 }
