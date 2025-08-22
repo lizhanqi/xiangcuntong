@@ -91,7 +91,6 @@
                         android:textColor="#999999" />
 
                     <ImageView
-                        android:id="@+id/name_arrow_img3"
                         style="@style/basic_info"
                         android:layout_marginRight="25dp"
                         android:contentDescription="@string/app_name"
@@ -109,7 +108,6 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/tvDescribe"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/white"

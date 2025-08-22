@@ -72,7 +72,6 @@
                 android:background="@mipmap/fast_reply" />
 
             <TextView
-                android:id="@+id/replay_message_tv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/replay_message"
@@ -162,7 +161,6 @@
                 android:background="@mipmap/answer_icon" />
 
             <TextView
-                android:id="@+id/call_answer_tv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/call_answer"

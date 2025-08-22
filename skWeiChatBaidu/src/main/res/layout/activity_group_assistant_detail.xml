@@ -142,7 +142,6 @@
             android:src="@drawable/icon_not_found" />
 
         <TextView
-            android:id="@+id/add_group_assistant_keyword_tv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/group_assistant_not_has_keyword"

@@ -5,12 +5,10 @@
     android:background="#ff000000">
 
     <FrameLayout
-        android:id="@+id/welcome_ly"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <ImageView
-            android:id="@+id/welcome_iv"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@drawable/launch_bg"

@@ -73,7 +73,6 @@
                                 app:srcCompat="@drawable/me_qrcode" />
 
                             <ImageView
-                                android:id="@+id/imageView2"
                                 style="@style/IMTbleLine_ArrowImg.Me"
                                 android:layout_height="13dp"
                                 android:layout_alignParentRight="true"
@@ -283,7 +282,6 @@
                             app:srcLight="@mipmap/my_dynamics" />
 
                         <TextView
-                            android:id="@+id/MySky"
                             style="@style/IMTbleLine_TextName"
                             android:layout_centerVertical="true"
                             android:text="@string/my_moments" />
@@ -303,7 +301,6 @@
                             app:srcLight="@drawable/my_collection_light" />
 
                         <TextView
-                            android:id="@+id/my_collection_tv"
                             style="@style/IMTbleLine_TextName"
                             android:layout_centerVertical="true"
                             android:text="@string/my_collection" />
@@ -330,7 +327,6 @@
                             app:srcLight="@drawable/my_course_light" />
 
                         <TextView
-                            android:id="@+id/my_course_tv"
                             style="@style/IMTbleLine_TextName"
                             android:layout_centerVertical="true"
                             android:text="@string/my_course" />
@@ -364,7 +360,6 @@
                             app:srcLight="@drawable/my_set_title_light" />
 
                         <TextView
-                            android:id="@+id/SettingTv"
                             style="@style/IMTbleLine_TextName"
                             android:layout_centerVertical="true"
                             android:text="@string/settings" />

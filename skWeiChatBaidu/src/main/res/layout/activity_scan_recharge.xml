@@ -100,7 +100,6 @@
                 style="@style/IMTble_No_Line">
 
                 <TextView
-                    android:id="@+id/wechat_text"
                     style="@style/IMTbleLine_TextKey"
                     android:text="@string/wechat_pay" />
 
@@ -127,7 +126,6 @@
                 style="@style/IMTble_No_Line">
 
                 <TextView
-                    android:id="@+id/alipay_text"
                     style="@style/IMTbleLine_TextKey"
                     android:text="@string/alipay_pay" />
 
@@ -154,7 +152,6 @@
                 style="@style/IMTble_No_Line">
 
                 <TextView
-                    android:id="@+id/band_text"
                     style="@style/IMTbleLine_TextKey"
                     android:text="@string/band_transfer" />
 

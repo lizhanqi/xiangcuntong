@@ -15,11 +15,6 @@
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
 
-    <style name="MyEditText" parent="Theme.AppCompat.Light">
-        <item name="colorControlNormal">@color/green</item>
-        <item name="colorControlActivated">@color/green</item>
-    </style>
-
     <style name="AppTheme_Sliding" parent="AppBaseTheme">
         <item name="android:windowBackground">@android:color/transparent</item>
 
@@ -94,16 +89,6 @@
     </style>
 
     <!-- App Tab Style -->
-    <style name="IMTabButton">
-        <item name="android:layout_gravity">center</item>
-        <item name="android:textSize">@dimen/tab_text_size</item>
-        <item name="android:textColor">@color/main_tab_btn_text</item>
-        <item name="android:gravity">center</item>
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:button">@null</item>
-        <item name="android:background">@null</item>
-    </style>
 
     <style name="SkMainTabStyle">
         <item name="android:layout_width">0dp</item>
@@ -130,10 +115,6 @@
         <item name="android:paddingRight">20dp</item>
     </style>
 
-    <style name="IMButton.Orange" parent="@style/IMButton">
-        <item name="android:background">@drawable/button_orange_bg</item>
-    </style>
-
     <style name="IMButton.Green" parent="@style/IMButton">
         <item name="android:minHeight">30dp</item>
         <item name="android:background">@drawable/button_green_bg</item>
@@ -155,11 +136,6 @@
         <item name="android:paddingLeft">5dp</item>
         <item name="android:paddingRight">5dp</item>
         <item name="android:layout_width">match_parent</item>
-    </style>
-
-    <style name="IMLineEditPass" parent="@style/IMLineEditText">
-        <item name="android:password">true</item>
-        <item name="android:inputType">textPassword</item>
     </style>
 
     <style name="IMHyperText">
@@ -282,51 +258,12 @@
         <item name="android:gravity">center</item>
     </style>
 
-    <style name="ChattingUISplit">
-        <item name="android:textSize">12.0dip</item>
-        <item name="android:textColor">@color/light_grey</item>
-        <item name="android:gravity">center_horizontal</item>
-        <item name="android:layout_gravity">center</item>
-        <item name="android:background">@null</item>
-        <item name="android:paddingTop">11.0dip</item>
-        <item name="android:paddingBottom">6.0dip</item>
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginTop">6.0dip</item>
-        <item name="android:layout_marginBottom">6.0dip</item>
-        <item name="android:shadowColor">#a0ffffff</item>
-        <item name="android:shadowDx">1.2</item>
-        <item name="android:shadowDy">1.2</item>
-        <item name="android:shadowRadius">1.0</item>
-    </style>
-
-    <style name="ChooserTheme" parent="android:Theme.Light" />
-
-    <style name="fileChooserName">
-        <item name="android:drawablePadding">@dimen/list_item_padding</item>
-        <item name="android:ellipsize">end</item>
-        <item name="android:gravity">center_vertical</item>
-        <item name="android:maxLines">2</item>
-        <item name="android:paddingLeft">@dimen/list_item_padding</item>
-        <item name="android:paddingRight">@dimen/list_item_padding</item>
-        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
-    </style>
-
     <style name="GreenNormalTextView">
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:textColor">@color/main_color</item>
         <item name="android:textSize">@dimen/NormalTextSize</item>
         <item name="android:background">@null</item>
-    </style>
-
-    <style name="CheckBoxTanx">
-        <item name="android:layout_width">@dimen/click_nor</item>
-        <item name="android:layout_height">@dimen/click_nor</item>
-        <item name="android:layout_alignParentRight">true</item>
-        <item name="android:layout_centerVertical">true</item>
-        <item name="android:background">@drawable/checkbox_selector</item>
-        <item name="android:button">@null</item>
     </style>
 
     <style name="CustomDialog" parent="android:style/Theme.Dialog">
@@ -340,26 +277,6 @@
         <item name="android:windowIsFloating">true</item>
         <!--是否模糊-->
         <item name="android:backgroundDimEnabled">true</item>
-    </style>
-
-    <style name="CustomGiftDialog" parent="android:style/Theme.Dialog">
-        <!--背景颜色及和透明程度-->
-        <item name="android:windowBackground">@android:color/transparent</item>
-        <!--是否去除标题 -->
-        <item name="android:windowNoTitle">true</item>
-        <!--是否去除边框-->
-        <item name="android:windowFrame">@null</item>
-        <!--是否浮现在activity之上-->
-        <item name="android:windowIsFloating">true</item>
-        <!--是否模糊-->
-        <item name="android:backgroundDimEnabled">false</item>
-    </style>
-
-    <style name="SwitchButtonStyle">
-        <item name="android:paddingLeft">10dp</item>
-        <item name="android:paddingRight">10dp</item>
-        <item name="android:paddingTop">4dp</item>
-        <item name="android:paddingBottom">4dp</item>
     </style>
 
     <style name="CustomCheckBoxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
@@ -424,11 +341,6 @@
         <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
     </style>
 
-    <style name="IMAnimation.Popwindow" parent="@android:style/Animation">
-        <item name="android:windowEnterAnimation">@anim/pop_slide_right_in</item>
-        <item name="android:windowExitAnimation">@anim/pop_slide_right_out</item>
-    </style>
-
     <style name="Buttom.Popwindow" parent="@android:style/Animation">
         <item name="android:windowEnterAnimation">@anim/input_method_enter</item>
         <item name="android:windowExitAnimation">@anim/input_method_exit</item>
@@ -488,14 +400,6 @@
         <item name="android:windowFullscreen">true</item>
     </style>
 
-    <style name="RedPacketWindowTitleBackground">
-        <item name="android:background">#FF0000</item>
-    </style>
-
-    <style name="RedPacket" parent="android:Theme">
-        <item name="android:windowTitleBackgroundStyle">@style/RedPacketWindowTitleBackground</item>
-    </style>
-
     <style name="PhotoPickerTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
@@ -539,24 +443,6 @@
         <item name="android:layout_marginTop">3dp</item>
         <item name="android:textColor">@color/hint_text_color</item>
         <item name="android:textSize">12sp</item>
-    </style>
-
-    <style name="toast_dialog" parent="android:style/Theme.Dialog">
-        <!-- 背景颜色及透明程度 -->
-               
-        <item name="android:windowBackground">@android:color/transparent</item>
-                <!-- 是否有标题 -->
-               
-        <item name="android:windowNoTitle">true</item>
-                <!-- 是否浮现在activity之上 -->
-               
-        <item name="android:windowIsFloating">true</item>
-                <!-- 是否模糊 -->
-               
-        <item name="android:backgroundDimEnabled">false</item>
-                <!-- 取消边框 -->
-               
-        <item name="android:windowFrame">@null</item>
     </style>
 
     <style name="PasswordEye">
@@ -643,12 +529,6 @@
         <item name="android:activityCloseExitAnimation">@anim/fade_out</item>
     </style>
 
-    <style name="MyCustomTextAppearance" parent="TextAppearance.Design.Tab">
-        <item name="textAllCaps">true</item>
-        <item name="android:textAllCaps">true</item>
-        <item name="android:textSize">18sp</item>
-    </style>
-
     <!--1像素保活透明Activity-->
     <style name="onePixelActivity" parent="@style/Theme.AppCompat.Light.NoActionBar">
         <item name="android:windowIsTranslucent">true</item>
@@ -660,9 +540,6 @@
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-
-    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
     <style name="dotNumberRed">
 
         <item name="android:layout_width">wrap_content</item>

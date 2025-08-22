@@ -165,7 +165,6 @@
                             android:orientation="horizontal">
 
                             <TextView
-                                android:id="@+id/tv_nickname"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="@string/nick_name"
@@ -235,9 +234,7 @@
 
                 </LinearLayout>
 
-                <View
-                    android:id="@+id/view_bg_rl"
-                    style="@style/View_Line" />
+                <View style="@style/View_Line" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -333,7 +330,6 @@
                             android:text="@string/live_circle_privacy_settings" />
 
                         <TextView
-                            android:id="@+id/look_bussic_cicle_per_tvs"
                             style="@style/IMTbleLine_TextValue"
                             android:layout_toLeftOf="@+id/circle_per_arrow_imgs"
                             android:layout_toRightOf="@+id/look_bussic_cicle_per_tv" />
@@ -356,7 +352,6 @@
                             android:text="@string/life_circle" />
 
                         <TextView
-                            android:id="@+id/look_bussic_cicle_tvs"
                             style="@style/IMTbleLine_TextValue"
                             android:layout_toLeftOf="@+id/circle_arrow_imgs"
                             android:layout_toRightOf="@+id/look_bussic_cicle_tv" />
@@ -369,9 +364,7 @@
 
                     </RelativeLayout>
 
-                    <RelativeLayout
-                        android:id="@+id/birthday_rl"
-                        style="@style/IMTble_No_Line">
+                    <RelativeLayout style="@style/IMTble_No_Line">
 
                         <TextView
                             android:id="@+id/birthday_text"
@@ -524,7 +517,6 @@
                             android:text="@string/now_location" />
 
                         <TextView
-                            android:id="@+id/look_location_tvs"
                             style="@style/IMTbleLine_TextValue"
                             android:layout_toLeftOf="@+id/look_location_imgs"
                             android:layout_toRightOf="@+id/look_location_tv" />

@@ -91,7 +91,6 @@
             style="@style/ContactsGridItem">
 
             <com.sk.weichat.view.CircleImageView
-                android:id="@+id/colleague_iv"
                 android:layout_width="@dimen/contacts_head_image_size"
                 android:layout_height="@dimen/contacts_head_image_size"
                 android:background="@drawable/friend_fragment2" />
@@ -152,7 +151,6 @@
             style="@style/ContactsGridItem">
 
             <com.sk.weichat.view.CircleImageView
-                android:id="@+id/notice_number"
                 android:layout_width="@dimen/contacts_head_image_size"
                 android:layout_height="@dimen/contacts_head_image_size"
                 android:background="@drawable/friend_fragment4" />
@@ -168,7 +166,6 @@
             style="@style/ContactsGridItem">
 
             <com.sk.weichat.view.CircleImageView
-                android:id="@+id/group"
                 android:layout_width="@dimen/contacts_head_image_size"
                 android:layout_height="@dimen/contacts_head_image_size"
                 android:background="@drawable/friend_fragment5" />
@@ -184,7 +181,6 @@
             style="@style/ContactsGridItem">
 
             <com.sk.weichat.view.CircleImageView
-                android:id="@+id/black_iv"
                 android:layout_width="@dimen/contacts_head_image_size"
                 android:layout_height="@dimen/contacts_head_image_size"
                 android:background="@drawable/friend_fragment6" />
@@ -200,7 +196,6 @@
             style="@style/ContactsGridItem">
 
             <com.sk.weichat.view.CircleImageView
-                android:id="@+id/device_iv"
                 android:layout_width="@dimen/contacts_head_image_size"
                 android:layout_height="@dimen/contacts_head_image_size"
                 android:background="@drawable/friend_fragment7" />
@@ -216,7 +211,6 @@
             style="@style/ContactsGridItem">
 
             <com.sk.weichat.view.CircleImageView
-                android:id="@+id/label"
                 android:layout_width="@dimen/contacts_head_image_size"
                 android:layout_height="@dimen/contacts_head_image_size"
                 android:background="@drawable/friend_fragment8" />

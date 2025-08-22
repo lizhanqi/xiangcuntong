@@ -100,7 +100,6 @@
                 style="@style/IMTble_No_Line">
 
                 <TextView
-                    android:id="@+id/wechat_text"
                     style="@style/IMTbleLine_TextKey"
                     android:text="@string/yeepay_recharge" />
 

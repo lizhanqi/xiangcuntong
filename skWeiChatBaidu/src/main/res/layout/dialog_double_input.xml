@@ -25,7 +25,6 @@
     </RelativeLayout>
 
     <LinearLayout
-        android:id="@+id/ll_start_live"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/iv_live_head"
@@ -35,7 +34,6 @@
         android:padding="5dp">
 
         <LinearLayout
-            android:id="@+id/email_login_form"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
@@ -191,7 +189,6 @@
        是否启用特效，默认true-->
 
     <RelativeLayout
-        android:id="@+id/read_rl"
         android:layout_width="match_parent"
         android:layout_height="44dp"
         android:layout_marginTop="10dp"
@@ -199,7 +196,6 @@
         android:visibility="gone">
 
         <TextView
-            android:id="@+id/is_read_tv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
@@ -208,7 +204,6 @@
             android:textSize="@dimen/me_title_size" />
 
         <com.sk.weichat.view.SwitchButton
-            android:id="@+id/switch_read"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
@@ -230,7 +225,6 @@
         android:visibility="gone">
 
         <TextView
-            android:id="@+id/is_show_tv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
@@ -239,7 +233,6 @@
             android:textSize="@dimen/me_title_size" />
 
         <com.sk.weichat.view.SwitchButton
-            android:id="@+id/switch_look"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
@@ -254,7 +247,6 @@
     </RelativeLayout>
 
     <RelativeLayout
-        android:id="@+id/verify_rl"
         android:layout_width="match_parent"
         android:layout_height="44dp"
         android:layout_marginTop="10dp"
@@ -270,7 +262,6 @@
             android:textSize="@dimen/me_title_size" />
 
         <com.sk.weichat.view.SwitchButton
-            android:id="@+id/switch_verify"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
@@ -284,7 +275,6 @@
     </RelativeLayout>
 
     <RelativeLayout
-        android:id="@+id/show_member_rl"
         android:layout_width="match_parent"
         android:layout_height="44dp"
         android:layout_marginTop="10dp"
@@ -300,7 +290,6 @@
             android:textSize="@dimen/me_title_size" />
 
         <com.sk.weichat.view.SwitchButton
-            android:id="@+id/switch_show_member"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
@@ -315,7 +304,6 @@
     </RelativeLayout>
 
     <RelativeLayout
-        android:id="@+id/send_card_rl"
         android:layout_width="match_parent"
         android:layout_height="44dp"
         android:layout_marginTop="10dp"
@@ -331,7 +319,6 @@
             android:textSize="@dimen/me_title_size" />
 
         <com.sk.weichat.view.SwitchButton
-            android:id="@+id/switch_send_card"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"

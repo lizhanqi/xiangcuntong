@@ -21,7 +21,6 @@
             android:paddingBottom="20dp">
 
             <RelativeLayout
-                android:id="@+id/go_basic_rl"
                 style="@style/IMTble_No_Line"
                 android:paddingLeft="15dp"
                 android:paddingTop="15dp"

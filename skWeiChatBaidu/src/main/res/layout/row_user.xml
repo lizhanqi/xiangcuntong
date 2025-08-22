@@ -16,7 +16,6 @@
         android:src="@drawable/avatar_normal" />
 
     <LinearLayout
-        android:id="@+id/info_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"

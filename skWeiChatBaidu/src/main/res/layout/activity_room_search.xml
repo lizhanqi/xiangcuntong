@@ -13,7 +13,6 @@
         android:orientation="vertical">
 
         <RelativeLayout
-            android:id="@+id/keyword_rl"
             style="@style/IMTble_No_Line"
             android:layout_marginTop="10dp">
 
@@ -41,7 +40,6 @@
         </RelativeLayout>
 
         <RelativeLayout
-            android:id="@+id/sex_rl"
             style="@style/IMTbleLine_UP"
             android:visibility="gone">
 
@@ -63,7 +61,6 @@
         </RelativeLayout>
 
         <RelativeLayout
-            android:id="@+id/min_age_rl"
             style="@style/IMTbleLine_UP"
             android:visibility="gone">
 
@@ -72,7 +69,6 @@
                 style="@style/IMTbleLine_TextKey" />
 
             <com.sk.weichat.view.ClearEditText
-                android:id="@+id/min_age_edit"
                 style="@style/IMTbleLine_TextValue"
                 android:layout_toLeftOf="@+id/min_age_arrow_img"
                 android:layout_toRightOf="@+id/min_age_text"
@@ -88,7 +84,6 @@
         </RelativeLayout>
 
         <RelativeLayout
-            android:id="@+id/max_age_rl"
             style="@style/IMTbleLine_UP"
             android:visibility="gone">
 
@@ -97,7 +92,6 @@
                 style="@style/IMTbleLine_TextKey" />
 
             <com.sk.weichat.view.ClearEditText
-                android:id="@+id/max_age_edit"
                 style="@style/IMTbleLine_TextValue"
                 android:layout_toLeftOf="@+id/max_age_arrow_img"
                 android:layout_toRightOf="@+id/max_age_text"
@@ -113,7 +107,6 @@
         </RelativeLayout>
 
         <RelativeLayout
-            android:id="@+id/show_time_rl"
             style="@style/IMTbleLine"
             android:visibility="gone">
 
@@ -122,7 +115,6 @@
                 style="@style/IMTbleLine_TextKey" />
 
             <TextView
-                android:id="@+id/show_time_tv"
                 style="@style/IMTbleLine_TextValue"
                 android:layout_toLeftOf="@+id/show_time_arrow_img"
                 android:layout_toRightOf="@+id/show_time_text" />

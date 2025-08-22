@@ -24,7 +24,6 @@
                 android:layout_marginTop="12dp">
 
                 <TextView
-                    android:id="@+id/transfer_group_text"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
@@ -50,7 +49,6 @@
                 android:visibility="visible">
 
                 <TextView
-                    android:id="@+id/set_manager_text"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
@@ -80,7 +78,6 @@
                 android:visibility="visible">
 
                 <TextView
-                    android:id="@+id/set_invisible_text"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
@@ -90,7 +87,6 @@
                     android:textSize="@dimen/one_level_title" />
 
                 <ImageView
-                    android:id="@+id/set_invisible_iv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
@@ -107,7 +103,6 @@
                 android:visibility="visible">
 
                 <TextView
-                    android:id="@+id/copy_text"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
@@ -117,7 +112,6 @@
                     android:textSize="@dimen/me_title_size" />
 
                 <ImageView
-                    android:id="@+id/copy_arrow_img"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
@@ -134,7 +128,6 @@
                 android:visibility="gone">
 
                 <TextView
-                    android:id="@+id/set_guardian_text"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
@@ -144,7 +137,6 @@
                     android:textSize="@dimen/one_level_title" />
 
                 <ImageView
-                    android:id="@+id/set_guardian_iv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
@@ -208,7 +200,6 @@
                     android:textSize="@dimen/one_level_title" />
 
                 <ImageView
-                    android:id="@+id/iv_reset_group_chat_key"
                     style="IMTbleLine_ArrowImg"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -264,7 +255,6 @@
                 android:visibility="visible" />
 
             <RelativeLayout
-                android:id="@+id/rl_read"
                 style="@style/IMTble_No_Line"
                 android:layout_marginTop="9dp">
 
@@ -306,7 +296,6 @@
                 android:textSize="@dimen/two_level_content" />
 
             <RelativeLayout
-                android:id="@+id/rl_group_verify"
                 style="@style/IMTble_No_Line"
                 android:layout_marginTop="9dp">
 
@@ -348,7 +337,6 @@
                 android:textSize="@dimen/two_level_content" />
 
             <RelativeLayout
-                android:id="@+id/rl_group_notify"
                 style="@style/IMTble_No_Line"
                 android:layout_marginTop="9dp">
 
@@ -387,7 +375,6 @@
                 android:textSize="@dimen/two_level_content" />
 
             <RelativeLayout
-                android:id="@+id/rl_show_member"
                 style="@style/IMTble_No_Line"
                 android:layout_marginTop="9dp">
 
@@ -426,7 +413,6 @@
                 android:textSize="@dimen/two_level_content" />
 
             <RelativeLayout
-                android:id="@+id/rl_allow_chat"
                 style="@style/IMTble_No_Line"
                 android:layout_marginTop="9dp">
 
@@ -468,7 +454,6 @@
                 android:textSize="@dimen/two_level_content" />
 
             <RelativeLayout
-                android:id="@+id/rl_allow_invite"
                 style="@style/IMTble_No_Line"
                 android:layout_marginTop="9dp">
 
@@ -510,7 +495,6 @@
                 android:textSize="@dimen/two_level_content" />
 
             <RelativeLayout
-                android:id="@+id/rl_allow_upload"
                 style="@style/IMTble_No_Line"
                 android:layout_marginTop="9dp">
 
@@ -552,7 +536,6 @@
                 android:textSize="@dimen/two_level_content" />
 
             <RelativeLayout
-                android:id="@+id/rl_allow_conference"
                 style="@style/IMTble_No_Line"
                 android:layout_marginTop="9dp">
 
@@ -594,7 +577,6 @@
                 android:textSize="@dimen/two_level_content" />
 
             <RelativeLayout
-                android:id="@+id/rl_allow_send_course"
                 style="@style/IMTble_No_Line"
                 android:layout_marginTop="9dp">
 
@@ -636,7 +618,6 @@
                 android:textSize="@dimen/two_level_content" />
 
             <RelativeLayout
-                android:id="@+id/rl_able_live"
                 style="@style/IMTble_No_Line"
                 android:layout_marginTop="9dp">
 

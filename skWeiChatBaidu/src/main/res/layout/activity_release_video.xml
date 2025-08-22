@@ -8,7 +8,6 @@
         layout="@layout/a_view_actionbar" />
 
     <ScrollView
-        android:id="@+id/scroll_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@+id/bottom_layout"
@@ -42,9 +41,7 @@
                 android:orientation="horizontal"
                 android:padding="10dp">
 
-                <include
-                    android:id="@+id/add_video_item"
-                    layout="@layout/layout_circle_add_more_item" />
+                <include layout="@layout/layout_circle_add_more_item" />
 
                 <TextView
                     android:id="@+id/tvSelectCover"

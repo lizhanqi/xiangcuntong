@@ -8,7 +8,6 @@
     android:paddingBottom="20dp">
     <!--com.sk.weichat.view.CircleImageView-->
     <LinearLayout
-        android:id="@+id/ll_device"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">

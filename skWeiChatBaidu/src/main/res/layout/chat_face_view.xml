@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/ly_emotion"
     android:layout_width="fill_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
@@ -74,7 +73,6 @@
             android:background="@color/fen_ge_xian" />
 
         <RadioButton
-            android:id="@+id/collection_emotion"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:background="@drawable/face_chang_bg"

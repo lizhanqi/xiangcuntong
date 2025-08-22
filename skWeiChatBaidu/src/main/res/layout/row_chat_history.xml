@@ -72,7 +72,6 @@
                 android:visibility="gone" />
 
             <RelativeLayout
-                android:id="@+id/content_va_new_rl"
                 android:layout_width="wrap_content"
                 android:layout_height="50dp"
                 android:visibility="gone">

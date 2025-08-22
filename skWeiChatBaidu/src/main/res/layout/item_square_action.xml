@@ -17,7 +17,6 @@
         tools:ignore="UselessParent">
 
         <RelativeLayout
-            android:id="@+id/rlAction"
             android:layout_width="30dp"
             android:layout_height="30dp">
 

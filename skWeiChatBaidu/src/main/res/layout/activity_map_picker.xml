@@ -86,7 +86,6 @@
             android:orientation="vertical">
 
             <LinearLayout
-                android:id="@+id/ll_seach_position"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/white"
@@ -141,7 +140,6 @@
                 android:textStyle="bold" />
 
             <FrameLayout
-                android:id="@+id/fl_map"
                 android:layout_width="match_parent"
                 android:layout_height="200dp">
 

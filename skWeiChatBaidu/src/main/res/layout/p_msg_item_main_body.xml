@@ -81,7 +81,6 @@
             android:orientation="horizontal">
 
             <com.sk.weichat.view.CheckableImageView
-                android:id="@+id/ivReport"
                 android:layout_width="16dp"
                 android:layout_height="16dp"
                 android:scaleType="fitXY"

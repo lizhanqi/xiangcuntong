@@ -30,7 +30,6 @@
                 android:layout_height="fill_parent" />
 
             <ImageView
-                android:id="@+id/filter_thumb_selected_icon"
                 android:layout_width="34.0dip"
                 android:layout_height="34.0dip"
                 android:layout_gravity="center"
@@ -38,13 +37,11 @@
         </FrameLayout>
 
         <FrameLayout
-            android:id="@+id/filter_thumb_favorite_layout"
             android:layout_width="18.0dip"
             android:layout_height="18.0dip"
             android:background="@drawable/take_filter_favorite_icon01_skin_flat">
 
             <ImageView
-                android:id="@+id/filter_thumb_favorite"
                 android:layout_width="18.0dip"
                 android:layout_height="18.0dip"
                 android:src="@drawable/take_filter_favorite_icon02_skin_flat"

@@ -5,9 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical">
 
-    <View
-        android:id="@+id/line_view"
-        style="@style/View_Line" />
+    <View style="@style/View_Line" />
 <!--分上下两个部分，下面的是角标，对应好就不会错位了，-->
     <RelativeLayout
         android:layout_width="match_parent"
@@ -59,7 +57,6 @@
         </RadioGroup>
 <!--上面是图标，下面是角标，-->
         <LinearLayout
-            android:id="@+id/num_ll"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignTop="@id/main_rg"
@@ -150,7 +147,6 @@
                 android:layout_weight="1">
 
                 <TextView
-                    android:id="@+id/main_tab_web_tv"
                     style="@style/dotNumberRed"
                     android:layout_gravity="center"
                     android:layout_marginStart="5dp"
@@ -170,13 +166,11 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@+id/rlTrill"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1">
 
                 <TextView
-                    android:id="@+id/main_tab_trill_tv"
                     style="@style/dotNumberRed"
                     android:layout_gravity="center"
                     android:layout_marginStart="5dp"
@@ -201,7 +195,6 @@
                 android:layout_weight="1">
 
                 <TextView
-                    android:id="@+id/main_tab_four_tv"
                     style="@style/dotNumberRed"
                     android:layout_gravity="center"
                     android:layout_marginStart="5dp"

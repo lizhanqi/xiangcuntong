@@ -20,7 +20,6 @@
             android:textSize="@dimen/one_level_title" />
 
         <ImageView
-            android:id="@+id/telephone_arrow_img"
             style="@style/basic_info"
             android:contentDescription="@string/app_name"
             android:visibility="invisible" />

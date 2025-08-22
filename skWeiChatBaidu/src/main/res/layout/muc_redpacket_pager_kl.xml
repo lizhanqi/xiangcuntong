@@ -27,7 +27,6 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/kl"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -94,7 +93,6 @@
             android:layout_weight="1">
 
             <TextView
-                android:id="@+id/hbgs"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="15dp"
@@ -162,7 +160,6 @@
             android:layout_weight="1">
 
             <TextView
-                android:id="@+id/zje"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="15dp"

@@ -5,7 +5,6 @@
     android:orientation="vertical">
 
     <RelativeLayout
-        android:id="@+id/creator_rl"
         style="@style/IMTbleLine_UP"
         android:background="@color/normal_bg">
 
@@ -40,7 +39,6 @@
     </RelativeLayout>
 
     <RelativeLayout
-        android:id="@+id/create_time_rl"
         style="@style/IMTbleLine_UP"
         android:background="@color/normal_bg">
 
@@ -75,7 +73,6 @@
     </RelativeLayout>
 
     <RelativeLayout
-        android:id="@+id/count_rl"
         style="@style/IMTbleLine_UP"
         android:background="@color/normal_bg">
 

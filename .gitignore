@@ -11,3 +11,4 @@ repository/
 import-summary.txt
 gradle-wrapper.jar
 /.idea/
+/.history/

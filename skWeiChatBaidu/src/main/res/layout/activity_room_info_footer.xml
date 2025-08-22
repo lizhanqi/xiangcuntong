@@ -190,7 +190,6 @@
 
 
         <TextView
-            android:id="@+id/qr_code_tv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
@@ -336,7 +335,6 @@
         style="@style/IMTble_No_Line">
 
         <TextView
-            android:id="@+id/picture_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
@@ -346,7 +344,6 @@
             android:textSize="@dimen/me_title_size" />
 
         <ImageView
-            android:id="@+id/picture_arrow_img"
             style="@style/setting_bg"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -429,12 +426,9 @@
         android:layout_alignParentBottom="true"
         android:visibility="visible" />
 
-    <RelativeLayout
-        android:id="@+id/rl_no_disturb"
-        style="@style/IMTble_No_Line">
+    <RelativeLayout style="@style/IMTble_No_Line">
 
         <TextView
-            android:id="@+id/tv_no_disturb"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
@@ -463,7 +457,6 @@
         android:visibility="visible" />
 
     <RelativeLayout
-        android:id="@+id/shield_chat_rl"
         style="@style/IMTble_No_Line"
         android:visibility="visible">
 

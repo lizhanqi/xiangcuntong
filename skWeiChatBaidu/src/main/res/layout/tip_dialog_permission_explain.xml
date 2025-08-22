@@ -7,7 +7,6 @@
     android:orientation="vertical">
 
     <LinearLayout
-        android:id="@+id/ll_dialog"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/bg_tip_dialog"

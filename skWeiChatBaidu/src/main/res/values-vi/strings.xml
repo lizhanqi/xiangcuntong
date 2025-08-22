@@ -4,16 +4,11 @@
     <string name="please_wait">Xin chờ trong giây lát&#8230;</string>
     <string name="load_failed_click_again">Đang tải không thành công, nhấp tải lại</string>
     <string name="yes">Có</string>
-    <string name="no">Không</string>
     <string name="no_data">Chưa có dữ liệu</string>
-    <string name="saveing">Đang lưu&#8230;</string>
     <string name="save_success">Lưu thành công</string>
-    <string name="save_failed">Lưu thất bại</string>
-    <string name="add">Thêm mới</string>
     <!-- 调用系统拍照的字符串 -->
     <string name="c_take_picture">Chụp ảnh</string>
     <string name="c_take_picture_failed">Chụp ảnh thất bại</string>
-    <string name="c_photo_album">Bộ sưu tập</string>
     <string name="c_photo_album_failed">Chọn lựa thất bại</string>
     <string name="c_crop_failed">Cắt giảm thất bại</string>
     <!-- 城市选择 -->
@@ -22,7 +17,6 @@
     <string name="hot_city">Thành phố nổi tiếng</string>
     <string name="select_city_by_province">Chọn thành phố theo tỉnh</string>
     <string name="location_failed">Định vị thất bại</string>
-    <string name="location_city">Thành phố hiện tại</string>
     <string name="select">Chọn lựa</string>
     <string name="country">Quốc gia</string>
     <string name="province">Tỉnh</string>
@@ -40,8 +34,6 @@
     <string name="please_input_phone_number">Vui lòng nhập số điện thoại của bạn</string>
     <string name="please_input_auth_code">Vui lòng nhập mã xác minh</string>
     <string name="please_input_password">Vui lòng nhập mật khẩu</string>
-    <string name="please_confirm_password">Vui lòng xác nhận mật khẩu</string>
-    <string name="please_input_name">Vui lòng nhập tên</string>
     <string name="please_input_new_password">Vui lòng nhập mật khẩu mới</string>
     <string name="please_confirm_new_password">Vui lòng xác nhận mật khẩu mới</string>
     <string name="please_input_keyword">Vui lòng nhập tên hoặc số điện thoại</string>
@@ -50,74 +42,49 @@
     <string name="login">Đăng nhập</string>
     <string name="register">Đăng kí</string>
     <!-- LoginActivity -->
-    <string name="user_telphone_login">Đăng nhập bằng số điện thoại</string>
     <string name="register_account">Đăng ký tài khoản</string>
     <string name="forget_password">Quên mật khẩu</string>
     <string name="login_failed">Đăng nhập thất bại</string>
-    <string name="connected_failed">Liên kết thất bại</string>
     <!-- LoginHistoryActivity -->
     <string name="switch_account">Chuyển đổi tài khoản</string>
     <!-- DataDownloadActivity -->
     <string name="data_update">Cập nhật dữ liệu</string>
     <string name="data_not_update_exit">Dữ liệu người dùng chưa được cập nhật, thoát sẽ từ bỏ đăng nhập, bạn có muốn thoát không?</string>
     <!-- RegisterActivity -->
-    <string name="register_step_one">1、Nhập số điện thoại</string>
-    <string name="phone_number_format_error">Lỗi định dạng số điện thoại di động</string>
-    <string name="telphone_already_rigister">Số điện thoại đã được đăng ký</string>
     <string name="phone_number_not_be_empty">Số điện thoại không được để trống</string>
-    <string name="get_auth_code_failed">Không thể lấy mã xác minh, vui lòng gửi lại</string>
     <string name="auth_code_error">Mã xác minh sai</string>
-    <string name="auth_code_overdue">Mã xác nhận thất bại</string>
     <!-- after add -->
-    <string name="Get_Verification_Code">Nhận mã xác minh</string>
-    <string name="Password_Login">Mật khẩu đăng nhập</string>
-    <string name="Verification_Code_Login">Mã xác minh đăng nhập</string>
     <!-- RegisterPasswordActivity -->
-    <string name="register_step_two">2、Điền mật khẩu</string>
     <string name="password_empty_error">Mật khẩu không được phép để trống và ít hơn 6 ký tự</string>
     <string name="confirm_password_empty_error">Xác nhận mật khẩu không được phép để trống và ít hơn 6 ký tự</string>
     <string name="password_confirm_password_not_match">Mật khẩu và Xác nhận mật khẩu không khớp</string>
     <string name="cancel_register_prompt">Bạn có muốn bỏ đăng ký?</string>
     <!-- RegisterUserBasicInfoActivity (3、基本资料) -->
-    <string name="register_step_three">3、Thông tin cơ bản</string>
     <string name="register_error">Lỗi đăng ký, vui lòng thử lại</string>
     <string name="register_success">Đăng ký thành công</string>
     <!-- UserCheckedActivity -->
-    <string name="exit">Đăng xuất</string>
-    <string name="login_again">Đăng nhập lại</string>
     <string name="overdue_title">Thông báo hết hạn</string>
     <string name="token_overdue_des">Đăng nhập hết hạn, bạn có muốn đăng nhập lại bây giờ không?</string>
     <string name="deficiency_data_des">Dữ liệu cục bộ đã hết hạn, bạn có muốn đăng nhập lại bây giờ không?</string>
     <string name="logout_title">Thông báo ngoại tuyến</string>
     <string name="logout_des">Tài khoản của bạn đã đăng nhập trên một thiết bị khác. Bạn có muốn đăng nhập lại không?</string>
-    <string name="you_are_offline">Bạn đang ngoại tuyến, kết nối lại?</string>
     <!-- MainActivity -->
     <string name="message">Tin nhắn</string>
     <string name="find">Tìm kiếm</string>
-    <string name="nearby">Gần đây</string>
     <string name="group_chat">Nhóm trò chuyện</string>
 
     <!-- MessageFragment -->
-    <string name="welcome_user_software">Chào mừng bạn đến trò chuyện</string>
     <string name="msg_picture">[Hình ảnh]</string>
     <string name="msg_voice">[Giọng nói]</string>
     <string name="msg_location">[Địa điểm]</string>
     <string name="msg_animation">[Hoạt hình]</string>
     <string name="msg_video">[Gọi Video]</string>
     <string name="msg_file">[文件]</string>
-    <string name="msg_online">Tin nhắn (trực tuyến)</string>
-    <string name="msg_offline">Tin nhắn (ngoại tuyến)</string>
-    <string name="msg_connect">Tin nhắn (đang kết nối)</string>
-    <string name="msg_be_add_attention">Ai đó đã theo dõi bạn</string>
     <string name="msg_be_say_hello">Ai đó đã chào bạn</string>
-    <string name="msg_be_passed">Bạn đã xác nhận bạn bè</string>
-    <string name="msg_has_new_friend">Bạn đã có bạn mới.</string>
     <string name="msg_has_new_recommend_friend">Bạn có một người bạn giới thiệu mới</string>
     <string name="chat_poto">Ảnh</string>
     <string name="chat_camera">Chụp ảnh</string>
     <string name="chat_send_video">Quay Video</string>
-    <string name="chat_audio">Cuộc gọi thoại</string>
-    <string name="chat_with_video">Cuộc gọi video</string>
     <string name="chat_loc">Địa điểm</string>
     <string name="chat_file">Tập tin</string>
     <string name="chat_card">Danh thiếp</string>
@@ -132,51 +99,26 @@
     <string name="motalk_voice_chat_tip_2">Thả và gửi</string>
     <string name="motalk_voice_chat_tip_3">Trượt lên để hủy gửi</string>
     <string name="motalk_voice_chat_tip_4">Thả ngón tay ra và hủy gửi</string>
-    <string name="motalk_voice_chat_tip_5">Ghi âm lại</string>
-    <string name="motalk_voice_chat_tip_6">Thả để kết thúc</string>
     <!-- after add -->
-    <string name="read_burn">Hủy sau khi đọc</string>
 
     <!-- 发现模块 -->
-    <string name="newest">Theo dõi nhau</string>
-    <string name="hotest">Đơn phương theo dõi</string>
-    <string name="nearest">Phòng theo dõi</string>
     <string name="bisniss">Bạn của tôi</string>
     <!-- 加好友 -->
-    <string name="remark_name_format_error">Tên ghi chú không hợp lệ. Chỉ cho phép tiếng Trung, Anh, chữ cái và dấu gạch dưới, và độ dài là 3 đến 10 ký tự.</string>
-    <string name="unilateral_attention">Đơn phương theo dõi</string>
-    <string name="focus_on_each_other">Theo dõi lẫn nhau</string>
-    <string name="focus_room">Phòng theo dõi</string>
     <string name="set_remark_name">Đặt tên ghi chú</string>
     <string name="remove_blacklist">Xóa danh sách đen</string>
-    <string name="check_circle">Xem khoảnh khắc bạn bè</string>
     <string name="remove_blacklist_succ">Đã xóa khỏi danh sách đen thành công</string>
     <string name="add_blacklist">Thêm vào danh sách đen</string>
     <string name="add_blacklist_succ">Thêm vào danh sách đen thành công</string>
     <string name="add_blacklist_fail">Thêm vào danh sách đen thất bại</string>
-    <string name="add_blacklist_prompt">Bạn có chắc chắn muốn thêm vào danh sách đen?</string>
-    <string name="remove_blacklist_prompt">Bạn có chắc chắn muốn xóa danh sách đen?</string>
-    <string name="his_in_the_blacklist">Đã thêm bên kia vào danh sách đen</string>
-    <string name="cancel_attention">Hủy theo dõi</string>
-    <string name="delete_all">Xóa hoàn toàn</string>
     <string name="cancel_attention_prompt">Bạn có chắc chắn muốn hủy theo dõi?</string>
     <string name="delete_all_prompt">Thao tác xóa hoàn toàn, nếu bên kia cũng theo dõi bạn thì sẽ hủy bỏ sự theo dõi của bên kia đối với bạn, hãy chắc chắn xóa hoàn toàn?</string>
-    <string name="cancel_attention_succ">Hủy theo dõi thành công</string>
     <string name="delete_all_succ">Đã xóa thành công</string>
     <string name="new_friend">Bạn mới</string>
-    <string name="add_attention">Thêm theo dõi</string>
-    <string name="wait_verification">Chờ xác minh</string>
     <string name="add_attention_succ">Thêm theo dõi thành công</string>
     <string name="add_attention_failed">Theo dõi thất bại, bạn đã bị bên kia đưa vào danh sách đen</string>
-    <string name="passed">Đã thông qua</string>
     <string name="agreed">Đã đồng ý</string>
-    <string name="is_the_friend">Đã là bạn của nhau</string>
-    <string name="say_hello">Gửi lời chào</string>
-    <string name="say_hello_again">Gửi lời chào lần nữa</string>
     <string name="send_msg">Gửi tin nhắn</string>
-    <string name="say_hello_succ">Gửi lời chào thành công</string>
     <string name="add_friend_succ">Thêm bạn thành công</string>
-    <string name="agree">Đồng ý</string>
     <string name="feedback_succ">Phản hồi thành công</string>
     <string name="feedback">Phản hồi</string>
     <string name="simple_data_error">Lỗi dữ liệu</string>
@@ -184,17 +126,11 @@
     <string name="say_hello_dialog_title">Thông báo xác minh</string>
     <string name="say_hello_dialog_hint">Bạn ơi, cho tôi một lý do để thêm bạn!</string>
     <string name="say_hello_default">Xin chào!</string>
-    <string name="refused_request">Bên kia từ chối yêu cầu kết bạn của bạn!</string>
 
     <!-- 附近模块 -->
     <string name="keyword">Từ khóa</string>
     <string name="sex">Giới tính</string>
-    <string name="min_age">Tuổi tối thiểu</string>
-    <string name="max_age">Tuổi tối đa</string>
-    <string name="show_time">Thời gian xuất hiện</string>
     <string name="all_date">Tất cả các ngày</string>
-    <string name="all">Toàn bộ</string>
-    <string name="reset">Đặt lại</string>
     <string name="select_date">Chọn ngày</string>
     <!-- after add -->
     <string name="add_friend">Thêm bạn</string>
@@ -202,41 +138,22 @@
     <string name="instance_">m</string>
 
     <!-- 商务圈 -->
-    <string name="send_myspace">Đăng lên khoảnh khắc bạn bè</string>
-    <string name="send_text">Gửi văn bản</string>
-    <string name="send_image">Đăng hình ảnh</string>
     <string name="send_audio">Gửi ghi âm</string>
     <string name="send_video">Gửi video</string>
     <string name="delete_prompt">Bạn có chắc chắn muốn xóa?</string>
     <string name="copy">Sao chép</string>
-    <string name="copy_success">Sao chép thành công</string>
-    <string name="praise">Thích</string>
-    <string name="cancel_praise">Bỏ thích</string>
-    <string name="comment">Bình luận</string>
-    <string name="send_gift">Gửi quà</string>
     <string name="replay_text">Trả lời<xliff:g id="nick_name">%1$s</xliff:g>:</string>
     <string name="replay">Trả lời </string>
     <string name="upload_failed">Đăng thất bại</string>
     <string name="pictures">Hình ảnh</string>
-    <string name="level_inner"><xliff:g id="level">%1$d</xliff:g>Cấp</string>
-    <string name="give_gift">Gửi quà</string>
-    <string name="my_business_circle">Vòng trong ngành nghề của tôi</string>
-    <string name="check_praise">Xem lượt thích</string>
     <!-- 商务圈发布界面 -->
-    <string name="play_failed">Phát thất bại</string>
-    <string name="audio_file_not_exist">Tập tin ghi âm không tồn tại</string>
     <string name="circle_release">Gửi lên</string>
     <string name="circle_now_think">Suy nghĩ lúc này&#8230;</string>
     <string name="circle_add_voice">Thêm ghi âm</string>
-    <string name="circle_select_voice">Chọn ghi âm, tối đa 1</string>
     <string name="circle_add_image">Thêm hình ảnh</string>
-    <string name="circle_select_image">Chọn ảnh, tối đa 9</string>
-    <string name="circle_select_video">Chọn video, tối đa 1</string>
     <string name="circle_add_video">Thêm video</string>
 
     <!-- 消息详情界面 -->
-    <string name="message_detail">Nói chi tiết</string>
-    <string name="comment_count">Số bình luận(<xliff:g id="count">%1$d</xliff:g>)</string>
 
     <!-- 群聊 -->
     <string name="add_chat_ok_btn">Xác định(<xliff:g id="count">%1$s</xliff:g>)</string>
@@ -249,11 +166,7 @@
     <string name="room_name_empty_error">Tên nhóm không được để trống</string>
     <string name="room_des_empty_error">Mô tả nhóm không thể để trống</string>
     <string name="create_room_failed">Không thể tạo nhóm</string>
-    <string name="voice_hint">1.Nhấn vào nút ghi để giới thiệu bản thân!\n2.60 giây đếm ngược。\n3.Có thể nói xin chào trước。\n4.Sinh nhật, sở thích, tính cách và chòm sao đều có thể nói.</string>
     <!-- MeFragment -->
-    <string name="my_data">Thông tin của tôi</string>
-    <string name="my_friend">Bạn của tôi</string>
-    <string name="my_space">Không gian của tôi</string>
     <string name="local_video">Chọn video</string>
     <string name="setting">Cài đặt</string>
     <!-- RoomInfoActivity -->
@@ -272,166 +185,84 @@
     <string name="shield_chat">Chặn tin nhắn nhóm</string>
     <string name="update_success">Cập nhật thành công</string>
     <string name="update_success_restart">Bản cập nhật thành công,hãy khởi động.</string>
-    <string name="change_room_name">Chỉnh sửa tên nhóm</string>
-    <string name="change_room_des">Chỉnh sửa mô tả nhóm</string>
-    <string name="change_my_nickname">Sửa đổi biệt danh nhóm của tôi</string>
-    <string name="add_notice">Thêm thông báo</string>
     <!-- after add -->
     <string name="banned_succ">Cấm thành công</string>
     <string name="canle_banned_succ">Hủy bỏ lệnh cấm thành công</string>
-    <string name="no_shiele">Không che</string>
-    <string name="yes_shiele">Đã che</string>
 
     <!-- SettingActivity -->
     <string name="clear_cache">Xóa bộ nhớ cache</string>
-    <string name="use_help">Sử dụng trợ giúp</string>
     <string name="about_us">Về chúng tôi</string>
     <string name="privacy_setting">Cài đặt bảo mật</string>
-    <string name="vioce_audio_chat_setting">Cài đặt cuộc gọi thoại và video</string>
-    <string name="exit_tips">Bạn có chắc chắn muốn đăng xuất khỏi tài khoản này?</string>
     <string name="exit_current_account">Thoát tài khoản hiện tại</string>
     <string name="deleteing">Đang xóa&#8230;</string>
     <string name="clear_completed">Dọn dẹp hoàn thành</string>
 
     <!-- PrivacySettingActivity -->
-    <string name="allow_attention">Cho phép theo dõi</string>
-    <string name="allow_greet">Cho phép gửi lời chào</string>
-    <string name="friends_verify">Xác minh thêm bạn bè</string>
     <string name="update_sccuess">Đã sửa đổi thành công</string>
 
     <!-- LocalVideoActivity -->
-    <string name="size">Kích cỡ</string>
     <string name="time_len">Thời lượng</string>
     <string name="create_time">Thời gian tạo</string>
-    <string name="des">Mô tả</string>
     <string name="hour">Giờ</string>
     <string name="minute">Phút</string>
     <string name="second">Giây</string>
-    <string name="video_file_not_exist">Video không tồn tại</string>
     <string name="delete_failed">Xóa thất bại</string>
     <string name="select_failed">Lựa chọn thất bại</string>
 
     <!-- BasicInfo -->
-    <string name="basic_info">Thông tin cơ bản</string>
-    <string name="name_align">Biệt&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;danh</string>
     <string name="rename_align">Ghi chú</string>
-    <string name="sex_align">Giới&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;tính</string>
     <string name="birthday">Ngày sinh</string>
-    <string name="residence_align">Cư&#160;&#160;住trú&#160;&#160;Địa chỉ</string>
     <string name="select_sex">Chọn giới tính</string>
     <string name="select_avatar">Chọn hình đại diện</string>
     <string name="sex_man">Nam</string>
     <string name="sex_woman">Nữ</string>
     <string name="name_empty_error">Biệt hiệu không thể để trống</string>
     <string name="live_address_empty_error">Nơi cư trú không thể để trống</string>
-    <string name="nick_name_format_error">Biệt hiệu bất hợp pháp, chỉ cho phép tiếng Trung,Anh,chữ cái và dấu gạch dưới, và độ dài là 3 đến 10 ký tự.</string>
-    <string name="cancel_edit_prompt">Bạn chưa lưu nội dung hiện tại, bạn có chắc chắn muốn thoát không?</string>
     <string name="upload_avataring">Tải ảnh đại diện&#8230;</string>
     <string name="upload_avatar_success">Tải ảnh đại diện thành công</string>
     <string name="upload_avatar_failed">Tải ảnh đại diện không thành công, vui lòng thử lại sau</string>
-    <string name="look_friend_location">Xem vị trí bạn bè</string>
-    <string name="look_friend_circle">Xem khoảnh khắc bạn bè</string>
     <!-- after add -->
     <string name="data_of_birth">Thân mến! Ngày sinh của bạn vượt quá hiệ tại!</string>
     <string name="this_friend_not_open_position">Người bạn này chưa tiết lộ thông tin địa điểm!</string>
     <string name="diy_name">Chữ ký cá nhân</string>
 
     <!-- VideoRecordActivity -->
-    <string name="start_failed">Khởi động thất bại</string>
     <string name="record_failed">Ghi âm thất bại</string>
-    <string name="record_succ">Ghi âm thành công</string>
-    <string name="failed_to_open_camera_1">Không thể mở camera</string>
-    <string name="failed_to_open_camera_2">Máy ảnh đang bị</string>
-    <string name="failed_to_open_camera_3">các ứng dụng khác chiếm dụng?</string>
-    <string name="chooser_title">Chọn gửi một tập tin</string>
-    <string name="empty_directory">Thư mục trống</string>
-    <string name="storage_removed">Không tìm thấy thẻ nhớ</string>
-    <string name="choose_file">Chọn tập tin</string>
-    <string name="error_selecting_file">Chọn tập tin lỗi</string>
-    <string name="internal_storage">Thiết bị lưu trữ mạng</string>
 
     <!-- 视频、语音通话 -->
-    <string name="doubango_revision" translatable="false">1231</string>
-    <string name="spinner_ipversion">Chọn số phiên bản IP</string>
-    <string name="spinner_pcscf_discovery" translatable="false">Chọn chế độ khám phá PCSCF</string>
-    <string name="spinner_transport">Chọn phương thức truyền mạng</string>
-    <string name="day_today">Hôm nay</string>
-    <string name="day_yesterday">Hôm qua</string>
-    <string name="copyright" formatted="false" translatable="false"> </string>
     <string name="string_answer">Trả lời</string>
     <string name="string_endcall">Gác máy</string>
-    <string name="string_speaker_on">Mở loa thoại</string>
-    <string name="string_speaker_off">Đóng loa thoại</string>
-    <string name="string_mute_on">Bật tiếng</string>
-    <string name="string_mute_off">Tắt tiếng</string>
-    <string name="string_hold">Giữ</string>
-    <string name="string_resume">Phục hồi</string>
-    <string name="string_send_video">Gửi video</string>
-    <string name="string_stop_video">Dừng video</string>
-    <string name="string_switch_camera">Đổi camera</string>
-    <string name="string_call_terminated">Cuộc gọi bị gián đoạn ..</string>
-    <string name="string_incall">Trong cuộc gọi..</string>
-    <string name="string_call_incoming">Cuộc gọi đến...</string>
-    <string name="string_call_outgoing">Đang gọi...</string>
-    <string name="string_call_cancelled">Hủy cuộc gọi ...</string>
-    <string name="connectting">Kết nối</string>
-    <string name="identity">Thông tin nhận dạng</string>
-    <string name="network">Mạng</string>
-    <string name="codecs">Mã số</string>
-    <string name="natt">Lướt qua</string>
-    <string name="registration_nok">Kết nối thất bại</string>
-    <string name="unregustration_ok">Ngắt kết nối</string>
-    <string name="registration_ok">Đã kết nối</string>
-    <string name="registration_inprogress">Đang kết nối ...</string>
-    <string name="unregistration_inprogress">Đang ngắt kết nối ...</string>
-    <string name="unregistration_nok">Ngắt kết nối thất bại ...</string>
-    <string name="audio_conference_info">Nhập 4 số từ 3000 - 3999 cùng với bạn bè của bạn và nhấp vào "Bắt đầu cuộc gọi" để bắt đầu hội nghị bằng giọng nói.</string>
-    <string name="start_audio_conference">Bắt đầu cuộc gọi bằng giọng nói</string>
 
     <!-- 我的余额 -->
-    <string name="input_error">Số đã nhập không chính xác!</string>
-    <string name="records_of_consumption">Lịch sử chi tiêu</string>
     <string name="recharge_success">Nạp tiền thành công</string>
-    <string name="recharge_amount">Số tiền nạp lại là(0.01~500.00)</string>
-    <string name="recharge_amount_not">Số tiền nạp không thể0!</string>
-    <string name="please_enter_a_value">Vui lòng nhập số tiền!</string>
 
     <!-- 企业通讯录 -->
-    <string name="company_txl">Sổ địa chỉ công ty</string>
     <string name="create_company">Tạo công ty</string>
     <string name="create_company_succ">Tạo công ty thành công</string>
-    <string name="create_company_fail">Tạo công ty thất bại</string>
-    <string name="company_exit">Tên công ty đã tồn tại</string>
     <string name="company_names">Tên công ty</string>
     <string name="enter_company_name">Vui lòng nhập tên công ty</string>
     <string name="add_department">Thêm bộ phận</string>
     <string name="create_department">Tạo bộ phận</string>
     <string name="create_department_succ">Tạo bộ phận thành công</string>
-    <string name="create_department_fail">Tạo bộ phận thất bại</string>
     <string name="department_names">Tên bộ phận</string>
     <string name="enter_department_name">Vui lòng nhập tên bộ phận</string>
     <string name="modify_company_name">Sửa đổi tên công ty</string>
     <string name="company_name_connot_null">Tên công ty mới không thể để trống</string>
     <string name="company_name_connot_same">Tên công ty mới không thể giống với tên công ty ban đầu</string>
     <string name="modify_succ">Đã sửa đổi thành công</string>
-    <string name="modify_fail">Sửa đổi thất bại</string>
     <string name="new_company_name">Tên công ty mới</string>
     <string name="enter_new_company_name">Vui lòng nhập tên công ty mới</string>
     <string name="exit_company">Thoát khỏi công ty</string>
     <string name="exi_c_succ">Thoát khỏi công ty thành công</string>
-    <string name="exi_c_fail">Thoát khỏi công ty thất bại</string>
     <string name="delc_company">Xóa công ty</string>
     <string name="del_c_succ">Xóa công ty thành công</string>
-    <string name="del_c_fail">Xóa công ty thất bại</string>
     <string name="add_son_department">Thêm bộ phận phụ</string>
     <string name="create_son_department">Tạo bộ phận phụ</string>
     <string name="create_son_department_succ">Tạo bộ phận phụ thành công </string>
-    <string name="create_son_department_fail">Tạo bộ phận phụ thất bại</string>
     <string name="son_department_names">Tên bộ phận phụ</string>
     <string name="enter_son_department_name">Vui lòng nhập tên bộ phận phụ</string>
     <string name="add_employee">Thêm thành viên</string>
     <string name="add_employee_succ">Thêm thành viên thành công</string>
-    <string name="add_employee_fail">Thêm thành viên thất bại</string>
     <string name="modify_department_name">Sửa đổi tên bộ phận</string>
     <string name="new_department_name">Tên bộ phận mới</string>
     <string name="enter_new_department_name">Vui lòng nhập tên bộ phận mới</string>
@@ -439,16 +270,12 @@
     <string name="department_name_connot_same">Tên bộ phận mới không thể giống với ban đầu</string>
     <string name="delc_departm">Xóa bộ phận</string>
     <string name="del_d_succ">Xóa bộ phận thành công</string>
-    <string name="del_d_fail">Xóa bộ phận thất bại</string>
     <string name="detail">Chi tiết</string>
     <string name="change_departement">Thay thế bộ phận </string>
     <string name="change_departement_succ">Thay thế bộ phận thành công</string>
-    <string name="change_departement_fail">Thay thế bộ phận thất bại</string>
     <string name="del_employee">Xóa nhân viên</string>
     <string name="del_e_succ">Xóa nhân viên thành công</string>
-    <string name="del_e_fail">Xóa nhân viên thất bại</string>
     <string name="name_connot_null">Không thể để trống</string>
-    <string name="notices">Thông báo:</string>
     <string name="no_notice">Không có thông báo</string>
     <string name="sure_modify">Xác nhận sửa đổi</string>
     <string name="check_network">Vui lòng kiểm tra mạng</string>
@@ -465,23 +292,16 @@
     <string name="download">Tải</string>
 
     <string name="empty">Trống rỗng</string>
-    <string name="you_have_one_live_room">Bạn đã có một phòng livestream</string>
-    <string name="name_cannot_ull">Tên không thể để trống</string>
     <string name="notice_cannot_null">Thông báo không thể để trống</string>
     <string name="top_tv">Đứng đầu</string>
 
     <string name="str_input_code">Mã đồ họa</string>
-    <string name="input_code_iamge">Lỗi mã xác minh đồ họa</string>
 
     <string name="name_course_error">Tên khóa học không thể để trống</string>
-    <string name="please_input_course_desc">Vui lòng nhập tên khóa học</string>
-    <string name="create_course">Tạo một khóa học</string>
     <string name="switch_language">Chuyển ngôn ngữ</string>
     <string name="change_tip">Chuyển ngôn ngữ thành công, vui lòng đăng nhập lại</string>
-    <string name="pay_result_callback_msg">Kết quả thanh toán WeChat：%s</string>
 
     <string name="set_chat_bg">Nền trò chuyện</string>
-    <string name="cover_chat_bg">Khôi phục</string>
     <string name="allow_exit_app_revice">Cho phép nhận tin nhắn sau khi thoát khỏi ứng dụng</string>
 
     <!-- Todo Create by 2018/5/23 -->
@@ -496,8 +316,6 @@
     <string name="bit">người</string>
     <string name="friend">Bạn bè</string>
 
-    <string name="perceptual_pink">Bột cảm xúc</string>
-
     <string name="chat_font">Phông chữ trò chuyện</string>
     <string name="font_size">Cỡ chữ</string>
     <string name="finish">Hoàn thành</string>
@@ -506,19 +324,12 @@
     <string name="turn_on_vibration">Rung khi có tin nhắn đến</string>
 
     <string name="my_purse">Ví của tôi</string>
-    <string name="expenses_record">Nhật kí chi tiêu</string>
     <string name="my_change">Tiền của tôi</string>
     <string name="recharge">Nạp tiền</string>
-    <string name="select_payment_method">Chọn phương thức thanh toán</string>
-    <string name="total">Tổng cộng</string>
     <string name="wechat_pay">Thanh toán WeChat</string>
     <string name="alipay_pay">Thanh toán Alipay</string>
     <string name="withdraw">Rút tiền</string>
-    <string name="withdrawal_instructions">Hướng dẫn rút tiền mặt</string>
-    <string name="arrival_micro_signal">Mã nhận tiền Wechat</string>
-    <string name="withdrawal_fee_rate">Tỷ lệ rút tiền mặt0.1%</string>
     <string name="withdrawal_amount">Số tiền rút</string>
-    <string name="change_balance">Số dư￥</string>
     <string name="all_withdrawals">Rút tiền toàn bộ</string>
 
     <string name="modify_job">Sửa đổi chức vị</string>
@@ -548,22 +359,15 @@
     <string name="collection">Lưu</string>
 
     <string name="group_qr_code">Mã QR nhóm</string>
-    <string name="via_invitations">Chủ nhóm đã mở xác minh nhóm và chỉ có thể vào nhóm theo lời mời.</string>
     <string name="group_creator">Người tạo nhóm</string>
     <string name="not_disturb">Tránh tin nhắn làm phiền</string>
-    <string name="news_push">Khi bạn mở nó, bạn sẽ không còn nhận được tin nhắn từ nhóm này.</string>
-    <string name="receive_messages">Sẽ không còn nhận được tin nhắn từ nhóm này sau khi chặn</string>
     <string name="group_management">Quản lý nhóm</string>
     <string name="invitation_confirmation">Xác nhận lời mời nhóm</string>
     <string name="need_to_be_confirmed">Sau khi kích hoạt, các thành viên nhóm cần được chủ nhóm xác nhận để mời bạn bè vào nhóm.</string>
 
     <string name="chat_settings">Cài đặt trò chuyện</string>
-    <string name="start_group_chat">Bắt đầu một cuộc trò chuyện nhóm</string>
     <string name="chat_background">Nền trò chuyện</string>
-    <string name="reselection">Chọn lại</string>
 
-    <string name="prompt_title">Nhắc</string>
-    <string name="moments">Khoảnh khắc</string>
     <string name="my_moments">Hoạt động của tôi</string>
 
     <string name="create_group">Bắt đầu một cuộc trò chuyện nhóm</string>
@@ -608,14 +412,10 @@
     <string name="clean">Dọn dẹp</string>
     <string name="illegal_input">Đầu vào không hợp lệ</string>
     <string name="simplified_chinese">Tiếng Trung giản thể</string>
-    <string name="traditional_chinese">Tiếng Trung phồn thể</string>
-    <string name="english">Tiếng Anh</string>
     <string name="need_input_money">Vui lòng nhập số tiền!</string>
     <string name="red_packet_range">Tổng số tiền bao lì xì từ 0,01-%d Oh!</string>
-    <string name="balance_not_enough">Số dư của bạn không đủ!</string>
     <string name="need_red_packet_count">Vui lòng nhập số lượng bao lì xì!</string>
     <string name="rmb">Đồng</string>
-    <string name="get_red_packet_failed">Không thể lấy chi tiết bao lì xì</string>
     <string name="someone_s_red_packet_place_holder">%sBao lì xì</string>
     <string name="click_recode">Nhấn vào đây để ghi âm lại</string>
     <string name="upload">Gửi lên</string>
@@ -627,7 +427,6 @@
     <string name="enter_public_number">Nhập số công cộng</string>
     <string name="qrcode">Mã QR</string>
     <string name="now_location">Địa điểm</string>
-    <string name="sync_local_contacts">Đồng bộ hóa danh bạ</string>
     <string name="tag_name">Tên thẻ</string>
     <string name="hint_tag_name">Ví dụ: gia đình, bạn bè</string>
     <string name="example_tag_member">Thành viên nhãn(0)</string>
@@ -636,10 +435,8 @@
     <string name="hint_change_font_size">Kéo xuống dưới để đặt kích thước phông chữ</string>
     <string name="change_password">Thay đổi mật khẩu</string>
     <string name="design_admin">Quản trị viên được chỉ định</string>
-    <string name="cancel_admin">Hủy quản trị viên</string>
     <string name="transfer_group_owner">Chuyển nhượn quản lý nhóm</string>
     <string name="private_group">Nhóm cá nhân</string>
-    <string name="hint_private_group">Khi được bật, nhóm hiện tại không thể được tìm kiếm.</string>
     <string name="display_read_number">Hiển thị số lượng người đã đọc</string>
     <string name="hint_display_readed_number">Khi được bật, trang tin nhắn của nhóm hiện tại sẽ hiển thị số người đọc tin nhắn ở bên trái của mỗi tin nhắn. Sau khi nhấp, bạn cũng có thể xem danh sách những người đã đọc.</string>
     <string name="display_member">Cho phép các thành viên nhóm được hiển thị</string>
@@ -668,22 +465,6 @@
     <string name="example_name">XXHồ XX</string>
     <string name="file_type_not_support">Xem trước tập tin định dạng này không được hỗ trợ tại thời điểm này</string>
     <string name="send_red_packet">Gửi bao lì xì</string>
-    <string name="balance">Số dư</string>
-    <string name="default_balance" translatable="false">0.00</string>
-    <string name="input_recharge_money">Vui lòng nhập số tiền nạp</string>
-    <string name="hint_money">Tiền</string>
-    <string name="recharge_5">5Đồng</string>
-    <string name="recharge_10">10Đồng</string>
-    <string name="recharge_20">20Đồng</string>
-    <string name="recharge_50">50Đồng</string>
-    <string name="recharge_100">100Đồng</string>
-    <string name="recharge_200">200Đồng</string>
-    <string name="recharge_300">300Đồng</string>
-    <string name="recharge_500">500Đồng</string>
-    <string name="put_forward">Rút tiền</string>
-    <string name="wepay">Thanh toán WeChat</string>
-    <string name="example_total_money" translatable="false">666</string>
-    <string name="money_total">Tổng cộng:</string>
     <string name="remark_name">Tên ghi chú</string>
     <string name="delete_after_read">Xóa sau khi đọc</string>
     <string name="pined_session">Trò chuyện hàng đầu</string>
@@ -695,7 +476,6 @@
     <string name="multi_device">Hỗ trợ đăng nhập nhiều thiết bị</string>
     <string name="keeplive">Cho phép duy trì sự sống</string>
     <string name="use_google_map">Sử dụng Google Maps</string>
-    <string name="group_message_sync_time">Thời gian đồng bộ hóa tin nhắn trò chuyện nhóm</string>
     <string name="new_friend_verify">Cần xác minh bạn bè</string>
     <string name="encrypt_message">Tin truyền được mã hóa</string>
     <string name="close">Đóng</string>
@@ -708,7 +488,6 @@
     <string name="hint_password">Đặt mật khẩu</string>
     <string name="graphic_code">Mã đồ họa</string>
     <string name="verification_code">Mã xác minh</string>
-    <string name="hint_login">Đã có tài khoản, đăng nhập ngay</string>
     <string name="btn_register">Đăng ký</string>
     <string name="gorup_member">Thành viên nhóm</string>
     <string name="group_file">Tập tin nhóm</string>
@@ -716,7 +495,6 @@
     <string name="report">Báo cáo</string>
     <string name="exit_group">Rời nhóm</string>
     <string name="hint_selec_tag">Chọn nhóm thẻ</string>
-    <string name="public_group">Công khai</string>
     <string name="input_tag">Nhập nhãn</string>
     <string name="all_tag">Tất cả nhãn</string>
     <string name="search_member">Tìm kiếm thành viên nhóm</string>
@@ -726,19 +504,9 @@
     <string name="change_skin">Đổi da</string>
     <string name="private_settings">Cài đặt bảo mật</string>
     <string name="about_me">Về chúng tôi</string>
-    <string name="live_name">Tên phòng trực tuyến</string>
-    <string name="start_live">Mở trực tuyến</string>
-    <string name="live_content">Thông báo phòng trực tuyến</string>
-    <string name="recharge_01">0.1Đồng</string>
-    <string name="recharge_1000">1000Đồng</string>
-    <string name="recharge_5000">5000Đồng</string>
-    <string name="recharge_10000">10000Đồng</string>
-    <string name="default_total_money" translatable="false">￥--</string>
     <string name="emoji">Cảm xúc</string>
     <string name="animation">Hoạt hình</string>
     <string name="custom_emoticons">Tùy chỉnh biểu tượng cảm xúc</string>
-    <string name="canceled">Đã hủy</string>
-    <string name="message_service">Gửi đến</string>
     <string name="example_chat_history_content">Lịch sử trò chuyện của XXX và YYY</string>
     <string name="example_chat_content_1">XXX：[Hình ảnh]</string>
     <string name="example_chat_content_2">YYY：[Bao lì xì]</string>
@@ -746,23 +514,13 @@
     <string name="read_all_content">Xem toàn bộ</string>
     <string name="system_message">Tin nhắn hệ thống</string>
     <string name="video">Video</string>
-    <string name="manager">Quản lý</string>
-    <string name="main_page">Trang chủ</string>
-    <string name="title_balance_not_enough">Số dư không đủ</string>
-    <string name="hint_balance_not_enough">Nếu số dư hiện tại không đủ, bạn có thể tiếp tục gửi quà sau khi nạp tiền, có nạp tiền hay không.</string>
     <string name="example_balance_recharge">Nạp số dư</string>
     <string name="example_money">100.00 đồng</string>
     <string name="video_call">Gọi video</string>
-    <string name="voice_call">Gọi âm thanh</string>
     <string name="group_verification">Mở xác minh vào nhóm</string>
     <string name="save_gallery">Lưu vào album</string>
-    <string name="btn_forward">Chuyển tiếp</string>
-    <string name="btn_delete">Xóa</string>
-    <string name="btn_detail">Chi tiết</string>
-    <string name="btn_cancel">Hủy</string>
     <string name="forward_each">Chuyển tiếp từng cái</string>
     <string name="forward_all">Hợp nhất chuyển tiếp</string>
-    <string name="my_appendage">Tập tin đính kèm của tôi</string>
     <string name="my_collection">Bộ sưu tập của tôi</string>
     <string name="my_course">Bài giảng của tôi</string>
     <string name="settings">Cài đặt</string>
@@ -776,41 +534,22 @@
     <string name="forward">Chuyển tiếp</string>
     <string name="save_emoticon">Lưu cảm xúc</string>
     <string name="multi_select">Chọn nhiều</string>
-    <string name="start_record">Bắt đầu ghi âm</string>
-    <string name="skin_blue">Xanh da trời</string>
-    <string name="apply_now">Sử dụng ngay</string>
     <string name="screen_record">Ghi lại màn hình</string>
     <string name="filter_normal">Bình thường</string>
-    <string name="filter_beauty">Làm đẹp</string>
-    <string name="filter_romance">Lãng mạn</string>
-    <string name="filter_warm">Ấm áp</string>
-    <string name="filter_tender">Dịu dàng</string>
-    <string name="filter_sunrise">Bình minh</string>
-    <string name="filter_sunset">Hoàng hôn</string>
     <string name="filter_cool">Ánh sáng lạnh</string>
     <string name="filter_evergreen">Xanh thường</string>
-    <string name="danmu">Che</string>
-    <string name="hint_send_message">Nói cho mọi người biết</string>
-    <string name="star">Theo dõi</string>
     <string name="staff">Nhân viên</string>
-    <string name="edit_live">Sửa đổi phòng trực tuyến</string>
-    <string name="set_manager">Đặt thành quản lý</string>
     <string name="ban">hặn</string>
-    <string name="kick_room">Mời khỏi phòng</string>
     <string name="baidu_map">Bản đồ Baidu</string>
     <string name="amap">Bản đồ Gaode</string>
     <string name="google_map">Google Maps</string>
-    <string name="set_red_packet_key">Đặt mật khẩu：</string>
     <string name="hint_example_red_packet_key">Sếp gửi lì xì</string>
     <string name="hint_red_packet_key">Đối tác cần trả lời mật khẩu để lấy bao lì xì</string>
     <string name="red_packet_count">Số lượng bao lì xì</string>
     <string name="individual">cái</string>
     <string name="total_money">Tổng tiền</string>
-    <string name="input_money">Nhập số tiền</string>
     <string name="btn_send_red_packet">Bỏ tiền vào bao</string>
     <string name="hint_money_all_same">Số tiền tương tự được nhận bởi bạn bè.</string>
-    <string name="fill_user_data">Điền thông tin</string>
-    <string name="under_review">Đang xem xét</string>
     <string name="hint_use_other_browser">Sử dụng bản xem trước trình duyệt bên ngoài nếu bạn không thể xem trước nó</string>
     <string name="qq_browser">Trình duyệt QQ</string>
     <string name="uc_browser">Trình duyệt UC</string>
@@ -822,15 +561,10 @@
     <string name="remove_black_list">Xóa danh sách đen</string>
     <string name="thoroughly_delete">Xóa toàn bộ</string>
     <string name="latest_comments">Bình luận cuối</string>
-    <string name="king_of_luck">Vua may mắn</string>
     <string name="money">Tiền</string>
     <string name="save_image">Lưu hình ảnh</string>
     <string name="scan_qr_code">Xác định mã QR trong hình ảnh</string>
-    <string name="reconnect">Kết nối lại</string>
     <string name="tip_receive_new_message">Nhận được tin nhắn</string>
-    <string name="mute">Im lặng</string>
-    <string name="hands_free">Loa thoại</string>
-    <string name="tip_wait_friend">Chờ đợi bên kia nhận được lời mời</string>
     <string name="share_wechat">Chia sẻ với bạn bè WeChat</string>
     <string name="share_moments">Chia sẻ cho bạn bè</string>
     <string name="btn_download">Tải()</string>
@@ -841,26 +575,16 @@
     <string name="example_name_list" translatable="false">[Mars,Rose]</string>
     <string name="example_system_message_tip">Thông báo hệ thống:</string>
     <string name="example_message_content">世途堪比鸟道，人情浮比鱼蛮。</string>
-    <string name="tip_no_status">Ta dường như đã quên viết chữ ký ...</string>
     <string name="tip_look_early_message">Xem tin nhắn trước đó ...</string>
-    <string name="example_file_name_tip" translatable="false">Tên tệp:hahahafgdfgdgfdg.jpg</string>
-    <string name="example_file_path_tip" translatable="false">Đường dẫn lưu trữ:sd/sk</string>
-    <string name="example_file_size_tip" translatable="false">Kích cỡ:12.9Mb</string>
     <string name="loading">Đang tải...</string>
     <string name="tip_network_error">Mạng không mạnh, vui lòng kiểm tra cài đặt mạng.</string>
     <string name="tip_course_name">Tên khóa học:</string>
     <string name="tip_public_time">Thời gian phát hành:</string>
-    <string name="default_gift_comment">Gửi "sắt cũ"</string>
-    <string name="connecting">Đang kết nối ...</string>
     <string name="example_tag_name">Nhãn(99)</string>
-    <string name="in_live">Phát sóng trực tiếp ...</string>
-    <string name="tip_screen_identity">Chứng nhận danh tính:</string>
     <string name="tip_reason_invite_friends">Chủ sở hữu nhóm đã bật \'xác nhận lời mời \' mời bạn bè vào nhóm phải mô tả lý do cho chủ nhóm.</string>
     <string name="invite_you">.Mời bạn ....</string>
-    <string name="tip_calling">Đang gọi</string>
     <string name="hint_lucky_red_packet">Số tiền bạn bè nhận được là ngẫu nhiên.</string>
     <string name="merger_failed">Hợp nhất thất bại</string>
-    <string name="tip_copy_success">Liên kết tập tin đã được sao chép vào clipboard để xem trước</string>
     <string name="report_success">Báo cáo thành công</string>
     <string name="tip_voice_record_error">Lỗi ghi âm!</string>
     <string name="tip_record_time_too_short">Thời gian ghi âm quá ngắn!</string>
@@ -887,13 +611,11 @@
     <string name="delete_place_holder">%s đã bị xóa</string>
     <string name="tip_last_item">Tôi có điểm mấu chốt</string>
     <string name="unrecognized">Không được công nhận</string>
-    <string name="connect_by_hand">Có kết nối thủ công không</string>
     <string name="tip_not_support_emoji">Biểu thức đầu vào không được hỗ trợ</string>
     <string name="tip_chinese_english_number">Chỉ cho phép tiếng Trung, tiếng Anh và số.</string>
     <string name="title_notification">Bật quyền thông báo</string>
     <string name="content_notification">Nhận thông báo tin nhắn trong lần đầu tiên</string>
     <string name="permission_photo">Nhiếp ảnh</string>
-    <string name="permission_location">Định vị</string>
     <string name="permission_microphone">Micro</string>
     <string name="permission_phone_status">Tình trạng điện thoại</string>
     <string name="permission_storage">Lưu trữ</string>
@@ -901,18 +623,14 @@
     <string name="tip_permission_reboot_place_holder">Yêu cầu cấp phép của %s đã bị từ chối, vui lòng thoát IM và nhập lại</string>
     <string name="tip_phone_number_empty_request_verification_code">Số điện thoại di động trống và mã xác minh đồ họa không thể được làm mới.</string>
     <string name="tip_phone_number_verification_code_empty">Số điện thoại hoặc mã xác minh đồ họa không thể để trống</string>
-    <string name="tip_password_no_change">Mật khẩu mới không thể giống với mật khẩu gốc.</string>
-    <string name="tip_verification_load_failed">Mã xác minh đồ họa không tải được, vui lòng làm mới</string>
     <string name="verification_code_send_success">Mã xác minh đã được gửi thành công.</string>
     <string name="verification_code_send_failed">Mã xác minh không gửi được</string>
     <string name="settings_server_address">Thiết lập máy chủ</string>
     <string name="tip_phone_number_empty">Vui lòng nhập số điện thoại của bạn</string>
-    <string name="tip_phone_number_wrong">Vui lòng nhập đúng định dạng điện thoại</string>
     <string name="tip_password_empty">Vui lòng nhập mật khẩu của bạn</string>
     <string name="tip_password_too_short">Mật khẩu phải có ít nhất 6 chữ số</string>
     <string name="tip_verification_code_empty">Vui lòng nhập mã đồ họa</string>
     <string name="tip_verification_code_load_failed">Mã xác minh đồ họa không tải được, vui lòng thử lại!</string>
-    <string name="tip_verification_code_wrong">Lỗi mã đồ họa</string>
     <string name="tip_mention_you">Cũng đề cập đến bạn</string>
     <string name="select_from_contacts">Chọn từ danh bạ</string>
     <string name="tip_select_at_least_one">Vui lòng chọn ít nhất một nhãn hoặc liên hệ</string>
@@ -928,7 +646,6 @@
     <string name="status_online">(Trực tuyến)</string>
     <string name="status_offline">(Ngoại tuyến)</string>
     <string name="public_number">Số công cộng</string>
-    <string name="reply_record">Nhật ký hội thoại</string>
     <string name="edit_tag">Đặt nhãn</string>
     <string name="tag_member">Thành viên nhãn</string>
     <string name="tip_select_at_lease_one_contacts">Vui lòng chọn ít nhất một liên hệ</string>
@@ -939,7 +656,6 @@
     <string name="tip_not_member">Không phải thành viên nhóm không thể xem thông tin nhóm</string>
     <string name="tip_xmpp_connecting">XMPP Đang kết nối</string>
     <string name="tip_xmpp_offline">XMPP Đã rớt mạng, vui lòng kiểm tra mạng</string>
-    <string name="tip_group_name_exists">Tên nhóm đã tồn tại!</string>
     <string name="tip_cannot_remove_self">Nhanh chóng xây dựng một nhóm, bạn không thể tự xóa mình</string>
     <string name="tip_quickly_group_cannot_remove">Nhanh chóng xây dựng, không thể loại bỏ</string>
     <string name="tip_create_group_at_lease_one_friend">Bạn phải chọn một người bạn để tạo một nhóm</string>
@@ -951,21 +667,15 @@
     <string name="tip_no_google_map">Bạn chưa cài đặt Google Maps</string>
     <string name="tip_places_around_failed">Không thể lấy địa chỉ xung quanh,</string>
     <string name="tip_no_camera_permission">Chưa cho phép Camera nên không thể quay phim</string>
-    <string name="default_place_holder">Mặc định：%s</string>
     <string name="tip_reboot_for_config">Máy chủ được chuyển thành công,khởi động lại và cấu hình sẽ có hiệu lực!</string>
     <string name="tip_change_skin_success">Đổi da thành công</string>
     <string name="tip_change_language_success">Chuyển ngôn ngữ thành công! Đóng lại để có hiệu lực</string>
-    <string name="tip_change_keeplive_success">Chuyển đổi thành công tiếp tục sống!Đóng lại để có hiệu lực</string>
-    <string name="tip_red_packet_too_much">Số lượng bao lì xì không thể vượt quá 100</string>
     <string name="tip_money_too_less">Mọi người có thể nhận được ít nhất 0,01 đồng!</string>
     <string name="red_packet_receipt_place_holder">Đã lãnh %d/%d cái, tổng cộng%s/%s đồng</string>
-    <string name="red_packet_receipt_suffix_all">,đã lãnh hết!</string>
     <string name="red_packet_receipt_suffix_over">,Đã hết hạn!</string>
     <string name="red_packet_receipt_suffix_remain">,Chưa xong!</string>
     <string name="tip_no_phone_number_get_v_code">Vui lòng nhập số điện thoại của bạn để lấy mã</string>
-    <string name="tip_select_money">Vui lòng chọn số tiền nạp</string>
     <string name="tip_no_wechat">Bạn chưa cài đặt phiên bản WeChat mới nhất, không hỗ trợ thanh toán WeChat, vui lòng cài đặt hoặc nâng cấp phiên bản WeChat</string>
-    <string name="tip_not_support">Chưa mở</string>
     <string name="msg_shake">[Lắc]</string>
     <string name="tip_forwarding_quit">Hiện đang chuyển tiếp,có bỏ không?</string>
     <string name="msg_red_packet">[Bao lì xì]</string>
@@ -994,7 +704,6 @@
     <string name="is_open">Đã mở</string>
     <string name="is_close">Đã đóng</string>
     <string name="remove_success">Đã xóa thành công</string>
-    <string name="remove_failed">Xóa thất bại</string>
     <string name="group_member">Thành viên nhóm</string>
     <string name="tip_cannot_remove_owner">Bạn không thể xóa chủ nhóm</string>
     <string name="tip_cannot_remove_manager">Bạn không thể xóa các quản trị viên khác</string>
@@ -1010,10 +719,8 @@
     <string name="tip_cannot_remove_bulletin">Chủ sở hữu nhóm hoặc quản trị viên có thể xóa thông báo</string>
     <string name="group_bulletin">Thông báo nhóm</string>
     <string name="btn_public">Đăng</string>
-    <string name="btn_public_bulletin">Đăng thông báo</string>
     <string name="tip_cannot_public_bulletin">Chủ sở hữu nhóm hoặc quản trị viên có thể đăng thông báo</string>
     <string name="total_count_place_holder">Tổng cộng %d người</string>
-    <string name="tip_confirm_clean_history">Xác nhận để xóa lịch sử trò chuyện với người này?</string>
     <string name="tip_disband">Xác nhận giải thể nhóm hiện tại?</string>
     <string name="tip_exit">Xác nhận để thoát khỏi nhóm hiện tại?</string>
     <string name="tip_disable_invite">Chủ nhóm đã tắt chức năng mời bạn bè của thành viên bình thường</string>
@@ -1022,32 +729,23 @@
     <string name="tip_be_cancel_manager">Bạn đã bị hủy quản trị viên bởi chủ sở hữu và cần thoát khỏi trang hiện tại và nhập lại</string>
     <string name="tip_description_too_long">Không thể vượt quá 100 ký tự</string>
     <string name="tip_name_too_long">Không thể vượt quá 20 ký tự</string>
-    <string name="edit_success">Đã sửa đổi thành công</string>
     <string name="edit_failed">Sửa đổi thất bại</string>
     <string name="tip_cannot_change_avatar">Chủ nhóm và quản trị viên mới có thể chỉnh sửa hình đại diện nhóm</string>
     <string name="tip_cannot_change_name">Chủ nhóm và quản trị viên mới có thể chỉnh sửa tên nhóm</string>
-    <string name="tip_cannot_change_description">Chủ nhóm và quản trị viên mới có thể chỉnh sửa mô tả nhóm</string>
     <string name="prefix_read_time">Thời gian đọc：</string>
     <string name="read_list">Đọc danh sách</string>
-    <string name="tip_cannot_set_manager_self">Không thể chỉ định mình là quản trị viên</string>
-    <string name="tip_is_manager">Người này đã là quản trị viên</string>
     <string name="tip_status_burn">Trạng thái hiện tại lf xóa sau khi đọc và bên kia sau khi đọc tin nhắn bạn đã gửi sẽ xóa ngay lập tức(hỗ trợ văn bản, giọng nói, hình ảnh, video bốn loại tin nhắn). Và không thể chụp ảnh màn hình trong khi đọc.</string>
     <string name="tip_friend_removed">Người bạn này đã bị xóa</string>
-    <string name="tip_edit_failed">Sửa đổi thất bại</string>
     <string name="tip_create_tag_failed_place_holder">Không thể tạo thẻ %s</string>
     <string name="change_remark">Sửa đổi tên ghi chú</string>
     <string name="remark">Tên ghi chú</string>
     <string name="tip_input_remark">Vui lòng nhập tên ghi chú</string>
-    <string name="tip_change_remark_failed">Sửa đổi tên ghi chú không thành công</string>
-    <string name="tip_file_too_much">Chỉ có thể chọn tối đa 9 tệp</string>
     <string name="tip_cannot_upload">Chủ nhóm đã tắt chức năng tải tệp lên của thành viên bình thường.</string>
     <string name="tip_cannot_remove_file">Quyền hạn của bạn không thể thao tác tập tin này</string>
     <string name="tip_remove_friend_failed">Xóa bạn thất bại</string>
     <string name="tip_hello_failed">Xin chào thất bại</string>
     <string name="tip_put_black_failed">Thêm vào danh sách đen thất bại</string>
     <string name="tip_remove_black_failed">Xóa danh sách đen thất bại</string>
-    <string name="tip_not_like_public_number">Chưa chú ý đến số công khai</string>
-    <string name="change_remark_failed">Sửa đổi tên ghi chú không thành công</string>
     <string name="creating_qr_code">Đang tạo mã QR ...</string>
     <string name="tip_saved_qr_code">Mã QR đã được lưu vào album</string>
     <string name="decode_failed">Giải mã thất bại</string>
@@ -1060,15 +758,7 @@
     <string name="tip_save_gif_failed">Ảnh Gif lưu thất bại</string>
     <string name="tip_save_image_success">Lưu ảnh thành công</string>
     <string name="tip_save_image_failed">Lưu ảnh thất bại</string>
-    <string name="video_normal">Ảnh gốc</string>
-    <string name="video_ascii">Vẽ nhân vật</string>
     <string name="video_beauty">Làm đẹp</string>
-    <string name="video_yello">Vàng cam</string>
-    <string name="video_gray">Xám</string>
-    <string name="video_vague">Mờ</string>
-    <string name="video_ripple">Gợn sóng</string>
-    <string name="video_exposure">Tiếp xúc trắng</string>
-    <string name="video_relief">Chạm nổi</string>
     <string name="tip_no_qq_browser">Trình duyệt QQ chưa được cài đặt</string>
     <string name="tip_no_uc_browser">Trình duyệt UC chưa được cài đặt</string>
     <string name="tip_no_opera_browser">Chưa cài đặt trình duyệt Opera</string>
@@ -1076,7 +766,6 @@
     <string name="save_only_image">Chỉ lưu tin nhắn hình ảnh</string>
     <string name="save">Lưu</string>
     <string name="status_read">Đã đọc</string>
-    <string name="status_send">Gửi</string>
     <string name="tip_invite_voice_meeting">Mời bạn tham gia cuộc họp bằng giọng nói</string>
     <string name="tip_invite_video_meeting">Mời bạn tham gia hội nghị video</string>
     <string name="tip_click_to_read">Nhấn vào đây để xem  T</string>
@@ -1107,18 +796,8 @@
     <string name="recharge_result">Kết quả nạp tiền</string>
     <string name="recharge_cancel">Hủy nạp tiền</string>
     <string name="recharge_failed">Nạp tiền thất bại</string>
-    <string name="tip_receive_image">Nhận được một hình ảnh mới</string>
-    <string name="tip_receive_voice">Nhận được một đoạn ghi âm mới</string>
-    <string name="tip_receive_address">Nhận được một địa chỉ</string>
-    <string name="tip_receive_emoji">Nhận được một biểu tượng cảm xúc</string>
-    <string name="tip_receive_video">Đã nhận được một video</string>
-    <string name="tip_receive_file">Nhận tập tin mới</string>
-    <string name="tip_receive_card">Nhận được danh thiếp</string>
-    <string name="tip_receive_tip">Tin nhắn hệ thống</string>
     <string name="suffix_invite_you_voice">Mời bạn tham gia cuộc gọi thoại</string>
     <string name="suffix_invite_you_video">Mời bạn tham gia cuộc gọi video</string>
-    <string name="tip_other_message">Tin nhắn khác</string>
-    <string name="new_message">Tin nhắn mới</string>
     <string name="tip_new_message">Bạn có một tin nhắn mới:</string>
     <string name="tip_kick_room">Bạn bị đuổi ra khỏi phòng</string>
     <string name="tip_cannot_multi_select_burn">Tin nhắn xóa sau khi đọc không được phép chọn nhiều</string>
@@ -1155,7 +834,6 @@
 
     <string name="intent_wrapper_reason">Tiếp tục hoạt động dịch vụ cốt lõi</string>
     <string name="intent_wrapper_need">Cần</string>
-    <string name="intent_wrapper_need_open">Cần mở ra</string>
     <string name="intent_wrapper_need_close">Cần đóng lại</string>
     <string name="intent_wrapper_need_allow">Cần cho phép</string>
     <string name="intent_wrapper_need_prohibited">Cần chặn</string>
@@ -1194,24 +872,18 @@
     <string name="intent_wrapper_31">Thay đổi trạng thái thành "Được phép".</string>
     <string name="intent_wrapper_32">Thêm vào danh sách trắng.</string>
 
-    <string name="live_demo">Bản demo trực tiếp</string>
-    <string name="trill_demo">Bản demo Tiktok</string>
     <string name="trill_share">Chia sẻ</string>
     <string name="av_no_float">Bạn hiện chưa kích hoạt quyền cửa sổ nổi. Bạn không thể sử dụng chức năng này tạm thời.</string>
     <string name="av_hand_hang">Bên kia đã kết thúc cuộc gọi, nhưng phát hiện hệ thống hiện tại của bạn là Android 5.0, bạn cần phải ngắt máy thủ công.</string>
     <string name="stop">Dừng</string>
     <string name="phone_contact">Liên lạc qua điện thoại</string>
-    <string name="batch_add">Chọn nhiều</string>
     <string name="add_to">Thêm</string>
     <string name="added">Đã thêm</string>
-    <string name="add_failed">Thêm thất bại</string>
     <string name="is_invite">Bạn có muốn mời những người liên hệ mới tham gia nhóm liên lạc qua điện thoại không?</string>
     <string name="is_create">Có nên tạo nhóm liên lạc điện thoại của tôi không</string>
-    <string name="my_phone_contact_group">Nhóm liên lạc điện thoại của tôi</string>
     <string name="is_empty_all_chat">Đảm bảo xóa tất cả lịch sử trò chuyện</string>
     <string name="find_friend_chat_history_place_holder">Tìm các cuộc trò chuyện với %s</string>
     <string name="find_room_chat_history_place_holder">Tìm các cuộc trò chuyện trong %s</string>
-    <string name="record_video">Quay video</string>
 
     <string name="new_contact">Liên hệ mới</string>
 
@@ -1222,7 +894,6 @@
 
     <string name="send_course_wait">Xin vui lòng chờ khóa học trước đó được gửi hoàn tất rồi mới gửi khóa học này.</string>
     <string name="added_black">Đã thêm vào danh sách đen</string>
-    <string name="select_meeting_type">Chọn loại cuộc hội nghị</string>
     <string name="chat_video_conference">Hội nghị video</string>
     <string name="must_select_avatar_can_register">Bạn phải chọn một hình đại diện để đăng ký</string>
 
@@ -1236,7 +907,6 @@
     <string name="rmb_symbol" translatable="false">￥</string>
     <string name="tip_no_user_id">Đăng nhập dị thường, xin vui lòng đăng nhập lại</string>
     <string name="tip_change_pay_password_success">Đã sửa đổi mật khẩu thanh toán thành công</string>
-    <string name="tip_change_pay_password_failed">Sửa đổi mật khẩu thanh toán không thành công, nội bộ dị thường</string>
     <string name="tip_wrong_pay_password">Mật khẩu không chính xác</string>
     <string name="tip_no_pay_password">Vui lòng đặt mật khẩu thanh toán trước.</string>
     <string name="tip_read_contacts_failed">Không xem được số điện thoại liên lạc</string>
@@ -1247,7 +917,6 @@
     <string name="msg_link">[Liên kết]</string>
     <string name="download_error">Tải xuống thất bại</string>
 
-    <string name="tip_shut_all">Nhóm đã mở tất cả các lệnh cấm</string>
     <string name="tip_server_error">Lỗi máy chủ nội bộ</string>
 
     <string name="sure_add_friend_blacklist">Bạn có chắc chắn muốn thêm người bạn này vào danh sách đen?</string>
@@ -1255,7 +924,6 @@
     <string name="sure_delete_friend">Bạn có chắc chắn muốn xóa người bạn này?</string>
     <string name="sure_remove_member_for_group">Bạn có chắc chắn mời %s ra khỏi nhóm không?</string>
     <string name="sure_exit_account">Sau khi đăng xuất, sẽ không có dữ liệu lịch sử nào bị xóa. Bạn vẫn có thể sử dụng tài khoản này cho lần đăng nhập tiếp theo.</string>
-    <string name="password_error">Sai mật khẩu</string>
     <string name="apply_to_add_me_as_a_friend">Đăng ký để thêm tôi làm bạn</string>
     <string name="agree_with_my_plus_friend_request">Đồng ý với yêu cầu kết bạn của tôi</string>
     <string name="added_me_as_a_friend">Đã thêm tôi làm bạn</string>
@@ -1269,32 +937,12 @@
     <string name="select_county_area">Chọn quốc gia/khu vực</string>
     <string name="tip_get_config_failed">Không thể kết nối với máy chủ, vui lòng thử lại sau</string>
 
-    <string name="msg_word">[Văn bản]</string>
     <string name="no_executable_intent">Không thể nhảy qua</string>
     <string name="title_replay_place_holder">Trả lời nhanh: %s</string>
-    <string name="hint_replay">Nội dung</string>
     <string name="tip_replay_empty">Nội dung trả lời không được để trống</string>
 
-    <string name="skin_light_green">Xanh lá nhạt</string>
-    <string name="skin_sea_blue">Xanh biển</string>
-    <string name="skin_elegant_black">Màu đen thanh lịch</string>
-    <string name="skin_chinese_red">Đỏ Trung Quốc</string>
-    <string name="skin_viridian_green">Màu xanh coban nhẹ</string>
-    <string name="skin_perceptual_pink">Hồng phấn</string>
-    <string name="skin_amber_yellow">Vàng hổ phách</string>
-    <string name="skin_light_coffe">Cà phê nhạt</string>
-    <string name="skin_powder_azure">Hồng bầu trời xanh</string>
-    <string name="skin_leaf_green">Xanh lá</string>
-    <string name="skin_business_blue">Màu xanh kinh doanh</string>
-    <string name="skin_blue_gray">Xám xanh</string>
-    <string name="skin_burnt_umber">Màu trà đậm</string>
-    <string name="skin_orange">Màu vàng quýt</string>
-    <string name="skin_new">Da mới</string>
-
-    <string name="square">Quảng trường</string>
     <string name="life_circle">Khoảnh khắc</string>
     <string name="live_chat">Video trực tiếp</string>
-    <string name="douyin">Video ngắn</string>
 
     <string name="is_send_ing">Đang gửi...</string>
     <string name="is_send_ok">Đã gửi</string>
@@ -1317,19 +965,10 @@
     <string name="original_image">Ảnh gốc</string>
     <string name="search_contact_group">Tìm bạn bè / nhóm</string>
 
-    <string name="me_tab_friend">Bạn bè</string>
-    <string name="tip_me_query_friend_failed">Không thể xem số bạn bè</string>
-    <string name="tip_me_query_group_failed">Không thể xem số nhóm</string>
     <string name="send_image_text">Gửi đồ họa</string>
-    <string name="skin_classy_gray">Kết cấu màu xám</string>
 
-    <string name="tip_live_locking">Phòng trực tuyến của bạn đã bị khóa, vui lòng liên hệ với dịch vụ khách hàng để mở khóa</string>
     <string name="remove_member_notify">Thông báo giảm thành nhóm</string>
     <string name="tip_exit_group_notify">Sau khi đóng, khi các thành viên trong nhóm bị đuổi hoặc chủ động rời khỏi nhóm sẽ không có thông báo.</string>
-    <string name="example_title">Tiêu đề</string>
-    <string name="tip_no_login_permission">Không có quyền đăng nhập</string>
-    <string name="tip_no_share_permission">Không có quyền chia sẻ</string>
-    <string name="tip_incomplete_information">Thông tin không đầy đủ, vui lòng kiểm tra biệt hiệu có trống không.</string>
 
     <!--短视频模块-->
     <string name="text_comment_num">bình luận</string>
@@ -1355,7 +994,6 @@
     <string name="music">Nhạc</string>
     <string name="volume">Âm lượng</string>
 
-    <string name="compre_success">Nén thành công</string>
     <string name="compre_failure">Nén không thành công</string>
     <string name="flatten_failure">Hợp nhất thất bại</string>
 
@@ -1371,9 +1009,7 @@
     <string name="hint_search_public_number">Vui lòng nhập số công khai</string>
     <string name="delete_public_number">Hủy theo dõi</string>
     <string name="ask_delete_public_number">Bạn có muốn hủy bỏ theo dõi?</string>
-    <string name="tip_delete_public_number_success">Hủy bỏ theo dõi thành công</string>
     <string name="has_delete_public_number_place_holder">Đã hủy bỏ theo dõi: %s</string>
-    <string name="tip_get_friends_failed">Không thể tải danh sách bạn bè</string>
 
     <string name="hint_invisible">Người vô hình không thể nói</string>
     <string name="tip_set_invisible_place_holder">%s đặt %s thành vô hình</string>
@@ -1381,9 +1017,7 @@
     <string name="tip_set_guardian_place_holder">%s đặt %s làm người giám sát</string>
     <string name="tip_cancel_guardian_place_holder"> %s hủy %s làm người giám sát</string>
     <string name="set_invisible">Chỉ định người vô hình</string>
-    <string name="cancel_invisible">Hủy bỏ người vô hình</string>
     <string name="set_guardian">Chỉ định người giám sát</string>
-    <string name="cancel_guardian">Hủy bỏ người giám sát</string>
     <string name="tip_set_invisible_success">Đặt người vô hình thành công</string>
     <string name="tip_set_guardian_success">Đặt người giám sát thành công</string>
     <string name="tip_cancel_invisible_success">Hủy người vô hình thành công</string>
@@ -1394,8 +1028,6 @@
     <string name="record_frist_video">Hãy quay video.</string>
 
     <string name="message_channel_name">Tin nhắn</string>
-    <string name="tip_opposite_offline_end_call">Bên kia kết nối bất thường, có kết thúc cuộc gọi không</string>
-    <string name="tip_query_file_error_place_holder">Truy vấn tệp không thành công, %s</string>
     <string name="tip_query_audio_video_error_place_holder">Truy vấn video không thành công, %s</string>
     <string name="tip_query_image_error_place_holder">Truy vấn hình ảnh không thành công, %s</string>
     <string name="tip_query_document_error_place_holder">Truy vấn tài liệu không thành công, %s</string>
@@ -1424,17 +1056,13 @@
     <string name="tip_no_more">Không còn nữa</string>
     <string name="tip_load_more">Nhấn vào đây để tải thêm</string>
     <string name="tip_comment_load_error">Danh sách bình luận không tải được</string>
-    <string name="tip_friend_account_removed_place_holder">Tài khoản %s đã bị xóa</string>
     <string name="tip_group_disable_by_service">Nhóm đã bị khóa trong nền</string>
     <string name="tip_group_manager_close_conference_features">Chủ nhóm đã tắt thành viên bình thường mở chức năng hội nghị.</string>
     <string name="member_limit">Số lượng người tối đa</string>
 
     <string name="chat_camera_record">Chụp hình</string>
-    <string name="me_title">Trung tâm cá nhân</string>
     <string name="square_title_first">Ứng dụng phổ biến</string>
     <string name="tip_more_action">Hãy theo dõi để biết thêm ứng dụng!</string>
-    <string name="square_title_second">Sự kiện tuyệt vời</string>
-    <string name="tip_public_number_list_failed">Không thể lấy danh sách số công khai</string>
     <string name="hot_public_number">Số công cộng phổ biến</string>
 
     <string name="tip_alipay_failed">Bắt đầu Alipay thất bại</string>
@@ -1449,11 +1077,9 @@
 
     <string name="test_listen_voice">Nghe thử</string>
     <string name="open_auto_launcher">\n Điện thoại hiện tại là OPPO, nếu cuộc gọi video và âm thanh đến không tự động bật lên trong quá trình hoạt động nền, bạn có thể mở Trình quản lý điện thoại di động - Quyền riêng tư cho phép - Quản lý tự khởi động để ứng dụng tự khởi động.</string>
-    <string name="tip_handing_up">Đang cúp máy</string>
     <string name="system_notification_user_name">Hệ thống thông báo</string>
     <string name="tip_opposite_offline_auto__end_call">Bên kia ngắt kết nối bất thường, cuộc gọi kết thúc.</string>
     <string name="tip_share_type_not_supported">Loại chia sẻ không được hỗ trợ</string>
-    <string name="name_third_tool">Công cụ của bên thứ ba</string>
     <string name="tip_file_cache_failed">Mở tệp không thành công</string>
     <string name="send_to_life_circle">Gửi đến khoảnh khắc</string>
     <string name="tip_confirm_send">Bạn có chắc chắn gửi một tin nhắn sưu tập?</string>
@@ -1514,9 +1140,6 @@
     <string name="receipt_payment">Nhận thanh toán</string>
     <string name="rp_payment">Thanh toán</string>
     <string name="rp_payment_tip1">Mã thanh toán</string>
-    <string name="rp_payment_tip2">Số mã thanh toán chỉ được cho nhân viên thu ngân khi thanh toán, vui lòng không gửi cho người khác để tránh gian lận.</string>
-    <string name="rp_payment_tip3">Biết rồi</string>
-    <string name="rp_payment_tip4">Số mã thanh toán chỉ được sử dụng để hiển thị cho nhân viên thu ngân khi thanh toán, vui lòng không tiết lộ để tránh gian lận</string>
     <string name="rp_receipt">Mã thanh toán QR</string>
     <string name="rp_receipt2">Thu tiền</string>
     <string name="rp_receipt_tip1">Không cần thêm bạn bè, hãy quét mã QR để trả tiền cho tôi</string>
@@ -1524,7 +1147,6 @@
     <string name="rp_receipt_tip3">Xóa số tiền</string>
     <string name="rp_receipt_tip4">Lưu mã nhận</string>
     <string name="success">Thành công</string>
-    <string name="qr_code_synthesis_fail">Mã thu tổng hợp thất bại</string>
     <string name="receipt_money_num">Số tiền thu</string>
     <string name="receipt_add_desc">Thêm hướng dẫn thu tiền</string>
     <string name="receipt_pay_single">Thanh toán cho một cá nhân</string>
@@ -1584,13 +1206,10 @@
     <!--Filter -->
     <string name="video_filter">Bộ lọc</string>
     <!--tv_whiten-->
-    <string name="tv_whiten">Làm trắng</string>
-    <string name="tv_skin">Láng da</string>
     <string name="centent_bar">%s đăng nhập</string>
     <string name="transfer_back">Hoàn tiền chuyển khoản</string>
     <string name="keep_reconnection">Đang kết nối lại ...</string>
     <string name="transfer_friend_sure_save">Bạn bè xác nhận đã nhận được tiền</string>
-    <string name="bind_phone_number">Số điện thoại ràng buộc</string>
     <string name="back_last_page">Trở về trang trước</string>
     <string name="added_notice_friend">Đã thêm số công khai</string>
     <string name="tip_load_cover">Tải lại bìa</string>
@@ -1606,7 +1225,6 @@
     <string name="string_install_unknow_apk_note">Cần cho phép cài đặt ứng dụng từ các nguồn không xác định</string>
     <string name="s_search_designation_content">Tìm kiếm nội dung được chỉ định</string>
     <string name="s_date">Ngày tháng</string>
-    <string name="s_image_video">Hình ảnh và video</string>
     <string name="s_image">Ảnh</string>
     <string name="s_video">Video</string>
     <string name="s_file">Tệp</string>
@@ -1617,11 +1235,8 @@
     <string name="please_input_account_and_password">Vui lòng nhập số tài khoản và mật khẩu của bạn</string>
     <string name="secure_settings">Cài đặt bảo mật</string>
     <string name="enable_device_lock">Bật khóa thiết bị</string>
-    <string name="title_set_device_lock_password">Đặt mật khẩu khóa thiết bị</string>
-    <string name="tip_device_password_empty">Mật khẩu không thể để trống</string>
     <string name="unlock">Mở khóa</string>
     <string name="tip_device_lock_password_incorrect">Sai mật khẩu</string>
-    <string name="tip_input_device_lock">Vui lòng nhập mật khẩu khóa thiết bị</string>
     <string name="tip_change_device_lock_password_input_old">Vui lòng nhập mật khẩu khóa thiết bị để xác minh danh tính</string>
     <string name="set_device_lock_password">Đặt mật khẩu khóa thiết bị</string>
     <string name="tip_change_device_lock_password_input_new">Vui lòng đặt mật khẩu khóa thiết bị để xác minh thiết bị</string>
@@ -1640,32 +1255,10 @@
     <string name="sk_account">%s số</string>
     <string name="sk_account_set">Đặt số %s</string>
     <string name="sk_account_single">Số %s là thông tin xác thực duy nhất của tài khoản và chỉ có thể được đặt một lần.</string>
-    <string name="sk_account_exist">Tài khoản hiện tại đã tồn tại</string>
     <string name="send_contacts">Người liên hệ</string>
     <string name="replay_button">Trả lời</string>
     <string name="replay_label">Trả lời </string>
 
-    <array name="filter_effect">
-        <item>Bình thường</item>
-        <item>Ánh nắng</item>
-        <item>Cổ điển</item>
-        <item>Nhiệt</item>
-        <item>Trắng đen</item>
-        <item>Ấm áp</item>
-        <item>Mùa đông</item>
-        <item>Sắc lạnh</item>
-        <item>Sắc nét</item>
-        <item>Lạnh</item>
-        <item>Vàng nhạt</item>
-        <item>Vàng đạm</item>
-        <item>Tự nhiên</item>
-        <item>Lãng mạn</item>
-        <item>In hoa</item>
-        <item>Phác thảo</item>
-        <item>Hoàng hôn</item>
-    </array>
-
-    <string name="screening_condit">Sàng lọc</string>
     <string name="switch_account_way">Chuyển đổi phương thức xác minh</string>
     <string name="privacy_allow_none">Không cho phép người</string>
     <string name="privacy_allow_all">Cho phép tất cả mọi người</string>
@@ -1723,7 +1316,6 @@
 
     <string name="sync_chat_history_clean">Xóa lịch sử trò chuyện của cả hai bên</string>
     <string name="tip_sync_chat_history_clean">Xác nhận để xóa lịch sử trò chuyện với người này (lịch sử trò chuyện trên thiết bị khác cũng sẽ bị xóa)?</string>
-    <string name="tip_sync_chat_history_clean_to">Bên kia đã thực hiện thao tác xóa lịch sử trò chuyện của cả hai.</string>
     <string name="tip_no_local_browser">Trình duyệt cục bộ không mở được</string>
     <string name="group_assistant">Trợ lý nhóm</string>
     <string name="group_assistant_not_open_by_owner">Chủ nhóm chưa mở chức năng trợ lý nhóm.</string>
@@ -1744,7 +1336,6 @@
     <string name="pay_method">Phương thức thanh toán</string>
     <string name="change_payment">Thanh toán số dư</string>
     <string name="pay">thanh toán %s</string>
-    <string name="tip_privacy">Bằng cách đăng ký, bạn đồng ý với Chính sách quyền riêng tư và Điều khoản dịch vụ.</string>
     <string name="tip_privacy_not_agree">Vui lòng đồng ý với thỏa thuận người dùng</string>
     <string name="tip_splash_permission_explain">Vui lòng cho phép APP nhận các quyền sau \ n1. Quyền máy ảnh được sử dụng cho chức năng chụp \ n2. Quyền ghi âm được sử dụng để gửi giọng nói \ n3. Cho phép trạng thái di động, chỉ yêu cầu nhận trạng thái của thiết bị, không có bản ghi cuộc gọi giám sát \ n4. Lưu tập tin</string>
     <string name="tip_permission_header">Vui lòng cho phép ứng dụng nhận các quyền sau</string>
@@ -1762,7 +1353,6 @@
     <string name="name_talk">Bộ đàm</string>
 
     <string name="tip_talk_free">Bộ đàm rảnh</string>
-    <string name="title_talk_online_list">Nhân viên đàm thoại</string>
     <string name="tip_talk_press_in">Giữ và nói chuyện</string>
     <string name="tip_talk_connecting">Trong kết nối</string>
     <string name="label_last_request_talk_time">Lần cuối lấy lúa mì:</string>
@@ -1782,7 +1372,6 @@
     <string name="btn_select_chat">Chọn lịch sử trò chuyện</string>
     <string name="select_chat_history">Chọn lịch sử trò chuyện</string>
     <string name="migrate_chat_count_place_holder">Số lần di chuyển: %d trò chuyện</string>
-    <string name="cancel_all">Hủy bỏ tất cả các lựa chọn</string>
     <string name="send_chat_history">Di chuyển lịch sử trò chuyện</string>
     <string name="tip_migrate_chat_history_scan">Vui lòng sử dụng một thiết bị khác để đăng nhập vào tài khoản này và quét mã QR.</string>
     <string name="tip_migrate_chat_history_failed">Không thể xuất lịch sử trò chuyện, vui lòng kiểm tra mạng</string>
@@ -1795,22 +1384,16 @@
     <string name="tip_web_login_success">Đăng nhập thành công</string>
 
     <string name="filter_none">Ảnh gốc</string>
-    <string name="filter_antique">Retro</string>
     <string name="filter_emerald">Ngọc lục bảo</string>
     <string name="filter_healthy">Sức khỏe</string>
     <string name="filter_nostalgia">Hoài niệm</string>
     <string name="filter_crayon">Bút chì màu</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="tip_group_owner_update_msg_auto_destroy_time">Chủ sở hữu nhóm đặt thời gian hủy tin nhắn nhóm hết hạn thành %s</string>
     <string name="copy_sure">Xác định sao chép</string>
     <string name="tip_notification_open_url_failed">Không thể mở trang</string>Cuộc gọi thoại
-    <string name="skin_minimalism_red">Màu đỏ tối giản</string>
     <string name="tip_location_xy_null">Kinh độ và vĩ độ trống</string>
-    <string name="skin_minimalism_green">Màu xanh lá cây tối giản</string>
-    <string name="skin_minimalism_blue">Màu xanh tối giản</string>
-    <string name="skin_minimalism_pink">Màu hồng tối giản</string>
     <string name="replay_infix_comment">Trả lời</string>
     <string name="say_hi_ok">Gửi lời chào thành công, chờ hồi âm</string>
     <string name="wait_pass">Đang chờ xác minh ...</string>
@@ -1825,9 +1408,6 @@
     <string name="base_info">Thông tin cơ bản</string>
     <string name="jx_add_friend">Thêm làm bạn</string>
     <string name="to_blacklist">Bên kia đã thêm bạn vào danh sách đen</string>
-    <string name="live_vc_barrage">Mở loa lớn, 1 viên kim cương / dải</string>
-    <string name="live_vc_chatplaceholder">Nói cho mọi người biết gì đó</string>
-    <string name="sending">Đang gửi</string>
     <string name="emoji_vc_emoji">Cảm xúc</string>
     <string name="emoji_vc_anma">Hoạt hình</string>
     <string name="create_rooms">Tạp nhóm</string>
@@ -1845,12 +1425,7 @@
     <string name="cancel_top">Bỏ ghim</string>
     <string name="sip_noanswer">Bên kia không có phản hồi.</string>
     <string name="finished">Đã kết thúc</string>
-    <string name="recharge_more">Số tiền phải từ 0,01 đồng đến 500 đồng</string>
-    <string name="stop_live">Kết thúc trực tiếp</string>
-    <string name="failed_identity">Không thể lấy thông tin danh tính</string>
-    <string name="livevc_already_kick_out_room">Bạn bị quản trị viên đuổi ra khỏi phòng</string>
     <string name="room_member_vc_cancel_administrator_success">Hủy quản trị viên thành công</string>
-    <string name="as_admimistrato">Tôi đã được thiết lập thành quản trị viên.</string>
     <string name="room_member_vc_set_administrator_success">Chỉ định thành công quản trị viên</string>
     <string name="my_filevc_selfile">Vui lòng chọn một tập tin</string>
     <string name="selecting">Chọn</string>
@@ -1859,30 +1434,16 @@
     <string name="file">File</string>
     <string name="video_audio">Video và âm thanh</string>
     <string name="no_data_now">Tạm thời không có dữ liệu</string>
-    <string name="kicked_not_in">Bạn bị đuổi ra khỏi phòng trực tiếp, bạn sẽ không thể tham gia phòng trực tiếp trong buổi phát sóng trực tiếp này.</string>
-    <string name="delete_successfully">Đã xóa thành công</string>
     <string name="red_envelope">Bao lì xì may mắn</string>
     <string name="usual_gift">Bao lì xì thông thường</string>
     <string name="mes_gift">Mật khẩu bao lì xì</string>
-    <string name="number_of_envelopes">Số lượng bao lì xì</string>
-    <string name="total_amount">Tổng số tiền</string>
     <string name="input_amount">Nhập số tiền</string>
     <string name="yuan">Đồng</string>
-    <string name="same_amount">Số tiền tương tự được nhận bởi bạn bè.</string>
-    <string name="gift_text">Cung chúc phát tài, vạn sự như ý.</string>
-    <string name="live">Trực tiếp</string>
-    <string name="live_createexist_room">Bạn đã tạo ra một phòng trực tuyến, bạn có bước vào?</string>
-    <string name="all_live">Trực tiếp toàn bộ</string>
-    <string name="all_liveing">Phát sóng trực tiếp</string>
     <string name="msg_view_controller_going_off">Tin nhắn (đang kết nối)</string>
     <string name="msg_view_controller_online">Tin nhắn (trực tuyến)</string>
     <string name="msg_view_controller_off_line">Tin nhắn (ngoại tuyến)</string>
     <string name="search_chatlog">Tìm kiếm lịch sử trò chuyện</string>
-    <string name="rondom_amount">Số tiền bạn bè nhận được là ngẫu nhiên.</string>
     <string name="message_not_disturb">Tránh tin nhắn làm phiền</string>
-    <string name="big_envelope">Nếu ông chủ gửi một bao lì xì</string>
-    <string name="reply_grab">Đối phương cần trả lời mật khẩu để lấy bao lì xì</string>
-    <string name="action">Theo dõi</string>
     <string name="my_qrimage">Mã QR của tôi</string>
     <string name="nick_name_two">Biệt danh</string>
     <string name="address">Địa chỉ</string>
@@ -1899,7 +1460,6 @@
     <string name="upload_successful">Tải tệp lên thành công</string>
     <string name="enter_pinlunt">Nhập nội dung bình luận</string>
     <string name="ban_comment">Cấm bình luận</string>
-    <string name="live_vc_gagtobarrage">Bạn đã bị cấm, xin vui lòng gửi một bức màn</string>
     <string name="send_now">Đang gửi</string>
     <string name="mainviewcontroller_message">Tin nhắn</string>
     <string name="weibodata_perzan2">Tổng cộng</string>
@@ -1907,21 +1467,12 @@
     <string name="select_group_members">Chọn thành viên nhóm</string>
     <string name="multiselect">Nhiều lựa chọn</string>
     <string name="need_a_course">Bạn cần chọn một khóa học</string>
-    <string name="live_vc_setgag">Chặn</string>
-    <string name="live_gag_cancel">Hủy bỏ lệnh cấm</string>
-    <string name="live_kick_success">Đá ra thành công</string>
-    <string name="live_kick">Đá ra</string>
-    <string name="fail">Thất bại</string>
     <string name="article">Điều</string>
     <string name="new_firend">Bạn mới</string>
-    <string name="group_admin">Quản trị viên</string>
     <string name="group_role_normal">Thành viên bình thường</string>
-    <string name="alert_delete_ok">Đã xóa thành công</string>
-    <string name="live_inliving">Phát sóng trực tiếp</string>
     <string name="link">Liên kết</string>
     <string name="graphic">Đồ họa</string>
     <string name="other_withdraw">Đã thu hồi một tin nhắn</string>
-    <string name="also_adminnistor">Họ cũng là quản trị viên, bạn không có quyền thao tác họ.</string>
     <string name="Msg_View_Controller_Start_Chat">Đã đã là bạn của nhau, hãy bắt đầu trò chuyện.</string>
     <string name="voice">Âm thanh</string>
     <string name="my_location">Vị trí</string>
@@ -1936,7 +1487,6 @@
     <string name="update_roomname">Sửa đổi tên nhóm</string>
     <string name="update_explain">Hướng dẫn sửa đổi</string>
     <string name="update_nick_name">Sửa đổi biệt hiệu</string>
-    <string name="ask_call_wait">Chờ đợi bên kia chấp nhận lời mời ...</string>
     <string name="setting_logout">Thoát tài khoản hiện tại</string>
     <string name="search_user_oneday">Gần 1 ngày</string>
     <string name="search_user_two_day">Gần 2 ngày</string>
@@ -1948,12 +1498,8 @@
     <string name="search_user_two_month">Gần 2 tháng</string>
     <string name="Usual_Gift">Bao lì xì thông thường</string>
     <string name="input_gift_count">Vui lòng nhập số tiền bao lì xì</string>
-    <string name="want_open_gift">Vui lòng nhập mật khẩu để mở bao lì xì</string>
     <string name="message_red">Mật khẩu:</string>
-    <string name="recharge_money_count">Số tiền phải từ 0,01 đồng đến 500 đồng</string>
-    <string name="not_enough">Nếu số dư không đủ, vui lòng nạp lại</string>
     <string name="weibo_cell_all_text">Toàn văn</string>
-    <string name="weibo_cell_stop">Thu gọn</string>
     <string name="collection_success">Sưu tập thành công</string>
     <string name="add_msg_mind">Ý tưởng về thời điểm này ...</string>
     <string name="add_file">Vui lòng thêm một tập tin</string>
@@ -1979,9 +1525,6 @@
     <string name="entering">Bên kia đang gõ ...</string>
     <string name="online">Trực tuyến</string>
     <string name="chat_timeless">Thời gian ghi âm quá ngắn</string>
-    <string name="live_inputroomname">Vui lòng nhập tên của phòng trực tuyến</string>
-    <string name="live_inputroomnotice">Vui lòng nhập thông báo phát sóng trực tiếp</string>
-    <string name="live_start_live">Bắt đầu trực tiếp</string>
     <string name="modify_name">Sửa đổi tên</string>
     <string name="all_course_complete">Đã hoàn tất tải xuống khóa học</string>
     <string name="coursename">Tên khóa học</string>
@@ -2020,14 +1563,7 @@
     <string name="message_file_upload">Đã tải lên tập tin nhóm</string>
     <string name="meeting">Hội nghị âm thanh</string>
     <string name="new_friend_chat">Những người bạn mới, hãy đến và trò chuyện!</string>
-    <string name="delete_group_room">Xóa nhóm</string>
-    <string name="image_failed">Tải hình ảnh thất bại!</string>
-    <string name="Password_Filed">Mật khẩu không khớp</string>
-    <string name="exited_live_room">Ra khỏi phòng trực tuyến</string>
-    <string name="live_kicklive">Bị đuổi ra khỏi phòng trực tuyến</string>
-    <string name="message_object_cancel_gag">Hủy bỏ lệnh cấm</string>
     <string name="cannot_forwarded">Tin nhắn xóa sau khi đọc không thể chuyển tiếp</string>
-    <string name="stop_recording">Kết thúc ghi âm</string>
     <string name="input_course_name">Nhập tên khóa học</string>
     <string name="With_draw">Thu hồi</string>
     <string name="draft">[Bản thảo]</string>
@@ -2035,8 +1571,6 @@
     <string name="image_is_null">Nội dung hình ảnh trống rỗng!</string>
     <string name="map">Bản đồ</string>
     <string name="new_comment_and_praise"><![CDATA[Nhận xét và khen ngợi mới nhất]]></string>
-    <string name="connected">Sip được kết nối</string>
-    <string name="break_off">Ngắt kết nối</string>
     <string name="black_list_all">Danh sách đen</string>
     <string name="new_room_creat_room">Nhóm mới</string>
     <string name="local_map">Thông tin vị trí</string>

@@ -29,7 +29,6 @@
                 android:showDividers="middle">
 
                 <com.makeramen.roundedimageview.RoundedImageView
-                    android:id="@+id/riv_avatar"
                     android:layout_width="140dp"
                     android:layout_height="140dp"
                     android:layout_gravity="center_horizontal"
@@ -47,7 +46,6 @@
                     style="@style/IMTble_No_Line">
 
                     <TextView
-                        android:id="@+id/tv_avatar"
                         style="@style/IMTbleLine_TextKey"
                         android:text="@string/label_avatar" />
 

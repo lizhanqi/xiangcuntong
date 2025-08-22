@@ -38,7 +38,6 @@
         android:layout_height="match_parent">
 
         <RelativeLayout
-            android:id="@+id/rl"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_above="@+id/ll_two_item"

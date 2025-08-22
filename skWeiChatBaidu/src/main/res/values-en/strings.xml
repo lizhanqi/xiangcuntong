@@ -1,11 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- getSupportActionBar.title -->
     <string name="switch_account">Switch account</string>
-    <string name="send_myspace">Post to circle of friends</string>
-    <string name="records_of_consumption">Records of consumption</string>
     <string name="add_friend">Add friend</string>
-    <string name="reset">Reset</string>
-    <string name="read_burn">Read delete</string>
     <string name="empty">Clear</string>
     <string name="no_data">No Data</string>
     <string name="please_wait">Please Wait&#8230;</string>
@@ -52,20 +48,13 @@
     <string name="motalk_voice_chat_tip_2">Undo send</string>
     <string name="motalk_voice_chat_tip_3">Up slide cancel send</string>
     <string name="motalk_voice_chat_tip_4">Release your finger to cancel sending</string>
-    <string name="motalk_voice_chat_tip_5">Re recording</string>
-    <string name="motalk_voice_chat_tip_6">Release to end</string>
 
     <!-- item For FriendBasicInfo -->
     <string name="set_remark_name">Set Memo Name</string>
     <string name="remove_blacklist">Remove blacklist</string>
     <string name="add_blacklist">Add Blacklist</string>
-    <string name="cancel_attention">Cancel attention</string>
-    <string name="delete_all">Remove Completely</string>
-    <string name="check_circle">View circle of friends</string>
 
     <!-- item for MySpace -->
-    <string name="send_text">Send text</string>
-    <string name="send_image">Send pictures</string>
     <string name="send_audio">Send voice</string>
     <string name="send_video">Send video</string>
 
@@ -78,25 +67,18 @@
     <string name="delete_all_prompt">Are you sure you want to delete completely?</string>
 
     <!-- Dialog For BasicInfo -->
-    <string name="add_blacklist_prompt">Are you sure you want to add a blacklist?</string>
-    <string name="remove_blacklist_prompt">Are you sure you want to remove the blacklist?</string>
 
     <string name="delete_prompt">Sure to delete prompt?</string>
 
     <!-- Toast For Record Video -->
     <string name="record_failed">Record failed</string>
-    <string name="record_succ">Record success</string>
 
     <!-- Toast For Register -->
     <string name="data_exception">Data exception</string>
     <string name="net_exception">Network anomaly</string>
     <string name="login_failed">Login failed</string>
     <!-- 1 -->
-    <string name="get_auth_code_failed">Get verification code failed</string>
     <string name="auth_code_error">Auth code error</string>
-    <string name="auth_code_overdue">Auth code overdue</string>
-    <string name="phone_number_format_error">Phone number format error</string>
-    <string name="telphone_already_rigister">Telephone already register</string>
     <string name="phone_number_not_be_empty">Phone number not be empty</string>
     <!-- 2 -->
     <string name="password_empty_error">Password not be empty</string>
@@ -110,8 +92,6 @@
     <!-- Toast For RegisterUserBasicInfoActivity -->
     <string name="name_empty_error">Nickname not be empty</string>
     <string name="live_address_empty_error">Address not be empty</string>
-    <string name="nick_name_format_error">Nickname format error</string>
-    <string name="cancel_edit_prompt">Cancle edit prompt？</string>
     <string name="upload_avatar_success">Upload avatar success</string>
     <string name="upload_avatar_failed">Upload avatar failed</string>
 
@@ -124,12 +104,9 @@
 
     <!-- Toast For BasicInfoActivity -->
     <string name="this_friend_not_open_position">This friend not open position!</string>
-    <string name="say_hello_succ">Say hello</string>
     <string name="add_attention_succ">Add attention success</string>
     <string name="add_attention_failed">Add attention failed</string>
     <string name="add_friend_succ">Add friend success</string>
-    <string name="remark_name_format_error">Remark name format error</string>
-    <string name="cancel_attention_succ">Cancel attention success</string>
     <string name="delete_all_succ">Delete all success</string>
     <string name="add_blacklist_succ">Add blacklist success</string>
     <string name="add_blacklist_fail">Add blacklist failed</string>
@@ -143,26 +120,19 @@
     <string name="update_success">Update success</string>
 
     <!-- Toast For AudioMeeting-->
-    <string name="input_error">Input Error!</string>
 
     <!-- Toast For Balance -->
     <string name="recharge_success">Recharge success</string>
-    <string name="recharge_amount">Recharge amount(0.01~500.00)</string>
-    <string name="recharge_amount_not">Recharge amount not be 0!</string>
-    <string name="please_enter_a_value">Input a value!</string>
 
     <!-- Toast For SettingActivity -->
     <string name="clear_completed">Clear Completed</string>
 
     <!-- Toast For Copy -->
-    <string name="copy_success">Copy success</string>
 
     <!-- Select constants -->
     <string name="add_chat_ok_btn">OK(<xliff:g id="count">%1$s</xliff:g>)</string>
 
     <!-- Detail For word -->
-    <string name="comment_count">Comment count(<xliff:g id="count">%1$d</xliff:g>)</string>
-    <string name="level_inner"><xliff:g id="level">%1$d</xliff:g>level</string>
 
     <!-- Button For Send * -->
     <string name="circle_add_image">Add Image</string>
@@ -170,49 +140,37 @@
     <string name="circle_add_video">Add Video</string>
 
     <!-- My Friend For TabView -->
-    <string name="newest">Mutual attention</string>
-    <string name="hotest">One-way attention</string>
-    <string name="nearest">Attention room</string>
 
     <string name="instance_person">Distance</string>
     <string name="instance_">Meters</string>
 
     <string name="label_online_time">Last online time</string>
-    <string name="company_txl">Enterprise Contacts</string>
     <string name="create_company">Create Company</string>
     <string name="create_company_succ">Create company successful</string>
-    <string name="create_company_fail">Create company failed</string>
-    <string name="company_exit">Company is existence</string>
     <string name="company_names">Company Name</string>
     <string name="enter_company_name">Enter company name</string>
     <string name="add_department">Add Department</string>
     <string name="create_department">Create Department</string>
     <string name="create_department_succ">Create department successful</string>
-    <string name="create_department_fail">Create department failed</string>
     <string name="department_names">Department Name</string>
     <string name="enter_department_name">Enter department name</string>
     <string name="modify_company_name">Modify company name</string>
     <string name="company_name_connot_null">Name cannot null</string>
     <string name="company_name_connot_same">Name cannot same of before</string>
     <string name="modify_succ">Modify successful</string>
-    <string name="modify_fail">Modify failed</string>
     <string name="new_company_name">New company name</string>
     <string name="enter_new_company_name">Enter new company name</string>
     <string name="exit_company">Quit Company</string>
     <string name="exi_c_succ">Quit company successful</string>
-    <string name="exi_c_fail">Quit company failed</string>
     <string name="delc_company">Delete Company</string>
     <string name="del_c_succ">Delete company successful</string>
-    <string name="del_c_fail">Delete company failed</string>
     <string name="add_son_department">Add Son Department</string>
     <string name="create_son_department">Create Son Department</string>
     <string name="create_son_department_succ">Create son department successful</string>
-    <string name="create_son_department_fail">Create son department failed</string>
     <string name="son_department_names">Department Name</string>
     <string name="enter_son_department_name">Enter department name</string>
     <string name="add_employee">Add Member</string>
     <string name="add_employee_succ">Add member successful</string>
-    <string name="add_employee_fail">Add member failed</string>
     <string name="modify_department_name">Modify Department Name</string>
     <string name="new_department_name">New Department Name</string>
     <string name="enter_new_department_name">Enter New Department Name</string>
@@ -220,16 +178,12 @@
     <string name="department_name_connot_same">Name cannot same of before</string>
     <string name="delc_departm">Delete Department</string>
     <string name="del_d_succ">Delete department successful</string>
-    <string name="del_d_fail">Delete department failed</string>
     <string name="detail">Detail</string>
     <string name="change_departement">Change Department</string>
     <string name="change_departement_succ">Change department successful</string>
-    <string name="change_departement_fail">Change department failed</string>
     <string name="del_employee">Delete Employee</string>
     <string name="del_e_succ">Delete employee successful</string>
-    <string name="del_e_fail">Delete employee failed</string>
     <string name="name_connot_null">Cannot Null</string>
-    <string name="notices">Notice:</string>
     <string name="no_notice">No notice</string>
     <string name="sure_modify">Sure Modify</string>
     <string name="check_network">Check Network</string>
@@ -245,17 +199,11 @@
     <string name="application_update">Software version update</string>
     <string name="download">Download</string>
 
-    <string name="you_are_offline">You are offline, do you want to reconnect?</string>
-
-    <string name="you_have_one_live_room">You have one live room</string>
-    <string name="name_cannot_ull">Name cannot null</string>
     <string name="notice_cannot_null">Notice cannot null</string>
 
     <string name="str_input_code">Graphic Code</string>
-    <string name="input_code_iamge">Graphical verification code error</string>
 
     <string name="set_chat_bg">Chat Background</string>
-    <string name="cover_chat_bg">Restore</string>
     <string name="allow_exit_app_revice">Allow Notifications</string>
 
     <!-- Todo Create by 2018/5/23 -->
@@ -270,8 +218,6 @@
     <string name="bit">Bit</string>
     <string name="friend">Friend</string>
 
-    <string name="perceptual_pink">Perceptual Pink</string>
-
     <string name="chat_font">Chat Font</string>
     <string name="font_size">Font Size</string>
     <string name="finish">Complete</string>
@@ -280,19 +226,12 @@
     <string name="turn_on_vibration">Turn On Vibration</string>
 
     <string name="my_purse">Wallet</string>
-    <string name="expenses_record">Record</string>
     <string name="my_change">Change</string>
     <string name="recharge">ReCharge</string>
-    <string name="select_payment_method">Select Payment Method</string>
-    <string name="total">Total</string>
     <string name="wechat_pay">WeChat Pay</string>
     <string name="alipay_pay">AliPay</string>
     <string name="withdraw">Withdraw</string>
-    <string name="withdrawal_instructions">Withdrawal Instructions</string>
-    <string name="arrival_micro_signal">To the wechat</string>
-    <string name="withdrawal_fee_rate">Withdrawal Fee Rate 0.1%</string>
     <string name="withdrawal_amount">Withdrawal Amount</string>
-    <string name="change_balance">Change Balance￥</string>
     <string name="all_withdrawals">All Withdrawals</string>
 
     <string name="modify_job">Modify employee position</string>
@@ -319,22 +258,15 @@
     <string name="collection">Collection</string>
 
     <string name="group_qr_code">Group QR Code</string>
-    <string name="via_invitations">The owner has turned into group verification and can only enter through the invitation</string>
     <string name="group_creator">Group Creator</string>
     <string name="not_disturb">Messages Do Not Disturb</string>
-    <string name="news_push">Will no longer receive news push for this group after opening</string>
-    <string name="receive_messages">Will no longer receive messages for this group after screening</string>
     <string name="group_management">Group Management</string>
     <string name="invitation_confirmation">Group Invitation Confirmation</string>
     <string name="need_to_be_confirmed">After is enabled, group members need to confirm with the group owner to invite friends to the group. Scanning the QR code into the group will be disabled at the same time.</string>
 
     <string name="chat_settings">Chat Settings</string>
-    <string name="start_group_chat">New Group</string>
     <string name="chat_background">Chat Background</string>
-    <string name="reselection">Reselection</string>
 
-    <string name="prompt_title">Tip:</string>
-    <string name="moments">Moments</string>
     <string name="my_moments">Moments</string>
 
     <string name="add_friends">Add Friends</string>
@@ -344,20 +276,14 @@
     <string name="me">Me</string>
     <string name="load_failed_click_again">Load failed, click reload</string>
     <string name="yes">Yes</string>
-    <string name="no">No</string>
-    <string name="saveing">saving&#8230;</string>
     <string name="save_success">Saved successfully</string>
-    <string name="save_failed">Save failed</string>
-    <string name="add">Add</string>
     <string name="c_take_picture">Take a photo</string>
-    <string name="c_photo_album">Album</string>
     <string name="c_crop_failed">Cut failure</string>
     <string name="locationing">Positioning</string>
     <string name="current_location">Current location</string>
     <string name="hot_city">Popular cities</string>
     <string name="select_city_by_province">Select cities by province</string>
     <string name="location_failed">Positioning failure</string>
-    <string name="location_city">City</string>
     <string name="select">Select</string>
     <string name="country">Country</string>
     <string name="province">Province</string>
@@ -372,26 +298,14 @@
     <string name="please_input_phone_number">Input the phone number</string>
     <string name="please_input_auth_code">Input verification code</string>
     <string name="please_input_password">Input a password</string>
-    <string name="please_confirm_password">Confirm password</string>
-    <string name="please_input_name">Input a nickname</string>
     <string name="please_input_new_password">Input a new password</string>
     <string name="please_confirm_new_password">Confirm the new password</string>
     <string name="please_input_keyword">Input a nickname or mobile number</string>
     <string name="login">Login</string>
     <string name="register">Register</string>
-    <string name="user_telphone_login">Login using phone number</string>
     <string name="register_account">Register</string>
     <string name="forget_password">Forget password</string>
-    <string name="connected_failed">Connection failed</string>
     <string name="data_not_update_exit">User data has not been updated, exit will abandon login, do you want to quit?</string>
-    <string name="register_step_one">1, Enter the phone number</string>
-    <string name="Get_Verification_Code">Get verification code</string>
-    <string name="Password_Login">Password login</string>
-    <string name="Verification_Code_Login">Verification code login</string>
-    <string name="register_step_two">2, fill in the password</string>
-    <string name="register_step_three">3. Basic information</string>
-    <string name="exit">Sign out</string>
-    <string name="login_again">Re-login</string>
     <string name="overdue_title">Expiration notice</string>
     <string name="token_overdue_des">The local access token has expired, do you want to re-login now?</string>
     <string name="deficiency_data_des">Local data has expired, do you want to re-login now?</string>
@@ -399,49 +313,28 @@
     <string name="logout_des">Your account is logged in on another device. Do you want to log in again immediately?</string>
     <string name="message">Chats</string>
     <string name="find">Discover</string>
-    <string name="nearby">Nearby</string>
     <string name="group_chat">Group chat</string>
-    <string name="welcome_user_software">Welcome to cool chat</string>
     <string name="msg_picture">[Image]</string>
     <string name="msg_voice">[Audio]</string>
     <string name="msg_location">[Location]</string>
     <string name="msg_animation">[Animation]</string>
     <string name="msg_video">[Video]</string>
     <string name="msg_file">[File]</string>
-    <string name="msg_online">Message (online)</string>
-    <string name="msg_offline">Message (offline)</string>
-    <string name="msg_connect">Message (in connection)</string>
-    <string name="msg_be_add_attention">Someone paid attention to you</string>
     <string name="msg_be_say_hello">Someone greets you</string>
-    <string name="msg_be_passed">You passed the friend verification</string>
-    <string name="msg_has_new_friend">You have new friends</string>
     <string name="msg_has_new_recommend_friend">You have new referral friends</string>
     <string name="chat_poto">Photo</string>
     <string name="chat_camera">Take a photo</string>
     <string name="chat_send_video">Video</string>
-    <string name="chat_audio">Voice calls</string>
-    <string name="chat_with_video">Video call</string>
     <string name="chat_loc">Position</string>
     <string name="chat_redpacket">Red packets</string>
     <string name="chat_shake">Shake</string>
     <string name="chat_collection">Collection</string>
     <string name="chat_audio_conference">Voice conference</string>
     <string name="bisniss">Friends</string>
-    <string name="focus_on_each_other">Mutual concern</string>
-    <string name="unilateral_attention">One-way attention</string>
-    <string name="focus_room">Focus on the room</string>
     <string name="remove_blacklist_succ">Remove blacklist successfully</string>
-    <string name="his_in_the_blacklist">You have added the other party to the blacklist</string>
     <string name="new_friend">New Friend</string>
-    <string name="add_attention">Attention</string>
-    <string name="wait_verification">Waiting for verification</string>
-    <string name="passed">Passed</string>
     <string name="agreed">Approved</string>
-    <string name="is_the_friend">Becomed friends</string>
-    <string name="say_hello">Greet</string>
-    <string name="say_hello_again">Say hello again</string>
     <string name="send_msg">Send message</string>
-    <string name="agree">Agree</string>
     <string name="feedback_succ">Reply successfully</string>
     <string name="feedback">Answer</string>
     <string name="simple_data_error">Data error</string>
@@ -449,12 +342,8 @@
     <string name="say_hello_dialog_title">verification message</string>
     <string name="say_hello_dialog_hint">Dear, give me a reason to add you!</string>
     <string name="say_hello_default">Hi, hello!</string>
-    <string name="refused_request">The other party rejected your friend request!</string>
     <string name="keyword">Keyword</string>
     <string name="sex">Gender</string>
-    <string name="min_age">Minimum age</string>
-    <string name="max_age">Maximum age</string>
-    <string name="show_time">Occurrence time</string>
     <string name="answer">Answer</string>
     <string name="pass">Approved</string>
     <string name="cancel_black_me">Has cancelled the blacklist</string>
@@ -472,64 +361,20 @@
     <string name="phone_number">Phone Number</string>
     <string name="near_person">Nearby</string>
     <string name="create_group">New Group</string>
-    <string name="pay_result_callback_msg">WeChat Pay result: %s</string>
     <string name="change_tip">Switch language successfully, please login again</string>
     <string name="switch_language">Switch language</string>
-    <string name="create_course">Create a course</string>
-    <string name="please_input_course_desc">Input the course name</string>
     <string name="name_course_error">Course name cannot be empty</string>
     <string name="top_tv">Topping</string>
-    <string name="start_audio_conference">Start a voice conference</string>
-    <string name="audio_conference_info">Enter the same number of 3000~3999 in the same range of with the friend, click "start meeting", you can start the voice conference</string>
-    <string name="unregistration_nok">Disconnect failed...</string>
-    <string name="unregistration_inprogress">Disconnected...</string>
-    <string name="registration_inprogress">connecting...</string>
-    <string name="registration_ok">Connected</string>
-    <string name="unregustration_ok">Disconnect</string>
-    <string name="registration_nok">Connect failed</string>
-    <string name="natt">NAT</string>
-    <string name="codecs">Coding</string>
-    <string name="network">Network</string>
-    <string name="identity">Identity Information</string>
-    <string name="connectting">Connect</string>
-    <string name="string_call_cancelled">Call cancellation...</string>
-    <string name="string_call_outgoing">Calling...</string>
-    <string name="string_call_incoming">Call...</string>
-    <string name="string_incall">In the call..</string>
-    <string name="string_call_terminated">The call was interrupted..</string>
-    <string name="string_switch_camera">Switch camera</string>
-    <string name="string_stop_video">Stop video</string>
-    <string name="string_send_video">Send video</string>
-    <string name="string_resume">Restore</string>
-    <string name="string_hold">Hold</string>
-    <string name="string_mute_off">Turn off mute</string>
-    <string name="string_mute_on">Turn on mute</string>
-    <string name="string_speaker_off">Turn off the amplification</string>
-    <string name="string_speaker_on">Turn on the amplification</string>
     <string name="string_endcall">Hang Up</string>
     <string name="string_answer">Accept</string>
     <string name="all_date">All dates</string>
-    <string name="all">All</string>
     <string name="select_date">Select date</string>
     <string name="copy">Copy</string>
-    <string name="praise">Praise</string>
-    <string name="cancel_praise">Cancel praise</string>
-    <string name="comment">comment</string>
-    <string name="send_gift">Send a Gift</string>
     <string name="replay_text">Reply to <xliff:g id="nick_name">%1$s</xliff:g>:</string>
     <string name="replay">Reply</string>
     <string name="pictures">image</string>
-    <string name="give_gift">Send a Gift</string>
-    <string name="my_business_circle">My Occupation</string>
-    <string name="check_praise">Praise list</string>
-    <string name="play_failed">Playback failed</string>
-    <string name="audio_file_not_exist">Recording file does not exist</string>
     <string name="circle_release">release</string>
     <string name="circle_now_think">The idea of this moment...</string>
-    <string name="circle_select_voice">Select recording, up to 1</string>
-    <string name="circle_select_image">Select images, up to 9</string>
-    <string name="circle_select_video">Select video, up to 1</string>
-    <string name="message_detail">Talk about the details</string>
     <string name="select_contacts">Select contact</string>
     <string name="please_input_room_name">Input a group name</string>
     <string name="please_input_room_desc">Input a group description</string>
@@ -538,10 +383,6 @@
     <string name="room_name_empty_error">Group name cannot be empty</string>
     <string name="room_des_empty_error">Group description cannot be empty</string>
     <string name="create_room_failed">Failed to create group</string>
-    <string name="voice_hint">1. Click on the Record button to introduce yourself!\n2.60 seconds countdown.\n3. You can say hello first.\n4. Birthday, hobbies, personality, and constellations can all be said.</string>
-    <string name="my_data">My information</string>
-    <string name="my_friend">My friend</string>
-    <string name="my_space">My space</string>
     <string name="local_video">Select video</string>
     <string name="setting">Setting</string>
     <string name="room_info">Group information</string>
@@ -554,55 +395,20 @@
     <string name="all_banned_voice">All banned speak</string>
     <string name="create_chat_time">Create time</string>
     <string name="shield_chat">Block group message</string>
-    <string name="change_room_name">Edit group name</string>
-    <string name="change_room_des">Edit group description</string>
-    <string name="change_my_nickname">Modify my group nickname</string>
-    <string name="add_notice">Add announcement</string>
-    <string name="no_shiele">Unshielded</string>
-    <string name="yes_shiele">Screened</string>
     <string name="clear_cache">clear cache</string>
-    <string name="use_help">Using help</string>
     <string name="about_us">About us</string>
     <string name="privacy_setting">Privacy Setting</string>
-    <string name="vioce_audio_chat_setting">Video call settings</string>
-    <string name="exit_tips">Are you sure you want to sign out of this account?</string>
     <string name="exit_current_account">Exit current account</string>
     <string name="deleteing">Deleting…</string>
-    <string name="allow_attention">Allow attention</string>
-    <string name="allow_greet">Allow greeting</string>
-    <string name="friends_verify">Add friend verification</string>
     <string name="update_sccuess">Modify successful</string>
-    <string name="size">Size</string>
     <string name="time_len">Duration</string>
     <string name="create_time">Create time</string>
-    <string name="des">Describe</string>
-    <string name="video_file_not_exist">Video file does not exist</string>
     <string name="birthday">Date of birth</string>
     <string name="select_sex">Choose gender</string>
     <string name="select_avatar">Choose Avatar</string>
     <string name="upload_avataring">Upload avatar...</string>
-    <string name="look_friend_location">View friend location</string>
-    <string name="look_friend_circle">View circle of friends</string>
     <string name="diy_name">Signature</string>
-    <string name="start_failed">Startup failed</string>
-    <string name="failed_to_open_camera_1">Failed to open camera</string>
-    <string name="failed_to_open_camera_2">The camera may be being</string>
-    <string name="failed_to_open_camera_3">Other applications occupied?</string>
-    <string name="chooser_title">Choose to send a file</string>
-    <string name="empty_directory">Clean folder</string>
-    <string name="storage_removed">No memory card found</string>
-    <string name="choose_file">Select a document</string>
-    <string name="error_selecting_file">Select file error</string>
-    <string name="internal_storage">Network storage device</string>
-    <string name="spinner_transport">Select network transmission method</string>
-    <string name="day_today">Toady</string>
-    <string name="day_yesterday">Yesterday</string>
-    <string name="basic_info">Basic information</string>
     <string name="rename_align">Remarks</string>
-    <string name="spinner_ipversion">Select the IP version number</string>
-    <string name="sex_align">Sex</string>
-    <string name="name_align">nickname</string>
-    <string name="residence_align">Place of residence</string>
     <string name="system_public_number">Service No.</string>
     <string name="alert_select_one">Please select at least one friend or tag</string>
     <string name="permanent">Permanent</string>
@@ -620,14 +426,10 @@
     <string name="clean">clean</string>
     <string name="illegal_input">Input is illegal</string>
     <string name="simplified_chinese">Simplified Chinese</string>
-    <string name="traditional_chinese">Traditional Chinese</string>
-    <string name="english">English</string>
     <string name="need_input_money">Input the amount!</string>
     <string name="red_packet_range">The total amount of red packets is between 0.01 and %d!</string>
-    <string name="balance_not_enough">Not sufficient funds</string>
     <string name="need_red_packet_count">Input number of packets!</string>
     <string name="rmb"> RMB</string>
-    <string name="get_red_packet_failed">Failed to get red packets details</string>
     <string name="someone_s_red_packet_place_holder">%s red packets</string>
     <string name="click_recode">Click to record</string>
     <string name="upload">Upload</string>
@@ -639,7 +441,6 @@
     <string name="enter_public_number">Enter the service No.</string>
     <string name="qrcode">QR code</string>
     <string name="now_location">location</string>
-    <string name="sync_local_contacts">Sync local contacts</string>
     <string name="tag_name">Tag name</string>
     <string name="hint_tag_name">For example: family, friends</string>
     <string name="example_tag_member">Label member (0)</string>
@@ -648,10 +449,8 @@
     <string name="hint_change_font_size">Drag the slide below to set the font size</string>
     <string name="change_password">Modify Password</string>
     <string name="design_admin">Designated administrator</string>
-    <string name="cancel_admin">Cancel administrator</string>
     <string name="transfer_group_owner">Group owner management transfer</string>
     <string name="private_group">Private group</string>
-    <string name="hint_private_group">When enabled, the current group cannot be searched.</string>
     <string name="display_read_number">Show Readed Detail</string>
     <string name="hint_display_readed_number">When enabled, the message page of the current group will display the number of read people for each message on the left side, and click to view the list of read people.</string>
     <string name="display_member">Allowed Display Group Members</string>
@@ -680,20 +479,6 @@
     <string name="example_name">Hu XX</string>
     <string name="file_type_not_support">This format file preview is not supported at this time</string>
     <string name="send_red_packet">Red packets</string>
-    <string name="balance">Balance</string>
-    <string name="input_recharge_money">Input the recharge amount</string>
-    <string name="hint_money">Amount</string>
-    <string name="recharge_5">5 yuan</string>
-    <string name="recharge_10">10 yuan</string>
-    <string name="recharge_20">20 yuan</string>
-    <string name="recharge_50">50 yuan</string>
-    <string name="recharge_100">10 yuan</string>
-    <string name="recharge_200">200 yuan</string>
-    <string name="recharge_300">300 yuan</string>
-    <string name="recharge_500">500 yuan</string>
-    <string name="put_forward">withdraw</string>
-    <string name="wepay">WeChat payment</string>
-    <string name="money_total">total:</string>
     <string name="remark_name">Remark name</string>
     <string name="search_chat_content">Search chat records</string>
     <string name="delete_after_read">Burn after reading</string>
@@ -705,7 +490,6 @@
     <string name="know_typing">Let person know that I am entering</string>
     <string name="multi_device">Support for multiple device logins</string>
     <string name="use_google_map">Use Google Maps</string>
-    <string name="group_message_sync_time">Group chat message synchronization time</string>
     <string name="new_friend_verify">Need friend verification</string>
     <string name="encrypt_message">Message encrypted transmission</string>
     <string name="close">Close</string>
@@ -717,7 +501,6 @@
     <string name="hint_password">set password</string>
     <string name="graphic_code">Graphic code</string>
     <string name="verification_code">SMS code</string>
-    <string name="hint_login">Have an account,login</string>
     <string name="btn_register">Registration</string>
     <string name="gorup_member">Group member</string>
     <string name="group_file">Group file</string>
@@ -725,7 +508,6 @@
     <string name="report">Report</string>
     <string name="exit_group">Exit group</string>
     <string name="hint_selec_tag">Select tag group</string>
-    <string name="public_group">Public</string>
     <string name="input_tag">Input Tags</string>
     <string name="all_tag">All Tags</string>
     <string name="search_member">Search group member</string>
@@ -735,18 +517,9 @@
     <string name="change_skin">Switch Skin</string>
     <string name="private_settings">privacy setting</string>
     <string name="about_me">about us</string>
-    <string name="live_name">Live room name</string>
-    <string name="start_live">Open live stream</string>
-    <string name="live_content">Live room announcement</string>
-    <string name="recharge_01">0.1 yuan</string>
-    <string name="recharge_1000">1000 yuan</string>
-    <string name="recharge_5000">5000 yuan</string>
-    <string name="recharge_10000">10000 yuan</string>
     <string name="emoji">Expression</string>
     <string name="animation">Animation</string>
     <string name="custom_emoticons">Custom</string>
-    <string name="canceled">Cancelled</string>
-    <string name="message_service">Service</string>
     <string name="example_chat_history_content">XXX and YYY chat history</string>
     <string name="example_chat_content_1">XXX: [Picture]</string>
     <string name="example_chat_content_2">YYY: [red packets]</string>
@@ -754,23 +527,13 @@
     <string name="read_all_content">Read the whole passage</string>
     <string name="system_message">system information</string>
     <string name="video">Video</string>
-    <string name="manager">Management</string>
-    <string name="main_page">Homepage</string>
-    <string name="title_balance_not_enough">Insufficient balance</string>
-    <string name="hint_balance_not_enough">The current balance is insufficient, recharge can continue to send gifts, whether to recharge</string>
     <string name="example_balance_recharge">Balance recharge</string>
     <string name="example_money">100.00 yuan</string>
     <string name="video_call">Video call</string>
-    <string name="voice_call">Audio call</string>
     <string name="group_verification">Enable group verification</string>
     <string name="save_gallery">Save to album</string>
-    <string name="btn_forward">Forward</string>
-    <string name="btn_delete">Delete</string>
-    <string name="btn_detail">Details</string>
-    <string name="btn_cancel">Cancel</string>
     <string name="forward_each">Forward one by one</string>
     <string name="forward_all">Merge forwarding</string>
-    <string name="my_appendage">My attachment</string>
     <string name="my_collection">Collection</string>
     <string name="my_course">Lecture</string>
     <string name="settings">Setting</string>
@@ -784,41 +547,22 @@
     <string name="forward">Forward</string>
     <string name="save_emoticon">Save expression</string>
     <string name="multi_select">Multiselect</string>
-    <string name="start_record">Start recording</string>
-    <string name="skin_blue">Sky blue</string>
-    <string name="apply_now">Use immediately</string>
     <string name="screen_record">Screen recording</string>
     <string name="filter_normal">Normal</string>
-    <string name="filter_beauty">Beautify</string>
-    <string name="filter_romance">Romantic</string>
-    <string name="filter_warm">Warm color</string>
-    <string name="filter_tender">Mild</string>
-    <string name="filter_sunrise">Sunrise</string>
-    <string name="filter_sunset">Sunset</string>
     <string name="filter_cool">Cold light</string>
     <string name="filter_evergreen">Evergreen</string>
-    <string name="danmu">Barrage</string>
-    <string name="hint_send_message">Commission is deducted from the balance</string>
-    <string name="star">Attention</string>
     <string name="staff">Employee</string>
-    <string name="edit_live">Modify live room</string>
-    <string name="set_manager">Set to management</string>
     <string name="ban">Banned speak</string>
-    <string name="kick_room">Kick out the room</string>
     <string name="baidu_map">Baidu map</string>
     <string name="amap">AMap</string>
     <string name="google_map">Google map</string>
-    <string name="set_red_packet_key">Set the password:</string>
     <string name="hint_example_red_packet_key">Boss sends a big red packets</string>
     <string name="hint_red_packet_key">Buddy need to reply password grab red packets</string>
     <string name="red_packet_count">Number of red packets</string>
     <string name="individual">One</string>
     <string name="total_money">Total amount</string>
-    <string name="input_money">Input amount</string>
     <string name="btn_send_red_packet">Set Money To Red</string>
     <string name="hint_money_all_same">The same amount is received by the friends.</string>
-    <string name="fill_user_data">Fill in the information</string>
-    <string name="under_review">Under review</string>
     <string name="hint_use_other_browser">Use an external browser preview if you are unable to preview it</string>
     <string name="qq_browser">QQ browser</string>
     <string name="uc_browser">UC browser</string>
@@ -830,15 +574,10 @@
     <string name="remove_black_list">Remove the blacklist</string>
     <string name="thoroughly_delete">Remove completely</string>
     <string name="latest_comments">Latest Comment</string>
-    <string name="king_of_luck">Luck king</string>
     <string name="money">Amount</string>
     <string name="save_image">Save Picture</string>
     <string name="scan_qr_code">Identify the QR code in the image</string>
-    <string name="reconnect">Reconnect</string>
     <string name="tip_receive_new_message">Received a message</string>
-    <string name="mute">Mute</string>
-    <string name="hands_free">Handsfree</string>
-    <string name="tip_wait_friend">Waiting for the other party to receive the invitation</string>
     <string name="share_wechat">Share to WeChat friends</string>
     <string name="share_moments">Share to friends</string>
     <string name="btn_download">download()</string>
@@ -848,24 +587,17 @@
     <string name="example_will_send_message">You will send a message to 2 friends:</string>
     <string name="example_system_message_tip">system information:</string>
     <string name="example_message_content">The way of the world is comparable to the bird road, and the human feeling is more than a fish.</string>
-    <string name="tip_no_status">Ta seems to have forgotten to write a signature...</string>
     <string name="tip_look_early_message">View earlier messages...</string>
     <string name="loading">Loading...</string>
     <string name="tip_network_error">The network is not strong, please check the network settings.</string>
     <string name="tip_course_name">Course name:</string>
     <string name="tip_public_time">Release time:</string>
-    <string name="default_gift_comment">Send \"old friend\"</string>
-    <string name="connecting">Connecting...</string>
     <string name="example_tag_name">Label (99)</string>
-    <string name="in_live">Live broadcast...</string>
     <string name="tip_reason_invite_friends">The group owner has enabled \'group chat invitation confirmation\' to invite friends to the group to describe the reason to the group owner.</string>
-    <string name="tip_screen_identity">Identity certification:</string>
     <string name="invite_you">Invite you....</string>
-    <string name="tip_calling">Call...</string>
 
     <string name="hint_lucky_red_packet">Buddy receive a random amount</string>
     <string name="merger_failed">Merge failed</string>
-    <string name="tip_copy_success">Copy the file link to the paste version and go to the web page preview</string>
     <string name="report_success">Report success</string>
     <string name="tip_voice_record_error">Recording error!</string>
     <string name="tip_record_time_too_short">Recording time is too short</string>
@@ -892,13 +624,11 @@
     <string name="delete_place_holder">Has %s delete</string>
     <string name="tip_last_item">I have the bottom line</string>
     <string name="unrecognized">Not recognized</string>
-    <string name="connect_by_hand">Whether to connect manually</string>
     <string name="tip_not_support_emoji">Input expressions are not supported</string>
     <string name="tip_chinese_english_number">Only Chinese, English, and numeric numbers are allowed.</string>
     <string name="title_notification">Turn on notification permissions</string>
     <string name="content_notification">Get the message notification in the first time</string>
     <string name="permission_photo">Photography</string>
-    <string name="permission_location">Position</string>
     <string name="permission_microphone">Microphone</string>
     <string name="permission_phone_status">Phone status</string>
     <string name="permission_storage">Storage</string>
@@ -906,18 +636,14 @@
     <string name="tip_permission_reboot_place_holder">%s permission request was rejected, please exit IM and re-enter</string>
     <string name="tip_phone_number_empty_request_verification_code">The mobile phone number is empty, and the graphic verification code cannot be refreshed.</string>
     <string name="tip_phone_number_verification_code_empty">Phone number or graphic verification code cannot be empty</string>
-    <string name="tip_password_no_change">The new password cannot be the same as the original password.</string>
-    <string name="tip_verification_load_failed">Graphics verification code failed to load, please refresh</string>
     <string name="verification_code_send_success">The verification code was sent successfully.</string>
     <string name="verification_code_send_failed">Verification code failed to send</string>
     <string name="settings_server_address">Set up server</string>
     <string name="tip_phone_number_empty">Input phone number</string>
-    <string name="tip_phone_number_wrong">Input the correct phone format</string>
     <string name="tip_password_empty">Input your password</string>
     <string name="tip_password_too_short">Password must be at least 6 digits in length</string>
     <string name="tip_verification_code_empty">Input the graphic code</string>
     <string name="tip_verification_code_load_failed">Graphics verification code failed to load, please try again!</string>
-    <string name="tip_verification_code_wrong">Graphic code error</string>
     <string name="tip_mention_you">Also mentioned you</string>
     <string name="select_from_contacts">Select from contacts</string>
     <string name="tip_select_at_least_one">Please select at least one label or contact</string>
@@ -933,7 +659,6 @@
     <string name="status_online">(Online)</string>
     <string name="status_offline">(Offline)</string>
     <string name="public_number">Service No.</string>
-    <string name="reply_record">Return record</string>
     <string name="edit_tag">Setting Tags</string>
     <string name="tag_member">Label member</string>
     <string name="tip_select_at_lease_one_contacts">Please select at least one contact</string>
@@ -944,7 +669,6 @@
     <string name="tip_not_member">Cannot view group information for members who are not members of this group</string>
     <string name="tip_xmpp_connecting">Connecting</string>
     <string name="tip_xmpp_offline">It is offline, please check the network</string>
-    <string name="tip_group_name_exists">The group name already exists!</string>
     <string name="tip_cannot_remove_self">Quickly build a group, you can\'t remove yourself</string>
     <string name="tip_quickly_group_cannot_remove">Quickly build, can\'t remove</string>
     <string name="tip_create_group_at_lease_one_friend">Must select a friend to create a group</string>
@@ -956,21 +680,15 @@
     <string name="tip_no_google_map">You have not installed Google Maps yet</string>
     <string name="tip_places_around_failed">Failed to get the surrounding address,</string>
     <string name="tip_no_camera_permission">Camera permission is not detected and recording is not possible</string>
-    <string name="default_place_holder">default: %s</string>
     <string name="tip_reboot_for_config">Immediately restart, effective configuration!</string>
     <string name="tip_change_skin_success">Switch skin successfully</string>
     <string name="tip_change_language_success">Switch language successfully!Close down!Restart takes effect!</string>
-    <string name="tip_change_keeplive_success">Switch keeplive successfully!Close down!Restart takes effect!</string>
-    <string name="tip_red_packet_too_much">The number of red packets cannot exceed 100</string>
     <string name="tip_money_too_less">Everyone can receive at least 0.01 yuan!</string>
     <string name="red_packet_receipt_place_holder">Received %d/%d count, Total %s/%s ￥</string>
-    <string name="red_packet_receipt_suffix_all">,already finished!</string>
     <string name="red_packet_receipt_suffix_over">,Expired!</string>
     <string name="red_packet_receipt_suffix_remain">,Unfinished!</string>
     <string name="tip_no_phone_number_get_v_code">Input your phone number to get the code</string>
-    <string name="tip_select_money">Please select the amount of recharge</string>
     <string name="tip_no_wechat">You have not installed the latest version of WeChat, do not support WeChat payment, please install or upgrade WeChat version</string>
-    <string name="tip_not_support">Not open yet</string>
     <string name="msg_shake">[Shake]</string>
     <string name="tip_forwarding_quit">Currently forwarding, is it quit?</string>
     <string name="msg_red_packet">[Red packets]</string>
@@ -999,7 +717,6 @@
     <string name="is_open">Turned on</string>
     <string name="is_close">Closed</string>
     <string name="remove_success">Successfully deleted</string>
-    <string name="remove_failed">Failed to delete</string>
     <string name="group_member">Group member</string>
     <string name="tip_cannot_remove_owner">You can\'t delete the group owner</string>
     <string name="tip_cannot_remove_manager">You cannot delete other administrators</string>
@@ -1015,10 +732,8 @@
     <string name="tip_cannot_remove_bulletin">The group owner or administrator can delete the announcement</string>
     <string name="group_bulletin">Group announcement</string>
     <string name="btn_public">Release</string>
-    <string name="btn_public_bulletin">Announce</string>
     <string name="tip_cannot_public_bulletin">The group owner or administrator can post an announce</string>
     <string name="total_count_place_holder">%d people</string>
-    <string name="tip_confirm_clean_history">Confirm clear chat history with this person?</string>
     <string name="tip_disband">Confirm the dissolution of the current group?</string>
     <string name="tip_exit">Confirm to exit the current group?</string>
     <string name="tip_disable_invite">The group owner has closed the normal member invitation friend function</string>
@@ -1027,32 +742,23 @@
     <string name="tip_be_cancel_manager">You have been canceled by the owner and need to quit the current page and re-enter</string>
     <string name="tip_description_too_long">Cannot exceed 100 characters</string>
     <string name="tip_name_too_long">Cannot exceed 20 characters</string>
-    <string name="edit_success">Successfully to edit</string>
     <string name="edit_failed">Fail to edit</string>
     <string name="tip_cannot_change_avatar">Group owners and managers can edit group head portrait</string>
     <string name="tip_cannot_change_name">Group owners and managers can edit group names</string>
-    <string name="tip_cannot_change_description">Group owners and managers can edit group descriptions</string>
     <string name="prefix_read_time">Reading time:</string>
     <string name="read_list">Read list</string>
-    <string name="tip_cannot_set_manager_self">Cannot specify yourself as an administrator</string>
-    <string name="tip_is_manager">This person is already an administrator</string>
     <string name="tip_status_burn">The current status is burned after reading, and the other party will destroy immediately after reading the message you sent (supporting text, voice, picture, video four message types)。And you can\'t take a screenshot while reading.</string>
     <string name="tip_friend_removed">This friend has been deleted</string>
-    <string name="tip_edit_failed">Fail to edit</string>
     <string name="tip_create_tag_failed_place_holder">Create %s label failed</string>
     <string name="change_remark">Modify the Remark name</string>
     <string name="remark">Remark name</string>
     <string name="tip_input_remark">Input a Remark name</string>
-    <string name="tip_change_remark_failed">Modifying the Remark name failed</string>
-    <string name="tip_file_too_much">Can only select up to 9 files</string>
     <string name="tip_cannot_upload">The group owner has closed the normal member upload file.</string>
     <string name="tip_cannot_remove_file">Your permission cannot operate this file</string>
     <string name="tip_remove_friend_failed">Deleting a friend failed</string>
     <string name="tip_hello_failed">Say hello failed</string>
     <string name="tip_put_black_failed">Add blacklist failed</string>
     <string name="tip_remove_black_failed">Failed to remove blacklist</string>
-    <string name="tip_not_like_public_number">Not paying attention to the service No.</string>
-    <string name="change_remark_failed">Modifying the note name failed</string>
     <string name="creating_qr_code">Generating QR code...</string>
     <string name="tip_saved_qr_code">QR code is being generated and saved to album</string>
     <string name="decode_failed">Decoding failed</string>
@@ -1065,15 +771,7 @@
     <string name="tip_save_gif_failed">Gif graph save failed</string>
     <string name="tip_save_image_success">Image saved successfully</string>
     <string name="tip_save_image_failed">Image save failed</string>
-    <string name="video_normal">Original image</string>
-    <string name="video_ascii">Character painting</string>
     <string name="video_beauty">Skin care</string>
-    <string name="video_yello">Orange</string>
-    <string name="video_gray">Gray</string>
-    <string name="video_vague">Blurry</string>
-    <string name="video_ripple">Ripple</string>
-    <string name="video_exposure">Exposure</string>
-    <string name="video_relief">Cameo</string>
     <string name="tip_no_qq_browser">QQ browser not installed</string>
     <string name="tip_no_uc_browser">UC browser is not installed</string>
     <string name="tip_no_opera_browser">No Oppen browser installed</string>
@@ -1081,7 +779,6 @@
     <string name="save_only_image">Save only image messages</string>
     <string name="save">Save</string>
     <string name="status_read">Read</string>
-    <string name="status_send">Sender</string>
     <string name="tip_invite_voice_meeting">Invite you to join audio meeting</string>
     <string name="tip_invite_video_meeting">Invite you to join video meeting</string>
     <string name="tip_click_to_read">Click and view</string>
@@ -1112,18 +809,8 @@
     <string name="recharge_result">Recharge result</string>
     <string name="recharge_cancel">Recharge cancellation</string>
     <string name="recharge_failed">Recharge failed</string>
-    <string name="tip_receive_image">Received a new picture</string>
-    <string name="tip_receive_voice">Received a new voice</string>
-    <string name="tip_receive_address">Received an address</string>
-    <string name="tip_receive_emoji">Received an animated expression</string>
-    <string name="tip_receive_video">Received a new video</string>
-    <string name="tip_receive_file">Receive new file</string>
-    <string name="tip_receive_card">Received a business card</string>
-    <string name="tip_receive_tip">System information</string>
     <string name="suffix_invite_you_voice">Invite you to a voice call</string>
     <string name="suffix_invite_you_video">Invite you to a video call</string>
-    <string name="tip_other_message">Other news</string>
-    <string name="new_message">New message</string>
     <string name="tip_new_message">You have a new message..</string>
     <string name="tip_kick_room">You were kicked out of the room</string>
     <string name="tip_cannot_multi_select_burn">After burning, the type of burning type message is not allowed to be selected.</string>
@@ -1160,7 +847,6 @@
 
     <string name="intent_wrapper_reason">Continuous operation of the core service</string>
     <string name="intent_wrapper_need">Required</string>
-    <string name="intent_wrapper_need_open">Needs to open</string>
     <string name="intent_wrapper_need_close">Needs to close</string>
     <string name="intent_wrapper_need_allow">Requires permission</string>   
     <string name="intent_wrapper_need_prohibited">Need to be banned</string>
@@ -1199,24 +885,18 @@
     <string name="intent_wrapper_31">Is changed to "Allowed".</string>
     <string name="intent_wrapper_32">Add to the whitelist.</string>
 
-    <string name="live_demo">Live Demo</string>
-    <string name="trill_demo">Trill Demo</string>
     <string name="trill_share">Share</string>
     <string name="av_no_float">You are not currently enabled the floating window permission. You cannot use this function temporarily.</string>
     <string name="av_hand_hang">The other party has finished the call, but it is detected that your current system is Android 5.0, we need to manually hang up.</string>
     <string name="stop">Stop</string>
     <string name="phone_contact">Contact</string>
-    <string name="batch_add">Batch addition</string>
     <string name="add_to">Add</string>
     <string name="added">Already added</string>
-    <string name="add_failed">Add Failed</string>
     <string name="is_invite">Do you invite new contacts to join the mobile contact group?</string>
     <string name="is_create">Whether to create a phone contact group</string>
-    <string name="my_phone_contact_group">My phone contact group</string>
     <string name="is_empty_all_chat">Make sure to clear all chat history</string>
     <string name="find_friend_chat_history_place_holder">Find chat with %s</string>
     <string name="find_room_chat_history_place_holder">Find chat content in %s</string>
-    <string name="record_video">Record video</string>
 
     <string name="btn_change_pay_password">Modify payment password</string>
     <string name="tip_change_pay_password_input_old">Input the payment password to verify the identity.</string>
@@ -1226,7 +906,6 @@
     <string name="title_input_pay_password">Input the payment password.</string>
     <string name="tip_no_user_id">Login exception, please login again.</string>
     <string name="tip_change_pay_password_success">Modify payment password successfully</string>
-    <string name="tip_change_pay_password_failed">Payment password modification failed, internal exception</string>
     <string name="tip_wrong_pay_password">The password is wrong</string>
     <string name="tip_no_pay_password">Please set the payment password first.</string>
     <string name="new_contact">Latest contact</string>
@@ -1236,7 +915,6 @@
     <string name="btn_no_auth_code">Unable to get the verification code?</string>
     <string name="send_course_wait">Please wait for the completion of the previous course to send this course.</string>
     <string name="added_black">Blacklist has been added.</string>
-    <string name="select_meeting_type">Select meeting type</string>
     <string name="chat_video_conference">Video meeting</string>
     <string name="must_select_avatar_can_register">You must Choose your Avatar before registering.</string>
     <string name="btn_set_pay_password">Set payment password</string>
@@ -1248,7 +926,6 @@
     <string name="msg_link">[Link]</string>
     <string name="download_error">Download failed</string>
 
-    <string name="tip_shut_all">The group has opened all banned speak</string>
     <string name="tip_server_error">Internal Server Error</string>
 
     <string name="sure_add_friend_blacklist">Make sure to add this friend to the blacklist?</string>
@@ -1256,7 +933,6 @@
     <string name="sure_delete_friend">>Make sure to delete friend?</string>
     <string name="sure_remove_member_for_group">Make sure to %s move out of the group?</string>
     <string name="sure_exit_account">No historical data will be deleted after exiting,\n you can still use this account for the next login.</string>
-    <string name="password_error">Password Error</string>
     <string name="apply_to_add_me_as_a_friend">Apply to add me as a friend</string>
     <string name="agree_with_my_plus_friend_request">Agree with my add friend request</string>
     <string name="added_me_as_a_friend">Added me as a friend</string>
@@ -1270,32 +946,12 @@
     <string name="select_county_area">Select a country / regions</string>
     <string name="tip_get_config_failed">The connection server failed. Please try again later.</string>
 
-    <string name="msg_word">[Text]</string>
     <string name="no_executable_intent">Non executable jump</string>
     <string name="title_replay_place_holder">Quick reply: %s</string>
-    <string name="hint_replay">Content</string>
     <string name="tip_replay_empty">Reply content can not be empty.</string>
 
-    <string name="skin_light_green">Light Green</string>
-    <string name="skin_sea_blue">Sea Blue</string>
-    <string name="skin_elegant_black">Elegant Black</string>
-    <string name="skin_chinese_red">Chinese Red</string>
-    <string name="skin_viridian_green">Viridian Green</string>
-    <string name="skin_perceptual_pink">Perceptual Pink</string>
-    <string name="skin_amber_yellow">Amber Yellow</string>
-    <string name="skin_light_coffe">Light Coffee</string>
-    <string name="skin_powder_azure">Powder Azure</string>
-    <string name="skin_leaf_green">Leaf Green</string>
-    <string name="skin_business_blue">Business Blue</string>
-    <string name="skin_blue_gray">Blue Gray</string>
-    <string name="skin_burnt_umber">Burnt Umber</string>
-    <string name="skin_orange">Orange</string>
-    <string name="skin_new">New Skin</string>
-
-    <string name="square">Square</string>
     <string name="life_circle">Social</string>
     <string name="live_chat">Live</string>
-    <string name="douyin">Video</string>
 
     <string name="is_send_ing">Sending&#8230;</string>
     <string name="is_send_ok">Has been sent</string>
@@ -1318,19 +974,10 @@
     <string name="original_image">Original image</string>
     <string name="search_contact_group">Find friends / groups</string>
 
-    <string name="me_tab_friend">Friends</string>
-    <string name="tip_me_query_friend_failed">Failed to get friend number</string>
-    <string name="tip_me_query_group_failed">Failed to get number of groups</string>
     <string name="send_image_text">Send Image Text</string>
-    <string name="skin_classy_gray">Texture grey</string>
 
-    <string name="tip_live_locking">Your live room has been locked, please contact customer service to unlock</string>
     <string name="remove_member_notify">Group downsizing notice</string>
     <string name="tip_exit_group_notify">After closing, when the members in the group are kicked out of the group or actively retired, no notification will be made in the group.</string>
-    <string name="example_title">Title</string>
-    <string name="tip_no_login_permission">No login authority</string>
-    <string name="tip_no_share_permission">No sharing rights</string>
-    <string name="tip_incomplete_information">The information is incomplete. Please check whether the nickname is empty</string>
 
     <string name="text_comment_num">Article comment</string>
     <string name="text_no_comment">Without comment, grab the sofa</string>
@@ -1341,9 +988,7 @@
     <string name="hint_search_public_number">Enter the service No.</string>
     <string name="delete_public_number">Remove concerns</string>
     <string name="ask_delete_public_number">Do you cancel your attention?</string>
-    <string name="tip_delete_public_number_success">Cancel concerns and succeed</string>
     <string name="has_delete_public_number_place_holder">Attention has been cancelled: %s</string>
-    <string name="tip_get_friends_failed">Failed to load friend list list</string>
 
     <string name="hint_invisible">Invisible Man Can\'t Speak</string>
     <string name="tip_set_invisible_place_holder">%s set %s as invisible man</string>
@@ -1351,9 +996,7 @@
     <string name="tip_set_guardian_place_holder">%s set %s as monitor</string>
     <string name="tip_cancel_guardian_place_holder">%s cancel the monitor of %s</string>
     <string name="set_invisible">Designated invisible man</string>
-    <string name="cancel_invisible">Cancel invisible man</string>
     <string name="set_guardian">Designated monitor</string>
-    <string name="cancel_guardian">Cancel monitor</string>
     <string name="tip_set_invisible_success">Designated invisible man success</string>
     <string name="tip_set_guardian_success">Designated monitor success</string>
     <string name="tip_cancel_invisible_success">Cancel invisible man success</string>
@@ -1386,7 +1029,6 @@
     <string name="modified">Modified</string>
 
     <string name="compre_failure">Compre Failure</string>
-    <string name="compre_success">Compre Success</string>
     <string name="flatten_failure">Flatten failure</string>
 
     <!--Very slow-->
@@ -1398,8 +1040,6 @@
     <string name="record_frist_video">Please go to record video first.</string>
 
     <string name="message_channel_name">Message</string>
-    <string name="tip_opposite_offline_end_call">Abnormal disconnection of the other party, whether to end the call</string>
-    <string name="tip_query_file_error_place_holder">The query file failed. %s</string>
     <string name="tip_query_audio_video_error_place_holder">Failed to query audio and video. %s</string>
     <string name="tip_query_image_error_place_holder">Query picture failed.%s</string>
     <string name="tip_query_document_error_place_holder">Failed to query the document. %s</string>
@@ -1428,17 +1068,13 @@
     <string name="tip_no_more">No more</string>
     <string name="tip_load_more">Click to load more</string>
     <string name="tip_comment_load_error">Comment list failed to load</string>
-    <string name="tip_friend_account_removed_place_holder">%s account has been deleted</string>
     <string name="tip_group_disable_by_service">The group has been locked in the background</string>
     <string name="tip_group_manager_close_conference_features">Group Master has closed the ordinary member initiating meeting function</string>
     <string name="member_limit">Maximum number of people</string>
 
     <string name="chat_camera_record">Shot</string>
-    <string name="me_title">Personal Center</string>
     <string name="square_title_first">Hot application</string>
     <string name="tip_more_action">Waiting for more app.</string>
-    <string name="square_title_second">Wonderful activities</string>
-    <string name="tip_public_number_list_failed">Failed to obtain service No. list</string>
     <string name="hot_public_number">Hot service No.</string>
 
     <string name="tip_alipay_failed">Startup Alipay failed</string>
@@ -1453,11 +1089,9 @@
 
     <string name="test_listen_voice">Audition</string>
     <string name="open_auto_launcher">\n Detection of the current mobile phone is OPPO mobile phone. If the background runs and receives audio and video calls, the user interface will not automatically pop up. The application can be self-started in the "Cell Phone Housekeeper-Privacy-Self-Start Management".</string>
-    <string name="tip_handing_up">Hanging up</string>
     <string name="system_notification_user_name">System Tips</string>
     <string name="tip_opposite_offline_auto__end_call">The other party is abnormally disconnected, the call ends</string>
     <string name="tip_share_type_not_supported">Unsupported sharing type</string>
-    <string name="name_third_tool">Third-Party tools</string>
     <string name="tip_file_cache_failed">File open failed</string>
     <string name="send_to_life_circle">Send to social circle</string>
     <string name="tip_confirm_send">Are you sure you want to send a collection message?</string>
@@ -1516,9 +1150,6 @@
     <string name="receipt_payment">Collection and payment</string>
     <string name="rp_payment">Payment</string>
     <string name="rp_payment_tip1">Click to view the payment code number</string>
-    <string name="rp_payment_tip2">The payment code number is only used to show the cashier when paying, please do not send it to others to prevent fraud.</string>
-    <string name="rp_payment_tip3">Know</string>
-    <string name="rp_payment_tip4">The payment code number is only used to show the cashier when paying, please do not disclose it to prevent fraud</string>
     <string name="rp_receipt">QR code collection</string>
     <string name="rp_receipt2">Receipt</string>
     <string name="rp_receipt_tip1">No need to add friends, scan the QR code to pay me</string>
@@ -1526,7 +1157,6 @@
     <string name="rp_receipt_tip3">clear amount</string>
     <string name="rp_receipt_tip4">Save the receipt code</string>
     <string name="success">Success</string>
-    <string name="qr_code_synthesis_fail">Receipt code synthesis failed</string>
     <string name="receipt_money_num">Receiving amount</string>
     <string name="receipt_add_desc">Add money instructions</string>
     <string name="receipt_pay_single">Payment to individual</string>
@@ -1558,8 +1188,6 @@
     <string name="dialog_go">Bound to bind</string>
 
     <string name="video_filter">Filter</string>
-    <string name="tv_whiten">Whiten</string>
-    <string name="tv_skin">Exfoliating</string>
     <!--shake-->
 
     <string name="please_input_nicname">Input the note name</string>
@@ -1592,7 +1220,6 @@
     <string name="transfer_back">Transfer Return</string>
     <string name="keep_reconnection">Is Reconnecting...</string>
     <string name="transfer_friend_sure_save">Friends have confirmed the receipt of money</string>
-    <string name="bind_phone_number">Bind mobile number</string>
     <string name="back_last_page">Return to the previous page</string>
     <string name="open_im">Open %s</string>
     <string name="added_notice_friend">Added the public number</string>
@@ -1608,27 +1235,6 @@
     <string name="hint_search_room">Input the group name</string>
     <string name="string_install_unknow_apk_note">requires permission to install unknown source applications</string>
 
-    <array name="filter_effect">
-        <item>none</item>
-        <item>amaro</item>
-        <item>anitque</item>
-        <item>cat</item>
-        <item>gray</item>
-        <item>warm</item>
-        <item>calm</item>
-        <item>cool</item>
-        <item>emerald</item>
-        <item>chilly</item>
-        <item>healthy</item>
-        <item>hefe</item>
-        <item>lomo</item>
-        <item>cozy</item>
-        <item>sakura</item>
-        <item>sketch</item>
-        <item>sunset</item>
-    </array>
-
-    <string name="screening_condit">Screening</string>
     <string name="switch_account_way">Switching Authentication Mode</string>
     <string name="transfer_record">Transfer Record</string>
     <string name="sava_video">Save video</string>
@@ -1646,7 +1252,6 @@
     <string name="start_edit">Edit</string>
 
     <string name="filter_none">Original</string>
-    <string name="filter_antique">Antique</string>
     <string name="filter_emerald">Emerald</string>
     <string name="filter_healthy">Healthy</string>
     <string name="filter_nostalgia">Nostalgia</string>
@@ -1665,9 +1270,6 @@
     <string name="base_info">Person Information</string>
     <string name="jx_add_friend">Add friend</string>
     <string name="to_blacklist">The guy added you to the blacklist</string>
-    <string name="live_vc_barrage">Open loudspeakers, 1 diamond/article</string>
-    <string name="live_vc_chatplaceholder">And you say something</string>
-    <string name="sending">Sending</string>
     <string name="emoji_vc_emoji">Emoji</string>
     <string name="emoji_vc_anma">Animation</string>
     <string name="create_rooms">Create Group</string>
@@ -1685,12 +1287,7 @@
     <string name="cancel_top">Cancel top</string>
     <string name="sip_noanswer">No answer</string>
     <string name="finished">Finished</string>
-    <string name="recharge_more">Amount must be between $0.01 and $500</string>
-    <string name="stop_live">Stop live</string>
-    <string name="failed_identity">Failed to obtain identity information</string>
-    <string name="livevc_already_kick_out_room">You have been Kicked out by the administrator</string>
     <string name="room_member_vc_cancel_administrator_success">Cancel the administrator Successfully</string>
-    <string name="as_admimistrato">I have been set up as an Administrator</string>
     <string name="room_member_vc_set_administrator_success">Designated administrator successful</string>
     <string name="my_filevc_selfile">Select File</string>
     <string name="selecting">Selected</string>
@@ -1699,30 +1296,16 @@
     <string name="file">File</string>
     <string name="video_audio">Video</string>
     <string name="no_data_now">No data at the moment</string>
-    <string name="kicked_not_in">You were kicked out of the live room, and you will not be able to join the live broadcast on this live broadcast</string>
-    <string name="delete_successfully">Delete Successfully</string>
     <string name="red_envelope">Lucky</string>
     <string name="usual_gift">General</string>
     <string name="mes_gift">Password packets</string>
-    <string name="number_of_envelopes">Number of packets</string>
-    <string name="total_amount">Total Amount</string>
     <string name="input_amount">Input amount</string>
     <string name="yuan">￥</string>
-    <string name="same_amount">Small partners receive the same amount</string>
-    <string name="gift_text">Congratulation, everything goes well</string>
-    <string name="live">Live</string>
-    <string name="live_createexist_room">You have already created the studio, whether to enter?</string>
-    <string name="all_live">All Live</string>
-    <string name="all_liveing">Living</string>
     <string name="msg_view_controller_going_off">Message (Connecting)</string>
     <string name="msg_view_controller_online">Message (Online)</string>
     <string name="msg_view_controller_off_line">Message (Offline)</string>
     <string name="search_chatlog">Search Chat History</string>
-    <string name="rondom_amount">Buddy receive a random amount</string>
     <string name="message_not_disturb">Message Free</string>
-    <string name="big_envelope">Such as the boss sends a big red packets</string>
-    <string name="reply_grab">Small partners need to reply password grab red packets</string>
-    <string name="action">Attention</string>
     <string name="my_qrimage">My QR Code</string>
     <string name="nick_name_two">Nickname</string>
     <string name="address">Address</string>
@@ -1739,7 +1322,6 @@
     <string name="upload_successful">Upload file successfully</string>
     <string name="enter_pinlunt">Enter comment content</string>
     <string name="ban_comment">Prohibit comments</string>
-    <string name="live_vc_gagtobarrage">You have been banned, please send the barrage</string>
     <string name="send_now">Sending</string>
     <string name="mainviewcontroller_message">Message</string>
     <string name="weibodata_perzan2">Altogether</string>
@@ -1747,21 +1329,12 @@
     <string name="select_group_members">Select group member</string>
     <string name="multiselect">Multiselect</string>
     <string name="need_a_course">You need to select a course</string>
-    <string name="live_vc_setgag">Gagging</string>
-    <string name="live_gag_cancel">Cancel banned speak</string>
-    <string name="live_kick_success">Kick out successfully</string>
-    <string name="live_kick">Kick out</string>
-    <string name="fail">Failed</string>
     <string name="article">Articles</string>
     <string name="new_firend">New Friend</string>
-    <string name="group_admin">administrator</string>
     <string name="group_role_normal">Member</string>
-    <string name="alert_delete_ok">Delete Successfully</string>
-    <string name="live_inliving">Living</string>
     <string name="link">Link</string>
     <string name="graphic">Image Text</string>
     <string name="other_withdraw">Withdrew a message</string>
-    <string name="also_adminnistor">He is also an administrator. Oh, you not have permission to operate on him</string>
     <string name="Msg_View_Controller_Start_Chat">You have become friends,Start talking</string>
     <string name="voice">Audio</string>
     <string name="my_location">Location</string>
@@ -1776,7 +1349,6 @@
     <string name="update_roomname">Modify Group Name</string>
     <string name="update_explain">Modify Description</string>
     <string name="update_nick_name">Modify nickname</string>
-    <string name="ask_call_wait">Waiting to receive the invitation...</string>
     <string name="setting_logout">Logout</string>
     <string name="search_user_oneday">Nearly one day</string>
     <string name="search_user_two_day">Nearly two days</string>
@@ -1788,12 +1360,8 @@
     <string name="search_user_two_month">Nearly two months</string>
     <string name="Usual_Gift">General packets</string>
     <string name="input_gift_count">Enter amount of packets</string>
-    <string name="want_open_gift">Enter password to open packets</string>
     <string name="message_red">Password:</string>
-    <string name="recharge_money_count">Amount must be between $0.01 and $500</string>
-    <string name="not_enough">Insufficient balance,Please recharge</string>
     <string name="weibo_cell_all_text">full text</string>
-    <string name="weibo_cell_stop">Stop</string>
     <string name="collection_success">Collection Success</string>
     <string name="add_msg_mind">The idea of this moment...</string>
     <string name="add_file">Please add file</string>
@@ -1819,9 +1387,6 @@
     <string name="entering">Entering...</string>
     <string name="online">OnLine</string>
     <string name="chat_timeless">The recording time is too short</string>
-    <string name="live_inputroomname">Input name of live room</string>
-    <string name="live_inputroomnotice">Input the notice of the live room</string>
-    <string name="live_start_live">Start Live</string>
     <string name="modify_name">Modify Name</string>
     <string name="all_course_complete">All courseware download is complete</string>
     <string name="coursename">Course name</string>
@@ -1860,14 +1425,7 @@
     <string name="message_file_upload">Uploaded a file</string>
     <string name="meeting">Audio meeting</string>
     <string name="new_friend_chat">Join your new buddies,Start chatting</string>
-    <string name="delete_group_room">Delete Group</string>
-    <string name="image_failed">Download image failed!</string>
-    <string name="Password_Filed">Password not match</string>
-    <string name="exited_live_room">Exited the Live Room</string>
-    <string name="live_kicklive">Being kicked out of the live room</string>
-    <string name="message_object_cancel_gag">Canceled banned speak</string>
     <string name="cannot_forwarded">Messages for burn type cannot be forwarded</string>
-    <string name="stop_recording">Save Courseware</string>
     <string name="input_course_name">Input course name</string>
     <string name="With_draw">Withdraw</string>
     <string name="draft">[Draft]</string>
@@ -1875,8 +1433,6 @@
     <string name="image_is_null">Picture content is empty!</string>
     <string name="map">Map</string>
     <string name="new_comment_and_praise"><![CDATA[Latest Comments & Likes]]></string>
-    <string name="connected">Sip is connected</string>
-    <string name="break_off">Disconnect</string>
     <string name="black_list_all">Blacklist list</string>
     <string name="new_room_creat_room">Create new group</string>
     <string name="local_map">Location Information</string>
@@ -1889,7 +1445,6 @@
     <string name="the_number_format_is_incorrect">The number format is incorrect</string>
     <string name="s_search_designation_content">Search for specified content</string>
     <string name="s_date">Date</string>
-    <string name="s_image_video">Images and Videos</string>
     <string name="s_image">Image</string>
     <string name="s_video">Video</string>
     <string name="s_file">File</string>
@@ -1898,11 +1453,8 @@
     <string name="s_music">Music</string>
     <string name="please_input_account">Input account</string>
     <string name="please_input_account_and_password">Input your account number and password</string>
-    <string name="title_set_device_lock_password">Set device lock password</string>
-    <string name="tip_device_password_empty">Password can not be blank</string>
     <string name="unlock">Unlock</string>
     <string name="tip_device_lock_password_incorrect">wrong password</string>
-    <string name="tip_input_device_lock">Input the device lock password</string>
     <string name="tip_change_device_lock_password_input_old">Input the device lock password to verify identity</string>
     <string name="set_device_lock_password">Set device lock password</string>
     <string name="tip_change_device_lock_password_input_new">Please set the device lock password for device verification</string>
@@ -1917,7 +1469,6 @@
     <string name="tip_red_packet_too_slow">At least one red packets</string>
     <string name="reply_red_thank">Thank you for replying with a sentence!</string>
     <string name="input_most_length">Enter up to %d characters</string>
-    <string name="sk_account_exist">Current account already exists</string>
     <string name="send_contacts">Contact</string>
     <string name="replay_button">Reply</string>
     <string name="replay_label">Reply</string>
@@ -1942,7 +1493,6 @@
     <string name="sync_group">Sync group</string>
     <string name="sync_chat_history_clean">Clear the chat history of both parties</string>
     <string name="tip_sync_chat_history_clean">Confirm to clear the chat history with this person (the chat history on the other device will also be cleared)?</string>
-    <string name="tip_sync_chat_history_clean_to">The other party performed the operation of clearing the chat record in both directions.</string>
     <string name="tip_no_local_browser">Local browser failed to open</string>
     <string name="group_assistant">Group assistant</string>
     <string name="group_assistant_not_open_by_owner">The group owner has not yet opened the group assistant function.</string>
@@ -1962,7 +1512,6 @@
     <string name="pay_method">Payment method</string>
     <string name="change_payment">Change payment</string>
     <string name="pay">%s payment</string>
-    <string name="tip_privacy">By registering you agree to the Privacy Policy and Terms of Service.</string>
     <string name="tip_privacy_not_agree">Please agree to the user agreement</string>
     <string name="tip_splash_permission_explain">Please allow the app to get the following permissions 1. Photo rights are used for shooting functions 2. Recording permission is used to send voice 3. Mobile phone status permission, only apply for the status of the device, does not involve monitoring the call history. 4. Storage permissions for saving files</string>
     <string name="tip_permission_header">Please allow the app to get the following permissions</string>
@@ -1978,7 +1527,6 @@
     <string name="tip_invite_talk_meeting">Invite you to walkie-talkie</string>
     <string name="name_talk">Walkie talkie</string>
     <string name="tip_talk_free">Interphone idle</string>
-    <string name="title_talk_online_list">Conversation staff</string>
     <string name="tip_talk_press_in">Hold and talk</string>
     <string name="tip_talk_connecting">Connecting</string>
     <string name="label_last_request_talk_time">Last grab wheat:</string>
@@ -1996,7 +1544,6 @@
     <string name="btn_select_chat">Select chat history</string>
     <string name="select_chat_history">Select chat history</string>
     <string name="migrate_chat_count_place_holder">Number of migrations: %d chats</string>
-    <string name="cancel_all">Cancel all selection</string>
     <string name="send_chat_history">Chat history migration</string>
     <string name="tip_migrate_chat_history_scan">Please use another device to login to this account and scan the QR code.</string>
     <string name="tip_migrate_chat_history_failed">Failed to export chat history, please check the network</string>
@@ -2006,14 +1553,9 @@
     <string name="tip_receive_chat_history_failed">Import chat history failed</string>
     <string name="tip_migrate_chat_history_wrong_user">Please log in to the same account to migrate chat history</string>
     <string name="tip_web_login_success">Login successful</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="tip_group_owner_update_msg_auto_destroy_time">The group owner sets the group message expiration destruction time to %s</string>
     <string name="tip_notification_open_url_failed">Failed to open page</string>
-    <string name="skin_minimalism_red">Minimalist red</string>
     <string name="tip_location_xy_null">Longitude and latitude is empty</string>
-    <string name="skin_minimalism_green">Minimal green</string>
-    <string name="skin_minimalism_blue">Minimalist blue</string>
-    <string name="skin_minimalism_pink">Minimalist powder</string>
     <string name="replay_infix_comment">Reply</string>
     <string name="please_open_address_per">Please open contacts per</string>
     <string name="tip_new_contact_not_support_add">New contact not support batch added</string>
@@ -2029,19 +1571,12 @@
     <string name="unread">Unread</string>
     <string name="sure_cancel_collection">Are you sure you want to cancel the collection?</string>
     <string name="all_video">All videos</string>
-    <string name="image_and_video">Image and Video</string>
     <string name="auspicious">Everything Comes To Mind</string>
-    <string name="chat_red_new">Red packets</string>
-    <string name="message_red_new">Word</string>
-    <string name="redemption_of_red_envelope">Redemption of red packets</string>
     <string name="skin_qian_dou_green">Light bean green</string>
     <string name="skin_Qing_Shui_blue">Clear water blue</string>
     <string name="skin_Shan_Hu_Hong">Coral Red</string>
     <string name="skin_Liu_Xia_Fen">Liuxia powder</string>
     <string name="skin_Dan_Gu_green">DanGuLv</string>
-    <string name="skin_Shen_sui_blue">ShenSuiLan</string>
-    <string name="skin_Shang_Wu_lv">ShangWuLv</string>
-    <string name="skin_Chen_wen_Hui">ChenWenHui</string>
 
     <string name="select_skin">To choose the color that matches your eye</string>
     <string name="my_phone_number">My Phone Number</string>
@@ -2055,7 +1590,6 @@
     <string name="bill">Transaction History</string>
     <string name="payment_center">Pay center</string>
     <string name="not_allow">Remove %s</string>
-    <string name="people_look">%d</string>
     <string name="label_select_recharge_type">Select the recharge method</string>
     <string name="label_total">Total:</string>
     <string name="tip_action_disallow_place_holder">%s does not allow this operation</string>
@@ -2087,27 +1621,18 @@
     <string name="select_room">Select group chat</string>
     <string name="select_colleague">Choose colleagues</string>
     <string name="room_count_place_holder">Number of group chats (%d)</string>
-    <string name="select_room_count_place_holder">%d groups</string>
-    <string name="select_colleague_count_place_holder">%d colleagues</string>
     <string name="tip_message_length_limit">The number of words has reached the upper limit</string>
     <string name="post_delete_tv_d">Drag here to delete</string>
     <string name="post_delete_tv_s">Release your finger and delete it</string>
     <string name="employee_detail">Employee details</string>
     <string name="jiao_yi_c_g">Transaction success</string>
     <string name="jiao_yi_s_b">Transaction failed</string>
-    <string name="live_end">Live has ended</string>
 
     <string name="reset_pay_password">Reset payment password</string>
     <string name="tip_enable_payment_qr_code">Open payment code</string>
-    <string name="get_gift_list_failed">Failed to get the gift list</string>
     <string name="new_company">Create a company</string>
-    <string name="label_live_send_message">Say something&#8230;</string>
-    <string name="main_page_ta">Homepage</string>
-    <string name="end_live">End live</string>
-    <string name="live_set_manager">set as administrator</string>
 
     <string name="tip_edit_max_input_length">Enter a maximum of %d characters</string>
-    <string name="play_voice_speaker_auto_switch">The speaker handset automatically switches when playing voice</string>
     <string name="edit_group_notice">Edited the group announcement:</string>
     <string name="group_notice_hint">Fill in the announcement, 1~600 words</string>
     <string name="web_login_success">Web login confirm</string>
@@ -2121,7 +1646,6 @@
     <string name="title_activity_payment_new_ui">PaymentNewUIActivity</string>
     <string name="payment_pay">payment code</string>
     <string name="receipt">receipt code</string>
-    <string name="scan">scan code payment</string>
     <string name="leave_select_image_or_edit_text">Select at least one picture or enter text</string>
     <string name="digits_money_edit">0123456789.</string>
     <string name="record_course">Recording Courseware</string>
@@ -2154,11 +1678,8 @@
     <string name="live_circle_privacy_settings">Set social circle permissions</string>
     <string name="red_packet_receipt_suffix_got">, received!</string>
     <string name="tip_auth_login_failed">Authorized login failed</string>
-    <string name="tip_broken_private_key">Private key error</string>
-    <string name="tip_confirm_clean_history_group">Confirm to clear the chat history of this group</string>
     <string name="tip_login_secure_place_holder">Login error: %s</string>
     <string name="tip_need_auth_login">Confirm login on the old device</string>
-    <string name="tip_pay_secure">Payment security error</string>
     <string name="tip_pay_secure_place_holder">Payment error: %s</string>
     <string name="remove_some_group"> has filtered out the banned group, prohibiting group messages for other reasons such as invisible man</string>
     <string name="tip_long_click_record">long press camera</string>
@@ -2181,7 +1702,6 @@
     <string name="video_filter_effect_sobel">Sobel</string>
     <string name="video_filter_effect_sketch">Sketch</string>
     <string name="suffix_fold_text"> Collapse the full text</string>
-    <string name="tip_get_gift_list_failed">Unfinished gift list</string>
     <string name="error">Error</string>
     <string name="tip_permission_settings_page_not_found">Unable to jump to the permission settings page, please set it manually or give us feedback</string>
     <string name="tip_record_too_short">The recording time is too short</string>
@@ -2213,12 +1733,9 @@
     <string name="tip_photo_filter_not_supported">Photograph does not support filters</string>
     <string name="tip_bind_server_failed">Binding WeChat failed</string>
     <string name="tip_bind_server_success">Bind WeChat successfully</string>
-    <string name="suffix_live_room_locked"> The live room has been locked</string>
-    <string name="suffix_join_live_room">Entered the live room</string>
     <string name="keep_live_title">IM core</string>
     <string name="keep_live_description">Process daemon</string>
 
-    <string name="please_wait_for_grow_keys">Generating a communication key pair, please wait&#8230;</string>
     <string name="input_password_to_decrypt_keys">Input the login password to decrypt the communication key</string>
     <string name="msg_transmission_type">Message transmission method</string>
     <string name="msg_transmission_public">Message plaintext transmission</string>
@@ -2240,14 +1757,10 @@
     <string name="tip_group_more_wait_long">The current group is too many people, please wait&#8230;</string>
     <string name="request_chat_key_group">[Request Group Communication Key]</string>
     <string name="request_chat_key_group_thumb">Request communication key</string>
-    <string name="self_cannot_send_chat_key_to_self">You cannot send yourself a communication key</string>
     <string name="send_key">Send key</string>
     <string name="wait_member_send_key">Wait member send key</string>
     <string name="send_key_request"> Send get group communication key request</string>
 
-    <string name="doubango_revision" translatable="false"> 1231 </string>
-    <string name="spinner_pcscf_discovery" translatable="false"> Select PCSCF discovery mode </string>
-    <string name="copyright" formatted="false" translatable="false"> </string>
     <string name="tip_wait_voice">Waiting for voice answer&#8230;</string>
     <string name="tip_wait_video">Waiting for video answer&#8230;</string>
     <string name="praise_list">Like list </string>
@@ -2276,7 +1789,6 @@
     <string name="search_position">Search for locations</string>
     <string name="screen_call">Screen sharing</string>
     <string name="suffix_invite_you_screen">Invite you screen sharing</string>
-    <string name="tip_wait_screen">Waiting for screen sharing answer....</string>
     <string name="tip_invite_screen_meeting">Invited you to join screen sharing</string>
     <string name="my_yeepay">My Cloud Wallet</string>
     <string name="yeepay_bind">Bind bank card</string>
@@ -2293,7 +1805,6 @@
     <string name="arrival_tomorrow">Acquired the next day. Rate = 1 + 0.6%</string>
     <string name="tip_yeepay_withdraw_charge">The fee is deducted from the balance</string>
     <string name="bank_card">Bank card</string>
-    <string name="yeepay_record_type_5">Send a one-to-one red packets</string>
     <array name="yeepay_record_type">
         <item>Recharge</item>
         <item>Withdrawal</item>
@@ -2326,7 +1837,6 @@
     <string name="msg_open_secure_chat_ready">Private chat with end-to-end encryption on messages</string>
     <string name="parse_exception">Parse exception</string>
     <string name="is_loading"> Loading ... </string>
-    <string name="tip_meet_background_place_holder">%s, tap to continue.</string>
     <string name="scan_recharge">Scan recharge</string>
     <string name="band_transfer">Bank transfer</string>
     <string name="get_money_code">Receipt QR Code</string>
@@ -2375,7 +1885,6 @@
     <string name="scan_recharge_state">Transaction status:</string>
     <string name="scan_fail_reason">Failure reason:</string>
     <string name="back_withdraw">Review withdrawal</string>
-    <string name="example_total_money" translatable="false">666</string>
     <string name="rmb_symbol" translatable="false">￥</string>
     <string name="already_pay_ask">Payment completed or not</string>
     <string name="already_pay">Paid</string>
@@ -2385,7 +1894,6 @@
     <string name="bill_total_money">Expenditure  ￥%s  Income ￥%s</string>
     <string name="sip_refused">Rejected</string>
     <string name="sip_remote_refused">The other party has rejected</string>
-    <string name="tip_live_room_online">Other devices are living</string>
     <string name="tip_not_set_download">The new version download address is not configured in the background</string>
     <string name="new_device_login_sure">New device login confirm</string>
     <string name="tip_red_packet_than_account">The number of red packets cannot exceed the maximum limit</string>
@@ -2393,7 +1901,6 @@
     <string name="tip_confirm_clean_history_group2">This operation will clear the chat history of the group. At the same time, the previous messages of the group will not be obtained by roaming. Confirm to clear?</string>
     <string name="clean_chat_history_server">Sure clear local and server chat history?</string>
     <string name="is_live_click_to">%s Living, click to enter</string>
-    <string name="admin_close_live">%s closed live room</string>
     <string name="tip_set_remark">Set Notes</string>
     <string name="no_data0">How to use:</string>
     <string name="no_data1">1. Open any chat window in the chat message interface</string>
@@ -2407,24 +1914,13 @@
     <string name="type_dice">[Dice]</string>
     <string name="tip_start_group_live">Start group broadcast</string>
     <string name="tip_end_group_live">End group broadcast</string>
-    <string name="title_audio_meet_1_place_holder">%s initiated voice conference</string>
-    <string name="title_audio_meet_2_place_holder">Sponsor：%s</string>
-    <string name="tip_audio_meet_add_member_place_holder">%s joined</string>
-    <string name="tip_audio_meet_del_member_place_holder">%s left</string>
     <string name="tip_audio_meet_end">Voice conference ended</string>
     <string name="tip_video_meet_end">Video conference has ended</string>
-    <string name="tip_audio_meet_connecting">Connecting</string>
-    <string name="tip_audio_meet_line_out">Bad signal from the other party</string>
-    <string name="tip_audio_meet_speakerphone">Switch to speaker</string>
-    <string name="tip_audio_meet_ear">Switch to handset</string>
-    <string name="tip_audio_meet_muted">Muted</string>
-    <string name="tip_audio_meet_unmuted">UnMuted</string>
     <string name="red_random">Random red packets</string>
     <string name="hint_fixed_red_packet">Little partners receive the amount in the specified order</string>
     <string name="tip_red_packet_no_equal">The total amount of subcontracting is not equal to the total amount of red packets</string>
     <string name="tip_red_packet_no_equal2">Subcontracting amount cannot be empty</string>
     <string name="tip_red_packet_no_equal3">Subcontracting amount cannot be 0</string>
-    <string name="web">Home</string>
     <string name="record_overtime">TimeOut</string>
     <string name="cannot_back_group_owner_msg">Cannot withdraw messages from the owner</string>
     <string name="band_phone_start">Please go to the settings to bind mobile phone number first</string>
@@ -2438,9 +1934,7 @@
     <string name="tip_owner_disable_live">The owner has turned off the allow live broadcast function within the group members</string>
     <string name="type_rps">[Rock-paper-scissors]</string>
     <string name="tip_server_config_apiurl_error">Server apiUrl configuration error</string>
-    <string name="tip_live_url_empty">Broadcast address is empty</string>
     <string name="red_place_holder">，%s was receipted</string>
-    <string name="not_same_input_sms">The phone number entered is not the same as the phone number used to obtain the verification code</string>
     <string name="exist_in_group">%a already in a group</string>
     <string name="wait_file_upload_success">Please wait for the file to be uploaded successfully</string>
     <string name="add_phone_contacts">Add phone contacts</string>

@@ -12,9 +12,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <RelativeLayout
-            android:id="@+id/birthday_rl"
-            style="@style/IMTbleLine_UP">
+        <RelativeLayout style="@style/IMTbleLine_UP">
 
             <TextView
                 android:id="@+id/birthday_text"
@@ -102,7 +100,6 @@
                 android:text="@string/now_location" />
 
             <TextView
-                android:id="@+id/look_location_tvs"
                 style="@style/IMTbleLine_TextValue"
                 android:layout_toLeftOf="@+id/look_location_imgs"
                 android:layout_toRightOf="@+id/look_location_tv" />

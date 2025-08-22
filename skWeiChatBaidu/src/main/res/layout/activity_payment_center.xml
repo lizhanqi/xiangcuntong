@@ -89,7 +89,6 @@
             android:textSize="@dimen/one_level_title" />
 
         <TextView
-            android:id="@+id/reset_password_tv"
             style="@style/IMTbleLine_TextValue"
             android:layout_toLeftOf="@+id/reset_password_arrow_img"
             android:layout_toRightOf="@+id/reset_password_text"

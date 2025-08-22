@@ -85,7 +85,6 @@
                     style="@style/IMTble_No_Line">
 
                     <TextView
-                        android:id="@+id/tv_backup_chat"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
@@ -297,7 +296,6 @@
                     style="@style/IMTble_No_Line">
 
                     <TextView
-                        android:id="@+id/secureSetting_text"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
