@@ -85,7 +85,7 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning"
-        tools:replace="android:name, android:icon, android:roundIcon">
+        tools:replace="android:name, android:icon, android:roundIcon,android:allowBackup">
         <activity android:name=".ui.tool.WebGameActivity"/>
         <activity android:name=".call.game.GameActivity" />
         <activity android:name=".ui.me.OfficialActivity" />
