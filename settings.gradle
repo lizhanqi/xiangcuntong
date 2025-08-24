@@ -1,3 +1,4 @@
+include ':mobileAuthLib'
 rootProject.name="乡村通"
 include ':meeting'
 include ':pullToRefershLibraryMy', ':swiperecyclerview'

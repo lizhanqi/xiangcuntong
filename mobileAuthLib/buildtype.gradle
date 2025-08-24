@@ -1,0 +1,35 @@
+apply plugin: 'com.android.library'
+
+android {
+    buildTypes {
+        release {
+            buildConfigField 'String', "APP_ID", "\"300012085839\""
+            buildConfigField 'String', "APP_KEY", "\"7251E53217AAEC1E5434CED75D7CA0F3\""
+            buildConfigField 'String', "APP_SECRET", "\"BAB4ACEFEAEA4D788526ACF1FCB86E56\""
+            buildConfigField 'String', "HTTP_BASE_URL", "\"https://www.cmpassport.com/unisdk/rsapi/loginTokenValidate\""
+            buildConfigField 'String', "HTTP_VALIDATE_TOKEN_URL", "\"https://www.cmpassport.com/openapi/rs/tokenValidate\""
+        }
+        debug {
+            buildConfigField 'String', "APP_ID", "\"300012085839\""
+            buildConfigField 'String', "APP_KEY", "\"7251E53217AAEC1E5434CED75D7CA0F3\""
+            buildConfigField 'String', "APP_SECRET", "\"BAB4ACEFEAEA4D788526ACF1FCB86E56\""
+            buildConfigField 'String', "HTTP_BASE_URL", "\"https://www.cmpassport.com/unisdk/rsapi/loginTokenValidate\""
+            buildConfigField 'String', "HTTP_VALIDATE_TOKEN_URL", "\"https://www.cmpassport.com/openapi/rs/tokenValidate\""
+        }
+//        release_debugable {
+//            buildConfigField 'String', "APP_ID", "\"300011945104\""
+//            buildConfigField 'String', "APP_KEY", "\"591DAC442626F38FFF8F5B9D37F14BB2\""
+//            buildConfigField 'String', "APP_SECRET", "\"30996620EC62465E80AE6388602D5072\""
+//            buildConfigField 'String', "HTTP_BASE_URL", "\"https://www.cmpassport.com/unisdk/rsapi/loginTokenValidate\""
+//            buildConfigField 'String', "HTTP_VALIDATE_TOKEN_URL", "\"https://www.cmpassport.com/openapi/rs/tokenValidate\""
+//        }
+//        debug {
+//            buildConfigField 'String', "APP_ID", "\"10000001\""
+//            buildConfigField 'String', "APP_KEY", "\"B50BBEF6C4CD4FA8\""
+//            buildConfigField 'String', "APP_SECRET", "\"1234567890\""
+//            buildConfigField 'String', "HTTP_BASE_URL", "\"https://testcert.cmpassport.com:7002/unisdk/rsapi/loginTokenValidate\""
+//            buildConfigField 'String', "HTTP_VALIDATE_TOKEN_URL", "\"https://testcert.cmpassport.com:7002/unisdk/rs/tokenValidate\""
+//        }
+    }
+
+}

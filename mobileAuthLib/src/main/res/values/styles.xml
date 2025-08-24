@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+<style name="loginDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+</resources>
