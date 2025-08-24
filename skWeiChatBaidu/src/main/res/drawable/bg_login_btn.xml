@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 按钮可用时的绿色背景 -->
+    <item android:state_enabled="true" >
+        <color android:color="@color/white"/>
+        <shape android:shape="rectangle">
+            <solid android:color="#00C853" /> <!-- 绿色背景 -->
+            <corners android:radius="20dp" /> <!-- 20dp圆角 -->
+        </shape>
+    </item>
+
+    <!-- 按钮不可用时的浅灰色背景 -->
+    <item >
+        <shape android:shape="rectangle">
+            <solid android:color="#fff4f4f4" /> <!-- 浅灰色背景 -->
+            <corners android:radius="20dp" /> <!-- 20dp圆角 -->
+        </shape>
+    </item>
+</selector>

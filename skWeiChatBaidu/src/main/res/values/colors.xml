@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="theme_color">#23C993</color>
+    <color name="theme_color1">#23C993</color>
     <color name="text_color1">#242629</color>
     <color name="default_text__color">#949494</color>
-
+    <color name="textColor6">#666666</color>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorAccent">#FF4081</color>
     <color name="green_dark">#388E3C</color>
@@ -18,7 +19,6 @@
     <color name="action_bar_tittle_color">#ffcfcfcf</color>
     <color name="hint_text_color">#ff999999</color>
     <color name="white">#ffffffff</color>
-
     <color name="text_value">#999999</color>
     <color name="black">#333333</color>
     <color name="black_2">#000000</color>
@@ -73,7 +73,7 @@
     <color name="redpacket_bg_new">#FD7070</color>
     <color name="redpacket_bg">#D85940</color>
     <color name="color_read_unread_item">#FF9C00</color>
-
+    <color name="textColorDefault">#FF6CF6</color>
     <color name="comment_background">#EFEFEF</color>
     <color name="circle_add_item_bg">#E5E5E5</color>
     <color name="pop_line">#E5E5E5</color>
@@ -107,40 +107,31 @@
     <color name="app_skin_black">#393A3F</color>
     <!-- <color name="app_skin_green">#4FC557</color>-->
     <color name="app_skin_green">#29A144</color>
-
     <!-- /////////////////////////////////// -->
     <color name="divider_color">#66000000</color>
-
     <color name="chat_bg">@color/normal_bg</color>
-
     <color name="payment_bg">#14A399</color>
     <color name="payment_bg2">#0FF5F5F5</color>
     <color name="receipt_bg">#2271C0</color>
-
     <color name="scan_recharge_title">#ff556b95</color>
     <color name="scan_recharge_save">#EF0A15</color>
     <color name="scan_recharge_tip">#959AA0</color>
     <color name="scan_recharge_cancel">#90C1BF</color>
     <color name="scan_recharge_confirm">#0092FC</color>
-
     <!--转账键盘-->
     <color name="buttoncl">#fbfcf8f8</color>
     <color name="divbg">#BDBDBD</color>
     <color name="cornercolor">#E0E0E0</color>
     <color name="press">#8b8a8a</color>
     <color name="click_bg_dark">#BFBFBF</color>
-
     <color name="alp_dialog_bg">#CF171B1F</color>
-
     <color name="ji_jian_lan">#80BFFF</color>
     <color name="dan_gu_lv">#55BEB7</color>
     <color name="fen_tian_lan">#333333</color>
-
     <color name="text_color">#666666</color>
     <color name="fen_ge_xian">#d9d9d9</color>
     <color name="records_of_consumption">#222222</color>
     <color name="records">#80BFFF</color>
-
     <color name="holo_red_light">#ffff4444</color>
     <color name="holo_red_dark">#ffcc0000</color>
     <color name="voice">#71cdca</color>
