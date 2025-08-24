@@ -34,13 +34,16 @@
         android:textSize="18sp" />
 
     <!-- 一键登录按钮 -->
-    <Button
+    <TextView
+        android:layout_marginHorizontal="51dp"
+        android:gravity="center"
         android:id="@+id/btn_one_key_login"
-        android:layout_width="300dp"
-        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_below="@id/tv_phone_number"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
+        android:paddingVertical="13dp"
         android:background="@drawable/bg_green_btn"
         android:text="一键登录"
         android:textColor="@color/white"
@@ -48,19 +51,21 @@
 
     <!-- 微信登录按钮 -->
     <LinearLayout
+        android:layout_marginHorizontal="51dp"
         android:gravity="center"
         android:layout_below="@id/btn_one_key_login"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="24dp"
         android:background="@drawable/bg_white_btn"
         android:id="@+id/btn_wechat_login"
-        android:layout_width="300dp"
-        android:layout_height="50dp">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
         <ImageView
             android:src="@drawable/ic_wx"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <TextView
+            android:paddingVertical="13dp"
             android:layout_marginStart="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -75,9 +80,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/btn_wechat_login"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="24dp"
         android:text="其他账号登录 >"
-        android:textColor="@color/blue"
+        android:textColor="#242629"
         android:textSize="14sp" />
 
     <!-- 隐私政策 -->
@@ -118,7 +123,7 @@
             android:layout_centerVertical="true"
             android:layout_toRightOf="@id/tv_privacy_prefix"
             android:text="《隐私政策》"
-            android:textColor="@color/blue"
+            android:textColor="@color/theme_color"
             android:textSize="12sp" />
 
         <TextView
@@ -128,11 +133,10 @@
             android:layout_centerVertical="true"
             android:layout_toRightOf="@id/tv_privacy_policy"
             android:text="《服务协议》"
-            android:textColor="@color/blue"
+            android:textColor="@color/theme_color"
             android:textSize="12sp" />
 
         <TextView
-
             android:id="@+id/tv_minor_protect"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -140,7 +144,7 @@
             android:layout_marginTop="20dp"
             android:layout_toRightOf="@id/cb_privacy"
             android:text="《未成年人个人信息保护规则》"
-            android:textColor="@color/blue"
+            android:textColor="@color/theme_color"
             android:textSize="12sp" />
     </RelativeLayout>
 

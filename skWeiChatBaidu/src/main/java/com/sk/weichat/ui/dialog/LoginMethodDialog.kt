@@ -51,10 +51,7 @@ class LoginMethodDialog(private val mContext: Context) : Dialog(
         if (id == R.id.iv_close) {
             dismiss()
         } else if (id == R.id.ll_phone_login) {
-            if (!mCbPrivacy!!.isChecked) {
-                Toast.makeText(mContext, "请先阅读并同意隐私政策", Toast.LENGTH_SHORT).show()
-                return
-            }
+
             mListener?.onPhoneLoginClick()
             dismiss()
         }

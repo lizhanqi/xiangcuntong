@@ -31,7 +31,7 @@
 
     <!-- 标题 -->
     <TextView
-        android:id="@+id/tvPhoneLogin"
+        android:id="@+id/tvLoginType"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/tvHelp"
@@ -47,7 +47,7 @@
         android:id="@+id/tvLoginTips"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/tvPhoneLogin"
+        android:layout_below="@+id/tvLoginType"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:text="未注册的手机号登录成功后将自动注册"
@@ -98,31 +98,34 @@
         android:orientation="vertical">
         <!-- 验证码输入框 -->
         <RelativeLayout
+
             android:id="@+id/layout_verify_code"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="8dp"
             android:layout_marginRight="30dp"
             android:background="@drawable/bg_edit_text">
 
             <EditText
                 android:id="@+id/et_verify_code"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="110dp"
                 android:background="@null"
                 android:hint="请输入验证码"
                 android:inputType="number"
                 android:maxLength="6"
+                android:paddingVertical="14dp"
                 android:textColor="@color/black"
                 android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/btn_get_verify_code"
                 android:layout_width="wrap_content"
-                android:layout_height="35dp"
+                android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
                 android:layout_centerVertical="true"
                 android:layout_marginRight="10dp"
@@ -132,13 +135,16 @@
                 android:textSize="14sp" />
         </RelativeLayout>
         <!-- 密码输入框 -->
+
         <LinearLayout
-            android:layout_marginLeft="30dp"
-            android:layout_marginTop="15dp"
-            android:layout_marginRight="30dp"
-            android:gravity="center"
+            android:id="@+id/llInputPwd"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/bg_edit_text"
+            android:gravity="center"
             android:orientation="horizontal">
 
             <EditText
@@ -151,17 +157,18 @@
                 android:hint="输入密码"
                 android:inputType="textPassword"
                 android:maxLines="1"
+                android:paddingVertical="14dp"
                 android:textColor="@color/black"
                 android:textSize="16sp" />
 
 
             <ImageView
-                android:id="@+id/imageView_eye"
+                android:id="@+id/ivTogglePasswordVisibility"
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 android:layout_alignParentRight="true"
                 android:layout_margin="10dp"
-                android:src="@drawable/ic_eye_open" />
+                android:src="@drawable/ic_eye_close" />
 
         </LinearLayout>
         <!-- 验证码登录和忘记密码 -->
@@ -173,13 +180,13 @@
             android:layout_marginRight="30dp">
 
             <TextView
-                android:id="@+id/tv_verify_login"
+                android:id="@+id/tvSwitchLoginType"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
                 android:drawableLeft="@drawable/ic_switch_type"
                 android:text="验证码登录"
-                android:textColor="@color/blue"
+                android:textColor="#242629"
                 android:textSize="14sp" />
 
             <TextView
@@ -188,7 +195,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
                 android:text="忘记密码?"
-                android:textColor="@color/blue"
+                android:textColor="#242629"
                 android:textSize="14sp" />
         </RelativeLayout>
 
@@ -241,26 +248,46 @@
     </LinearLayout>
 
 
-    <!-- 其他登录方式 -->
-    <TextView
-        android:id="@+id/tv_other_login"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/layoutOtherLogin"
+        android:gravity="center"
         android:layout_below="@id/ll_privacy"
-        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
         android:layout_marginTop="30dp"
         android:layout_marginBottom="20dp"
-        android:text="------ 其他登录方式 --------"
-        android:textColor="@color/gray"
-        android:textSize="14sp" />
+        android:paddingHorizontal="42dp">
 
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:background="#f4f4f4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll_privacy"
+            android:layout_centerHorizontal="true"
+            android:paddingHorizontal="20dp"
+            android:text="其他登录方式"
+            android:textColor="@color/gray"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:background="#f4f4f4"  />
+    </androidx.appcompat.widget.LinearLayoutCompat>
 
     <!-- 微信登录图标 -->
     <ImageView
         android:id="@+id/iv_wechat_login"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_below="@+id/tv_other_login"
+        android:layout_below="@+id/layoutOtherLogin"
         android:layout_centerHorizontal="true"
         android:src="@drawable/ic_wechat" />
 

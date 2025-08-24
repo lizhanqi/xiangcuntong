@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="theme_color">#23C993</color>
-    <color name="theme_color1">#23C993</color>
     <color name="text_color1">#242629</color>
     <color name="default_text__color">#949494</color>
     <color name="textColor6">#666666</color>

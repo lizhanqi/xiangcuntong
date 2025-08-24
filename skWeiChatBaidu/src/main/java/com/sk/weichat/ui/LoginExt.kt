@@ -23,7 +23,7 @@ private fun getRenderText(
     val builder = SpannableStringBuilder(content + name1 + name2 + name3)
     // 设置《隐私政策》的前景色和点击事件
     builder.setSpan(
-        ForegroundColorSpan(context.resources.getColor(R.color.theme_color1)),
+        ForegroundColorSpan(context.resources.getColor(R.color.theme_color)),
         content.length, content.length + name1.length, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE
     )
     builder.setSpan(object : ClickableSpan() {
