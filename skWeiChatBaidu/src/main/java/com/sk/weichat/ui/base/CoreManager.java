@@ -201,7 +201,7 @@ public class CoreManager {
                         // 无论如何没有登录信息就跳到重新登录，
                         MyApplication.getInstance().mUserStatus = LoginHelper.STATUS_USER_TOKEN_CHANGE;
                         // 弹出对话框
-                        UserCheckedActivity.start(ctx);
+//                        UserCheckedActivity.start(ctx);
                         // 就算没有登录也不能返回null, 直接把本地过期的返回以便正常初始化，然后finish页面，
                         user = new User();
                     }

@@ -169,7 +169,7 @@ public class XmppConnectionManager {
                     ((CoreService) mContext).logout();
                     MyApplication.getInstance().mUserStatus = LoginHelper.STATUS_USER_TOKEN_CHANGE;
                     // 弹出对话框
-                    UserCheckedActivity.start(mContext);
+//                    UserCheckedActivity.start(mContext);
                 } else if (TextUtils.equals(err, SocketException.SELECTION_KEY_INVALID)) {
                     /**
                      * 1.切换网络之后会回调到此处，但是会有两种情况产生
