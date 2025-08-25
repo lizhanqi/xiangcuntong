@@ -267,14 +267,11 @@ class PhoneLoginActivity : ViewBindingActivity<ActivityPhoneLoginBinding>() {
                         } else {
                             ToastUtil.showToast(mContext, "验证码已发送")
                         }
-
-
                     } else {
                         countDownTimer?.cancel()
                         isCountingDown = false
                         showVerifyCodeLogin()
                         binding.btnGetVerifyCode.isEnabled = true
-                        ToastUtil.showToast(mContext, "发送错误")
                     }
                 }
 
@@ -294,7 +291,6 @@ class PhoneLoginActivity : ViewBindingActivity<ActivityPhoneLoginBinding>() {
      * 验证码登录
      */
     private fun verifyAndLogin(phone: String, verifyCode: String) {
-//         PreferenceUtils.putInt(this, Constants.AREA_CODE_KEY, "86")
             val phoneNumber: String = phone
             DialogHelper.showDefaulteMessageProgressDialog(this)
             val params = HashMap<String, String>()
