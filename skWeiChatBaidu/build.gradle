@@ -1,7 +1,6 @@
 // 在文件顶部添加Kotlin插件
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
-apply plugin: 'kotlin-android-extensions'
 
 buildscript {
     ext {
@@ -44,7 +43,8 @@ android {
     compileSdkVersion compile_version
 
     defaultConfig {
-        applicationId appId
+        applicationId "com.cmic.sso.myapplication"
+//        applicationId appId
         versionCode 34
         versionName "1.4.7"
         minSdkVersion min_version
@@ -135,6 +135,7 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+
     buildFeatures {
         viewBinding true
     }
@@ -173,11 +174,22 @@ android {
         }
     }
     signingConfigs {
+        testLogin {
+            storeFile file('./keys/tyrz.key')
+            keyAlias 'TYRZ'
+            keyPassword 'tyrz2017'
+            storePassword 'tyrz2017'
+        }
         debug {
-            storeFile file('./keys/xiangcuntong.jks')
-            storePassword '83924317139578'
-            keyAlias = 'key01'
-            keyPassword '83924317139578'
+            storeFile file('./keys/tyrz.key')
+            keyAlias 'TYRZ'
+            keyPassword 'tyrz2017'
+            storePassword 'tyrz2017'
+
+//            storeFile file('./keys/xiangcuntong.jks')
+//            storePassword '83924317139578'
+//            keyAlias = 'key01'
+//            keyPassword '83924317139578'
             v1SigningEnabled true
             v2SigningEnabled true
         }
@@ -188,6 +200,15 @@ android {
             keyPassword '83924317139578'
             v1SigningEnabled true
             v2SigningEnabled true
+        }
+    }
+
+    buildTypes {
+        debug {
+            signingConfig signingConfigs.testLogin
+        }
+        release {
+            signingConfig signingConfigs.release
         }
     }
 //    // 签名信息从signing.properties中获取，
@@ -363,6 +384,9 @@ dependencies {
     implementation project(':meeting')
     // 音视频使用jwt传递用户信息，
     implementation 'io.jsonwebtoken:jjwt:0.9.1'
+    debugImplementation("com.bytedance.tools.codelocator:codelocator-core:2.0.4")
+
+    implementation project(':mobileAuthLib')
 
 }
 
@@ -373,10 +397,16 @@ configurations {
 // 在dependencies部分添加Kotlin标准库
 dependencies {
     // ... 现有依赖
-    
     // 添加Kotlin标准库
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     implementation "org.jetbrains.kotlin:kotlin-reflect:$kotlin_version"
-    
-    // ... 其余依赖
+
+
+//// 对于 Activity 的 ktx 扩展（含 ViewModel 委托）
+//    implementation "androidx.activity:activity-ktx:1.8.0"
+//
+//// 对于 Fragment 的 ktx 扩展（含 Fragment 相关的 ViewModel 委托）
+//    implementation "androidx.fragment:fragment-ktx:1.6.2"
+//
+//    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2"
 }
