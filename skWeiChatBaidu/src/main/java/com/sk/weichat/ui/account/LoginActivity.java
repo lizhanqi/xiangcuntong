@@ -40,6 +40,8 @@ import com.sk.weichat.helper.UsernameHelper;
 import com.sk.weichat.helper.YeepayHelper;
 import com.sk.weichat.ui.base.BaseActivity;
 import com.sk.weichat.ui.base.CoreManager;
+import com.sk.weichat.ui.login.PhoneLoginActivity;
+import com.sk.weichat.ui.login.WeComeLoginActivity;
 import com.sk.weichat.ui.me.SetConfigActivity;
 import com.sk.weichat.util.AppUtils;
 import com.sk.weichat.util.Constants;
@@ -141,6 +143,9 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
             login(true);
         }
         EventBusHelper.register(this);
+
+        startActivity(new Intent(this, WeComeLoginActivity.class));
+        finish();
     }
 
     @Override
@@ -603,7 +608,7 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
                 });
     }
 
-    private class CheckAuthLoginRunnable implements Runnable {
+      class CheckAuthLoginRunnable implements Runnable {
         private final String phoneNumber;
         private final String digestPwd;
         private Handler waitAuthHandler = new Handler();

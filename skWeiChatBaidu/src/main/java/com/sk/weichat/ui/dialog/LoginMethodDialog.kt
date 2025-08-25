@@ -46,6 +46,13 @@ class LoginMethodDialog(private val mContext: Context) : Dialog(
         tvPrivacy.setAgreement()
     }
 
+    // 添加设置隐私政策复选框选中状态的方法
+    fun setPrivacyChecked(isChecked: Boolean) {
+        if (mCbPrivacy != null) {
+            mCbPrivacy!!.isChecked = isChecked
+        }
+    }
+
     override fun onClick(v: View) {
         val id = v.id
         if (id == R.id.iv_close) {
