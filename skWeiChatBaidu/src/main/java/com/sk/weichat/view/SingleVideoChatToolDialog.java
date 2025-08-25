@@ -67,20 +67,15 @@ public class SingleVideoChatToolDialog extends Dialog implements View.OnClickLis
     @Override
     public void onClick(View v) {
         dismiss();
-        switch (v.getId()) {
-            case R.id.llVideo:
-                clickListener.videoClick();
-                break;
-            case R.id.llAudio:
-                clickListener.voiceClick();
-                break;
-            case R.id.llScreen:
-                clickListener.screenClick();
-                break;
-            case R.id.llCancel:
-                clickListener.cancleClick();
-                break;
-
+        int viewId = v.getId();
+        if (viewId == R.id.llVideo) {
+            clickListener.videoClick();
+        } else if (viewId == R.id.llAudio) {
+            clickListener.voiceClick();
+        } else if (viewId == R.id.llScreen) {
+            clickListener.screenClick();
+        } else if (viewId == R.id.llCancel) {
+            clickListener.cancleClick();
         }
     }
 

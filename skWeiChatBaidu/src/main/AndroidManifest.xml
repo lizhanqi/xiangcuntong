@@ -13,6 +13,9 @@
     <uses-feature android:name="android.hardware.camera" />
     <uses-feature android:name="android.hardware.camera.autofocus" />
     <uses-feature android:name="android.hardware.microphone" />
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
 
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
@@ -114,6 +117,7 @@
         <activity android:name=".ui.login.H5LoginActivity" />
         <activity
             android:name=".ui.login.H5LoginProxyActivity"
+            android:exported="true"
             android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -128,6 +132,7 @@
             </intent-filter>
         </activity>
         <activity
+            android:exported="true"
             android:name=".ui.notification.NotificationProxyActivity"
             android:theme="@style/SplashTheme">
             <intent-filter>
@@ -147,7 +152,7 @@
         <activity android:name=".ui.groupchat.FaceToFaceGroup" />
         <activity android:name=".ui.groupchat.RoomSearchResultActivity" />
         <activity android:name=".ui.groupchat.RoomSearchActivity" /> <!-- 启动页面 -->
-        <activity
+        <activity  android:exported="true"
             android:name=".ui.SplashActivity"
             android:hardwareAccelerated="true"
             android:launchMode="singleTask"
@@ -232,19 +237,20 @@
             android:windowSoftInputMode="stateVisible" />
         <activity android:name=".ui.contacts.TalkHistoryActivity" />
         <activity android:name=".ui.groupchat.SelectContactsActivity" /> <!-- 直播 -->
-        <activity android:name=".ui.live.CreateLiveActivity" />
-        <activity android:name=".ui.live.LiveActivity" />
-        <activity
-            android:name=".ui.live.LivePlayingActivity"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:screenOrientation="portrait"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
-            android:windowSoftInputMode="adjustPan" />
-        <activity
-            android:name=".ui.live.PushFlowActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
-            android:windowSoftInputMode="adjustPan" />
+<!--        <activity android:name=".ui.live.CreateLiveActivity" />-->
+<!--        <activity android:name=".ui.live.LiveActivity" />-->
+<!--        <activity-->
+<!--            android:name=".ui.live.LivePlayingActivity"-->
+<!--            android:configChanges="orientation|keyboardHidden|screenSize"-->
+<!--            android:screenOrientation="portrait"-->
+<!--            android:theme="@style/Theme.AppCompat.Light.NoActionBar"-->
+<!--            android:windowSoftInputMode="adjustPan" />-->
+<!--        <activity-->
+<!--            android:name=".ui.live.PushFlowActivity"-->
+<!--            android:screenOrientation="portrait"-->
+<!--            android:theme="@style/Theme.AppCompat.Light.NoActionBar"-->
+<!--            android:windowSoftInputMode="adjustPan" />-->
+
         <activity android:name=".ui.map.MapActivity" />
         <activity
             android:name=".ui.map.MapPickerActivity"
@@ -462,6 +468,7 @@
             android:screenOrientation="behind"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
         <activity
+            android:exported="true"
             android:name="com.tencent.tauth.AuthActivity"
             android:launchMode="singleTask"
             android:noHistory="true">
@@ -513,13 +520,14 @@
         </provider>
 
         <receiver
+            android:exported="true"
             android:name=".broadcast.MyBroadcastReceiver"
             android:process=":restart">
             <intent-filter>
                 <action android:name="${APP_ID}.action.broadcasttest.startActivity" />
             </intent-filter>
         </receiver>
-        <receiver android:name=".broadcast.ShakeReceiver">
+        <receiver  android:exported="true" android:name=".broadcast.ShakeReceiver">
             <intent-filter>
                 <action android:name="${APP_ID}.action.shake_msg_notify" />
             </intent-filter>
@@ -613,7 +621,7 @@
         <service
             android:name="com.xiaomi.mipush.sdk.MessageHandleService"
             android:enabled="true" />
-        <service android:name=".xmpp.helloDemon.FirebaseMessageService">
+        <service android:exported="true" android:name=".xmpp.helloDemon.FirebaseMessageService">
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
@@ -630,7 +638,8 @@
             android:exported="false"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- push应用定义消息receiver声明 -->
-        <receiver android:name=".xmpp.helloDemon.VivoPushMessageReceiver">
+        <receiver android:name=".xmpp.helloDemon.VivoPushMessageReceiver"
+            android:exported="true">
             <intent-filter>
 
                 <!-- 接收push消息 -->
@@ -644,7 +653,7 @@
         <meta-data
             android:name="com.vivo.push.app_id"
             android:value="${VIVO_APP_ID}" /> <!-- OPPO 推送 -->
-        <service
+        <service android:exported="true"
             android:name=".xmpp.helloDemon.OppoPushMessageService"
             android:permission="com.coloros.mcs.permission.SEND_MCS_MESSAGE">
             <intent-filter>
@@ -671,7 +680,7 @@
             android:authorities="${APP_ID}.hms.update.provider"
             android:exported="false"
             android:grantUriPermissions="true" /> <!-- 4.用来接收PUSH消息的receiver： -->
-        <receiver android:name=".xmpp.helloDemon.HuaweiPushRevicer">
+        <receiver android:exported="true" android:name=".xmpp.helloDemon.HuaweiPushRevicer">
             <intent-filter>
 
                 <!-- 必须,用于接收TOKEN -->
@@ -684,7 +693,7 @@
                 <action android:name="com.huawei.intent.action.PUSH_STATE" />
             </intent-filter>
         </receiver> <!-- 5. 接收通道发来的通知栏消息： -->
-        <receiver android:name="com.huawei.hms.support.api.push.PushEventReceiver">
+        <receiver  android:exported="true" android:name="com.huawei.hms.support.api.push.PushEventReceiver">
             <intent-filter>
 
                 <!-- 接收通道发来的通知栏消息，兼容老版本PUSH -->
@@ -703,7 +712,7 @@
             android:name="com.google.firebase.messaging.default_notification_icon"
             android:resource="@drawable/icon_notification" /> <!-- 魅族推送， -->
         <!-- 绑定进程保活 -->
-        <service
+        <service  android:exported="true"
             android:name=".xmpp.helloDemon.MeizuForegroundService"
             android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
             <intent-filter>
@@ -711,7 +720,7 @@
             </intent-filter>
         </service>
 
-        <receiver
+        <receiver  android:exported="true"
             android:name=".xmpp.helloDemon.MeizuPushMsgReceiver"
             tools:ignore="ExportedReceiver">
             <intent-filter>
@@ -729,7 +738,7 @@
             </intent-filter>
         </receiver>
 
-        <activity
+        <activity  android:exported="true"
             android:name=".ui.systemshare.ShareNearChatFriend"
             android:label="@string/send_to_friend">
             <intent-filter>
@@ -742,7 +751,7 @@
         </activity>
         <activity android:name=".ui.systemshare.ShareNewFriend" />
         <activity android:name=".ui.systemshare.ShareNewGroup" />
-        <activity
+        <activity  android:exported="true"
             android:name=".ui.systemshare.ShareLifeCircleProxyActivity"
             android:label="@string/send_to_life_circle">
             <intent-filter>
@@ -756,7 +765,7 @@
         <activity android:name=".ui.systemshare.ShareShuoshuoActivity" />
         <activity android:name=".ui.systemshare.ShareVideoActivity" />
         <activity android:name=".ui.systemshare.ShareFileActivity" />
-        <activity android:name=".ui.account.QuickLoginAuthority">
+        <activity  android:exported="true" android:name=".ui.account.QuickLoginAuthority">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
@@ -770,7 +779,7 @@
                     android:scheme="shikuimapp" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.account.QuickPay">
+        <activity   android:exported="true" android:name=".ui.account.QuickPay">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
@@ -826,6 +835,15 @@
         <activity android:name=".ui.yeepay.YeepayOpenActivity" />
         <activity android:name=".ui.me.redpacket.MyWalletActivity" />
         <activity android:name=".ui.yeepay.YeepayRecordActivity" />
+        <service
+            android:exported="true"
+
+            android:name="org.jitsi.meet.sdk.ConnectionService"
+            android:permission="android.permission.BIND_TELECOM_CONNECTION_SERVICE" >
+            <intent-filter>
+                <action android:name="android.telecom.ConnectionService" />
+            </intent-filter>
+        </service>
         <activity
             android:name=".call.JitsiAudioMeetActivity"
             android:excludeFromRecents="true"

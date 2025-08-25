@@ -334,63 +334,61 @@ public class SetLabelActivity extends BaseActivity implements View.OnClickListen
 
     @Override
     public void onClick(View view) {
-        switch (view.getId()) {
-            case R.id.iv_title_left:
-                finish();
-                break;
-            case R.id.sure_label:
-                String mEditLabelName = mLabelEdit.getText().toString().trim();
-                if (!TextUtils.isEmpty(mEditLabelName)) {
-                    boolean isExist = false;
-                    for (int i = 0; i < mNewAndOldLabelList.size(); i++) {
-                        if (mNewAndOldLabelList.get(i).getGroupName().equals(mEditLabelName)) {
-                            isExist = true;
-                        }
-                    }
-                    if (!isExist) {
-                        Label label = new Label();
-                        label.setUserId(mLoginUserId);
-                        label.setGroupName(mEditLabelName);
-                        label.setSelectedInBelong(false);
-                        mBelongLabelList.add(label);
-                        mNewAndOldLabelList.add(label);
-                        mBelongLabelAdapter.notifyDataSetChanged();
-                        if (mBelongLabelList.size() > 0) {
-                            mBelongLabelGrid.setVisibility(View.VISIBLE);
-                        }
-                    } else {   // 虽然搜索结果显示出来了，但有些用户可能不会去点击ListView'item，而是继续点击确认按钮，所以需要坐下兼容
-                        for (Label label : mSearchLabelList) {
-                            if (label.getGroupName().equals(mEditLabelName)) {
-                                label.setSelected(true);
-                                label.setSelectedInBelong(false);
-                                mBelongLabelList.add(label);
-                                operatingSearchLv(label);
-                            }
-                        }
-                    }
-                    mLabelEdit.setText("");// 清空EditText
-                }
-                break;
-            case R.id.tv_title_right:
-                List<String> mNewGroupList = new ArrayList<>();
-                List<String> mGroupIdList = new ArrayList<>();
-                for (int i = 0; i < mBelongLabelList.size(); i++) {
-                    if (TextUtils.isEmpty(mBelongLabelList.get(i).getGroupId())) {// 新添加的标签
-                        mNewGroupList.add(mBelongLabelList.get(i).getGroupName());
-                    } else {// 所有标签内加入的标签
-                        mGroupIdList.add(mBelongLabelList.get(i).getGroupId());
+        int viewId = view.getId();
+        if (viewId == R.id.iv_title_left) {
+            finish();
+        } else if (viewId == R.id.sure_label) {
+            String mEditLabelName = mLabelEdit.getText().toString().trim();
+            if (!TextUtils.isEmpty(mEditLabelName)) {
+                boolean isExist = false;
+                for (int i = 0; i < mNewAndOldLabelList.size(); i++) {
+                    if (mNewAndOldLabelList.get(i).getGroupName().equals(mEditLabelName)) {
+                        isExist = true;
                     }
                 }
-                if (mNewGroupList.size() > 0) {
-                    size = mNewGroupList.size();
-                    for (String s : mNewGroupList) {
-                        createLabel(s);
+                if (!isExist) {
+                    Label label = new Label();
+                    label.setUserId(mLoginUserId);
+                    label.setGroupName(mEditLabelName);
+                    label.setSelectedInBelong(false);
+                    mBelongLabelList.add(label);
+                    mNewAndOldLabelList.add(label);
+                    mBelongLabelAdapter.notifyDataSetChanged();
+                    if (mBelongLabelList.size() > 0) {
+                        mBelongLabelGrid.setVisibility(View.VISIBLE);
                     }
-                } else {
-                    updateLabelUserIdList(mGroupIdList);
+                } else {   // 兼容用户直接点击确认按钮而非列表项的情况
+                    for (Label label : mSearchLabelList) {
+                        if (label.getGroupName().equals(mEditLabelName)) {
+                            label.setSelected(true);
+                            label.setSelectedInBelong(false);
+                            mBelongLabelList.add(label);
+                            operatingSearchLv(label);
+                        }
+                    }
                 }
-                break;
+                mLabelEdit.setText("");// 清空输入框
+            }
+        } else if (viewId == R.id.tv_title_right) {
+            List<String> mNewGroupList = new ArrayList<>();
+            List<String> mGroupIdList = new ArrayList<>();
+            for (int i = 0; i < mBelongLabelList.size(); i++) {
+                if (TextUtils.isEmpty(mBelongLabelList.get(i).getGroupId())) {// 新添加的标签
+                    mNewGroupList.add(mBelongLabelList.get(i).getGroupName());
+                } else {// 已有标签
+                    mGroupIdList.add(mBelongLabelList.get(i).getGroupId());
+                }
+            }
+            if (mNewGroupList.size() > 0) {
+                size = mNewGroupList.size();
+                for (String s : mNewGroupList) {
+                    createLabel(s);
+                }
+            } else {
+                updateLabelUserIdList(mGroupIdList);
+            }
         }
+
     }
 
     // 创建标签

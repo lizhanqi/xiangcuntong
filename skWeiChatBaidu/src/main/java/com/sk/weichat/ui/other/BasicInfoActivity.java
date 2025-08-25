@@ -148,32 +148,28 @@ public class BasicInfoActivity extends BaseActivity implements NewFriendListener
             if (mFriend == null) {
                 mFriend = FriendDao.getInstance().getFriend(mLoginUserId, mUserId);
             }
-            switch (v.getId()) {
-                case R.id.set_remark_nameS:
-                    start();
-                    break;
-                case R.id.add_blacklist:
-                    // 加入黑名单
-                    showBlacklistDialog(mFriend);
-                    break;
-                case R.id.remove_blacklist:
-                    // 移除黑名单
-                    removeBlacklist(mFriend);
-                    break;
-                case R.id.delete_tv:
-                    // 彻底删除
-                    showDeleteAllDialog(mFriend, false);
-                    break;
-                case R.id.report_tv:
-                    ReportDialog mReportDialog = new ReportDialog(BasicInfoActivity.this, false, new ReportDialog.OnReportListItemClickListener() {
-                        @Override
-                        public void onReportItemClick(Report report) {
-                            report(mUserId, report);
-                        }
-                    });
-                    mReportDialog.show();
-                    break;
+            int viewId = v.getId();
+            if (viewId == R.id.set_remark_nameS) {
+                start();
+            } else if (viewId == R.id.add_blacklist) {
+                // 加入黑名单
+                showBlacklistDialog(mFriend);
+            } else if (viewId == R.id.remove_blacklist) {
+                // 移除黑名单
+                removeBlacklist(mFriend);
+            } else if (viewId == R.id.delete_tv) {
+                // 彻底删除
+                showDeleteAllDialog(mFriend, false);
+            } else if (viewId == R.id.report_tv) {
+                ReportDialog mReportDialog = new ReportDialog(BasicInfoActivity.this, false, new ReportDialog.OnReportListItemClickListener() {
+                    @Override
+                    public void onReportItemClick(Report report) {
+                        report(mUserId, report);
+                    }
+                });
+                mReportDialog.show();
             }
+
 
         }
     };

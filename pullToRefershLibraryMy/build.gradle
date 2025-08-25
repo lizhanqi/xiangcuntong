@@ -1,11 +1,14 @@
-apply plugin: 'com.android.library'
-
+plugins {
+    alias(libs.plugins.android.library)
+    alias(libs.plugins.kotlin.android)
+    id 'kotlin-kapt'
+}
 android {
-    compileSdkVersion compile_version
-
+    namespace 'com.handmark.pulltorefresh.library'
+    compileSdk 36
     defaultConfig {
-        minSdkVersion min_version
-        targetSdkVersion target_version
+        minSdkVersion 26
+        targetSdkVersion 36
     }
 
     buildTypes {
@@ -13,5 +16,15 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
+    }
+
+    // 添加Java编译版本配置
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    // 统一 Kotlin 编译的 JVM 版本（必须与 Java 版本相同）
+    kotlinOptions {
+        jvmTarget = "17"  // 此处版本需与上面的 JavaVersion 一致
     }
 }

@@ -174,37 +174,35 @@ public class ChatOverviewActivity extends BaseActivity {
         @Override
         public void onClick(View v) {
             mSaveWindow.dismiss();
-            switch (v.getId()) {
-                case R.id.save_image:
-                    FileUtil.downImageToGallery(ChatOverviewActivity.this, mCurrentShowUrl);
-                    break;
-                case R.id.edit_image:
-                    ImageLoadHelper.loadFile(
-                            ChatOverviewActivity.this,
-                            mCurrentShowUrl,
-                            f -> {
-                                mEditedPath = FileUtil.createImageFileForEdit().getAbsolutePath();
-                                IMGEditActivity.startForResult(ChatOverviewActivity.this, Uri.fromFile(f), mEditedPath, REQUEST_IMAGE_EDIT);
-                            });
-                    break;
-                case R.id.identification_qr_code:
-                    // 识别图中二维码
-                    if (bitmap == null) {// 理论上不太可能了，因为该item显示时，bitmap都不为空
-                        Toast.makeText(ChatOverviewActivity.this, R.string.unrecognized, Toast.LENGTH_SHORT).show();
-                        return;
-                    }
-                    new Thread(() -> {
-                        final Result result = DecodeUtils.decodeFromPicture(bitmap);
-                        mViewPager.post(() -> {
-                            if (result != null && !TextUtils.isEmpty(result.getText())) {
-                                HandleQRCodeScanUtil.handleScanResult(mContext, result.getText());
-                            } else {
-                                Toast.makeText(ChatOverviewActivity.this, R.string.decode_failed, Toast.LENGTH_SHORT).show();
-                            }
+            int viewId = v.getId();
+            if (viewId == R.id.save_image) {
+                FileUtil.downImageToGallery(ChatOverviewActivity.this, mCurrentShowUrl);
+            } else if (viewId == R.id.edit_image) {
+                ImageLoadHelper.loadFile(
+                        ChatOverviewActivity.this,
+                        mCurrentShowUrl,
+                        f -> {
+                            mEditedPath = FileUtil.createImageFileForEdit().getAbsolutePath();
+                            IMGEditActivity.startForResult(ChatOverviewActivity.this, Uri.fromFile(f), mEditedPath, REQUEST_IMAGE_EDIT);
                         });
-                    }).start();
-                    break;
+            } else if (viewId == R.id.identification_qr_code) {
+                // 识别图中二维码
+                if (bitmap == null) {// 理论上不太可能了，因为该item显示时，bitmap都不为空
+                    Toast.makeText(ChatOverviewActivity.this, R.string.unrecognized, Toast.LENGTH_SHORT).show();
+                    return;
+                }
+                new Thread(() -> {
+                    final Result result = DecodeUtils.decodeFromPicture(bitmap);
+                    mViewPager.post(() -> {
+                        if (result != null && !TextUtils.isEmpty(result.getText())) {
+                            HandleQRCodeScanUtil.handleScanResult(mContext, result.getText());
+                        } else {
+                            Toast.makeText(ChatOverviewActivity.this, R.string.decode_failed, Toast.LENGTH_SHORT).show();
+                        }
+                    });
+                }).start();
             }
+
         }
     }
 }

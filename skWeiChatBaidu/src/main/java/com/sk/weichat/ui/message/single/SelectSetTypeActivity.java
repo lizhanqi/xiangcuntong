@@ -69,16 +69,13 @@ public class SelectSetTypeActivity extends BaseActivity implements View.OnClickL
 
     @Override
     public void onClick(View v) {
-        switch (v.getId()) {
-            case R.id.select_from_phone_album_rl:
-                selectPhoto();
-                break;
-            case R.id.take_picture_rl:
-                takePhoto();
-                break;
-            case R.id.restore_default_background_rl:
-                restore();
-                break;
+        int viewId = v.getId();
+        if (viewId == R.id.select_from_phone_album_rl) {
+            selectPhoto();
+        } else if (viewId == R.id.take_picture_rl) {
+            takePhoto();
+        } else if (viewId == R.id.restore_default_background_rl) {
+            restore();
         }
     }
 

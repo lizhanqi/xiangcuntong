@@ -76,32 +76,25 @@ public class Xcoverbar extends FrameLayout implements View.OnClickListener {
     @Override
     public void onClick(View v) {
         int position = 1;
-        switch (v.getId()) {
-            case R.id.cover_iv1:
-                position = 1;
-                break;
-            case R.id.cover_iv2:
-                position = 2;
-                break;
-            case R.id.cover_iv3:
-                position = 3;
-                break;
-            case R.id.cover_iv4:
-                position = 4;
-                break;
-            case R.id.cover_iv5:
-                position = 5;
-                break;
-            case R.id.cover_iv6:
-                position = 6;
-                break;
-            case R.id.cover_iv7:
-                position = 7;
-                break;
-            case R.id.cover_iv8:
-                position = 8;
-                break;
+        int viewId = v.getId();
+        if (viewId == R.id.cover_iv1) {
+            position = 1;
+        } else if (viewId == R.id.cover_iv2) {
+            position = 2;
+        } else if (viewId == R.id.cover_iv3) {
+            position = 3;
+        } else if (viewId == R.id.cover_iv4) {
+            position = 4;
+        } else if (viewId == R.id.cover_iv5) {
+            position = 5;
+        } else if (viewId == R.id.cover_iv6) {
+            position = 6;
+        } else if (viewId == R.id.cover_iv7) {
+            position = 7;
+        } else if (viewId == R.id.cover_iv8) {
+            position = 8;
         }
+
         String url = String.format(mCoverPath, position);
         if (mListener != null) {
             mListener.change(url);

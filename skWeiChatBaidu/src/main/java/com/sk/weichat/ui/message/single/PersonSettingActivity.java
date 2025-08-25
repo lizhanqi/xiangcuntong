@@ -362,92 +362,76 @@ public class PersonSettingActivity extends BaseActivity implements View.OnClickL
 
     @Override
     public void onClick(View v) {
-        switch (v.getId()) {
-            case R.id.iv_title_left:
-                finish();
-                break;
-            case R.id.avatar:
-                Intent intentBasic = new Intent(this, BasicInfoActivity.class);
-                intentBasic.putExtra(AppConstant.EXTRA_USER_ID, mFriendId);
-                startActivity(intentBasic);
-                break;
-            case R.id.add_contacts:
-                Intent intentAdd = new Intent(this, SelectContactsActivity.class);
-                intentAdd.putExtra("QuicklyCreateGroup", true);
-                intentAdd.putExtra("ChatObjectId", mFriendId);
-                intentAdd.putExtra("ChatObjectName", mFriendName);
-                startActivity(intentAdd);
-                break;
-            case R.id.chat_history_search:
-                Intent intentChat = new Intent(this, SearchChatHistoryActivity.class);
-                intentChat.putExtra("isSearchSingle", true);
-                intentChat.putExtra(AppConstant.EXTRA_USER_ID, mFriendId);
-                startActivity(intentChat);
-                break;
-            case R.id.remark_rl:
-                start();
-                break;
-            case R.id.label_rl:
-                Intent intentLabel = new Intent(this, SetLabelActivity.class);
-                intentLabel.putExtra(AppConstant.EXTRA_USER_ID, mFriendId);
-                startActivity(intentLabel);
-                break;
-            case R.id.msg_save_days_rl:
-                MsgSaveDaysDialog msgSaveDaysDialog = new MsgSaveDaysDialog(this, onMsgSaveDaysDialogClickListener);
-                msgSaveDaysDialog.show();
-                break;
-            case R.id.set_background_rl:
-                Intent intentBackground = new Intent(this, SelectSetTypeActivity.class);
-                intentBackground.putExtra(AppConstant.EXTRA_USER_ID, mFriendId);
-                startActivity(intentBackground);
-                break;
-            case R.id.chat_history_empty:
-                clean(false);
-                break;
-            case R.id.sync_chat_history_empty:
-                clean(true);
-                break;
-            case R.id.rl_transfer:
-                Intent intentTransfer = new Intent(this, TransferRecordActivity.class);
-                intentTransfer.putExtra(Constant.TRANSFE_RRECORD, mFriendId);
-                startActivity(intentTransfer);
-                break;
-            case R.id.rl_transmission_public:
-                changeCheck(0, true);
-                break;
-            case R.id.rl_transmission_desed:
-                changeCheck(1, true);
-                break;
-            case R.id.rl_transmission_aes:
-                changeCheck(2, true);
-                break;
-            case R.id.rl_transmission_asymmetric_aes:
-                changeCheck(3, true);
-                break;
-            case R.id.rl_transmission_select:
-                mSelectChatModeDialog = new SelectChatModeDialog(mContext, new SelectChatModeDialog.OnBannedDialogClickListener() {
-                    @Override
-                    public void tv1Click() {
-                        changeCheck(0, true);
-                    }
+        int id = v.getId();
+        if (id == R.id.iv_title_left) {
+            finish();
+        } else if (id == R.id.avatar) {
+            Intent intentBasic = new Intent(this, BasicInfoActivity.class);
+            intentBasic.putExtra(AppConstant.EXTRA_USER_ID, mFriendId);
+            startActivity(intentBasic);
+        } else if (id == R.id.add_contacts) {
+            Intent intentAdd = new Intent(this, SelectContactsActivity.class);
+            intentAdd.putExtra("QuicklyCreateGroup", true);
+            intentAdd.putExtra("ChatObjectId", mFriendId);
+            intentAdd.putExtra("ChatObjectName", mFriendName);
+            startActivity(intentAdd);
+        } else if (id == R.id.chat_history_search) {
+            Intent intentChat = new Intent(this, SearchChatHistoryActivity.class);
+            intentChat.putExtra("isSearchSingle", true);
+            intentChat.putExtra(AppConstant.EXTRA_USER_ID, mFriendId);
+            startActivity(intentChat);
+        } else if (id == R.id.remark_rl) {
+            start();
+        } else if (id == R.id.label_rl) {
+            Intent intentLabel = new Intent(this, SetLabelActivity.class);
+            intentLabel.putExtra(AppConstant.EXTRA_USER_ID, mFriendId);
+            startActivity(intentLabel);
+        } else if (id == R.id.msg_save_days_rl) {
+            MsgSaveDaysDialog msgSaveDaysDialog = new MsgSaveDaysDialog(this, onMsgSaveDaysDialogClickListener);
+            msgSaveDaysDialog.show();
+        } else if (id == R.id.set_background_rl) {
+            Intent intentBackground = new Intent(this, SelectSetTypeActivity.class);
+            intentBackground.putExtra(AppConstant.EXTRA_USER_ID, mFriendId);
+            startActivity(intentBackground);
+        } else if (id == R.id.chat_history_empty) {
+            clean(false);
+        } else if (id == R.id.sync_chat_history_empty) {
+            clean(true);
+        } else if (id == R.id.rl_transfer) {
+            Intent intentTransfer = new Intent(this, TransferRecordActivity.class);
+            intentTransfer.putExtra(Constant.TRANSFE_RRECORD, mFriendId);
+            startActivity(intentTransfer);
+        } else if (id == R.id.rl_transmission_public) {
+            changeCheck(0, true);
+        } else if (id == R.id.rl_transmission_desed) {
+            changeCheck(1, true);
+        } else if (id == R.id.rl_transmission_aes) {
+            changeCheck(2, true);
+        } else if (id == R.id.rl_transmission_asymmetric_aes) {
+            changeCheck(3, true);
+        } else if (id == R.id.rl_transmission_select) {
+            mSelectChatModeDialog = new SelectChatModeDialog(mContext, new SelectChatModeDialog.OnBannedDialogClickListener() {
+                @Override
+                public void tv1Click() {
+                    changeCheck(0, true);
+                }
 
-                    @Override
-                    public void tv2Click() {
-                        changeCheck(1, true);
-                    }
+                @Override
+                public void tv2Click() {
+                    changeCheck(1, true);
+                }
 
-                    @Override
-                    public void tv3Click() {
-                        changeCheck(2, true);
-                    }
+                @Override
+                public void tv3Click() {
+                    changeCheck(2, true);
+                }
 
-                    @Override
-                    public void tv4Click() {
-                        changeCheck(3, true);
-                    }
-                });
-                mSelectChatModeDialog.show();
-                break;
+                @Override
+                public void tv4Click() {
+                    changeCheck(3, true);
+                }
+            });
+            mSelectChatModeDialog.show();
         }
     }
 

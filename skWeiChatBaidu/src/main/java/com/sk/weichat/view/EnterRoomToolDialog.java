@@ -56,17 +56,13 @@ public class EnterRoomToolDialog extends Dialog implements View.OnClickListener 
     @Override
     public void onClick(View v) {
         dismiss();
-        switch (v.getId()) {
-            case R.id.llVideo:
-                clickListener.numClick();
-                break;
-            case R.id.llAudio:
-                clickListener.inviteClick();
-                break;
-            case R.id.llCancel:
-                clickListener.cancelClick();
-                break;
-
+        int viewId = v.getId();
+        if (viewId == R.id.llVideo) {
+            clickListener.numClick();
+        } else if (viewId == R.id.llAudio) {
+            clickListener.inviteClick();
+        } else if (viewId == R.id.llCancel) {
+            clickListener.cancelClick();
         }
     }
 

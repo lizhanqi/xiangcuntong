@@ -180,80 +180,79 @@ public class SetRemarkActivity extends BaseActivity implements View.OnClickListe
 
     @Override
     public void onClick(View view) {
-        switch (view.getId()) {
-            case R.id.iv_title_left:
-                finish();
-                break;
-            case R.id.tv_title_right:
-                if (!TextUtils.equals(originalLabelName, tv_setting_label.getText().toString())) {
-                    // 标签改变了
-                    Log.e(TAG, "标签改变了");
-                    Log.e(TAG, "originalLabelName：" + originalLabelName);
-                    Log.e(TAG, "tv_setting_label.getText().toString()：" + tv_setting_label.getText().toString());
-                    isSetLabelResult = true;
-                }
+        int viewId = view.getId();
+        if (viewId == R.id.iv_title_left) {
+            finish();
+        } else if (viewId == R.id.tv_title_right) {
+            if (!TextUtils.equals(originalLabelName, tv_setting_label.getText().toString())) {
+                // 标签改变了
+                Log.e(TAG, "标签改变了");
+                Log.e(TAG, "originalLabelName：" + originalLabelName);
+                Log.e(TAG, "tv_setting_label.getText().toString()：" + tv_setting_label.getText().toString());
+                isSetLabelResult = true;
+            }
 
-                String remarkName = mRemarkNameEdit.getText().toString().trim();
-                String describe = etDescribe.getText().toString().trim();
-                if (!TextUtils.equals(currentRemarkName(), remarkName) ||
-                        !TextUtils.equals(currentDescribe(), describe)) {
-                    // 备注 || 描述改变了，调接口更新
-                    Log.e(TAG, "备注 || 描述改变了，调接口更新");
-                    Log.e(TAG, "currentRemarkName：" + currentRemarkName());
-                    Log.e(TAG, "remarkName：" + remarkName);
-                    Log.e(TAG, "currentDescribe：" + currentDescribe());
-                    Log.e(TAG, "describe：" + describe);
-                    isSetRemarkResult = true;
-                }
+            String remarkName = mRemarkNameEdit.getText().toString().trim();
+            String describe = etDescribe.getText().toString().trim();
+            if (!TextUtils.equals(currentRemarkName(), remarkName) ||
+                    !TextUtils.equals(currentDescribe(), describe)) {
+                // 备注 || 描述改变了，调接口更新
+                Log.e(TAG, "备注 || 描述改变了，调接口更新");
+                Log.e(TAG, "currentRemarkName：" + currentRemarkName());
+                Log.e(TAG, "remarkName：" + remarkName);
+                Log.e(TAG, "currentDescribe：" + currentDescribe());
+                Log.e(TAG, "describe：" + describe);
+                isSetRemarkResult = true;
+            }
 
-                for (int i = 0; i < data.size(); i++) {
-                    List<String> dataEmpty = new ArrayList<>();
-                    if (TextUtils.isEmpty(data.get(i))) {
-                        dataEmpty.add(data.get(i));
-                    }
-                    data.removeAll(dataEmpty);
+            for (int i = 0; i < data.size(); i++) {
+                List<String> dataEmpty = new ArrayList<>();
+                if (TextUtils.isEmpty(data.get(i))) {
+                    dataEmpty.add(data.get(i));
                 }
-                StringBuilder remarkTelephone = new StringBuilder();
-                for (int i = 0; i < data.size(); i++) {
-                    if (i != data.size() - 1) {
-                        remarkTelephone.append(data.get(i)).append(";");
-                    } else {
-                        remarkTelephone.append(data.get(i));
-                    }
-                }
-                if (!TextUtils.equals(telephone, remarkTelephone.toString())) {
-                    // 电话号码改变了，调接口更新
-                    Log.e(TAG, "电话号码改变了，调接口更新");
-                    Log.e(TAG, "telephone：" + telephone);
-                    Log.e(TAG, "remarkTelephone：" + remarkTelephone);
-                    isSetTelephoneResult = true;
-                }
-
-                if (!isSetLabelResult && !isSetRemarkResult && !isSetTelephoneResult) {
-                    // 都无更新
-                    Log.e(TAG, "都无更新");
-                    finish();
-                    return;
-                } else if (isSetLabelResult && !isSetRemarkResult && !isSetTelephoneResult) {
-                    // 仅更新了标签
-                    Log.e(TAG, "仅更新了标签");
-                    setResult(RESULT_OK);
-                    finish();
-                    return;
-                } else if (isSetRemarkResult && isSetTelephoneResult) {
-                    Log.e(TAG, "备注 || 描述 与电话号码都更新了");
-                    isNeedReady = true;
-                    remarkFriend(remarkName, describe);
-                    remarkFriend(remarkTelephone.toString());
-                } else if (isSetRemarkResult) {
-                    Log.e(TAG, "仅更新了备注 || 描述");
-                    remarkFriend(remarkName, describe);
+                data.removeAll(dataEmpty);
+            }
+            StringBuilder remarkTelephone = new StringBuilder();
+            for (int i = 0; i < data.size(); i++) {
+                if (i != data.size() - 1) {
+                    remarkTelephone.append(data.get(i)).append(";");
                 } else {
-                    Log.e(TAG, "仅更新电话号码");
-                    remarkFriend(remarkTelephone.toString());
+                    remarkTelephone.append(data.get(i));
                 }
-                break;
+            }
+            if (!TextUtils.equals(telephone, remarkTelephone.toString())) {
+                // 电话号码改变了，调接口更新
+                Log.e(TAG, "电话号码改变了，调接口更新");
+                Log.e(TAG, "telephone：" + telephone);
+                Log.e(TAG, "remarkTelephone：" + remarkTelephone);
+                isSetTelephoneResult = true;
+            }
+
+            if (!isSetLabelResult && !isSetRemarkResult && !isSetTelephoneResult) {
+                // 都无更新
+                Log.e(TAG, "都无更新");
+                finish();
+                return;
+            } else if (isSetLabelResult && !isSetRemarkResult && !isSetTelephoneResult) {
+                // 仅更新了标签
+                Log.e(TAG, "仅更新了标签");
+                setResult(RESULT_OK);
+                finish();
+                return;
+            } else if (isSetRemarkResult && isSetTelephoneResult) {
+                Log.e(TAG, "备注 || 描述 与电话号码都更新了");
+                isNeedReady = true;
+                remarkFriend(remarkName, describe);
+                remarkFriend(remarkTelephone.toString());
+            } else if (isSetRemarkResult) {
+                Log.e(TAG, "仅更新了备注 || 描述");
+                remarkFriend(remarkName, describe);
+            } else {
+                Log.e(TAG, "仅更新电话号码");
+                remarkFriend(remarkTelephone.toString());
+            }
         }
+
     }
 
     @Nullable

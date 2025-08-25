@@ -1,19 +1,20 @@
 plugins {
-    id 'com.android.library'
-    id 'kotlin-android'
+    alias(libs.plugins.android.library)
+    alias(libs.plugins.kotlin.android)
+    id 'kotlin-kapt'
 }
 apply from: "buildtype.gradle"
 
 android {
-    compileSdkVersion compile_version
-
+    compileSdk 36
+    namespace 'com.mobile.auth'
     defaultConfig {
-        minSdkVersion min_version
-        targetSdkVersion target_version
+        minSdkVersion 26
+        targetSdkVersion 36
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
     }
-
+    buildFeatures{buildConfig true}
     buildTypes {
         release {
             minifyEnabled false
@@ -21,18 +22,16 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
     }
+
+    // 统一 Kotlin 编译的 JVM 版本（必须与 Java 版本相同）
     kotlinOptions {
-        jvmTarget = '1.8'
+        jvmTarget = "17"  // 此处版本需与上面的 JavaVersion 一致
     }
 }
-repositories {
-    flatDir {
-        dirs 'libs' // 声明本地 AAR 所在目录
-    }
-}
+
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     implementation 'androidx.core:core-ktx:1.2.0'

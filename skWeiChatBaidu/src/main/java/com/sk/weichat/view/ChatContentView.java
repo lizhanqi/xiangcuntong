@@ -1039,7 +1039,10 @@ public class ChatContentView extends PullDownListView implements ChatBottomView.
         }
 
         private void changeTimeVisible(AChatHolderInterface holder, ChatMessage message) {
-            if (mCurChatType == ChatListType.COURSE) {                return;            }            int position = holder.position;
+            if (mCurChatType == ChatListType.COURSE) {
+                return;
+            }
+            int position = holder.position;
             // 与上一条消息之间的间隔如果大于5分钟就显示本消息发送时间
             String timeStr = null;
             if (position >= 1) {
@@ -1056,7 +1059,8 @@ public class ChatContentView extends PullDownListView implements ChatBottomView.
                 return;
             }
 
-            if (mGroupLevel == 1 || mGroupLevel == 2) {// 群主优先显示自己对群组成员的群内备注                RoomMember member = RoomMemberDao.getInstance().getSingleRoomMember(mRoomId, message.getFromUserId());
+            if (mGroupLevel == 1 || mGroupLevel == 2) {// 群主优先显示自己对群组成员的群内备注
+                RoomMember member = RoomMemberDao.getInstance().getSingleRoomMember(mRoomId, message.getFromUserId());
                 if (member != null
                         && !TextUtils.isEmpty(member.getCardName())
                         && !TextUtils.equals(member.getUserName(), member.getCardName())) {// 已有群内备注
@@ -1120,7 +1124,10 @@ public class ChatContentView extends PullDownListView implements ChatBottomView.
                 return;
             }
             if (message.getType() == TYPE_TEXT) {
-                if (mCurChatType == ChatListType.COURSE) {                    return;                }                if (clickHistoryMap.get(message.getPacketId()) != null) {
+                if (mCurChatType == ChatListType.COURSE) {
+                    return;
+                }
+                if (clickHistoryMap.get(message.getPacketId()) != null) {
                     //noinspection ConstantConditions
                     if (System.currentTimeMillis() - clickHistoryMap.get(message.getPacketId()) <= 600) {// 文本消息两次点击间隔小于等于600ms
                         MessageRemindActivity.start(getContext(), message.toJsonString(), isGroupChat, mToUserId);
@@ -1132,30 +1139,27 @@ public class ChatContentView extends PullDownListView implements ChatBottomView.
                     clickHistoryMap.put(message.getPacketId(), System.currentTimeMillis());
                 }
             }
-            switch (v.getId()) {
-                case R.id.tv_read: // 点击了群已读人数
-                    Intent intent = new Intent(mContext, RoomReadListActivity.class);
-                    intent.putExtra("packetId", message.getPacketId());
-                    intent.putExtra("roomId", mToUserId);
-                    mContext.startActivity(intent);
-                    break;
-                case R.id.iv_failed: // 点击了发送失败的消息的感叹号
-                    holder.mIvFailed.setVisibility(GONE);
-                    holder.mSendingBar.setVisibility(VISIBLE);
-                    message.setMessageState(ChatMessageListener.MESSAGE_SEND_ING);
-                    mMessageEventListener.onSendAgain(message);
-                    break;
-                case R.id.chat_head_iv: // 点击了头像
-                    if (message.isMySend()) {
-                        mMessageEventListener.onFriendAvatarClick(mLoginUser.getUserId());
-                    } else {
-                        mMessageEventListener.onFriendAvatarClick(message.getFromUserId());
-                    }
-                    break;
-                case R.id.chat_warp_view:
-                    clickRootItme(holder, message);
-                    break;
+            int viewId = v.getId();
+            if (viewId == R.id.tv_read) { // 点击了群已读人数
+                Intent intent = new Intent(mContext, RoomReadListActivity.class);
+                intent.putExtra("packetId", message.getPacketId());
+                intent.putExtra("roomId", mToUserId);
+                mContext.startActivity(intent);
+            } else if (viewId == R.id.iv_failed) { // 点击了发送失败的消息的感叹号
+                holder.mIvFailed.setVisibility(GONE);
+                holder.mSendingBar.setVisibility(VISIBLE);
+                message.setMessageState(ChatMessageListener.MESSAGE_SEND_ING);
+                mMessageEventListener.onSendAgain(message);
+            } else if (viewId == R.id.chat_head_iv) { // 点击了头像
+                if (message.isMySend()) {
+                    mMessageEventListener.onFriendAvatarClick(mLoginUser.getUserId());
+                } else {
+                    mMessageEventListener.onFriendAvatarClick(message.getFromUserId());
+                }
+            } else if (viewId == R.id.chat_warp_view) {
+                clickRootItme(holder, message);
             }
+
 
             if (holder.mHolderType == ChatHolderType.VIEW_SYSTEM_TIP) {
                 if (mMessageEventListener != null) {

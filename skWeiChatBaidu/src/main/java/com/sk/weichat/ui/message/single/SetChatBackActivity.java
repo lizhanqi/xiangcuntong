@@ -100,12 +100,10 @@ public class SetChatBackActivity extends BaseActivity implements View.OnClickLis
 
     @Override
     public void onClick(View v) {
-        switch (v.getId()) {
-            case R.id.tv_title_right:
+        if (v.getId()== R.id.tv_title_right) {
                 DialogHelper.showDefaulteMessageProgressDialog(SetChatBackActivity.this);
                 UploadUrl uploadUrl = new UploadUrl();
                 uploadUrl.execute(mChatBackgroundPath);
-                break;
         }
     }
 

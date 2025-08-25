@@ -194,73 +194,66 @@ public class RecordxActivity extends BaseActivity implements View.OnClickListene
 
     @Override
     public void onClick(final View v) {
-        switch (v.getId()) {
-            case R.id.ll_filter:
-                mDialog.show();
-                rlMore.setVisibility(View.GONE);
-                mRecordBtn.setVisibility(View.GONE);
-                break;
-            case R.id.btn_rec:
-                if (mRecorderState == STATE_INIT) {
-                    if (!xbar.isNotOver()) {
-                        showToast(getString(R.string.delete_some));
-                        return;
-                    }
+        int viewId = v.getId();
+        if (viewId == R.id.ll_filter) {
+            mDialog.show();
+            rlMore.setVisibility(View.GONE);
+            mRecordBtn.setVisibility(View.GONE);
+        } else if (viewId == R.id.btn_rec) {
+            if (mRecorderState == STATE_INIT) {
+                if (!xbar.isNotOver()) {
+                    showToast(getString(R.string.delete_some));
+                    return;
+                }
 
-                    if (!TextUtils.isEmpty(mCurrBgmPath)) {
-                        VoiceManager.instance().play(mCurrBgmPath);
-                        int msec = xbar.getCurrentPro() - 1800;
-                        if (msec < 0) {
-                            msec = 0;
-                        }
-                        VoiceManager.instance().seek(msec);
+                if (!TextUtils.isEmpty(mCurrBgmPath)) {
+                    VoiceManager.instance().play(mCurrBgmPath);
+                    int msec = xbar.getCurrentPro() - 1800;
+                    if (msec < 0) {
+                        msec = 0;
                     }
+                    VoiceManager.instance().seek(msec);
+                }
 
-                    //开始录制视频
-                    if (startRecord(RecorderUtils.getVideoFileByTime())) {
-                        mRecorderState = STATE_RECORDING;
-                        refreshControlUI();
-                    }
-
-                } else if (mRecorderState == STATE_RECORDING) {
-                    //停止视频录制
-                    VoiceManager.instance().pause();
-                    stopRecord();
-                    mRecorderState = STATE_INIT;
+                //开始录制视频
+                if (startRecord(RecorderUtils.getVideoFileByTime())) {
+                    mRecorderState = STATE_RECORDING;
                     refreshControlUI();
                 }
-                break;
-            case R.id.ll_swith:
-                if (UiUtils.isNormalClick(v)) {
-                    // 这个切换摄像头连续切换会在部分设备崩溃，测试没法根治，只能限制点击频率了，
-                    mRecordView.switchCamera();
-                }
-                break;
-            case R.id.iv_comp:
-                compteRecord();
-                break;
-            case R.id.iv_del:
-                // 删除一段视频
-                popDelVideo();
-                refreshControlUI();
-                break;
-            case R.id.iv_local:
-                // 选择本地视频，
-                Intent intent = new Intent(this, LocalVideoActivity.class);
-                intent.putExtra(AppConstant.EXTRA_ACTION, AppConstant.ACTION_SELECT);
-                startActivityForResult(intent, REQUEST_CODE_SELECT_VIDEO);
-                break;
-            case R.id.ll_back: // 退出录制
+
+            } else if (mRecorderState == STATE_RECORDING) {
+                //停止视频录制
                 VoiceManager.instance().pause();
+                stopRecord();
                 mRecorderState = STATE_INIT;
                 refreshControlUI();
-                stopRecord();
-                exitRecord();
-                break;
-            case R.id.ll_select_music: // 退出录制
-                mSelectDialog.show();
-                break;
+            }
+        } else if (viewId == R.id.ll_swith) {
+            if (UiUtils.isNormalClick(v)) {
+                // 这个切换摄像头连续切换会在部分设备崩溃，测试没法根治，只能限制点击频率了
+                mRecordView.switchCamera();
+            }
+        } else if (viewId == R.id.iv_comp) {
+            compteRecord();
+        } else if (viewId == R.id.iv_del) {
+            // 删除一段视频
+            popDelVideo();
+            refreshControlUI();
+        } else if (viewId == R.id.iv_local) {
+            // 选择本地视频
+            Intent intent = new Intent(this, LocalVideoActivity.class);
+            intent.putExtra(AppConstant.EXTRA_ACTION, AppConstant.ACTION_SELECT);
+            startActivityForResult(intent, REQUEST_CODE_SELECT_VIDEO);
+        } else if (viewId == R.id.ll_back) { // 退出录制
+            VoiceManager.instance().pause();
+            mRecorderState = STATE_INIT;
+            refreshControlUI();
+            stopRecord();
+            exitRecord();
+        } else if (viewId == R.id.ll_select_music) { // 选择音乐
+            mSelectDialog.show();
         }
+
     }
 
     /**

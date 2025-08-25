@@ -1,3 +1,60 @@
+pluginManagement {
+    repositories {
+        maven {url "https://mvn.mob.com/android"}
+        maven { url 'https://maven.aliyun.com/repository/public/' }
+        maven { url'https://maven.aliyun.com/repository/public/' }
+        maven { url 'https://maven.aliyun.com/repository/central' }
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
+        google {
+            content {
+                includeGroupByRegex("com\\.android.*")
+                includeGroupByRegex("com\\.google.*")
+                includeGroupByRegex("androidx.*")
+            }
+        }
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+
+    repositories {
+
+        println ("项目路径 "+ new File(settings.rootDir,"repository") )
+        maven {
+            url new File(settings.rootDir,"repository").toURL()
+        }
+        // 添加阿里云镜像仓（放在前面优先级更高）
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        // 先添加 JitPack 仓库，确保能获取到 EpMedia 依赖
+        maven { url 'https://jitpack.io' }
+        // 再添加腾讯云镜像仓
+        maven {
+            url 'http://mirrors.cloud.tencent.com/nexus/repository/maven-public/'
+            allowInsecureProtocol = true // 允许不安全协议
+        }
+        google()
+        jcenter()
+        maven { url  "https://artifact.bytedance.com/repository/byteX/" }
+        maven {
+            url 'https://oss.sonatype.org/content/repositories/snapshots'
+        }
+        maven { url 'http://developer.huawei.com/repo/'
+            allowInsecureProtocol = true // 允许不安全协议
+        }
+
+        // 图片编辑库cc.aoeiuv020:imaging所在仓库, 同步到jcenter审核通过前需要这个仓库，
+        maven { url 'https://dl.bintray.com/aoeiuv020/maven' }
+    }
+}
+
+
+
+
+
+
 include ':mobileAuthLib'
 rootProject.name="乡村通"
 include ':meeting'

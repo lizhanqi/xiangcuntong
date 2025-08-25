@@ -64,28 +64,21 @@ public class MsgSaveDaysDialog extends Dialog implements View.OnClickListener {
     @Override
     public void onClick(View v) {
         dismiss();
-        switch (v.getId()) {
-            case R.id.tv1:
-                mOnMsgSaveDaysDialogClickListener.tv1Click();
-                break;
-            case R.id.tv2:
-                mOnMsgSaveDaysDialogClickListener.tv2Click();
-                break;
-            case R.id.tv3:
-                mOnMsgSaveDaysDialogClickListener.tv3Click();
-                break;
-            case R.id.tv4:
-                mOnMsgSaveDaysDialogClickListener.tv4Click();
-                break;
-            case R.id.tv5:
-                mOnMsgSaveDaysDialogClickListener.tv5Click();
-                break;
-            case R.id.tv6:
-                mOnMsgSaveDaysDialogClickListener.tv6Click();
-                break;
-            case R.id.tv7:
-                mOnMsgSaveDaysDialogClickListener.tv7Click();
-                break;
+        int id = v.getId();
+        if (id == R.id.tv1) {
+            mOnMsgSaveDaysDialogClickListener.tv1Click();
+        } else if (id == R.id.tv2) {
+            mOnMsgSaveDaysDialogClickListener.tv2Click();
+        } else if (id == R.id.tv3) {
+            mOnMsgSaveDaysDialogClickListener.tv3Click();
+        } else if (id == R.id.tv4) {
+            mOnMsgSaveDaysDialogClickListener.tv4Click();
+        } else if (id == R.id.tv5) {
+            mOnMsgSaveDaysDialogClickListener.tv5Click();
+        } else if (id == R.id.tv6) {
+            mOnMsgSaveDaysDialogClickListener.tv6Click();
+        } else if (id == R.id.tv7) {
+            mOnMsgSaveDaysDialogClickListener.tv7Click();
         }
     }
 

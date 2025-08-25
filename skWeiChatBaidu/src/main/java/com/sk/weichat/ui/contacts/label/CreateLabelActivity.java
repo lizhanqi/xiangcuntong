@@ -196,31 +196,29 @@ public class CreateLabelActivity extends BaseActivity implements View.OnClickLis
 
     @Override
     public void onClick(View v) {
-        switch (v.getId()) {
-            case R.id.iv_title_left:
-                finish();
-                break;
-            case R.id.tv_title_right:
-                if (isEditLabel) {
-                    DialogHelper.showDefaulteMessageProgressDialog(this);
-                    if (!mOldLabel.getGroupName().equals(mLabelEdit.getText().toString())) {// 标签名已改变
-                        updateLabelName();
-                    }
-                    updateLabelUserIdList(mOldLabel);
-                } else {
-                    createLabel();
+        int viewId = v.getId();
+        if (viewId == R.id.iv_title_left) {
+            finish();
+        } else if (viewId == R.id.tv_title_right) {
+            if (isEditLabel) {
+                DialogHelper.showDefaulteMessageProgressDialog(this);
+                if (!mOldLabel.getGroupName().equals(mLabelEdit.getText().toString())) {// 标签名已改变
+                    updateLabelName();
                 }
-                break;
-            case R.id.add_label_user:
-                Intent intent = new Intent(this, SelectLabelFriendActivity.class);
-                List<String> ids = new ArrayList<>();
-                for (int i = 0; i < mFriendList.size(); i++) {
-                    ids.add(mFriendList.get(i).getUserId());
-                }
-                intent.putExtra("exist_ids", JSON.toJSONString(ids));
-                startActivityForResult(intent, 0x01);
-                break;
+                updateLabelUserIdList(mOldLabel);
+            } else {
+                createLabel();
+            }
+        } else if (viewId == R.id.add_label_user) {
+            Intent intent = new Intent(this, SelectLabelFriendActivity.class);
+            List<String> ids = new ArrayList<>();
+            for (int i = 0; i < mFriendList.size(); i++) {
+                ids.add(mFriendList.get(i).getUserId());
+            }
+            intent.putExtra("exist_ids", JSON.toJSONString(ids));
+            startActivityForResult(intent, 0x01);
         }
+
     }
 
     // 创建标签

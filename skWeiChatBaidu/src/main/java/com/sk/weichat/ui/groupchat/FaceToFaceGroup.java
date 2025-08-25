@@ -182,41 +182,31 @@ public class FaceToFaceGroup extends BaseActivity implements View.OnClickListene
         if (mCurrentIndex == 4) {
             return;
         }
-        switch (v.getId()) {
-            case R.id.n_0_tv:
-                show(false, 0);
-                break;
-            case R.id.n_1_tv:
-                show(false, 1);
-                break;
-            case R.id.n_2_tv:
-                show(false, 2);
-                break;
-            case R.id.n_3_tv:
-                show(false, 3);
-                break;
-            case R.id.n_4_tv:
-                show(false, 4);
-                break;
-            case R.id.n_5_tv:
-                show(false, 5);
-                break;
-            case R.id.n_6_tv:
-                show(false, 6);
-                break;
-            case R.id.n_7_tv:
-                show(false, 7);
-                break;
-            case R.id.n_8_tv:
-                show(false, 8);
-                break;
-            case R.id.n_9_tv:
-                show(false, 9);
-                break;
-            case R.id.n_back_tv:
-                show(true, 0);
-                break;
+        int viewId = v.getId();
+        if (viewId == R.id.n_0_tv) {
+            show(false, 0);
+        } else if (viewId == R.id.n_1_tv) {
+            show(false, 1);
+        } else if (viewId == R.id.n_2_tv) {
+            show(false, 2);
+        } else if (viewId == R.id.n_3_tv) {
+            show(false, 3);
+        } else if (viewId == R.id.n_4_tv) {
+            show(false, 4);
+        } else if (viewId == R.id.n_5_tv) {
+            show(false, 5);
+        } else if (viewId == R.id.n_6_tv) {
+            show(false, 6);
+        } else if (viewId == R.id.n_7_tv) {
+            show(false, 7);
+        } else if (viewId == R.id.n_8_tv) {
+            show(false, 8);
+        } else if (viewId == R.id.n_9_tv) {
+            show(false, 9);
+        } else if (viewId == R.id.n_back_tv) {
+            show(true, 0);
         }
+
     }
 
     public void show(boolean isBack, int inputNum) {

@@ -1,12 +1,7 @@
-// 在文件顶部添加Kotlin插件
-apply plugin: 'com.android.application'
-apply plugin: 'kotlin-android'
-
 buildscript {
     ext {
         appId = 'xct.zkbojian.com' // app的包名，
         channel = '' // bugly上显示的渠道名，
-
         buglyAppId = '' // bugly配置的appId,
         baiduApiKey = 'V5rTNsiE3v50FsGUZFxvG8tFMrTrwHzr' // baidu配置的apiKey,
         googleApiKey = '' // google地图配置的apiKey,
@@ -21,12 +16,20 @@ buildscript {
         oppoAppSecret = '' // OPPO推送配置的secret,
         wechatAppId = '' // 微信相关的appId,
         qqAppId = '' // QQ相关的appId,
-
         buglyAppChannel = channel
         date = new Date().format("yyyyMMdd")
         buglyVersionNameSuffix = '' + '-' + date
     }
 }
+
+
+plugins {
+    alias(libs.plugins.android.application)
+    alias(libs.plugins.kotlin.android)
+    id 'kotlin-kapt'
+}
+
+
 // 判断存在谷歌服务配置文件才启用谷歌服务，
 def googleJson = file('google-services.json')
 if (googleJson.exists() && googleJson.readLines().any { it.contains(appId) }) {
@@ -39,16 +42,16 @@ android {
         abortOnError false
         checkReleaseBuilds false
     }
-
-    compileSdkVersion compile_version
-
+    namespace 'com.sk.weichat'
+    compileSdk 36
+    buildFeatures{buildConfig true}
     defaultConfig {
         applicationId "com.cmic.sso.myapplication"
 //        applicationId appId
         versionCode 34
         versionName "1.4.7"
-        minSdkVersion min_version
-        targetSdkVersion target_version
+        minSdkVersion 26
+        targetSdkVersion 36
 
         ndk {
             abiFilters "armeabi", "armeabi-v7a", "x86", "arm64-v8a"
@@ -132,10 +135,23 @@ android {
 
     // 进行JAVA 的版本配置，使用对应版本的一些新特性
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
     }
 
+    // 统一 Kotlin 编译的 JVM 版本（必须与 Java 版本相同）
+    kotlinOptions {
+        jvmTarget = "17"  // 此处版本需与上面的 JavaVersion 一致
+    }
+    // 添加Java编译版本配置
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    // 统一 Kotlin 编译的 JVM 版本（必须与 Java 版本相同）
+    kotlinOptions {
+        jvmTarget = "17"  // 此处版本需与上面的 JavaVersion 一致
+    }
     buildFeatures {
         viewBinding true
     }

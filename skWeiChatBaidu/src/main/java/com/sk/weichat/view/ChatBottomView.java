@@ -147,16 +147,13 @@ public class ChatBottomView extends LinearLayout implements View.OnClickListener
 
         @Override
         public void onClick(View v) {
-            switch (v.getId()) {
-                case R.id.ll_public_meun_1:
-                    publicMenuClick(0);
-                    break;
-                case R.id.ll_public_meun_2:
-                    publicMenuClick(1);
-                    break;
-                case R.id.ll_public_meun_3:
-                    publicMenuClick(2);
-                    break;
+            int viewId = v.getId();
+            if (viewId == R.id.ll_public_meun_1) {
+                publicMenuClick(0);
+            } else if (viewId == R.id.ll_public_meun_2) {
+                publicMenuClick(1);
+            } else if (viewId == R.id.ll_public_meun_3) {
+                publicMenuClick(2);
             }
         }
     };

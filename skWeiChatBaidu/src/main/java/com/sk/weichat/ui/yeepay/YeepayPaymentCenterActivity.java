@@ -43,16 +43,14 @@ public class YeepayPaymentCenterActivity extends BaseActivity implements View.On
 
     @Override
     public void onClick(View v) {
-        switch (v.getId()) {
-            case R.id.bill:
-                YeepayRecordActivity.start(mContext);
-                break;
-            case R.id.yeepay_bind:
-                YeepayHelper.bind(mContext, coreManager);
-                break;
-            case R.id.yeepay_secure:
-                YeepayHelper.secure(mContext, coreManager);
-                break;
+
+        int viewId = v.getId();
+        if (viewId == R.id.bill) {
+            YeepayRecordActivity.start(mContext);
+        } else if (viewId == R.id.yeepay_bind) {
+            YeepayHelper.bind(mContext, coreManager);
+        } else if (viewId == R.id.yeepay_secure) {
+            YeepayHelper.secure(mContext, coreManager);
         }
 
     }

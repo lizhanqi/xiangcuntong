@@ -140,16 +140,17 @@ public class YeepayWithdraw extends BaseActivity {
     }
 
     private String getType() {
-        switch (rgArrival.getCheckedRadioButtonId()) {
-            case R.id.arrival_real_time:
-                return "0";
-            case R.id.arrival_two_hour:
-                return "1";
-            case R.id.arrival_tomorrow:
-                return "2";
-            default:
-                throw new IllegalStateException("unknown id " + rgArrival.getCheckedRadioButtonId());
+        int checkedId = rgArrival.getCheckedRadioButtonId();
+        if (checkedId == R.id.arrival_real_time) {
+            return "0";
+        } else if (checkedId == R.id.arrival_two_hour) {
+            return "1";
+        } else if (checkedId == R.id.arrival_tomorrow) {
+            return "2";
+        } else {
+            throw new IllegalStateException("unknown id " + checkedId);
         }
+
     }
 
     private boolean checkMoney(String moneyStr) {
