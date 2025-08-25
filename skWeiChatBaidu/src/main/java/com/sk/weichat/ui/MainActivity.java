@@ -230,9 +230,9 @@ public class MainActivity extends BaseActivity implements PermissionUtil.OnReque
 */
         setContentView(R.layout.activity_main);
         // 启动保活
-        if (PrivacySettingHelper.getPrivacySettings(this).getIsKeepalive() == 1) {
-            initKeepLive();
-        }
+//        if (PrivacySettingHelper.getPrivacySettings(this).getIsKeepalive() == 1) {
+//            initKeepLive();
+//        }
         initLog();
 
         mUserId = coreManager.getSelf().getUserId();
